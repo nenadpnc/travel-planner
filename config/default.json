@@ -1,0 +1,26 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/tripPlanner",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "RpbF+vBBXXZ3ss4gYrgQFNLcic/4CPyhEGazIpl36mofRtgxUfg9F9/s4iIP0yzWIEP6LzQWYTzSfv2X8zG61Q=="
+    },
+    "local": {},
+    "facebook": {
+      "clientID": "your facebook client id",
+      "clientSecret": "your facebook client secret",
+      "permissions": {
+        "scope": ["public_profile","email"]
+      }
+    },
+    "google": {
+      "clientID": "your google client id",
+      "clientSecret": "your google client secret",
+      "permissions": {
+        "scope": ["profile"]
+      }
+    }
+  }
+}
