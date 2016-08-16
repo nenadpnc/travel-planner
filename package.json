@@ -28,6 +28,7 @@
     "compression": "^1.6.2",
     "feathers": "^2.0.1",
     "feathers-authentication": "^0.7.9",
+    "feathers-client": "^1.5.2",
     "feathers-configuration": "^0.2.3",
     "feathers-errors": "^2.4.0",
     "feathers-hooks": "^1.5.5",
@@ -44,6 +45,8 @@
     "plastiq": "^1.32.0",
     "plastiq-router": "^2.18.0",
     "serve-favicon": "^2.3.0",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
     "winston": "^2.2.0"
   },
   "devDependencies": {
