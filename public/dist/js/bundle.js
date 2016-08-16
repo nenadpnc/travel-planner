@@ -54,7 +54,11 @@
 	function render(model) {
 	  return h('div',
 	    h('label', "what's your name?"), ' ',
-	    h('input', {type: 'text', binding: [model, 'name']}),
+	           h('input', {type: 'text', binding: { get: function() {
+	           	return model.name;
+	           }, set: function(value) {
+	           	model.name = value;
+	           } }}),
 	    h('div', 'hi ', model.name)
 	  );
 	}
