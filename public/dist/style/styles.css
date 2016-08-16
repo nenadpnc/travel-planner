@@ -5,6 +5,10 @@ body {
   font-size: 16px;
   color: #333;
 }
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+}
 .center-text {
   text-align: center;
 }
