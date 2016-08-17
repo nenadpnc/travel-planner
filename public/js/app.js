@@ -1,8 +1,6 @@
 require("../style/style.less");
 var io = require('socket.io-client');
 var feathers = require('feathers-client');
-var plastiq = require('plastiq');
-var h = plastiq.html;
 
 const socket = io();
 // Initialize our Feathers client application through Socket.io
@@ -26,17 +24,4 @@ searchService.find({
   console.log(data);
 });
 
-function render(model) {
-  return h('div',
-    h('label', "what's your name?"), ' ',
-           h('input', {type: 'text', binding: { get: function() {
-           	return model.name;
-           }, set: function(value) {
-           	model.name = value;
-           } }}),
-    h('div', 'hi ', model.name)
-  );
-}
-
-plastiq.append(document.body, render, {name: ''});
 
