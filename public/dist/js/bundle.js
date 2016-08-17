@@ -48,30 +48,12 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(/*! ../style/style.less */ 1);
-	var io = __webpack_require__(/*! socket.io-client */ 3);
-	var feathers = __webpack_require__(/*! feathers-client */ 50);
+	const io = __webpack_require__(/*! socket.io-client */ 3);
+	const feathers = __webpack_require__(/*! feathers-client */ 50);
+	const main = __webpack_require__(/*! ./main */ 95);
 	
-	const socket = io();
-	// Initialize our Feathers client application through Socket.io
-	// with hooks and authentication.
-	const app = feathers()
-	  .configure(feathers.socketio(socket))
-	  .configure(feathers.hooks())
-	  // Use localStorage to store our login token
-	  .configure(feathers.authentication({
-	    storage: window.localStorage
-	  }));
+	main(io, feathers);
 	
-	const searchService = app.service('searches');
-	
-	searchService.find({
-	  query: {
-	    from: 'Belgrade',
-	    to: 'Rome'
-	  }
-	}).then(function (data) {
-	  console.log(data);
-	});
 	
 	
 
@@ -10928,13 +10910,13 @@
 	
 	  return result;
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/node-libs-browser/~/process/browser.js */ 85)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/process/browser.js */ 85)))
 
 /***/ },
 /* 85 */
-/*!**************************************************!*\
-  !*** ./~/node-libs-browser/~/process/browser.js ***!
-  \**************************************************/
+/*!******************************!*\
+  !*** ./~/process/browser.js ***!
+  \******************************/
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -12183,6 +12165,44 @@
 	    }
 	  };
 	}
+
+/***/ },
+/* 95 */
+/*!***************************!*\
+  !*** ./public/js/main.js ***!
+  \***************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	module.exports = function(io, feathers) {
+	    const socket = io();
+	    // Initialize our Feathers client application through Socket.io
+	    // with hooks and authentication.
+	    const app = feathers()
+	        .configure(feathers.socketio(socket))
+	        .configure(feathers.hooks())
+	        // Use localStorage to store our login token
+	        .configure(feathers.authentication({
+	        storage: window.localStorage
+	        }));
+	
+	    const searchService = app.service('search');
+	
+	    document.addEventListener("DOMContentLoaded", function(event) { 
+	        document.querySelector('.search-btn').addEventListener('click', search);
+	    });
+	
+	    function search() {
+	        searchService.find({
+	            query: {
+	                from: document.getElementById('from').value,
+	                to: document.getElementById('to').value
+	            }
+	        }).then(function (data) {
+	        console.log(data);
+	        });
+	    }
+	};
 
 /***/ }
 /******/ ]);

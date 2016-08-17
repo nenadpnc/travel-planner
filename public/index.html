@@ -4,10 +4,26 @@
     <link rel="stylesheet" href="dist/style/styles.css">
   </head>
   <body>
+    <header class="header">
+      <h1>Travel Planner</h1>
+    </header>
     <div class="container">
-      <h2 class="center-text">Travel Planner</h2>
-      
-      <div id="main" class="main"></div>
+      <div class="main">
+        <form name="searchFrm" class="search">
+          <div class="search-block">
+            <label for="from">From</label>
+            <input type="text" id="from" name="from" placeholder="ex. Barcelona">
+          </div>
+          <div class="search-block">
+            <label for="from">To</label>
+            <input type="text" id="to" name="to">
+          </div>
+
+          <div class="search-submit">
+            <a class="search-btn">Search</a>
+          </div>
+        </form>
+      </div>
     </div>
 
     <script src="dist/js/bundle.js"></script>
