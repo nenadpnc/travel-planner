@@ -1,7 +1,6 @@
 'use strict';
 
 const hooks = require('./hooks');
-const request = require('superagent');
 
 class Service {
   constructor(options) {
@@ -10,7 +9,8 @@ class Service {
 
   find(params) {
     const airbnbService = this.options.service('airbnb');
-    return airbnbService.find(params).catch((err) => {
+    const skyscannerService = this.options.service('skyscanner');
+    return Promise.all([airbnbService.find(params), skyscannerService.find(params)]).catch((err) => {
       console.log(err);
     });
   }

@@ -6,7 +6,6 @@
 // For more information on hooks see: http://docs.feathersjs.com/hooks/readme.html
 
 const utils = require('../../utils/utils');
-const airbnbUrl = 'https://api.airbnb.com/v2/search_results?';
 const defaults = {
       currency: 'EUR',
       locale: 'en-US',

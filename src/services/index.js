@@ -1,4 +1,5 @@
 'use strict';
+const skyscanner = require('./skyscanner');
 const airbnb = require('./airbnb');
 const search = require('./search');
 const authentication = require('./authentication');
@@ -14,4 +15,5 @@ module.exports = function() {
   app.configure(user);
   app.configure(search);
   app.configure(airbnb);
+  app.configure(skyscanner);
 };
