@@ -4,7 +4,7 @@ module.exports = function(io, feathers) {
     // Initialize our Feathers client application through Socket.io
     // with hooks and authentication.
     const app = feathers()
-        .configure(feathers.socketio(socket))
+        .configure(feathers.socketio(socket, { timeout: 20000 }))
         .configure(feathers.hooks())
         // Use localStorage to store our login token
         .configure(feathers.authentication({
@@ -20,8 +20,11 @@ module.exports = function(io, feathers) {
     function search() {
         searchService.find({
             query: {
-                from: document.getElementById('from').value,
-                to: document.getElementById('to').value
+                location: 'Rome, Italy',
+                checkin: '09/03/2016',
+                checkout: '09/07/2016',
+                guests: 2,
+                budget: 300
             }
         }).then(function (data) {
         console.log(data);

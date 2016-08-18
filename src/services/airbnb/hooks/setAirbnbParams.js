@@ -5,42 +5,39 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/hooks/readme.html
 
+const utils = require('../../utils/utils');
 const airbnbUrl = 'https://api.airbnb.com/v2/search_results?';
 const defaults = {
-  client_id: '3092nxybyb0otqw18e8nh5nty',
-  locale: 'en-US',
-  currency: 'EUR',
-  check_in: '09/23/2016',
-  check_out: '09/29/2016',
-  _format: 'for_search_results_with_minimal_pricing',
-  _limit: 10,
-  _offset: 0,
-  guests: 2,
-  location: 'Rome, Italy',
-  user_lat: 37.18722222222222,
-  user_lng: -122.42833333333333,
-  price_max: 40
+      currency: 'EUR',
+      locale: 'en-US',
+      superhost: false,
+      ib: false,
+      room_types: ['Entire home/apt', 'Private room', 'Shared room']
 };
 
-const getAirbnbUrl = query => {
-  let url = airbnbUrl;
-  for (let prop in defaults) {
-    if (defaults.hasOwnProperty(prop)) {
-      url += prop + '=' + encodeURIComponent(defaults[prop]) + '&';
-    }
+const setParams = query => {
+  let params = {
+    location: query.location,
+    checkin: query.checkin,
+    checkout: query.checkout,
+    guests: query.guests,
+    superhost: query.superhost || defaults.superhost,
+    ib: query.ib || defaults.ib,
+    room_types: query.room_types || defaults.room_types
+  };
+
+  //calculate max price per day
+  if (query.budget) {
+    let numDays = utils.getNumDays(new Date(query.checkin), new Date(query.checkout));
+    params.max_price = Math.floor(parseInt(query.budget) / numDays);
   }
 
-  //remove last '&' character 
-  url = url.slice(0, -1);
-
-  return url;
+  return Object.assign({}, defaults, params);
 }
 
 module.exports = function(options) {
 
   return function(hook) {
-    hook.params = Object.assign({}, hook.params, {
-      airbnbUrl: getAirbnbUrl(hook.params.query)
-    });
+    hook.params.airbnbOptions = setParams(hook.params.query);
   };
 };

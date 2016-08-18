@@ -24,8 +24,10 @@
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
+    "airapi": "^0.1.0",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
+    "express-status-monitor": "0.0.9",
     "feathers": "^2.0.1",
     "feathers-authentication": "^0.7.9",
     "feathers-client": "^1.5.2",

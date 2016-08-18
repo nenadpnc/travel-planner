@@ -1,7 +1,7 @@
 'use strict';
 
 const hooks = require('./hooks');
-const request = require('superagent');
+const airbnbApi = require('airapi');
 
 class Service {
   constructor(options) {
@@ -9,24 +9,7 @@ class Service {
   }
 
   find(params) {
-    var promise = new Promise((resolve, reject) => {
-      request.get(params.airbnbUrl).end((err, res) => {
-        if (!err) {
-          let data = JSON.parse(res.text);
-          resolve(data.search_results);
-        } else {
-          reject(err);
-        }
-      })
-    });
-
-    return promise;
-  }
-
-  get(id, params) {
-    return Promise.resolve({
-      id, text: `A new message with ID: ${id}!`
-    });
+    return airbnbApi.search(params.airbnbOptions);
   }
 }
 

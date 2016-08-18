@@ -12,6 +12,7 @@ const bodyParser = require('body-parser');
 const socketio = require('feathers-socketio');
 const middleware = require('./middleware');
 const services = require('./services');
+const statusMonitor = require('express-status-monitor');
 
 const app = feathers();
 

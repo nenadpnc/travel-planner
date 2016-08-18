@@ -3,6 +3,7 @@
   "port": 3030,
   "mongodb": "mongodb://localhost:27017/tripPlanner",
   "public": "../public/",
+  "timeout": 20000,
   "auth": {
     "token": {
       "secret": "RpbF+vBBXXZ3ss4gYrgQFNLcic/4CPyhEGazIpl36mofRtgxUfg9F9/s4iIP0yzWIEP6LzQWYTzSfv2X8zG61Q=="
