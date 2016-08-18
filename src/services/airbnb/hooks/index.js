@@ -2,11 +2,13 @@
 
 const globalHooks = require('../../../hooks');
 const hooks = require('feathers-hooks');
+const setAirbnbParams = require('./setAirbnbParams')
+
 
 
 exports.before = {
   all: [],
-  find: [],
+  find: [setAirbnbParams()],
   get: [],
   create: [],
   update: [],

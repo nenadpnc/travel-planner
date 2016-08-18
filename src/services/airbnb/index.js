@@ -2,22 +2,6 @@
 
 const hooks = require('./hooks');
 const request = require('superagent');
-const airbnbUrl = 'https://api.airbnb.com/v2/search_results?client_id=3092nxybyb0otqw18e8nh5nty';
-var params = {
-  locale: 'en-US',
-  currency: 'EUR',
-  _format: 'for_search_results_with_minimal_pricing',
-  _limit: 10,
-  _offset: 0,
-  guests: 2,
-  location: '',
-  user_lat: 37.18722222222222,
-  user_lng: -122.42833333333333
-};
-
-function getAirbnbUrl() {
-  
-}
 
 class Service {
   constructor(options) {
@@ -26,12 +10,12 @@ class Service {
 
   find(params) {
     var promise = new Promise((resolve, reject) => {
-      request.get(airbnbUrl).end((err, res) => {
+      request.get(params.airbnbUrl).end((err, res) => {
         if (!err) {
           let data = JSON.parse(res.text);
           resolve(data.search_results);
         } else {
-          reject();
+          reject('Bad Request');
         }
       })
     });
