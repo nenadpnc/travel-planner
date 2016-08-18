@@ -15,7 +15,7 @@ class Service {
           let data = JSON.parse(res.text);
           resolve(data.search_results);
         } else {
-          reject('Bad Request');
+          reject(err);
         }
       })
     });

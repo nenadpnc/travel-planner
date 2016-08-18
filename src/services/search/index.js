@@ -10,7 +10,9 @@ class Service {
 
   find(params) {
     const airbnbService = this.options.service('airbnb');
-    return airbnbService.find(params);
+    return airbnbService.find(params).catch((err) => {
+      console.log(err);
+    });
   }
 }
 
