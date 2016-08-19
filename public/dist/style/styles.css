@@ -3206,7 +3206,46 @@ margin-left: 20px;
 .flaticon-refresh:before { content: "\F11C"; }
 .flaticon-route:before { content: "\F11D"; }
 .flaticon-search:before { content: "\F11E"; }
-.flaticon-social:before { content: "\F11F"; }html,
+.flaticon-social:before { content: "\F11F"; }::-webkit-input-placeholder {
+  color: white;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder {
+  color: white;
+}
+.col-2 {
+  width: 50%;
+  float: left;
+}
+.bold {
+  font-weight: bold;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.font-small {
+  font-size: 11px;
+}
+.color-light {
+  color: #a0a0a0;
+}
+.text-right {
+  text-align: right;
+}
+* {
+  box-sizing: border-box;
+}
+html,
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -3288,7 +3327,7 @@ a {
   clear: both;
 }
 .search-params .search-params-box {
-  width: 24.86%;
+  width: 25%;
   border-right: 1px solid #fbfbfb;
   text-align: center;
   height: 100%;
@@ -3335,19 +3374,33 @@ a {
 .search-btn .search-submit:hover {
   background-color: #ff4a00;
 }
-::-webkit-input-placeholder {
-  color: white;
+.results-wrapper {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 50px;
+  padding-top: 50px;
 }
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: white;
+.result-box {
+  margin: 5px 0;
+  padding: 0 10px;
+  background-color: white;
+  border: 1px solid #e2e2e2;
 }
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: white;
+.flight-info {
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
+  clear: both;
 }
-:-ms-input-placeholder {
-  color: white;
+.flight-info .carier {
+  font-size: 11px;
+  color: #a0a0a0;
+}
+.flight-info .price {
+  float: right;
+  color: #ee4500;
+  font-weight: bold;
+}
+.flight-info .start {
+  padding-bottom: 5px;
 }
 /* plugin override */
 .react-date-picker__calendar {

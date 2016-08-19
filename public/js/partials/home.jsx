@@ -1,7 +1,8 @@
 
 import React from 'react';
 import {render} from 'react-dom';
-import { Calendar } from 'react-date-picker'
+import { Calendar } from 'react-date-picker';
+import Results from './results.jsx';
 import 'react-date-picker/index.css'
 import io from 'socket.io-client';
 import feathers from 'feathers-client';
@@ -82,6 +83,8 @@ const Home = React.createClass({
                         </div>
                     </div>
                 </form>
+
+                <Results />
             </div>
         );
     }

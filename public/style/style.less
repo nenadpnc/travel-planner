@@ -1,5 +1,10 @@
 @import "~normalize.css/normalize.css";
 @import "font/flaticon.css";
+@import "helper.less";
+
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     font-family: 'Open Sans', sans-serif;
@@ -92,7 +97,7 @@ a {
     clear: both;
 
     .search-params-box {
-        width: 24.86%;
+        width: 25%;
         border-right: 1px solid #fbfbfb;
         text-align: center;
         height: 100%;
@@ -149,20 +154,38 @@ a {
     }
 }
 
-::-webkit-input-placeholder {
-   color: white;
+.results-wrapper {
+    border-top: 1px solid #e2e2e2;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: white;  
+.result-box {
+    margin: 5px 0;
+    padding: 0 10px;
+    background-color: white;
+    border: 1px solid #e2e2e2;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
-}
+.flight-info {
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+    clear: both;
 
-:-ms-input-placeholder {  
-   color: white;  
+    .carier {
+        font-size: 11px;
+        color: #a0a0a0;
+    }
+
+    .price {
+        float: right;
+        color: #ee4500;
+        font-weight: bold;
+    }
+
+    .start {
+        padding-bottom: 5px;
+    }
 }
 
 
