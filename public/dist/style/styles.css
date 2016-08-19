@@ -550,14 +550,17 @@ a {
   padding: 20px;
   outline: none;
   border: none;
-  background-color: #e2e2e2;
+  background-color: #c5c5c5;
   border-right: 1px solid #fefefe;
   float: left;
   color: white;
 }
+.search-inputs .search-input:focus {
+  background-color: #adadad;
+}
 .search-params {
   height: 115px;
-  background-color: #d2d2d2;
+  background-color: #bbbbbb;
   clear: both;
 }
 .search-params .search-params-box {
@@ -579,6 +582,18 @@ a {
   margin-top: 20px;
   display: block;
 }
+.params-wrapper {
+  color: white;
+}
+.params-wrapper .params-hero {
+  font-size: 48px;
+  display: inline-block;
+}
+.params-wrapper .params-small {
+  font-size: 11px;
+  display: inline-block;
+  text-align: left;
+}
 .search-btn {
   display: inline-block;
   vertical-align: top;
@@ -596,18 +611,18 @@ a {
   background-color: #ff4a00;
 }
 ::-webkit-input-placeholder {
-  color: #8a8a8a;
+  color: white;
 }
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #8a8a8a;
+  color: white;
 }
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #8a8a8a;
+  color: white;
 }
 :-ms-input-placeholder {
-  color: #8a8a8a;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map*/
