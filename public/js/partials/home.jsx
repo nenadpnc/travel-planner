@@ -1,5 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
+import { Calendar } from 'react-date-picker'
+import 'react-date-picker/index.css'
 
 const Home = React.createClass({
     render() {
@@ -9,6 +11,7 @@ const Home = React.createClass({
                     <div className="search-box">
                         <div className="search-container">
                             <div className="search-inputs">
+                            <Calendar />
                             <input className="search-input" type="text" name="from" placeholder="From"/>
                             <input className="search-input" type="text" name="to" placeholder="To"/>
                             </div>
