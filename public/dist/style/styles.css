@@ -3170,9 +3170,7 @@ textarea {
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+  font-style: normal;
 }
 
 .flaticon-add:before { content: "\F100"; }
@@ -3222,7 +3220,7 @@ margin-left: 20px;
 }
 .col-2 {
   width: 50%;
-  float: left;
+  display: inline-block;
 }
 .bold {
   font-weight: bold;
@@ -3242,12 +3240,26 @@ margin-left: 20px;
 .text-right {
   text-align: right;
 }
+.inline-block {
+  display: inline-block;
+}
+.w-50 {
+  width: 50%;
+  display: inline-block;
+}
+.w-15 {
+  width: 15%;
+  display: inline-block;
+}
+.mr-10 {
+  margin-right: 10px;
+}
 * {
   box-sizing: border-box;
 }
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.42857143;
@@ -3384,6 +3396,7 @@ a {
   padding: 0 10px;
   background-color: white;
   border: 1px solid #e2e2e2;
+  box-shadow: 0px 0px 19px #e7e7e7;
 }
 .flight-info {
   padding: 10px 0;
@@ -3401,6 +3414,9 @@ a {
 }
 .flight-info .start {
   padding-bottom: 5px;
+}
+.flight-info:last-of-type {
+  border: none;
 }
 /* plugin override */
 .react-date-picker__calendar {

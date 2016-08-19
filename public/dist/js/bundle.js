@@ -49,7 +49,7 @@
 
 	'use strict';
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -57,23 +57,23 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _reactRouter = __webpack_require__(/*! react-router */ 175);
+	var _reactRouter = __webpack_require__(/*! react-router */ 173);
 	
-	var _app = __webpack_require__(/*! ./partials/app.jsx */ 238);
+	var _app = __webpack_require__(/*! ./partials/app.jsx */ 236);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
-	var _home = __webpack_require__(/*! ./partials/home.jsx */ 240);
+	var _home = __webpack_require__(/*! ./partials/home.jsx */ 238);
 	
 	var _home2 = _interopRequireDefault(_home);
 	
-	var _pageNotFound = __webpack_require__(/*! ./partials/pageNotFound.jsx */ 512);
+	var _pageNotFound = __webpack_require__(/*! ./partials/pageNotFound.jsx */ 510);
 	
 	var _pageNotFound2 = _interopRequireDefault(_pageNotFound);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(/*! ./../style/style.less */ 513);
+	__webpack_require__(/*! ./../style/style.less */ 511);
 	
 	
 	_reactDom2.default.render(_react2.default.createElement(
@@ -88,22 +88,23 @@
 	), document.getElementById('app'));
 
 /***/ },
-/* 1 */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/react.js ***!
-  \***********************************************************************************/
+/* 1 */,
+/* 2 */
+/*!************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/react.js ***!
+  \************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	module.exports = __webpack_require__(/*! ./lib/React */ 2);
+	module.exports = __webpack_require__(/*! ./lib/React */ 3);
 
 
 /***/ },
-/* 2 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/React.js ***!
-  \***************************************************************************************/
+/* 3 */
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/React.js ***!
+  \****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -119,19 +120,19 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactChildren = __webpack_require__(/*! ./ReactChildren */ 5);
-	var ReactComponent = __webpack_require__(/*! ./ReactComponent */ 17);
-	var ReactPureComponent = __webpack_require__(/*! ./ReactPureComponent */ 20);
-	var ReactClass = __webpack_require__(/*! ./ReactClass */ 21);
-	var ReactDOMFactories = __webpack_require__(/*! ./ReactDOMFactories */ 26);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var ReactChildren = __webpack_require__(/*! ./ReactChildren */ 6);
+	var ReactComponent = __webpack_require__(/*! ./ReactComponent */ 18);
+	var ReactPureComponent = __webpack_require__(/*! ./ReactPureComponent */ 21);
+	var ReactClass = __webpack_require__(/*! ./ReactClass */ 22);
+	var ReactDOMFactories = __webpack_require__(/*! ./ReactDOMFactories */ 27);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	var ReactPropTypes = __webpack_require__(/*! ./ReactPropTypes */ 32);
 	var ReactVersion = __webpack_require__(/*! ./ReactVersion */ 33);
 	
 	var onlyChild = __webpack_require__(/*! ./onlyChild */ 34);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var createElement = ReactElement.createElement;
 	var createFactory = ReactElement.createFactory;
@@ -195,13 +196,13 @@
 	};
 	
 	module.exports = React;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 3 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js ***!
-  \***********************************************************************************************************/
+/* 4 */
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js ***!
+  \****************************************************************/
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -367,10 +368,10 @@
 
 
 /***/ },
-/* 4 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/~/object-assign/index.js ***!
-  \***************************************************************************************************/
+/* 5 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/~/object-assign/index.js ***!
+  \****************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -459,10 +460,10 @@
 
 
 /***/ },
-/* 5 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactChildren.js ***!
-  \***********************************************************************************************/
+/* 6 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactChildren.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -478,11 +479,11 @@
 	
 	'use strict';
 	
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 14);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 15);
 	
 	var twoArgumentPooler = PooledClass.twoArgumentPooler;
 	var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -658,10 +659,10 @@
 	module.exports = ReactChildren;
 
 /***/ },
-/* 6 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/PooledClass.js ***!
-  \*********************************************************************************************/
+/* 7 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/PooledClass.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -677,9 +678,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Static poolers. Several custom versions for each potential number of
@@ -785,13 +786,13 @@
 	};
 	
 	module.exports = PooledClass;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 7 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/reactProdInvariant.js ***!
-  \****************************************************************************************************/
+/* 8 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/reactProdInvariant.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -835,10 +836,10 @@
 	module.exports = reactProdInvariant;
 
 /***/ },
-/* 8 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/invariant.js ***!
-  \******************************************************************************************/
+/* 9 */
+/*!*******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/invariant.js ***!
+  \*******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -890,13 +891,13 @@
 	}
 	
 	module.exports = invariant;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 9 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactElement.js ***!
-  \**********************************************************************************************/
+/* 10 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactElement.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -912,12 +913,12 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
-	var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 13);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
+	var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 14);
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
 	
 	// The Symbol used to tag the ReactElement type. If there is no native Symbol
@@ -955,6 +956,34 @@
 	    }
 	  }
 	  return config.key !== undefined;
+	}
+	
+	function defineKeyPropWarningGetter(props, displayName) {
+	  var warnAboutAccessingKey = function () {
+	    if (!specialPropKeyWarningShown) {
+	      specialPropKeyWarningShown = true;
+	      process.env.NODE_ENV !== 'production' ? warning(false, '%s: `key` is not a prop. Trying to access it will result ' + 'in `undefined` being returned. If you need to access the same ' + 'value within the child component, you should pass it as a different ' + 'prop. (https://fb.me/react-special-props)', displayName) : void 0;
+	    }
+	  };
+	  warnAboutAccessingKey.isReactWarning = true;
+	  Object.defineProperty(props, 'key', {
+	    get: warnAboutAccessingKey,
+	    configurable: true
+	  });
+	}
+	
+	function defineRefPropWarningGetter(props, displayName) {
+	  var warnAboutAccessingRef = function () {
+	    if (!specialPropRefWarningShown) {
+	      specialPropRefWarningShown = true;
+	      process.env.NODE_ENV !== 'production' ? warning(false, '%s: `ref` is not a prop. Trying to access it will result ' + 'in `undefined` being returned. If you need to access the same ' + 'value within the child component, you should pass it as a different ' + 'prop. (https://fb.me/react-special-props)', displayName) : void 0;
+	    }
+	  };
+	  warnAboutAccessingRef.isReactWarning = true;
+	  Object.defineProperty(props, 'ref', {
+	    get: warnAboutAccessingRef,
+	    configurable: true
+	  });
 	}
 	
 	/**
@@ -1111,39 +1140,15 @@
 	    }
 	  }
 	  if (process.env.NODE_ENV !== 'production') {
-	    var displayName = typeof type === 'function' ? type.displayName || type.name || 'Unknown' : type;
-	
-	    // Create dummy `key` and `ref` property to `props` to warn users against its use
-	    var warnAboutAccessingKey = function () {
-	      if (!specialPropKeyWarningShown) {
-	        specialPropKeyWarningShown = true;
-	        process.env.NODE_ENV !== 'production' ? warning(false, '%s: `key` is not a prop. Trying to access it will result ' + 'in `undefined` being returned. If you need to access the same ' + 'value within the child component, you should pass it as a different ' + 'prop. (https://fb.me/react-special-props)', displayName) : void 0;
-	      }
-	      return undefined;
-	    };
-	    warnAboutAccessingKey.isReactWarning = true;
-	
-	    var warnAboutAccessingRef = function () {
-	      if (!specialPropRefWarningShown) {
-	        specialPropRefWarningShown = true;
-	        process.env.NODE_ENV !== 'production' ? warning(false, '%s: `ref` is not a prop. Trying to access it will result ' + 'in `undefined` being returned. If you need to access the same ' + 'value within the child component, you should pass it as a different ' + 'prop. (https://fb.me/react-special-props)', displayName) : void 0;
-	      }
-	      return undefined;
-	    };
-	    warnAboutAccessingRef.isReactWarning = true;
-	
-	    if (typeof props.$$typeof === 'undefined' || props.$$typeof !== REACT_ELEMENT_TYPE) {
-	      if (!props.hasOwnProperty('key')) {
-	        Object.defineProperty(props, 'key', {
-	          get: warnAboutAccessingKey,
-	          configurable: true
-	        });
-	      }
-	      if (!props.hasOwnProperty('ref')) {
-	        Object.defineProperty(props, 'ref', {
-	          get: warnAboutAccessingRef,
-	          configurable: true
-	        });
+	    if (key || ref) {
+	      if (typeof props.$$typeof === 'undefined' || props.$$typeof !== REACT_ELEMENT_TYPE) {
+	        var displayName = typeof type === 'function' ? type.displayName || type.name || 'Unknown' : type;
+	        if (key) {
+	          defineKeyPropWarningGetter(props, displayName);
+	        }
+	        if (ref) {
+	          defineRefPropWarningGetter(props, displayName);
+	        }
 	      }
 	    }
 	  }
@@ -1259,13 +1264,13 @@
 	ReactElement.REACT_ELEMENT_TYPE = REACT_ELEMENT_TYPE;
 	
 	module.exports = ReactElement;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 10 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactCurrentOwner.js ***!
-  \***************************************************************************************************/
+/* 11 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactCurrentOwner.js ***!
+  \****************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -1301,10 +1306,10 @@
 	module.exports = ReactCurrentOwner;
 
 /***/ },
-/* 11 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/warning.js ***!
-  \****************************************************************************************/
+/* 12 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/warning.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -1319,7 +1324,7 @@
 	
 	'use strict';
 	
-	var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 12);
+	var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 13);
 	
 	/**
 	 * Similar to invariant but only logs a warning if the condition is not met.
@@ -1331,20 +1336,12 @@
 	var warning = emptyFunction;
 	
 	if (process.env.NODE_ENV !== 'production') {
-	  warning = function warning(condition, format) {
-	    for (var _len = arguments.length, args = Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
-	      args[_key - 2] = arguments[_key];
-	    }
+	  (function () {
+	    var printWarning = function printWarning(format) {
+	      for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+	        args[_key - 1] = arguments[_key];
+	      }
 	
-	    if (format === undefined) {
-	      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
-	    }
-	
-	    if (format.indexOf('Failed Composite propType: ') === 0) {
-	      return; // Ignore CompositeComponent proptype check.
-	    }
-	
-	    if (!condition) {
 	      var argIndex = 0;
 	      var message = 'Warning: ' + format.replace(/%s/g, function () {
 	        return args[argIndex++];
@@ -1358,18 +1355,36 @@
 	        // to find the callsite that caused this warning to fire.
 	        throw new Error(message);
 	      } catch (x) {}
-	    }
-	  };
+	    };
+	
+	    warning = function warning(condition, format) {
+	      if (format === undefined) {
+	        throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+	      }
+	
+	      if (format.indexOf('Failed Composite propType: ') === 0) {
+	        return; // Ignore CompositeComponent proptype check.
+	      }
+	
+	      if (!condition) {
+	        for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+	          args[_key2 - 2] = arguments[_key2];
+	        }
+	
+	        printWarning.apply(undefined, [format].concat(args));
+	      }
+	    };
+	  })();
 	}
 	
 	module.exports = warning;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 12 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/emptyFunction.js ***!
-  \**********************************************************************************************/
+/* 13 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/emptyFunction.js ***!
+  \***********************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -1412,10 +1427,10 @@
 	module.exports = emptyFunction;
 
 /***/ },
-/* 13 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/canDefineProperty.js ***!
-  \***************************************************************************************************/
+/* 14 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/canDefineProperty.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -1442,13 +1457,13 @@
 	}
 	
 	module.exports = canDefineProperty;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 14 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/traverseAllChildren.js ***!
-  \*****************************************************************************************************/
+/* 15 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/traverseAllChildren.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -1464,15 +1479,15 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	
-	var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 15);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 16);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 16);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 17);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var SEPARATOR = '.';
 	var SUBSEPARATOR = ':';
@@ -1618,13 +1633,13 @@
 	}
 	
 	module.exports = traverseAllChildren;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 15 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getIteratorFn.js ***!
-  \***********************************************************************************************/
+/* 16 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getIteratorFn.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -1670,10 +1685,10 @@
 	module.exports = getIteratorFn;
 
 /***/ },
-/* 16 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/KeyEscapeUtils.js ***!
-  \************************************************************************************************/
+/* 17 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/KeyEscapeUtils.js ***!
+  \*************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -1737,10 +1752,10 @@
 	module.exports = KeyEscapeUtils;
 
 /***/ },
-/* 17 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactComponent.js ***!
-  \************************************************************************************************/
+/* 18 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactComponent.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -1756,14 +1771,14 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 18);
+	var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 19);
 	
-	var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 13);
-	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 19);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 14);
+	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 20);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	/**
 	 * Base class helpers for the updating state of a component.
@@ -1861,13 +1876,13 @@
 	}
 	
 	module.exports = ReactComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 18 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactNoopUpdateQueue.js ***!
-  \******************************************************************************************************/
+/* 19 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactNoopUpdateQueue.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -1883,7 +1898,7 @@
 	
 	'use strict';
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	function warnNoop(publicInstance, callerName) {
 	  if (process.env.NODE_ENV !== 'production') {
@@ -1966,13 +1981,13 @@
 	};
 	
 	module.exports = ReactNoopUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 19 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/emptyObject.js ***!
-  \********************************************************************************************/
+/* 20 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/emptyObject.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -1994,13 +2009,13 @@
 	}
 	
 	module.exports = emptyObject;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 20 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactPureComponent.js ***!
-  \****************************************************************************************************/
+/* 21 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactPureComponent.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -2016,12 +2031,12 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactComponent = __webpack_require__(/*! ./ReactComponent */ 17);
-	var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 18);
+	var ReactComponent = __webpack_require__(/*! ./ReactComponent */ 18);
+	var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 19);
 	
-	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 19);
+	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 20);
 	
 	/**
 	 * Base class helpers for the updating state of a component.
@@ -2047,10 +2062,10 @@
 	module.exports = ReactPureComponent;
 
 /***/ },
-/* 21 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactClass.js ***!
-  \********************************************************************************************/
+/* 22 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactClass.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -2066,20 +2081,20 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactComponent = __webpack_require__(/*! ./ReactComponent */ 17);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
-	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 22);
-	var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 24);
-	var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 18);
+	var ReactComponent = __webpack_require__(/*! ./ReactComponent */ 18);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
+	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 23);
+	var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 25);
+	var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 19);
 	
-	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 19);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 23);
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 20);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 24);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var MIXINS_KEY = keyOf({ mixins: null });
 	
@@ -2785,13 +2800,13 @@
 	};
 	
 	module.exports = ReactClass;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 22 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactPropTypeLocations.js ***!
-  \********************************************************************************************************/
+/* 23 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactPropTypeLocations.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -2807,7 +2822,7 @@
 	
 	'use strict';
 	
-	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 23);
+	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 24);
 	
 	var ReactPropTypeLocations = keyMirror({
 	  prop: null,
@@ -2818,10 +2833,10 @@
 	module.exports = ReactPropTypeLocations;
 
 /***/ },
-/* 23 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/keyMirror.js ***!
-  \******************************************************************************************/
+/* 24 */
+/*!*******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/keyMirror.js ***!
+  \*******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -2837,7 +2852,7 @@
 	
 	'use strict';
 	
-	var invariant = __webpack_require__(/*! ./invariant */ 8);
+	var invariant = __webpack_require__(/*! ./invariant */ 9);
 	
 	/**
 	 * Constructs an enumeration with keys equal to their value.
@@ -2871,13 +2886,13 @@
 	};
 	
 	module.exports = keyMirror;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 24 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactPropTypeLocationNames.js ***!
-  \************************************************************************************************************/
+/* 25 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactPropTypeLocationNames.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -2904,13 +2919,13 @@
 	}
 	
 	module.exports = ReactPropTypeLocationNames;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 25 */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/keyOf.js ***!
-  \**************************************************************************************/
+/* 26 */
+/*!***************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/keyOf.js ***!
+  \***************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -2949,10 +2964,10 @@
 	module.exports = keyOf;
 
 /***/ },
-/* 26 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMFactories.js ***!
-  \***************************************************************************************************/
+/* 27 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMFactories.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -2968,22 +2983,17 @@
 	
 	'use strict';
 	
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
-	
-	var mapObject = __webpack_require__(/*! fbjs/lib/mapObject */ 27);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	
 	/**
 	 * Create a factory that creates HTML tag elements.
 	 *
-	 * @param {string} tag Tag name (e.g. `div`).
 	 * @private
 	 */
-	function createDOMFactory(tag) {
-	  if (process.env.NODE_ENV !== 'production') {
-	    var ReactElementValidator = __webpack_require__(/*! ./ReactElementValidator */ 28);
-	    return ReactElementValidator.createFactory(tag);
-	  }
-	  return ReactElement.createFactory(tag);
+	var createDOMFactory = ReactElement.createFactory;
+	if (process.env.NODE_ENV !== 'production') {
+	  var ReactElementValidator = __webpack_require__(/*! ./ReactElementValidator */ 28);
+	  createDOMFactory = ReactElementValidator.createFactory;
 	}
 	
 	/**
@@ -2992,210 +3002,151 @@
 	 *
 	 * @public
 	 */
-	var ReactDOMFactories = mapObject({
-	  a: 'a',
-	  abbr: 'abbr',
-	  address: 'address',
-	  area: 'area',
-	  article: 'article',
-	  aside: 'aside',
-	  audio: 'audio',
-	  b: 'b',
-	  base: 'base',
-	  bdi: 'bdi',
-	  bdo: 'bdo',
-	  big: 'big',
-	  blockquote: 'blockquote',
-	  body: 'body',
-	  br: 'br',
-	  button: 'button',
-	  canvas: 'canvas',
-	  caption: 'caption',
-	  cite: 'cite',
-	  code: 'code',
-	  col: 'col',
-	  colgroup: 'colgroup',
-	  data: 'data',
-	  datalist: 'datalist',
-	  dd: 'dd',
-	  del: 'del',
-	  details: 'details',
-	  dfn: 'dfn',
-	  dialog: 'dialog',
-	  div: 'div',
-	  dl: 'dl',
-	  dt: 'dt',
-	  em: 'em',
-	  embed: 'embed',
-	  fieldset: 'fieldset',
-	  figcaption: 'figcaption',
-	  figure: 'figure',
-	  footer: 'footer',
-	  form: 'form',
-	  h1: 'h1',
-	  h2: 'h2',
-	  h3: 'h3',
-	  h4: 'h4',
-	  h5: 'h5',
-	  h6: 'h6',
-	  head: 'head',
-	  header: 'header',
-	  hgroup: 'hgroup',
-	  hr: 'hr',
-	  html: 'html',
-	  i: 'i',
-	  iframe: 'iframe',
-	  img: 'img',
-	  input: 'input',
-	  ins: 'ins',
-	  kbd: 'kbd',
-	  keygen: 'keygen',
-	  label: 'label',
-	  legend: 'legend',
-	  li: 'li',
-	  link: 'link',
-	  main: 'main',
-	  map: 'map',
-	  mark: 'mark',
-	  menu: 'menu',
-	  menuitem: 'menuitem',
-	  meta: 'meta',
-	  meter: 'meter',
-	  nav: 'nav',
-	  noscript: 'noscript',
-	  object: 'object',
-	  ol: 'ol',
-	  optgroup: 'optgroup',
-	  option: 'option',
-	  output: 'output',
-	  p: 'p',
-	  param: 'param',
-	  picture: 'picture',
-	  pre: 'pre',
-	  progress: 'progress',
-	  q: 'q',
-	  rp: 'rp',
-	  rt: 'rt',
-	  ruby: 'ruby',
-	  s: 's',
-	  samp: 'samp',
-	  script: 'script',
-	  section: 'section',
-	  select: 'select',
-	  small: 'small',
-	  source: 'source',
-	  span: 'span',
-	  strong: 'strong',
-	  style: 'style',
-	  sub: 'sub',
-	  summary: 'summary',
-	  sup: 'sup',
-	  table: 'table',
-	  tbody: 'tbody',
-	  td: 'td',
-	  textarea: 'textarea',
-	  tfoot: 'tfoot',
-	  th: 'th',
-	  thead: 'thead',
-	  time: 'time',
-	  title: 'title',
-	  tr: 'tr',
-	  track: 'track',
-	  u: 'u',
-	  ul: 'ul',
-	  'var': 'var',
-	  video: 'video',
-	  wbr: 'wbr',
+	var ReactDOMFactories = {
+	  a: createDOMFactory('a'),
+	  abbr: createDOMFactory('abbr'),
+	  address: createDOMFactory('address'),
+	  area: createDOMFactory('area'),
+	  article: createDOMFactory('article'),
+	  aside: createDOMFactory('aside'),
+	  audio: createDOMFactory('audio'),
+	  b: createDOMFactory('b'),
+	  base: createDOMFactory('base'),
+	  bdi: createDOMFactory('bdi'),
+	  bdo: createDOMFactory('bdo'),
+	  big: createDOMFactory('big'),
+	  blockquote: createDOMFactory('blockquote'),
+	  body: createDOMFactory('body'),
+	  br: createDOMFactory('br'),
+	  button: createDOMFactory('button'),
+	  canvas: createDOMFactory('canvas'),
+	  caption: createDOMFactory('caption'),
+	  cite: createDOMFactory('cite'),
+	  code: createDOMFactory('code'),
+	  col: createDOMFactory('col'),
+	  colgroup: createDOMFactory('colgroup'),
+	  data: createDOMFactory('data'),
+	  datalist: createDOMFactory('datalist'),
+	  dd: createDOMFactory('dd'),
+	  del: createDOMFactory('del'),
+	  details: createDOMFactory('details'),
+	  dfn: createDOMFactory('dfn'),
+	  dialog: createDOMFactory('dialog'),
+	  div: createDOMFactory('div'),
+	  dl: createDOMFactory('dl'),
+	  dt: createDOMFactory('dt'),
+	  em: createDOMFactory('em'),
+	  embed: createDOMFactory('embed'),
+	  fieldset: createDOMFactory('fieldset'),
+	  figcaption: createDOMFactory('figcaption'),
+	  figure: createDOMFactory('figure'),
+	  footer: createDOMFactory('footer'),
+	  form: createDOMFactory('form'),
+	  h1: createDOMFactory('h1'),
+	  h2: createDOMFactory('h2'),
+	  h3: createDOMFactory('h3'),
+	  h4: createDOMFactory('h4'),
+	  h5: createDOMFactory('h5'),
+	  h6: createDOMFactory('h6'),
+	  head: createDOMFactory('head'),
+	  header: createDOMFactory('header'),
+	  hgroup: createDOMFactory('hgroup'),
+	  hr: createDOMFactory('hr'),
+	  html: createDOMFactory('html'),
+	  i: createDOMFactory('i'),
+	  iframe: createDOMFactory('iframe'),
+	  img: createDOMFactory('img'),
+	  input: createDOMFactory('input'),
+	  ins: createDOMFactory('ins'),
+	  kbd: createDOMFactory('kbd'),
+	  keygen: createDOMFactory('keygen'),
+	  label: createDOMFactory('label'),
+	  legend: createDOMFactory('legend'),
+	  li: createDOMFactory('li'),
+	  link: createDOMFactory('link'),
+	  main: createDOMFactory('main'),
+	  map: createDOMFactory('map'),
+	  mark: createDOMFactory('mark'),
+	  menu: createDOMFactory('menu'),
+	  menuitem: createDOMFactory('menuitem'),
+	  meta: createDOMFactory('meta'),
+	  meter: createDOMFactory('meter'),
+	  nav: createDOMFactory('nav'),
+	  noscript: createDOMFactory('noscript'),
+	  object: createDOMFactory('object'),
+	  ol: createDOMFactory('ol'),
+	  optgroup: createDOMFactory('optgroup'),
+	  option: createDOMFactory('option'),
+	  output: createDOMFactory('output'),
+	  p: createDOMFactory('p'),
+	  param: createDOMFactory('param'),
+	  picture: createDOMFactory('picture'),
+	  pre: createDOMFactory('pre'),
+	  progress: createDOMFactory('progress'),
+	  q: createDOMFactory('q'),
+	  rp: createDOMFactory('rp'),
+	  rt: createDOMFactory('rt'),
+	  ruby: createDOMFactory('ruby'),
+	  s: createDOMFactory('s'),
+	  samp: createDOMFactory('samp'),
+	  script: createDOMFactory('script'),
+	  section: createDOMFactory('section'),
+	  select: createDOMFactory('select'),
+	  small: createDOMFactory('small'),
+	  source: createDOMFactory('source'),
+	  span: createDOMFactory('span'),
+	  strong: createDOMFactory('strong'),
+	  style: createDOMFactory('style'),
+	  sub: createDOMFactory('sub'),
+	  summary: createDOMFactory('summary'),
+	  sup: createDOMFactory('sup'),
+	  table: createDOMFactory('table'),
+	  tbody: createDOMFactory('tbody'),
+	  td: createDOMFactory('td'),
+	  textarea: createDOMFactory('textarea'),
+	  tfoot: createDOMFactory('tfoot'),
+	  th: createDOMFactory('th'),
+	  thead: createDOMFactory('thead'),
+	  time: createDOMFactory('time'),
+	  title: createDOMFactory('title'),
+	  tr: createDOMFactory('tr'),
+	  track: createDOMFactory('track'),
+	  u: createDOMFactory('u'),
+	  ul: createDOMFactory('ul'),
+	  'var': createDOMFactory('var'),
+	  video: createDOMFactory('video'),
+	  wbr: createDOMFactory('wbr'),
 	
 	  // SVG
-	  circle: 'circle',
-	  clipPath: 'clipPath',
-	  defs: 'defs',
-	  ellipse: 'ellipse',
-	  g: 'g',
-	  image: 'image',
-	  line: 'line',
-	  linearGradient: 'linearGradient',
-	  mask: 'mask',
-	  path: 'path',
-	  pattern: 'pattern',
-	  polygon: 'polygon',
-	  polyline: 'polyline',
-	  radialGradient: 'radialGradient',
-	  rect: 'rect',
-	  stop: 'stop',
-	  svg: 'svg',
-	  text: 'text',
-	  tspan: 'tspan'
-	
-	}, createDOMFactory);
+	  circle: createDOMFactory('circle'),
+	  clipPath: createDOMFactory('clipPath'),
+	  defs: createDOMFactory('defs'),
+	  ellipse: createDOMFactory('ellipse'),
+	  g: createDOMFactory('g'),
+	  image: createDOMFactory('image'),
+	  line: createDOMFactory('line'),
+	  linearGradient: createDOMFactory('linearGradient'),
+	  mask: createDOMFactory('mask'),
+	  path: createDOMFactory('path'),
+	  pattern: createDOMFactory('pattern'),
+	  polygon: createDOMFactory('polygon'),
+	  polyline: createDOMFactory('polyline'),
+	  radialGradient: createDOMFactory('radialGradient'),
+	  rect: createDOMFactory('rect'),
+	  stop: createDOMFactory('stop'),
+	  svg: createDOMFactory('svg'),
+	  text: createDOMFactory('text'),
+	  tspan: createDOMFactory('tspan')
+	};
 	
 	module.exports = ReactDOMFactories;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
-
-/***/ },
-/* 27 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/mapObject.js ***!
-  \******************************************************************************************/
-/***/ function(module, exports) {
-
-	/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 */
-	
-	'use strict';
-	
-	var hasOwnProperty = Object.prototype.hasOwnProperty;
-	
-	/**
-	 * Executes the provided `callback` once for each enumerable own property in the
-	 * object and constructs a new object from the results. The `callback` is
-	 * invoked with three arguments:
-	 *
-	 *  - the property value
-	 *  - the property name
-	 *  - the object being traversed
-	 *
-	 * Properties that are added after the call to `mapObject` will not be visited
-	 * by `callback`. If the values of existing properties are changed, the value
-	 * passed to `callback` will be the value at the time `mapObject` visits them.
-	 * Properties that are deleted before being visited are not visited.
-	 *
-	 * @grep function objectMap()
-	 * @grep function objMap()
-	 *
-	 * @param {?object} object
-	 * @param {function} callback
-	 * @param {*} context
-	 * @return {?object}
-	 */
-	function mapObject(object, callback, context) {
-	  if (!object) {
-	    return null;
-	  }
-	  var result = {};
-	  for (var name in object) {
-	    if (hasOwnProperty.call(object, name)) {
-	      result[name] = callback.call(context, object[name], name, object);
-	    }
-	  }
-	  return result;
-	}
-	
-	module.exports = mapObject;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 28 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactElementValidator.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactElementValidator.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -3218,16 +3169,16 @@
 	
 	'use strict';
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
-	var ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
-	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 22);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
+	var ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
+	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 23);
 	
 	var checkReactTypeSpec = __webpack_require__(/*! ./checkReactTypeSpec */ 30);
 	
-	var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 13);
-	var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 15);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 14);
+	var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 16);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	function getDeclarationErrorAddendum() {
 	  if (ReactCurrentOwner.current) {
@@ -3292,7 +3243,7 @@
 	    childOwner = ' It was passed a child from ' + element._owner.getName() + '.';
 	  }
 	
-	  process.env.NODE_ENV !== 'production' ? warning(false, 'Each child in an array or iterator should have a unique "key" prop.' + '%s%s See https://fb.me/react-warning-keys for more information.%s', currentComponentErrorInfo, childOwner, ReactComponentTreeDevtool.getCurrentStackAddendum(element)) : void 0;
+	  process.env.NODE_ENV !== 'production' ? warning(false, 'Each child in an array or iterator should have a unique "key" prop.' + '%s%s See https://fb.me/react-warning-keys for more information.%s', currentComponentErrorInfo, childOwner, ReactComponentTreeHook.getCurrentStackAddendum(element)) : void 0;
 	}
 	
 	/**
@@ -3363,7 +3314,9 @@
 	    var validType = typeof type === 'string' || typeof type === 'function';
 	    // We warn in this case but don't throw. We expect the element creation to
 	    // succeed and there will likely be errors in render.
-	    process.env.NODE_ENV !== 'production' ? warning(validType, 'React.createElement: type should not be null, undefined, boolean, or ' + 'number. It should be a string (for DOM elements) or a ReactClass ' + '(for composite components).%s', getDeclarationErrorAddendum()) : void 0;
+	    if (!validType) {
+	      process.env.NODE_ENV !== 'production' ? warning(false, 'React.createElement: type should not be null, undefined, boolean, or ' + 'number. It should be a string (for DOM elements) or a ReactClass ' + '(for composite components).%s', getDeclarationErrorAddendum()) : void 0;
+	    }
 	
 	    var element = ReactElement.createElement.apply(this, arguments);
 	
@@ -3424,13 +3377,13 @@
 	};
 	
 	module.exports = ReactElementValidator;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 29 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactComponentTreeDevtool.js ***!
-  \***********************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactComponentTreeHook.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -3441,44 +3394,150 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * @providesModule ReactComponentTreeDevtool
+	 * @providesModule ReactComponentTreeHook
 	 */
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
-	var tree = {};
-	var unmountedIDs = {};
-	var rootIDs = {};
-	
-	function updateTree(id, update) {
-	  if (!tree[id]) {
-	    tree[id] = {
-	      element: null,
-	      parentID: null,
-	      ownerID: null,
-	      text: null,
-	      childIDs: [],
-	      displayName: 'Unknown',
-	      isMounted: false,
-	      updateCount: 0
-	    };
+	function isNative(fn) {
+	  // Based on isNative() from Lodash
+	  var funcToString = Function.prototype.toString;
+	  var hasOwnProperty = Object.prototype.hasOwnProperty;
+	  var reIsNative = RegExp('^' + funcToString
+	  // Take an example native function source for comparison
+	  .call(hasOwnProperty)
+	  // Strip regex characters so we can use it for regex
+	  .replace(/[\\^$.*+?()[\]{}|]/g, '\\$&')
+	  // Remove hasOwnProperty from the template to make it generic
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$');
+	  try {
+	    var source = funcToString.call(fn);
+	    return reIsNative.test(source);
+	  } catch (err) {
+	    return false;
 	  }
-	  update(tree[id]);
+	}
+	
+	var canUseCollections =
+	// Array.from
+	typeof Array.from === 'function' &&
+	// Map
+	typeof Map === 'function' && isNative(Map) &&
+	// Map.prototype.keys
+	Map.prototype != null && typeof Map.prototype.keys === 'function' && isNative(Map.prototype.keys) &&
+	// Set
+	typeof Set === 'function' && isNative(Set) &&
+	// Set.prototype.keys
+	Set.prototype != null && typeof Set.prototype.keys === 'function' && isNative(Set.prototype.keys);
+	
+	var itemMap;
+	var rootIDSet;
+	
+	var itemByKey;
+	var rootByKey;
+	
+	if (canUseCollections) {
+	  itemMap = new Map();
+	  rootIDSet = new Set();
+	} else {
+	  itemByKey = {};
+	  rootByKey = {};
+	}
+	
+	var unmountedIDs = [];
+	
+	// Use non-numeric keys to prevent V8 performance issues:
+	// https://github.com/facebook/react/pull/7232
+	function getKeyFromID(id) {
+	  return '.' + id;
+	}
+	function getIDFromKey(key) {
+	  return parseInt(key.substr(1), 10);
+	}
+	
+	function get(id) {
+	  if (canUseCollections) {
+	    return itemMap.get(id);
+	  } else {
+	    var key = getKeyFromID(id);
+	    return itemByKey[key];
+	  }
+	}
+	
+	function remove(id) {
+	  if (canUseCollections) {
+	    itemMap['delete'](id);
+	  } else {
+	    var key = getKeyFromID(id);
+	    delete itemByKey[key];
+	  }
+	}
+	
+	function create(id, element, parentID) {
+	  var item = {
+	    element: element,
+	    parentID: parentID,
+	    text: null,
+	    childIDs: [],
+	    isMounted: false,
+	    updateCount: 0
+	  };
+	
+	  if (canUseCollections) {
+	    itemMap.set(id, item);
+	  } else {
+	    var key = getKeyFromID(id);
+	    itemByKey[key] = item;
+	  }
+	}
+	
+	function addRoot(id) {
+	  if (canUseCollections) {
+	    rootIDSet.add(id);
+	  } else {
+	    var key = getKeyFromID(id);
+	    rootByKey[key] = true;
+	  }
+	}
+	
+	function removeRoot(id) {
+	  if (canUseCollections) {
+	    rootIDSet['delete'](id);
+	  } else {
+	    var key = getKeyFromID(id);
+	    delete rootByKey[key];
+	  }
+	}
+	
+	function getRegisteredIDs() {
+	  if (canUseCollections) {
+	    return Array.from(itemMap.keys());
+	  } else {
+	    return Object.keys(itemByKey).map(getIDFromKey);
+	  }
+	}
+	
+	function getRootIDs() {
+	  if (canUseCollections) {
+	    return Array.from(rootIDSet.keys());
+	  } else {
+	    return Object.keys(rootByKey).map(getIDFromKey);
+	  }
 	}
 	
 	function purgeDeep(id) {
-	  var item = tree[id];
+	  var item = get(id);
 	  if (item) {
 	    var childIDs = item.childIDs;
 	
-	    delete tree[id];
+	    remove(id);
 	    childIDs.forEach(purgeDeep);
 	  }
 	}
@@ -3487,102 +3546,109 @@
 	  return '\n    in ' + name + (source ? ' (at ' + source.fileName.replace(/^.*[\\\/]/, '') + ':' + source.lineNumber + ')' : ownerName ? ' (created by ' + ownerName + ')' : '');
 	}
 	
+	function getDisplayName(element) {
+	  if (element == null) {
+	    return '#empty';
+	  } else if (typeof element === 'string' || typeof element === 'number') {
+	    return '#text';
+	  } else if (typeof element.type === 'string') {
+	    return element.type;
+	  } else {
+	    return element.type.displayName || element.type.name || 'Unknown';
+	  }
+	}
+	
 	function describeID(id) {
-	  var name = ReactComponentTreeDevtool.getDisplayName(id);
-	  var element = ReactComponentTreeDevtool.getElement(id);
-	  var ownerID = ReactComponentTreeDevtool.getOwnerID(id);
+	  var name = ReactComponentTreeHook.getDisplayName(id);
+	  var element = ReactComponentTreeHook.getElement(id);
+	  var ownerID = ReactComponentTreeHook.getOwnerID(id);
 	  var ownerName;
 	  if (ownerID) {
-	    ownerName = ReactComponentTreeDevtool.getDisplayName(ownerID);
+	    ownerName = ReactComponentTreeHook.getDisplayName(ownerID);
 	  }
-	  process.env.NODE_ENV !== 'production' ? warning(element, 'ReactComponentTreeDevtool: Missing React element for debugID %s when ' + 'building stack', id) : void 0;
+	  process.env.NODE_ENV !== 'production' ? warning(element, 'ReactComponentTreeHook: Missing React element for debugID %s when ' + 'building stack', id) : void 0;
 	  return describeComponentFrame(name, element && element._source, ownerName);
 	}
 	
-	var ReactComponentTreeDevtool = {
-	  onSetDisplayName: function (id, displayName) {
-	    updateTree(id, function (item) {
-	      return item.displayName = displayName;
-	    });
-	  },
+	var ReactComponentTreeHook = {
 	  onSetChildren: function (id, nextChildIDs) {
-	    updateTree(id, function (item) {
-	      item.childIDs = nextChildIDs;
+	    var item = get(id);
+	    item.childIDs = nextChildIDs;
 	
-	      nextChildIDs.forEach(function (nextChildID) {
-	        var nextChild = tree[nextChildID];
-	        !nextChild ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected devtool events to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('68') : void 0;
-	        !(nextChild.displayName != null) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onSetDisplayName() to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('69') : void 0;
-	        !(nextChild.childIDs != null || nextChild.text != null) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onSetChildren() or onSetText() to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('70') : void 0;
-	        !nextChild.isMounted ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onMountComponent() to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('71') : void 0;
-	        if (nextChild.parentID == null) {
-	          nextChild.parentID = id;
-	          // TODO: This shouldn't be necessary but mounting a new root during in
-	          // componentWillMount currently causes not-yet-mounted components to
-	          // be purged from our tree data so their parent ID is missing.
-	        }
-	        !(nextChild.parentID === id) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onSetParent() and onSetChildren() to be consistent (%s has parents %s and %s).', nextChildID, nextChild.parentID, id) : _prodInvariant('72', nextChildID, nextChild.parentID, id) : void 0;
-	      });
-	    });
+	    for (var i = 0; i < nextChildIDs.length; i++) {
+	      var nextChildID = nextChildIDs[i];
+	      var nextChild = get(nextChildID);
+	      !nextChild ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected hook events to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('140') : void 0;
+	      !(nextChild.childIDs != null || typeof nextChild.element !== 'object' || nextChild.element == null) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onSetChildren() to fire for a container child before its parent includes it in onSetChildren().') : _prodInvariant('141') : void 0;
+	      !nextChild.isMounted ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onMountComponent() to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('71') : void 0;
+	      if (nextChild.parentID == null) {
+	        nextChild.parentID = id;
+	        // TODO: This shouldn't be necessary but mounting a new root during in
+	        // componentWillMount currently causes not-yet-mounted components to
+	        // be purged from our tree data so their parent ID is missing.
+	      }
+	      !(nextChild.parentID === id) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onBeforeMountComponent() parent and onSetChildren() to be consistent (%s has parents %s and %s).', nextChildID, nextChild.parentID, id) : _prodInvariant('142', nextChildID, nextChild.parentID, id) : void 0;
+	    }
 	  },
-	  onSetOwner: function (id, ownerID) {
-	    updateTree(id, function (item) {
-	      return item.ownerID = ownerID;
-	    });
-	  },
-	  onSetParent: function (id, parentID) {
-	    updateTree(id, function (item) {
-	      return item.parentID = parentID;
-	    });
-	  },
-	  onSetText: function (id, text) {
-	    updateTree(id, function (item) {
-	      return item.text = text;
-	    });
-	  },
-	  onBeforeMountComponent: function (id, element) {
-	    updateTree(id, function (item) {
-	      return item.element = element;
-	    });
+	  onBeforeMountComponent: function (id, element, parentID) {
+	    create(id, element, parentID);
 	  },
 	  onBeforeUpdateComponent: function (id, element) {
-	    updateTree(id, function (item) {
-	      return item.element = element;
-	    });
+	    var item = get(id);
+	    if (!item || !item.isMounted) {
+	      // We may end up here as a result of setState() in componentWillUnmount().
+	      // In this case, ignore the element.
+	      return;
+	    }
+	    item.element = element;
 	  },
 	  onMountComponent: function (id) {
-	    updateTree(id, function (item) {
-	      return item.isMounted = true;
-	    });
-	  },
-	  onMountRootComponent: function (id) {
-	    rootIDs[id] = true;
+	    var item = get(id);
+	    item.isMounted = true;
+	    var isRoot = item.parentID === 0;
+	    if (isRoot) {
+	      addRoot(id);
+	    }
 	  },
 	  onUpdateComponent: function (id) {
-	    updateTree(id, function (item) {
-	      return item.updateCount++;
-	    });
+	    var item = get(id);
+	    if (!item || !item.isMounted) {
+	      // We may end up here as a result of setState() in componentWillUnmount().
+	      // In this case, ignore the element.
+	      return;
+	    }
+	    item.updateCount++;
 	  },
 	  onUnmountComponent: function (id) {
-	    updateTree(id, function (item) {
-	      return item.isMounted = false;
-	    });
-	    unmountedIDs[id] = true;
-	    delete rootIDs[id];
+	    var item = get(id);
+	    if (item) {
+	      // We need to check if it exists.
+	      // `item` might not exist if it is inside an error boundary, and a sibling
+	      // error boundary child threw while mounting. Then this instance never
+	      // got a chance to mount, but it still gets an unmounting event during
+	      // the error boundary cleanup.
+	      item.isMounted = false;
+	      var isRoot = item.parentID === 0;
+	      if (isRoot) {
+	        removeRoot(id);
+	      }
+	    }
+	    unmountedIDs.push(id);
 	  },
 	  purgeUnmountedComponents: function () {
-	    if (ReactComponentTreeDevtool._preventPurging) {
+	    if (ReactComponentTreeHook._preventPurging) {
 	      // Should only be used for testing.
 	      return;
 	    }
 	
-	    for (var id in unmountedIDs) {
+	    for (var i = 0; i < unmountedIDs.length; i++) {
+	      var id = unmountedIDs[i];
 	      purgeDeep(id);
 	    }
-	    unmountedIDs = {};
+	    unmountedIDs.length = 0;
 	  },
 	  isMounted: function (id) {
-	    var item = tree[id];
+	    var item = get(id);
 	    return item ? item.isMounted : false;
 	  },
 	  getCurrentStackAddendum: function (topElement) {
@@ -3597,67 +3663,78 @@
 	    var currentOwner = ReactCurrentOwner.current;
 	    var id = currentOwner && currentOwner._debugID;
 	
-	    info += ReactComponentTreeDevtool.getStackAddendumByID(id);
+	    info += ReactComponentTreeHook.getStackAddendumByID(id);
 	    return info;
 	  },
 	  getStackAddendumByID: function (id) {
 	    var info = '';
 	    while (id) {
 	      info += describeID(id);
-	      id = ReactComponentTreeDevtool.getParentID(id);
+	      id = ReactComponentTreeHook.getParentID(id);
 	    }
 	    return info;
 	  },
 	  getChildIDs: function (id) {
-	    var item = tree[id];
+	    var item = get(id);
 	    return item ? item.childIDs : [];
 	  },
 	  getDisplayName: function (id) {
-	    var item = tree[id];
-	    return item ? item.displayName : 'Unknown';
+	    var element = ReactComponentTreeHook.getElement(id);
+	    if (!element) {
+	      return null;
+	    }
+	    return getDisplayName(element);
 	  },
 	  getElement: function (id) {
-	    var item = tree[id];
+	    var item = get(id);
 	    return item ? item.element : null;
 	  },
 	  getOwnerID: function (id) {
-	    var item = tree[id];
-	    return item ? item.ownerID : null;
+	    var element = ReactComponentTreeHook.getElement(id);
+	    if (!element || !element._owner) {
+	      return null;
+	    }
+	    return element._owner._debugID;
 	  },
 	  getParentID: function (id) {
-	    var item = tree[id];
+	    var item = get(id);
 	    return item ? item.parentID : null;
 	  },
 	  getSource: function (id) {
-	    var item = tree[id];
+	    var item = get(id);
 	    var element = item ? item.element : null;
 	    var source = element != null ? element._source : null;
 	    return source;
 	  },
 	  getText: function (id) {
-	    var item = tree[id];
-	    return item ? item.text : null;
+	    var element = ReactComponentTreeHook.getElement(id);
+	    if (typeof element === 'string') {
+	      return element;
+	    } else if (typeof element === 'number') {
+	      return '' + element;
+	    } else {
+	      return null;
+	    }
 	  },
 	  getUpdateCount: function (id) {
-	    var item = tree[id];
+	    var item = get(id);
 	    return item ? item.updateCount : 0;
 	  },
-	  getRootIDs: function () {
-	    return Object.keys(rootIDs);
-	  },
-	  getRegisteredIDs: function () {
-	    return Object.keys(tree);
-	  }
+	
+	
+	  getRegisteredIDs: getRegisteredIDs,
+	
+	  getRootIDs: getRootIDs
 	};
 	
-	module.exports = ReactComponentTreeDevtool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	module.exports = ReactComponentTreeHook;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 30 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/checkReactTypeSpec.js ***!
-  \****************************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/checkReactTypeSpec.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -3673,15 +3750,15 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 24);
+	var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 25);
 	var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 31);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
-	var ReactComponentTreeDevtool;
+	var ReactComponentTreeHook;
 	
 	if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 'test') {
 	  // Temporary hack.
@@ -3689,7 +3766,7 @@
 	  // https://github.com/facebook/react/issues/7240
 	  // Remove the inline requires when we don't need them anymore:
 	  // https://github.com/facebook/react/pull/7178
-	  ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	  ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	}
 	
 	var loggedTypeFailures = {};
@@ -3730,13 +3807,13 @@
 	        var componentStackInfo = '';
 	
 	        if (process.env.NODE_ENV !== 'production') {
-	          if (!ReactComponentTreeDevtool) {
-	            ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	          if (!ReactComponentTreeHook) {
+	            ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	          }
 	          if (debugID !== null) {
-	            componentStackInfo = ReactComponentTreeDevtool.getStackAddendumByID(debugID);
+	            componentStackInfo = ReactComponentTreeHook.getStackAddendumByID(debugID);
 	          } else if (element !== null) {
-	            componentStackInfo = ReactComponentTreeDevtool.getCurrentStackAddendum(element);
+	            componentStackInfo = ReactComponentTreeHook.getCurrentStackAddendum(element);
 	          }
 	        }
 	
@@ -3747,13 +3824,13 @@
 	}
 	
 	module.exports = checkReactTypeSpec;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 31 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactPropTypesSecret.js ***!
-  \******************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactPropTypesSecret.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -3775,9 +3852,9 @@
 
 /***/ },
 /* 32 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactPropTypes.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactPropTypes.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -3793,13 +3870,13 @@
 	
 	'use strict';
 	
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
-	var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 24);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
+	var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 25);
 	var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 31);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 15);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 16);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	/**
 	 * Collection of methods that allow declaration and validation of props that are
@@ -3888,6 +3965,20 @@
 	}
 	/*eslint-enable no-self-compare*/
 	
+	/**
+	 * We use an Error-like object for backward compatibility as people may call
+	 * PropTypes directly and inspect their output. However we don't use real
+	 * Errors anymore. We don't inspect their stack anyway, and creating them
+	 * is prohibitively expensive if they are created too often, such as what
+	 * happens in oneOfType() for any type before the one that matched.
+	 */
+	function PropTypeError(message) {
+	  this.message = message;
+	  this.stack = '';
+	}
+	// Make `instanceof Error` still work for returned errors.
+	PropTypeError.prototype = Error.prototype;
+	
 	function createChainableTypeChecker(validate) {
 	  if (process.env.NODE_ENV !== 'production') {
 	    var manualPropTypeCallCache = {};
@@ -3907,7 +3998,7 @@
 	    if (props[propName] == null) {
 	      var locationName = ReactPropTypeLocationNames[location];
 	      if (isRequired) {
-	        return new Error('Required ' + locationName + ' `' + propFullName + '` was not specified in ' + ('`' + componentName + '`.'));
+	        return new PropTypeError('Required ' + locationName + ' `' + propFullName + '` was not specified in ' + ('`' + componentName + '`.'));
 	      }
 	      return null;
 	    } else {
@@ -3932,7 +4023,7 @@
 	      // 'of type `object`'.
 	      var preciseType = getPreciseType(propValue);
 	
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
 	    }
 	    return null;
 	  }
@@ -3946,13 +4037,13 @@
 	function createArrayOfTypeChecker(typeChecker) {
 	  function validate(props, propName, componentName, location, propFullName) {
 	    if (typeof typeChecker !== 'function') {
-	      return new Error('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+	      return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
 	    }
 	    var propValue = props[propName];
 	    if (!Array.isArray(propValue)) {
 	      var locationName = ReactPropTypeLocationNames[location];
 	      var propType = getPropType(propValue);
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
 	    }
 	    for (var i = 0; i < propValue.length; i++) {
 	      var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
@@ -3971,7 +4062,7 @@
 	    if (!ReactElement.isValidElement(propValue)) {
 	      var locationName = ReactPropTypeLocationNames[location];
 	      var propType = getPropType(propValue);
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
 	    }
 	    return null;
 	  }
@@ -3984,7 +4075,7 @@
 	      var locationName = ReactPropTypeLocationNames[location];
 	      var expectedClassName = expectedClass.name || ANONYMOUS;
 	      var actualClassName = getClassName(props[propName]);
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
 	    }
 	    return null;
 	  }
@@ -4007,7 +4098,7 @@
 	
 	    var locationName = ReactPropTypeLocationNames[location];
 	    var valuesString = JSON.stringify(expectedValues);
-	    return new Error('Invalid ' + locationName + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+	    return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
 	  }
 	  return createChainableTypeChecker(validate);
 	}
@@ -4015,13 +4106,13 @@
 	function createObjectOfTypeChecker(typeChecker) {
 	  function validate(props, propName, componentName, location, propFullName) {
 	    if (typeof typeChecker !== 'function') {
-	      return new Error('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+	      return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
 	    }
 	    var propValue = props[propName];
 	    var propType = getPropType(propValue);
 	    if (propType !== 'object') {
 	      var locationName = ReactPropTypeLocationNames[location];
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
 	    }
 	    for (var key in propValue) {
 	      if (propValue.hasOwnProperty(key)) {
@@ -4051,7 +4142,7 @@
 	    }
 	
 	    var locationName = ReactPropTypeLocationNames[location];
-	    return new Error('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+	    return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
 	  }
 	  return createChainableTypeChecker(validate);
 	}
@@ -4060,7 +4151,7 @@
 	  function validate(props, propName, componentName, location, propFullName) {
 	    if (!isNode(props[propName])) {
 	      var locationName = ReactPropTypeLocationNames[location];
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
 	    }
 	    return null;
 	  }
@@ -4073,7 +4164,7 @@
 	    var propType = getPropType(propValue);
 	    if (propType !== 'object') {
 	      var locationName = ReactPropTypeLocationNames[location];
-	      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+	      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
 	    }
 	    for (var key in shapeTypes) {
 	      var checker = shapeTypes[key];
@@ -4197,13 +4288,13 @@
 	}
 	
 	module.exports = ReactPropTypes;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 33 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactVersion.js ***!
-  \**********************************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactVersion.js ***!
+  \***********************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -4219,13 +4310,13 @@
 	
 	'use strict';
 	
-	module.exports = '15.3.0';
+	module.exports = '15.3.1';
 
 /***/ },
 /* 34 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/onlyChild.js ***!
-  \*******************************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/onlyChild.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -4240,11 +4331,11 @@
 	 */
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Returns the first child in a collection of children and verifies that there
@@ -4261,18 +4352,18 @@
 	 * structure.
 	 */
 	function onlyChild(children) {
-	  !ReactElement.isValidElement(children) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'onlyChild must be passed a children with exactly one child.') : _prodInvariant('23') : void 0;
+	  !ReactElement.isValidElement(children) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'React.Children.only expected to receive a single React element child.') : _prodInvariant('143') : void 0;
 	  return children;
 	}
 	
 	module.exports = onlyChild;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 35 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-dom/index.js ***!
-  \***************************************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-dom/index.js ***!
+  \****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4282,9 +4373,9 @@
 
 /***/ },
 /* 36 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOM.js ***!
-  \******************************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOM.js ***!
+  \*******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -4304,15 +4395,15 @@
 	
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
 	var ReactDefaultInjection = __webpack_require__(/*! ./ReactDefaultInjection */ 40);
-	var ReactMount = __webpack_require__(/*! ./ReactMount */ 167);
+	var ReactMount = __webpack_require__(/*! ./ReactMount */ 163);
 	var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 60);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	var ReactVersion = __webpack_require__(/*! ./ReactVersion */ 33);
 	
-	var findDOMNode = __webpack_require__(/*! ./findDOMNode */ 172);
-	var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 173);
-	var renderSubtreeIntoContainer = __webpack_require__(/*! ./renderSubtreeIntoContainer */ 174);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var findDOMNode = __webpack_require__(/*! ./findDOMNode */ 168);
+	var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 169);
+	var renderSubtreeIntoContainer = __webpack_require__(/*! ./renderSubtreeIntoContainer */ 170);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	ReactDefaultInjection.inject();
 	
@@ -4387,14 +4478,23 @@
 	  }
 	}
 	
+	if (process.env.NODE_ENV !== 'production') {
+	  var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
+	  var ReactDOMUnknownPropertyHook = __webpack_require__(/*! ./ReactDOMUnknownPropertyHook */ 171);
+	  var ReactDOMNullInputValuePropHook = __webpack_require__(/*! ./ReactDOMNullInputValuePropHook */ 172);
+	
+	  ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
+	  ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
+	}
+	
 	module.exports = ReactDOM;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 37 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMComponentTree.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMComponentTree.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -4410,12 +4510,12 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 38);
 	var ReactDOMComponentFlags = __webpack_require__(/*! ./ReactDOMComponentFlags */ 39);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
 	var Flags = ReactDOMComponentFlags;
@@ -4481,7 +4581,7 @@
 	    }
 	    var childInst = children[name];
 	    var childID = getRenderedHostOrTextFromComponent(childInst)._domID;
-	    if (childID == null) {
+	    if (childID === 0) {
 	      // We're currently unmounting this child in ReactMultiChild; skip it.
 	      continue;
 	    }
@@ -4585,13 +4685,13 @@
 	};
 	
 	module.exports = ReactDOMComponentTree;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 38 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DOMProperty.js ***!
-  \*********************************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DOMProperty.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -4607,9 +4707,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	function checkMask(value, bitmask) {
 	  return (value & bitmask) === bitmask;
@@ -4800,13 +4900,13 @@
 	};
 	
 	module.exports = DOMProperty;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 39 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMComponentFlags.js ***!
-  \********************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMComponentFlags.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -4830,9 +4930,9 @@
 
 /***/ },
 /* 40 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDefaultInjection.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDefaultInjection.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4856,16 +4956,16 @@
 	var ReactComponentBrowserEnvironment = __webpack_require__(/*! ./ReactComponentBrowserEnvironment */ 81);
 	var ReactDOMComponent = __webpack_require__(/*! ./ReactDOMComponent */ 95);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactDOMEmptyComponent = __webpack_require__(/*! ./ReactDOMEmptyComponent */ 138);
-	var ReactDOMTreeTraversal = __webpack_require__(/*! ./ReactDOMTreeTraversal */ 139);
-	var ReactDOMTextComponent = __webpack_require__(/*! ./ReactDOMTextComponent */ 140);
-	var ReactDefaultBatchingStrategy = __webpack_require__(/*! ./ReactDefaultBatchingStrategy */ 141);
-	var ReactEventListener = __webpack_require__(/*! ./ReactEventListener */ 142);
-	var ReactInjection = __webpack_require__(/*! ./ReactInjection */ 145);
-	var ReactReconcileTransaction = __webpack_require__(/*! ./ReactReconcileTransaction */ 146);
-	var SVGDOMPropertyConfig = __webpack_require__(/*! ./SVGDOMPropertyConfig */ 154);
-	var SelectEventPlugin = __webpack_require__(/*! ./SelectEventPlugin */ 155);
-	var SimpleEventPlugin = __webpack_require__(/*! ./SimpleEventPlugin */ 156);
+	var ReactDOMEmptyComponent = __webpack_require__(/*! ./ReactDOMEmptyComponent */ 134);
+	var ReactDOMTreeTraversal = __webpack_require__(/*! ./ReactDOMTreeTraversal */ 135);
+	var ReactDOMTextComponent = __webpack_require__(/*! ./ReactDOMTextComponent */ 136);
+	var ReactDefaultBatchingStrategy = __webpack_require__(/*! ./ReactDefaultBatchingStrategy */ 137);
+	var ReactEventListener = __webpack_require__(/*! ./ReactEventListener */ 138);
+	var ReactInjection = __webpack_require__(/*! ./ReactInjection */ 141);
+	var ReactReconcileTransaction = __webpack_require__(/*! ./ReactReconcileTransaction */ 142);
+	var SVGDOMPropertyConfig = __webpack_require__(/*! ./SVGDOMPropertyConfig */ 150);
+	var SelectEventPlugin = __webpack_require__(/*! ./SelectEventPlugin */ 151);
+	var SimpleEventPlugin = __webpack_require__(/*! ./SimpleEventPlugin */ 152);
 	
 	var alreadyInjected = false;
 	
@@ -4922,9 +5022,9 @@
 
 /***/ },
 /* 41 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/BeforeInputEventPlugin.js ***!
-  \********************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/BeforeInputEventPlugin.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4947,7 +5047,7 @@
 	var SyntheticCompositionEvent = __webpack_require__(/*! ./SyntheticCompositionEvent */ 53);
 	var SyntheticInputEvent = __webpack_require__(/*! ./SyntheticInputEvent */ 55);
 	
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
 	
 	var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 	var START_KEYCODE = 229;
@@ -5318,9 +5418,9 @@
 
 /***/ },
 /* 42 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/EventConstants.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/EventConstants.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -5336,7 +5436,7 @@
 	
 	'use strict';
 	
-	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 23);
+	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 24);
 	
 	var PropagationPhases = keyMirror({ bubbled: null, captured: null });
 	
@@ -5423,9 +5523,9 @@
 
 /***/ },
 /* 43 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/EventPropagators.js ***!
-  \**************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/EventPropagators.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5447,7 +5547,7 @@
 	
 	var accumulateInto = __webpack_require__(/*! ./accumulateInto */ 48);
 	var forEachAccumulated = __webpack_require__(/*! ./forEachAccumulated */ 49);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var PropagationPhases = EventConstants.PropagationPhases;
 	var getListener = EventPluginHub.getListener;
@@ -5565,13 +5665,13 @@
 	};
 	
 	module.exports = EventPropagators;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 44 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/EventPluginHub.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/EventPluginHub.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5587,7 +5687,7 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 45);
 	var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 46);
@@ -5595,7 +5695,7 @@
 	
 	var accumulateInto = __webpack_require__(/*! ./accumulateInto */ 48);
 	var forEachAccumulated = __webpack_require__(/*! ./forEachAccumulated */ 49);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Internal store for event listeners
@@ -5632,6 +5732,8 @@
 	};
 	
 	var getDictionaryKey = function (inst) {
+	  // Prevents V8 performance issue:
+	  // https://github.com/facebook/react/pull/7232
 	  return '.' + inst._rootNodeID;
 	};
 	
@@ -5823,13 +5925,13 @@
 	};
 	
 	module.exports = EventPluginHub;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 45 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/EventPluginRegistry.js ***!
-  \*****************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/EventPluginRegistry.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5845,9 +5947,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Injectable ordering of event plugins.
@@ -6079,13 +6181,13 @@
 	};
 	
 	module.exports = EventPluginRegistry;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 46 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/EventPluginUtils.js ***!
-  \**************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/EventPluginUtils.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -6101,13 +6203,13 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var EventConstants = __webpack_require__(/*! ./EventConstants */ 42);
 	var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 47);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	/**
 	 * Injected dependencies:
@@ -6317,13 +6419,13 @@
 	};
 	
 	module.exports = EventPluginUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 47 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactErrorUtils.js ***!
-  \*************************************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactErrorUtils.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -6402,13 +6504,13 @@
 	}
 	
 	module.exports = ReactErrorUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 48 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/accumulateInto.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/accumulateInto.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -6425,9 +6527,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Accumulates items that must not be null or undefined into the first one. This
@@ -6469,13 +6571,13 @@
 	}
 	
 	module.exports = accumulateInto;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 49 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/forEachAccumulated.js ***!
-  \****************************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/forEachAccumulated.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -6512,9 +6614,9 @@
 
 /***/ },
 /* 50 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/ExecutionEnvironment.js ***!
-  \*****************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/ExecutionEnvironment.js ***!
+  \******************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -6555,9 +6657,9 @@
 
 /***/ },
 /* 51 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/FallbackCompositionState.js ***!
-  \**********************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/FallbackCompositionState.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -6573,9 +6675,9 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
 	
 	var getTextContentAccessor = __webpack_require__(/*! ./getTextContentAccessor */ 52);
 	
@@ -6658,9 +6760,9 @@
 
 /***/ },
 /* 52 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getTextContentAccessor.js ***!
-  \********************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getTextContentAccessor.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -6699,9 +6801,9 @@
 
 /***/ },
 /* 53 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticCompositionEvent.js ***!
-  \***********************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticCompositionEvent.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -6743,9 +6845,9 @@
 
 /***/ },
 /* 54 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticEvent.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticEvent.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -6761,12 +6863,12 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var didWarnForAddedNewProperty = false;
 	var isProxySupported = typeof Proxy === 'function';
@@ -6877,9 +6979,16 @@
 	
 	    if (event.stopPropagation) {
 	      event.stopPropagation();
-	    } else {
+	    } else if (typeof event.cancelBubble !== 'unknown') {
+	      // eslint-disable-line valid-typeof
+	      // The ChangeEventPlugin registers a "propertychange" event for
+	      // IE. This event does not support bubbling or cancelling, and
+	      // any references to cancelBubble throw "Member not found".  A
+	      // typeof check of "unknown" circumvents this issue (and is also
+	      // IE specific).
 	      event.cancelBubble = true;
 	    }
+	
 	    this.isPropagationStopped = emptyFunction.thatReturnsTrue;
 	  },
 	
@@ -7008,13 +7117,13 @@
 	    process.env.NODE_ENV !== 'production' ? warning(warningCondition, 'This synthetic event is reused for performance reasons. If you\'re seeing this, ' + 'you\'re %s `%s` on a released/nullified synthetic event. %s. ' + 'If you must keep the original synthetic event around, use event.persist(). ' + 'See https://fb.me/react-event-pooling for more information.', action, propName, result) : void 0;
 	  }
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 55 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticInputEvent.js ***!
-  \*****************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticInputEvent.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -7057,9 +7166,9 @@
 
 /***/ },
 /* 56 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ChangeEventPlugin.js ***!
-  \***************************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ChangeEventPlugin.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -7086,7 +7195,7 @@
 	var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 71);
 	var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 72);
 	var isTextInputElement = __webpack_require__(/*! ./isTextInputElement */ 73);
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
 	
 	var topLevelTypes = EventConstants.topLevelTypes;
 	
@@ -7390,9 +7499,9 @@
 
 /***/ },
 /* 57 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactUpdates.js ***!
-  \**********************************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactUpdates.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -7408,16 +7517,16 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var CallbackQueue = __webpack_require__(/*! ./CallbackQueue */ 58);
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
 	var ReactFeatureFlags = __webpack_require__(/*! ./ReactFeatureFlags */ 59);
 	var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 60);
 	var Transaction = __webpack_require__(/*! ./Transaction */ 70);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	var dirtyComponents = [];
 	var updateBatchNumber = 0;
@@ -7646,13 +7755,13 @@
 	};
 	
 	module.exports = ReactUpdates;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 58 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/CallbackQueue.js ***!
-  \***********************************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/CallbackQueue.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -7668,12 +7777,12 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * A specialized pseudo-event module to help keep track of components waiting to
@@ -7761,13 +7870,13 @@
 	PooledClass.addPoolingTo(CallbackQueue);
 	
 	module.exports = CallbackQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 59 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactFeatureFlags.js ***!
-  \***************************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactFeatureFlags.js ***!
+  \****************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -7795,9 +7904,9 @@
 
 /***/ },
 /* 60 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactReconciler.js ***!
-  \*************************************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactReconciler.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -7816,7 +7925,7 @@
 	var ReactRef = __webpack_require__(/*! ./ReactRef */ 61);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	/**
 	 * Helper to call ReactRef.attachRefs with this composite component, split out
@@ -7839,20 +7948,19 @@
 	   * @final
 	   * @internal
 	   */
-	  mountComponent: function (internalInstance, transaction, hostParent, hostContainerInfo, context) {
+	  mountComponent: function (internalInstance, transaction, hostParent, hostContainerInfo, context, parentDebugID // 0 in production and for roots
+	  ) {
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onBeforeMountComponent(internalInstance._debugID, internalInstance._currentElement);
-	        ReactInstrumentation.debugTool.onBeginReconcilerTimer(internalInstance._debugID, 'mountComponent');
+	        ReactInstrumentation.debugTool.onBeforeMountComponent(internalInstance._debugID, internalInstance._currentElement, parentDebugID);
 	      }
 	    }
-	    var markup = internalInstance.mountComponent(transaction, hostParent, hostContainerInfo, context);
+	    var markup = internalInstance.mountComponent(transaction, hostParent, hostContainerInfo, context, parentDebugID);
 	    if (internalInstance._currentElement && internalInstance._currentElement.ref != null) {
 	      transaction.getReactMountReady().enqueue(attachRefs, internalInstance);
 	    }
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onEndReconcilerTimer(internalInstance._debugID, 'mountComponent');
 	        ReactInstrumentation.debugTool.onMountComponent(internalInstance._debugID);
 	      }
 	    }
@@ -7876,14 +7984,13 @@
 	  unmountComponent: function (internalInstance, safely) {
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onBeginReconcilerTimer(internalInstance._debugID, 'unmountComponent');
+	        ReactInstrumentation.debugTool.onBeforeUnmountComponent(internalInstance._debugID);
 	      }
 	    }
 	    ReactRef.detachRefs(internalInstance, internalInstance._currentElement);
 	    internalInstance.unmountComponent(safely);
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onEndReconcilerTimer(internalInstance._debugID, 'unmountComponent');
 	        ReactInstrumentation.debugTool.onUnmountComponent(internalInstance._debugID);
 	      }
 	    }
@@ -7918,7 +8025,6 @@
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
 	        ReactInstrumentation.debugTool.onBeforeUpdateComponent(internalInstance._debugID, nextElement);
-	        ReactInstrumentation.debugTool.onBeginReconcilerTimer(internalInstance._debugID, 'receiveComponent');
 	      }
 	    }
 	
@@ -7936,7 +8042,6 @@
 	
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onEndReconcilerTimer(internalInstance._debugID, 'receiveComponent');
 	        ReactInstrumentation.debugTool.onUpdateComponent(internalInstance._debugID);
 	      }
 	    }
@@ -7958,14 +8063,12 @@
 	    }
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onBeginReconcilerTimer(internalInstance._debugID, 'performUpdateIfNecessary');
 	        ReactInstrumentation.debugTool.onBeforeUpdateComponent(internalInstance._debugID, internalInstance._currentElement);
 	      }
 	    }
 	    internalInstance.performUpdateIfNecessary(transaction);
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (internalInstance._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onEndReconcilerTimer(internalInstance._debugID, 'performUpdateIfNecessary');
 	        ReactInstrumentation.debugTool.onUpdateComponent(internalInstance._debugID);
 	      }
 	    }
@@ -7974,13 +8077,13 @@
 	};
 	
 	module.exports = ReactReconciler;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 61 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactRef.js ***!
-  \******************************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactRef.js ***!
+  \*******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -8044,7 +8147,7 @@
 	  var prevEmpty = prevElement === null || prevElement === false;
 	  var nextEmpty = nextElement === null || nextElement === false;
 	
-	  return(
+	  return (
 	    // This has a few false positives w/r/t empty components.
 	    prevEmpty || nextEmpty || nextElement.ref !== prevElement.ref ||
 	    // If owner changes but we have an unchanged function ref, don't update refs
@@ -8066,9 +8169,9 @@
 
 /***/ },
 /* 62 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactOwner.js ***!
-  \********************************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactOwner.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8084,9 +8187,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * ReactOwners are capable of storing references to owned components.
@@ -8165,13 +8268,13 @@
 	};
 	
 	module.exports = ReactOwner;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 63 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactInstrumentation.js ***!
-  \******************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactInstrumentation.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8195,13 +8298,13 @@
 	}
 	
 	module.exports = { debugTool: debugTool };
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 64 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDebugTool.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDebugTool.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8217,29 +8320,35 @@
 	
 	'use strict';
 	
-	var ReactInvalidSetStateWarningDevTool = __webpack_require__(/*! ./ReactInvalidSetStateWarningDevTool */ 65);
-	var ReactHostOperationHistoryDevtool = __webpack_require__(/*! ./ReactHostOperationHistoryDevtool */ 66);
-	var ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
-	var ReactChildrenMutationWarningDevtool = __webpack_require__(/*! ./ReactChildrenMutationWarningDevtool */ 67);
+	var ReactInvalidSetStateWarningHook = __webpack_require__(/*! ./ReactInvalidSetStateWarningHook */ 65);
+	var ReactHostOperationHistoryHook = __webpack_require__(/*! ./ReactHostOperationHistoryHook */ 66);
+	var ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
+	var ReactChildrenMutationWarningHook = __webpack_require__(/*! ./ReactChildrenMutationWarningHook */ 67);
 	var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 50);
 	
 	var performanceNow = __webpack_require__(/*! fbjs/lib/performanceNow */ 68);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
-	var eventHandlers = [];
-	var handlerDoesThrowForEvent = {};
+	var hooks = [];
+	var didHookThrowForEvent = {};
 	
-	function emitEvent(handlerFunctionName, arg1, arg2, arg3, arg4, arg5) {
-	  eventHandlers.forEach(function (handler) {
-	    try {
-	      if (handler[handlerFunctionName]) {
-	        handler[handlerFunctionName](arg1, arg2, arg3, arg4, arg5);
-	      }
-	    } catch (e) {
-	      process.env.NODE_ENV !== 'production' ? warning(handlerDoesThrowForEvent[handlerFunctionName], 'exception thrown by devtool while handling %s: %s', handlerFunctionName, e + '\n' + e.stack) : void 0;
-	      handlerDoesThrowForEvent[handlerFunctionName] = true;
+	function callHook(event, fn, context, arg1, arg2, arg3, arg4, arg5) {
+	  try {
+	    fn.call(context, arg1, arg2, arg3, arg4, arg5);
+	  } catch (e) {
+	    process.env.NODE_ENV !== 'production' ? warning(didHookThrowForEvent[event], 'Exception thrown by hook while handling %s: %s', event, e + '\n' + e.stack) : void 0;
+	    didHookThrowForEvent[event] = true;
+	  }
+	}
+	
+	function emitEvent(event, arg1, arg2, arg3, arg4, arg5) {
+	  for (var i = 0; i < hooks.length; i++) {
+	    var hook = hooks[i];
+	    var fn = hook[event];
+	    if (fn) {
+	      callHook(event, fn, hook, arg1, arg2, arg3, arg4, arg5);
 	    }
-	  });
+	  }
 	}
 	
 	var isProfiling = false;
@@ -8256,21 +8365,21 @@
 	var lifeCycleTimerHasWarned = false;
 	
 	function clearHistory() {
-	  ReactComponentTreeDevtool.purgeUnmountedComponents();
-	  ReactHostOperationHistoryDevtool.clearHistory();
+	  ReactComponentTreeHook.purgeUnmountedComponents();
+	  ReactHostOperationHistoryHook.clearHistory();
 	}
 	
 	function getTreeSnapshot(registeredIDs) {
 	  return registeredIDs.reduce(function (tree, id) {
-	    var ownerID = ReactComponentTreeDevtool.getOwnerID(id);
-	    var parentID = ReactComponentTreeDevtool.getParentID(id);
+	    var ownerID = ReactComponentTreeHook.getOwnerID(id);
+	    var parentID = ReactComponentTreeHook.getParentID(id);
 	    tree[id] = {
-	      displayName: ReactComponentTreeDevtool.getDisplayName(id),
-	      text: ReactComponentTreeDevtool.getText(id),
-	      updateCount: ReactComponentTreeDevtool.getUpdateCount(id),
-	      childIDs: ReactComponentTreeDevtool.getChildIDs(id),
+	      displayName: ReactComponentTreeHook.getDisplayName(id),
+	      text: ReactComponentTreeHook.getText(id),
+	      updateCount: ReactComponentTreeHook.getUpdateCount(id),
+	      childIDs: ReactComponentTreeHook.getChildIDs(id),
 	      // Text nodes don't have owners but this is close enough.
-	      ownerID: ownerID || ReactComponentTreeDevtool.getOwnerID(parentID),
+	      ownerID: ownerID || ReactComponentTreeHook.getOwnerID(parentID),
 	      parentID: parentID
 	    };
 	    return tree;
@@ -8280,7 +8389,7 @@
 	function resetMeasurements() {
 	  var previousStartTime = currentFlushStartTime;
 	  var previousMeasurements = currentFlushMeasurements || [];
-	  var previousOperations = ReactHostOperationHistoryDevtool.getHistory();
+	  var previousOperations = ReactHostOperationHistoryHook.getHistory();
 	
 	  if (currentFlushNesting === 0) {
 	    currentFlushStartTime = null;
@@ -8290,7 +8399,7 @@
 	  }
 	
 	  if (previousMeasurements.length || previousOperations.length) {
-	    var registeredIDs = ReactComponentTreeDevtool.getRegisteredIDs();
+	    var registeredIDs = ReactComponentTreeHook.getRegisteredIDs();
 	    flushHistory.push({
 	      duration: performanceNow() - previousStartTime,
 	      measurements: previousMeasurements || [],
@@ -8305,7 +8414,14 @@
 	}
 	
 	function checkDebugID(debugID) {
-	  process.env.NODE_ENV !== 'production' ? warning(debugID, 'ReactDebugTool: debugID may not be empty.') : void 0;
+	  var allowRoot = arguments.length <= 1 || arguments[1] === undefined ? false : arguments[1];
+	
+	  if (allowRoot && debugID === 0) {
+	    return;
+	  }
+	  if (!debugID) {
+	    process.env.NODE_ENV !== 'production' ? warning(false, 'ReactDebugTool: debugID may not be empty.') : void 0;
+	  }
 	}
 	
 	function beginLifeCycleTimer(debugID, timerType) {
@@ -8373,13 +8489,13 @@
 	}
 	
 	var ReactDebugTool = {
-	  addDevtool: function (devtool) {
-	    eventHandlers.push(devtool);
+	  addHook: function (hook) {
+	    hooks.push(hook);
 	  },
-	  removeDevtool: function (devtool) {
-	    for (var i = 0; i < eventHandlers.length; i++) {
-	      if (eventHandlers[i] === devtool) {
-	        eventHandlers.splice(i, 1);
+	  removeHook: function (hook) {
+	    for (var i = 0; i < hooks.length; i++) {
+	      if (hooks[i] === hook) {
+	        hooks.splice(i, 1);
 	        i--;
 	      }
 	    }
@@ -8395,7 +8511,7 @@
 	    isProfiling = true;
 	    flushHistory.length = 0;
 	    resetMeasurements();
-	    ReactDebugTool.addDevtool(ReactHostOperationHistoryDevtool);
+	    ReactDebugTool.addHook(ReactHostOperationHistoryHook);
 	  },
 	  endProfiling: function () {
 	    if (!isProfiling) {
@@ -8404,7 +8520,7 @@
 	
 	    isProfiling = false;
 	    resetMeasurements();
-	    ReactDebugTool.removeDevtool(ReactHostOperationHistoryDevtool);
+	    ReactDebugTool.removeHook(ReactHostOperationHistoryHook);
 	  },
 	  getFlushHistory: function () {
 	    return flushHistory;
@@ -8431,14 +8547,6 @@
 	    endLifeCycleTimer(debugID, timerType);
 	    emitEvent('onEndLifeCycleTimer', debugID, timerType);
 	  },
-	  onBeginReconcilerTimer: function (debugID, timerType) {
-	    checkDebugID(debugID);
-	    emitEvent('onBeginReconcilerTimer', debugID, timerType);
-	  },
-	  onEndReconcilerTimer: function (debugID, timerType) {
-	    checkDebugID(debugID);
-	    emitEvent('onEndReconcilerTimer', debugID, timerType);
-	  },
 	  onError: function (debugID) {
 	    if (currentTimerDebugID != null) {
 	      endLifeCycleTimer(currentTimerDebugID, currentTimerType);
@@ -8455,45 +8563,18 @@
 	    checkDebugID(debugID);
 	    emitEvent('onHostOperation', debugID, type, payload);
 	  },
-	  onComponentHasMounted: function (debugID) {
-	    checkDebugID(debugID);
-	    emitEvent('onComponentHasMounted', debugID);
-	  },
-	  onComponentHasUpdated: function (debugID) {
-	    checkDebugID(debugID);
-	    emitEvent('onComponentHasUpdated', debugID);
-	  },
 	  onSetState: function () {
 	    emitEvent('onSetState');
-	  },
-	  onSetDisplayName: function (debugID, displayName) {
-	    checkDebugID(debugID);
-	    emitEvent('onSetDisplayName', debugID, displayName);
 	  },
 	  onSetChildren: function (debugID, childDebugIDs) {
 	    checkDebugID(debugID);
 	    childDebugIDs.forEach(checkDebugID);
 	    emitEvent('onSetChildren', debugID, childDebugIDs);
 	  },
-	  onSetOwner: function (debugID, ownerDebugID) {
+	  onBeforeMountComponent: function (debugID, element, parentDebugID) {
 	    checkDebugID(debugID);
-	    emitEvent('onSetOwner', debugID, ownerDebugID);
-	  },
-	  onSetParent: function (debugID, parentDebugID) {
-	    checkDebugID(debugID);
-	    emitEvent('onSetParent', debugID, parentDebugID);
-	  },
-	  onSetText: function (debugID, text) {
-	    checkDebugID(debugID);
-	    emitEvent('onSetText', debugID, text);
-	  },
-	  onMountRootComponent: function (debugID) {
-	    checkDebugID(debugID);
-	    emitEvent('onMountRootComponent', debugID);
-	  },
-	  onBeforeMountComponent: function (debugID, element) {
-	    checkDebugID(debugID);
-	    emitEvent('onBeforeMountComponent', debugID, element);
+	    checkDebugID(parentDebugID, true);
+	    emitEvent('onBeforeMountComponent', debugID, element, parentDebugID);
 	  },
 	  onMountComponent: function (debugID) {
 	    checkDebugID(debugID);
@@ -8507,6 +8588,10 @@
 	    checkDebugID(debugID);
 	    emitEvent('onUpdateComponent', debugID);
 	  },
+	  onBeforeUnmountComponent: function (debugID) {
+	    checkDebugID(debugID);
+	    emitEvent('onBeforeUnmountComponent', debugID);
+	  },
 	  onUnmountComponent: function (debugID) {
 	    checkDebugID(debugID);
 	    emitEvent('onUnmountComponent', debugID);
@@ -8516,22 +8601,26 @@
 	  }
 	};
 	
-	ReactDebugTool.addDevtool(ReactInvalidSetStateWarningDevTool);
-	ReactDebugTool.addDevtool(ReactComponentTreeDevtool);
-	ReactDebugTool.addDevtool(ReactChildrenMutationWarningDevtool);
+	// TODO remove these when RN/www gets updated
+	ReactDebugTool.addDevtool = ReactDebugTool.addHook;
+	ReactDebugTool.removeDevtool = ReactDebugTool.removeHook;
+	
+	ReactDebugTool.addHook(ReactInvalidSetStateWarningHook);
+	ReactDebugTool.addHook(ReactComponentTreeHook);
+	ReactDebugTool.addHook(ReactChildrenMutationWarningHook);
 	var url = ExecutionEnvironment.canUseDOM && window.location.href || '';
 	if (/[?&]react_perf\b/.test(url)) {
 	  ReactDebugTool.beginProfiling();
 	}
 	
 	module.exports = ReactDebugTool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 65 */
-/*!********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactInvalidSetStateWarningDevTool.js ***!
-  \********************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactInvalidSetStateWarningHook.js ***!
+  \******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8542,12 +8631,12 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * @providesModule ReactInvalidSetStateWarningDevTool
+	 * @providesModule ReactInvalidSetStateWarningHook
 	 */
 	
 	'use strict';
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	if (process.env.NODE_ENV !== 'production') {
 	  var processingChildContext = false;
@@ -8557,7 +8646,7 @@
 	  };
 	}
 	
-	var ReactInvalidSetStateWarningDevTool = {
+	var ReactInvalidSetStateWarningHook = {
 	  onBeginProcessingChildContext: function () {
 	    processingChildContext = true;
 	  },
@@ -8569,14 +8658,14 @@
 	  }
 	};
 	
-	module.exports = ReactInvalidSetStateWarningDevTool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	module.exports = ReactInvalidSetStateWarningHook;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 66 */
-/*!******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactHostOperationHistoryDevtool.js ***!
-  \******************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactHostOperationHistoryHook.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -8587,14 +8676,14 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * @providesModule ReactHostOperationHistoryDevtool
+	 * @providesModule ReactHostOperationHistoryHook
 	 */
 	
 	'use strict';
 	
 	var history = [];
 	
-	var ReactHostOperationHistoryDevtool = {
+	var ReactHostOperationHistoryHook = {
 	  onHostOperation: function (debugID, type, payload) {
 	    history.push({
 	      instanceID: debugID,
@@ -8603,7 +8692,7 @@
 	    });
 	  },
 	  clearHistory: function () {
-	    if (ReactHostOperationHistoryDevtool._preventClearing) {
+	    if (ReactHostOperationHistoryHook._preventClearing) {
 	      // Should only be used for tests.
 	      return;
 	    }
@@ -8615,13 +8704,13 @@
 	  }
 	};
 	
-	module.exports = ReactHostOperationHistoryDevtool;
+	module.exports = ReactHostOperationHistoryHook;
 
 /***/ },
 /* 67 */
-/*!*********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactChildrenMutationWarningDevtool.js ***!
-  \*********************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactChildrenMutationWarningHook.js ***!
+  \*******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8632,16 +8721,14 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * @providesModule ReactChildrenMutationWarningDevtool
+	 * @providesModule ReactChildrenMutationWarningHook
 	 */
 	
 	'use strict';
 	
-	var ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	var ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
-	
-	var elements = {};
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	function handleElement(debugID, element) {
 	  if (element == null) {
@@ -8665,34 +8752,28 @@
 	      isMutated = true;
 	    }
 	  }
-	  process.env.NODE_ENV !== 'production' ? warning(Array.isArray(element._shadowChildren) && !isMutated, 'Component\'s children should not be mutated.%s', ReactComponentTreeDevtool.getStackAddendumByID(debugID)) : void 0;
+	  if (!Array.isArray(element._shadowChildren) || isMutated) {
+	    process.env.NODE_ENV !== 'production' ? warning(false, 'Component\'s children should not be mutated.%s', ReactComponentTreeHook.getStackAddendumByID(debugID)) : void 0;
+	  }
 	}
 	
-	var ReactDOMUnknownPropertyDevtool = {
-	  onBeforeMountComponent: function (debugID, element) {
-	    elements[debugID] = element;
+	var ReactChildrenMutationWarningHook = {
+	  onMountComponent: function (debugID) {
+	    handleElement(debugID, ReactComponentTreeHook.getElement(debugID));
 	  },
-	  onBeforeUpdateComponent: function (debugID, element) {
-	    elements[debugID] = element;
-	  },
-	  onComponentHasMounted: function (debugID) {
-	    handleElement(debugID, elements[debugID]);
-	    delete elements[debugID];
-	  },
-	  onComponentHasUpdated: function (debugID) {
-	    handleElement(debugID, elements[debugID]);
-	    delete elements[debugID];
+	  onUpdateComponent: function (debugID) {
+	    handleElement(debugID, ReactComponentTreeHook.getElement(debugID));
 	  }
 	};
 	
-	module.exports = ReactDOMUnknownPropertyDevtool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	module.exports = ReactChildrenMutationWarningHook;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 68 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/performanceNow.js ***!
-  \***********************************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/performanceNow.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8731,9 +8812,9 @@
 
 /***/ },
 /* 69 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/performance.js ***!
-  \********************************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/performance.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -8761,9 +8842,9 @@
 
 /***/ },
 /* 70 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/Transaction.js ***!
-  \*********************************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/Transaction.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8779,9 +8860,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * `Transaction` creates a black box that is able to wrap any method such that
@@ -8999,13 +9080,13 @@
 	};
 	
 	module.exports = Transaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 71 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getEventTarget.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getEventTarget.js ***!
+  \*************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -9046,9 +9127,9 @@
 
 /***/ },
 /* 72 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/isEventSupported.js ***!
-  \**************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/isEventSupported.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9114,9 +9195,9 @@
 
 /***/ },
 /* 73 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/isTextInputElement.js ***!
-  \****************************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/isTextInputElement.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -9173,9 +9254,9 @@
 
 /***/ },
 /* 74 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DefaultEventPluginOrder.js ***!
-  \*********************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DefaultEventPluginOrder.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9191,7 +9272,7 @@
 	
 	'use strict';
 	
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
 	
 	/**
 	 * Module that is injectable into `EventPluginHub`, that specifies a
@@ -9208,9 +9289,9 @@
 
 /***/ },
 /* 75 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/EnterLeaveEventPlugin.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/EnterLeaveEventPlugin.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9231,7 +9312,7 @@
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
 	var SyntheticMouseEvent = __webpack_require__(/*! ./SyntheticMouseEvent */ 76);
 	
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
 	
 	var topLevelTypes = EventConstants.topLevelTypes;
 	
@@ -9321,9 +9402,9 @@
 
 /***/ },
 /* 76 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticMouseEvent.js ***!
-  \*****************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticMouseEvent.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9401,9 +9482,9 @@
 
 /***/ },
 /* 77 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticUIEvent.js ***!
-  \**************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticUIEvent.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9468,9 +9549,9 @@
 
 /***/ },
 /* 78 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ViewportMetrics.js ***!
-  \*************************************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ViewportMetrics.js ***!
+  \**************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -9503,9 +9584,9 @@
 
 /***/ },
 /* 79 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getEventModifierState.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getEventModifierState.js ***!
+  \********************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -9554,9 +9635,9 @@
 
 /***/ },
 /* 80 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/HTMLDOMPropertyConfig.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/HTMLDOMPropertyConfig.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9771,9 +9852,9 @@
 
 /***/ },
 /* 81 */
-/*!******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactComponentBrowserEnvironment.js ***!
-  \******************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactComponentBrowserEnvironment.js ***!
+  \*******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9801,16 +9882,7 @@
 	
 	  processChildrenUpdates: ReactDOMIDOperations.dangerouslyProcessChildrenUpdates,
 	
-	  replaceNodeWithMarkup: DOMChildrenOperations.dangerouslyReplaceNodeWithMarkup,
-	
-	  /**
-	   * If a particular environment requires that some resources be cleaned up,
-	   * specify this in the injected Mixin. In the DOM, we would likely want to
-	   * purge any cached node ID lookups.
-	   *
-	   * @private
-	   */
-	  unmountIDFromEnvironment: function (rootNodeID) {}
+	  replaceNodeWithMarkup: DOMChildrenOperations.dangerouslyReplaceNodeWithMarkup
 	
 	};
 	
@@ -9818,9 +9890,9 @@
 
 /***/ },
 /* 82 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DOMChildrenOperations.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DOMChildrenOperations.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -10017,13 +10089,13 @@
 	};
 	
 	module.exports = DOMChildrenOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 83 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DOMLazyTree.js ***!
-  \*********************************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DOMLazyTree.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10147,9 +10219,9 @@
 
 /***/ },
 /* 84 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DOMNamespaces.js ***!
-  \***********************************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DOMNamespaces.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -10175,9 +10247,9 @@
 
 /***/ },
 /* 85 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/setInnerHTML.js ***!
-  \**********************************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/setInnerHTML.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10281,9 +10353,9 @@
 
 /***/ },
 /* 86 */
-/*!********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/createMicrosoftUnsafeLocalFunction.js ***!
-  \********************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/createMicrosoftUnsafeLocalFunction.js ***!
+  \*********************************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -10321,9 +10393,9 @@
 
 /***/ },
 /* 87 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/setTextContent.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/setTextContent.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10377,9 +10449,9 @@
 
 /***/ },
 /* 88 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/escapeTextContentForBrowser.js ***!
-  \*************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/escapeTextContentForBrowser.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -10487,6 +10559,7 @@
 	}
 	// end code copied and modified from escape-html
 	
+	
 	/**
 	 * Escapes text to prevent scripting attacks.
 	 *
@@ -10507,9 +10580,9 @@
 
 /***/ },
 /* 89 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/Danger.js ***!
-  \****************************************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/Danger.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -10525,14 +10598,14 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 83);
 	var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 50);
 	
 	var createNodesFromMarkup = __webpack_require__(/*! fbjs/lib/createNodesFromMarkup */ 90);
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	var Danger = {
 	
@@ -10560,13 +10633,13 @@
 	};
 	
 	module.exports = Danger;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 90 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/createNodesFromMarkup.js ***!
-  \******************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/createNodesFromMarkup.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -10588,7 +10661,7 @@
 	
 	var createArrayFromMixed = __webpack_require__(/*! ./createArrayFromMixed */ 91);
 	var getMarkupWrap = __webpack_require__(/*! ./getMarkupWrap */ 92);
-	var invariant = __webpack_require__(/*! ./invariant */ 8);
+	var invariant = __webpack_require__(/*! ./invariant */ 9);
 	
 	/**
 	 * Dummy container used to render all markup.
@@ -10652,13 +10725,13 @@
 	}
 	
 	module.exports = createNodesFromMarkup;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 91 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/createArrayFromMixed.js ***!
-  \*****************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/createArrayFromMixed.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -10674,7 +10747,7 @@
 	 * @typechecks
 	 */
 	
-	var invariant = __webpack_require__(/*! ./invariant */ 8);
+	var invariant = __webpack_require__(/*! ./invariant */ 9);
 	
 	/**
 	 * Convert array-like objects to arrays.
@@ -10734,7 +10807,7 @@
 	 * @return {boolean}
 	 */
 	function hasArrayNature(obj) {
-	  return(
+	  return (
 	    // not null/false
 	    !!obj && (
 	    // arrays are objects, NodeLists are functions in Safari
@@ -10787,13 +10860,13 @@
 	}
 	
 	module.exports = createArrayFromMixed;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 92 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/getMarkupWrap.js ***!
-  \**********************************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/getMarkupWrap.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -10812,7 +10885,7 @@
 	
 	var ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 50);
 	
-	var invariant = __webpack_require__(/*! ./invariant */ 8);
+	var invariant = __webpack_require__(/*! ./invariant */ 9);
 	
 	/**
 	 * Dummy container used to detect which wraps are necessary.
@@ -10890,13 +10963,13 @@
 	}
 	
 	module.exports = getMarkupWrap;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 93 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactMultiChildUpdateTypes.js ***!
-  \************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactMultiChildUpdateTypes.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10912,7 +10985,7 @@
 	
 	'use strict';
 	
-	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 23);
+	var keyMirror = __webpack_require__(/*! fbjs/lib/keyMirror */ 24);
 	
 	/**
 	 * When a component's children are updated, a series of update configuration
@@ -10934,9 +11007,9 @@
 
 /***/ },
 /* 94 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMIDOperations.js ***!
-  \******************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMIDOperations.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10976,9 +11049,9 @@
 
 /***/ },
 /* 95 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMComponent.js ***!
-  \***************************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMComponent.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -10996,8 +11069,8 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var AutoFocusUtils = __webpack_require__(/*! ./AutoFocusUtils */ 96);
 	var CSSPropertyOperations = __webpack_require__(/*! ./CSSPropertyOperations */ 98);
@@ -11008,27 +11081,26 @@
 	var EventConstants = __webpack_require__(/*! ./EventConstants */ 42);
 	var EventPluginHub = __webpack_require__(/*! ./EventPluginHub */ 44);
 	var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 45);
-	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 112);
-	var ReactComponentBrowserEnvironment = __webpack_require__(/*! ./ReactComponentBrowserEnvironment */ 81);
-	var ReactDOMButton = __webpack_require__(/*! ./ReactDOMButton */ 115);
+	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 108);
+	var ReactDOMButton = __webpack_require__(/*! ./ReactDOMButton */ 111);
 	var ReactDOMComponentFlags = __webpack_require__(/*! ./ReactDOMComponentFlags */ 39);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactDOMInput = __webpack_require__(/*! ./ReactDOMInput */ 117);
-	var ReactDOMOption = __webpack_require__(/*! ./ReactDOMOption */ 119);
-	var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 120);
-	var ReactDOMTextarea = __webpack_require__(/*! ./ReactDOMTextarea */ 121);
+	var ReactDOMInput = __webpack_require__(/*! ./ReactDOMInput */ 113);
+	var ReactDOMOption = __webpack_require__(/*! ./ReactDOMOption */ 115);
+	var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 116);
+	var ReactDOMTextarea = __webpack_require__(/*! ./ReactDOMTextarea */ 117);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
-	var ReactMultiChild = __webpack_require__(/*! ./ReactMultiChild */ 122);
-	var ReactServerRenderingTransaction = __webpack_require__(/*! ./ReactServerRenderingTransaction */ 134);
+	var ReactMultiChild = __webpack_require__(/*! ./ReactMultiChild */ 118);
+	var ReactServerRenderingTransaction = __webpack_require__(/*! ./ReactServerRenderingTransaction */ 130);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
 	var escapeTextContentForBrowser = __webpack_require__(/*! ./escapeTextContentForBrowser */ 88);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 72);
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
-	var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 129);
-	var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 137);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
+	var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 125);
+	var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 133);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var Flags = ReactDOMComponentFlags;
 	var deleteListener = EventPluginHub.deleteListener;
@@ -11184,7 +11256,8 @@
 	  setContentChildForInstrumentation = function (content) {
 	    var hasExistingContent = this._contentDebugID != null;
 	    var debugID = this._debugID;
-	    var contentDebugID = debugID + '#text';
+	    // This ID represents the inlined child that has no backing instance:
+	    var contentDebugID = -debugID;
 	
 	    if (content == null) {
 	      if (hasExistingContent) {
@@ -11195,17 +11268,11 @@
 	    }
 	
 	    this._contentDebugID = contentDebugID;
-	    var text = '' + content;
-	
-	    ReactInstrumentation.debugTool.onSetDisplayName(contentDebugID, '#text');
-	    ReactInstrumentation.debugTool.onSetParent(contentDebugID, debugID);
-	    ReactInstrumentation.debugTool.onSetText(contentDebugID, text);
-	
 	    if (hasExistingContent) {
 	      ReactInstrumentation.debugTool.onBeforeUpdateComponent(contentDebugID, content);
 	      ReactInstrumentation.debugTool.onUpdateComponent(contentDebugID);
 	    } else {
-	      ReactInstrumentation.debugTool.onBeforeMountComponent(contentDebugID, content);
+	      ReactInstrumentation.debugTool.onBeforeMountComponent(contentDebugID, content, debugID);
 	      ReactInstrumentation.debugTool.onMountComponent(contentDebugID);
 	      ReactInstrumentation.debugTool.onSetChildren(debugID, [contentDebugID]);
 	    }
@@ -11366,8 +11433,8 @@
 	  this._previousStyleCopy = null;
 	  this._hostNode = null;
 	  this._hostParent = null;
-	  this._rootNodeID = null;
-	  this._domID = null;
+	  this._rootNodeID = 0;
+	  this._domID = 0;
 	  this._hostContainerInfo = null;
 	  this._wrapperState = null;
 	  this._topLevelWrapper = null;
@@ -11388,14 +11455,12 @@
 	   *
 	   * @internal
 	   * @param {ReactReconcileTransaction|ReactServerRenderingTransaction} transaction
-	   * @param {?ReactDOMComponent} the containing DOM component instance
+	   * @param {?ReactDOMComponent} the parent component instance
 	   * @param {?object} info about the host container
 	   * @param {object} context
 	   * @return {string} The computed markup.
 	   */
 	  mountComponent: function (transaction, hostParent, hostContainerInfo, context) {
-	    var _this = this;
-	
 	    this._rootNodeID = globalIdCounter++;
 	    this._domID = hostContainerInfo._idCounter++;
 	    this._hostParent = hostParent;
@@ -11549,15 +11614,6 @@
 	      case 'option':
 	        transaction.getReactMountReady().enqueue(optionPostMount, this);
 	        break;
-	    }
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      if (this._debugID) {
-	        var callback = function () {
-	          return ReactInstrumentation.debugTool.onComponentHasMounted(_this._debugID);
-	        };
-	        transaction.getReactMountReady().enqueue(callback, this);
-	      }
 	    }
 	
 	    return mountImage;
@@ -11728,8 +11784,6 @@
 	   * @overridable
 	   */
 	  updateComponent: function (transaction, prevElement, nextElement, context) {
-	    var _this2 = this;
-	
 	    var lastProps = prevElement.props;
 	    var nextProps = this._currentElement.props;
 	
@@ -11739,7 +11793,6 @@
 	        nextProps = ReactDOMButton.getHostProps(this, nextProps);
 	        break;
 	      case 'input':
-	        ReactDOMInput.updateWrapper(this);
 	        lastProps = ReactDOMInput.getHostProps(this, lastProps);
 	        nextProps = ReactDOMInput.getHostProps(this, nextProps);
 	        break;
@@ -11752,7 +11805,6 @@
 	        nextProps = ReactDOMSelect.getHostProps(this, nextProps);
 	        break;
 	      case 'textarea':
-	        ReactDOMTextarea.updateWrapper(this);
 	        lastProps = ReactDOMTextarea.getHostProps(this, lastProps);
 	        nextProps = ReactDOMTextarea.getHostProps(this, nextProps);
 	        break;
@@ -11762,19 +11814,21 @@
 	    this._updateDOMProperties(lastProps, nextProps, transaction);
 	    this._updateDOMChildren(lastProps, nextProps, transaction, context);
 	
-	    if (this._tag === 'select') {
-	      // <select> value update needs to occur after <option> children
-	      // reconciliation
-	      transaction.getReactMountReady().enqueue(postUpdateSelectWrapper, this);
-	    }
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      if (this._debugID) {
-	        var callback = function () {
-	          return ReactInstrumentation.debugTool.onComponentHasUpdated(_this2._debugID);
-	        };
-	        transaction.getReactMountReady().enqueue(callback, this);
-	      }
+	    switch (this._tag) {
+	      case 'input':
+	        // Update the wrapper around inputs *after* updating props. This has to
+	        // happen after `_updateDOMProperties`. Otherwise HTML5 input validations
+	        // raise warnings and prevent the new value from being assigned.
+	        ReactDOMInput.updateWrapper(this);
+	        break;
+	      case 'textarea':
+	        ReactDOMTextarea.updateWrapper(this);
+	        break;
+	      case 'select':
+	        // <select> value update needs to occur after <option> children
+	        // reconciliation
+	        transaction.getReactMountReady().enqueue(postUpdateSelectWrapper, this);
+	        break;
 	    }
 	  },
 	
@@ -11987,9 +12041,8 @@
 	    this.unmountChildren(safely);
 	    ReactDOMComponentTree.uncacheNode(this);
 	    EventPluginHub.deleteAllListeners(this);
-	    ReactComponentBrowserEnvironment.unmountIDFromEnvironment(this._rootNodeID);
-	    this._rootNodeID = null;
-	    this._domID = null;
+	    this._rootNodeID = 0;
+	    this._domID = 0;
 	    this._wrapperState = null;
 	
 	    if (process.env.NODE_ENV !== 'production') {
@@ -12006,13 +12059,13 @@
 	_assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mixin);
 	
 	module.exports = ReactDOMComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 96 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/AutoFocusUtils.js ***!
-  \************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/AutoFocusUtils.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12042,9 +12095,9 @@
 
 /***/ },
 /* 97 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/focusNode.js ***!
-  \******************************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/focusNode.js ***!
+  \*******************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -12076,9 +12129,9 @@
 
 /***/ },
 /* 98 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/CSSPropertyOperations.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/CSSPropertyOperations.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12102,7 +12155,7 @@
 	var dangerousStyleValue = __webpack_require__(/*! ./dangerousStyleValue */ 102);
 	var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ 103);
 	var memoizeStringOnly = __webpack_require__(/*! fbjs/lib/memoizeStringOnly */ 105);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var processStyleName = memoizeStringOnly(function (styleName) {
 	  return hyphenateStyleName(styleName);
@@ -12286,13 +12339,13 @@
 	};
 	
 	module.exports = CSSPropertyOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 99 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/CSSProperty.js ***!
-  \*********************************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/CSSProperty.js ***!
+  \**********************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -12446,9 +12499,9 @@
 
 /***/ },
 /* 100 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/camelizeStyleName.js ***!
-  \**************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/camelizeStyleName.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12493,9 +12546,9 @@
 
 /***/ },
 /* 101 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/camelize.js ***!
-  \*****************************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/camelize.js ***!
+  \******************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -12532,9 +12585,9 @@
 
 /***/ },
 /* 102 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/dangerousStyleValue.js ***!
-  \*****************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/dangerousStyleValue.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12551,7 +12604,7 @@
 	'use strict';
 	
 	var CSSProperty = __webpack_require__(/*! ./CSSProperty */ 99);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var isUnitlessNumber = CSSProperty.isUnitlessNumber;
 	var styleWarnings = {};
@@ -12616,13 +12669,13 @@
 	}
 	
 	module.exports = dangerousStyleValue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 103 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/hyphenateStyleName.js ***!
-  \***************************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/hyphenateStyleName.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12666,9 +12719,9 @@
 
 /***/ },
 /* 104 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/hyphenate.js ***!
-  \******************************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/hyphenate.js ***!
+  \*******************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -12706,9 +12759,9 @@
 
 /***/ },
 /* 105 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/memoizeStringOnly.js ***!
-  \**************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/memoizeStringOnly.js ***!
+  \***************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -12743,9 +12796,9 @@
 
 /***/ },
 /* 106 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DOMPropertyOperations.js ***!
-  \*******************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DOMPropertyOperations.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12763,11 +12816,10 @@
 	
 	var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 38);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactDOMInstrumentation = __webpack_require__(/*! ./ReactDOMInstrumentation */ 107);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
 	
-	var quoteAttributeValueForBrowser = __webpack_require__(/*! ./quoteAttributeValueForBrowser */ 111);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var quoteAttributeValueForBrowser = __webpack_require__(/*! ./quoteAttributeValueForBrowser */ 107);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
 	var illegalAttributeNameCache = {};
@@ -12828,9 +12880,6 @@
 	   * @return {?string} Markup string, or null if the property was invalid.
 	   */
 	  createMarkupForProperty: function (name, value) {
-	    if (process.env.NODE_ENV !== 'production') {
-	      ReactDOMInstrumentation.debugTool.onCreateMarkupForProperty(name, value);
-	    }
 	    var propertyInfo = DOMProperty.properties.hasOwnProperty(name) ? DOMProperty.properties[name] : null;
 	    if (propertyInfo) {
 	      if (shouldIgnoreValue(propertyInfo, value)) {
@@ -12903,7 +12952,6 @@
 	    }
 	
 	    if (process.env.NODE_ENV !== 'production') {
-	      ReactDOMInstrumentation.debugTool.onSetValueForProperty(node, name, value);
 	      var payload = {};
 	      payload[name] = value;
 	      ReactInstrumentation.debugTool.onHostOperation(ReactDOMComponentTree.getInstanceFromNode(node)._debugID, 'update attribute', payload);
@@ -12936,7 +12984,6 @@
 	  deleteValueForAttribute: function (node, name) {
 	    node.removeAttribute(name);
 	    if (process.env.NODE_ENV !== 'production') {
-	      ReactDOMInstrumentation.debugTool.onDeleteValueForProperty(node, name);
 	      ReactInstrumentation.debugTool.onHostOperation(ReactDOMComponentTree.getInstanceFromNode(node)._debugID, 'remove attribute', name);
 	    }
 	  },
@@ -12968,7 +13015,6 @@
 	    }
 	
 	    if (process.env.NODE_ENV !== 'production') {
-	      ReactDOMInstrumentation.debugTool.onDeleteValueForProperty(node, name);
 	      ReactInstrumentation.debugTool.onHostOperation(ReactDOMComponentTree.getInstanceFromNode(node)._debugID, 'remove attribute', name);
 	    }
 	  }
@@ -12976,292 +13022,13 @@
 	};
 	
 	module.exports = DOMPropertyOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
 /* 107 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMInstrumentation.js ***!
-  \*********************************************************************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * @providesModule ReactDOMInstrumentation
-	 */
-	
-	'use strict';
-	
-	var debugTool = null;
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  var ReactDOMDebugTool = __webpack_require__(/*! ./ReactDOMDebugTool */ 108);
-	  debugTool = ReactDOMDebugTool;
-	}
-	
-	module.exports = { debugTool: debugTool };
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
-
-/***/ },
-/* 108 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMDebugTool.js ***!
-  \***************************************************************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * @providesModule ReactDOMDebugTool
-	 */
-	
-	'use strict';
-	
-	var ReactDOMNullInputValuePropDevtool = __webpack_require__(/*! ./ReactDOMNullInputValuePropDevtool */ 109);
-	var ReactDOMUnknownPropertyDevtool = __webpack_require__(/*! ./ReactDOMUnknownPropertyDevtool */ 110);
-	var ReactDebugTool = __webpack_require__(/*! ./ReactDebugTool */ 64);
-	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
-	
-	var eventHandlers = [];
-	var handlerDoesThrowForEvent = {};
-	
-	function emitEvent(handlerFunctionName, arg1, arg2, arg3, arg4, arg5) {
-	  eventHandlers.forEach(function (handler) {
-	    try {
-	      if (handler[handlerFunctionName]) {
-	        handler[handlerFunctionName](arg1, arg2, arg3, arg4, arg5);
-	      }
-	    } catch (e) {
-	      process.env.NODE_ENV !== 'production' ? warning(handlerDoesThrowForEvent[handlerFunctionName], 'exception thrown by devtool while handling %s: %s', handlerFunctionName, e + '\n' + e.stack) : void 0;
-	      handlerDoesThrowForEvent[handlerFunctionName] = true;
-	    }
-	  });
-	}
-	
-	var ReactDOMDebugTool = {
-	  addDevtool: function (devtool) {
-	    ReactDebugTool.addDevtool(devtool);
-	    eventHandlers.push(devtool);
-	  },
-	  removeDevtool: function (devtool) {
-	    ReactDebugTool.removeDevtool(devtool);
-	    for (var i = 0; i < eventHandlers.length; i++) {
-	      if (eventHandlers[i] === devtool) {
-	        eventHandlers.splice(i, 1);
-	        i--;
-	      }
-	    }
-	  },
-	  onCreateMarkupForProperty: function (name, value) {
-	    emitEvent('onCreateMarkupForProperty', name, value);
-	  },
-	  onSetValueForProperty: function (node, name, value) {
-	    emitEvent('onSetValueForProperty', node, name, value);
-	  },
-	  onDeleteValueForProperty: function (node, name) {
-	    emitEvent('onDeleteValueForProperty', node, name);
-	  },
-	  onTestEvent: function () {
-	    emitEvent('onTestEvent');
-	  }
-	};
-	
-	ReactDOMDebugTool.addDevtool(ReactDOMUnknownPropertyDevtool);
-	ReactDOMDebugTool.addDevtool(ReactDOMNullInputValuePropDevtool);
-	
-	module.exports = ReactDOMDebugTool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
-
-/***/ },
-/* 109 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMNullInputValuePropDevtool.js ***!
-  \*******************************************************************************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * @providesModule ReactDOMNullInputValuePropDevtool
-	 */
-	
-	'use strict';
-	
-	var ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
-	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
-	
-	var didWarnValueNull = false;
-	
-	function handleElement(debugID, element) {
-	  if (element == null) {
-	    return;
-	  }
-	  if (element.type !== 'input' && element.type !== 'textarea' && element.type !== 'select') {
-	    return;
-	  }
-	  if (element.props != null && element.props.value === null && !didWarnValueNull) {
-	    process.env.NODE_ENV !== 'production' ? warning(false, '`value` prop on `%s` should not be null. ' + 'Consider using the empty string to clear the component or `undefined` ' + 'for uncontrolled components.%s', element.type, ReactComponentTreeDevtool.getStackAddendumByID(debugID)) : void 0;
-	
-	    didWarnValueNull = true;
-	  }
-	}
-	
-	var ReactDOMUnknownPropertyDevtool = {
-	  onBeforeMountComponent: function (debugID, element) {
-	    handleElement(debugID, element);
-	  },
-	  onBeforeUpdateComponent: function (debugID, element) {
-	    handleElement(debugID, element);
-	  }
-	};
-	
-	module.exports = ReactDOMUnknownPropertyDevtool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
-
-/***/ },
-/* 110 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMUnknownPropertyDevtool.js ***!
-  \****************************************************************************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * @providesModule ReactDOMUnknownPropertyDevtool
-	 */
-	
-	'use strict';
-	
-	var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 38);
-	var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 45);
-	var ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
-	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  var reactProps = {
-	    children: true,
-	    dangerouslySetInnerHTML: true,
-	    key: true,
-	    ref: true,
-	
-	    autoFocus: true,
-	    defaultValue: true,
-	    valueLink: true,
-	    defaultChecked: true,
-	    checkedLink: true,
-	    innerHTML: true,
-	    suppressContentEditableWarning: true,
-	    onFocusIn: true,
-	    onFocusOut: true
-	  };
-	  var warnedProperties = {};
-	
-	  var validateProperty = function (tagName, name, debugID) {
-	    if (DOMProperty.properties.hasOwnProperty(name) || DOMProperty.isCustomAttribute(name)) {
-	      return true;
-	    }
-	    if (reactProps.hasOwnProperty(name) && reactProps[name] || warnedProperties.hasOwnProperty(name) && warnedProperties[name]) {
-	      return true;
-	    }
-	    if (EventPluginRegistry.registrationNameModules.hasOwnProperty(name)) {
-	      return true;
-	    }
-	    warnedProperties[name] = true;
-	    var lowerCasedName = name.toLowerCase();
-	
-	    // data-* attributes should be lowercase; suggest the lowercase version
-	    var standardName = DOMProperty.isCustomAttribute(lowerCasedName) ? lowerCasedName : DOMProperty.getPossibleStandardName.hasOwnProperty(lowerCasedName) ? DOMProperty.getPossibleStandardName[lowerCasedName] : null;
-	
-	    var registrationName = EventPluginRegistry.possibleRegistrationNames.hasOwnProperty(lowerCasedName) ? EventPluginRegistry.possibleRegistrationNames[lowerCasedName] : null;
-	
-	    if (standardName != null) {
-	      process.env.NODE_ENV !== 'production' ? warning(standardName == null, 'Unknown DOM property %s. Did you mean %s?%s', name, standardName, ReactComponentTreeDevtool.getStackAddendumByID(debugID)) : void 0;
-	      return true;
-	    } else if (registrationName != null) {
-	      process.env.NODE_ENV !== 'production' ? warning(registrationName == null, 'Unknown event handler property %s. Did you mean `%s`?%s', name, registrationName, ReactComponentTreeDevtool.getStackAddendumByID(debugID)) : void 0;
-	      return true;
-	    } else {
-	      // We were unable to guess which prop the user intended.
-	      // It is likely that the user was just blindly spreading/forwarding props
-	      // Components should be careful to only render valid props/attributes.
-	      // Warning will be invoked in warnUnknownProperties to allow grouping.
-	      return false;
-	    }
-	  };
-	}
-	
-	var warnUnknownProperties = function (debugID, element) {
-	  var unknownProps = [];
-	  for (var key in element.props) {
-	    var isValid = validateProperty(element.type, key, debugID);
-	    if (!isValid) {
-	      unknownProps.push(key);
-	    }
-	  }
-	
-	  var unknownPropString = unknownProps.map(function (prop) {
-	    return '`' + prop + '`';
-	  }).join(', ');
-	
-	  if (unknownProps.length === 1) {
-	    process.env.NODE_ENV !== 'production' ? warning(false, 'Unknown prop %s on <%s> tag. Remove this prop from the element. ' + 'For details, see https://fb.me/react-unknown-prop%s', unknownPropString, element.type, ReactComponentTreeDevtool.getStackAddendumByID(debugID)) : void 0;
-	  } else if (unknownProps.length > 1) {
-	    process.env.NODE_ENV !== 'production' ? warning(false, 'Unknown props %s on <%s> tag. Remove these props from the element. ' + 'For details, see https://fb.me/react-unknown-prop%s', unknownPropString, element.type, ReactComponentTreeDevtool.getStackAddendumByID(debugID)) : void 0;
-	  }
-	};
-	
-	function handleElement(debugID, element) {
-	  if (element == null || typeof element.type !== 'string') {
-	    return;
-	  }
-	  if (element.type.indexOf('-') >= 0 || element.props.is) {
-	    return;
-	  }
-	  warnUnknownProperties(debugID, element);
-	}
-	
-	var ReactDOMUnknownPropertyDevtool = {
-	  onBeforeMountComponent: function (debugID, element) {
-	    handleElement(debugID, element);
-	  },
-	  onBeforeUpdateComponent: function (debugID, element) {
-	    handleElement(debugID, element);
-	  }
-	};
-	
-	module.exports = ReactDOMUnknownPropertyDevtool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
-
-/***/ },
-/* 111 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/quoteAttributeValueForBrowser.js ***!
-  \***************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/quoteAttributeValueForBrowser.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13292,10 +13059,10 @@
 	module.exports = quoteAttributeValueForBrowser;
 
 /***/ },
-/* 112 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactBrowserEventEmitter.js ***!
-  \**********************************************************************************************************/
+/* 108 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactBrowserEventEmitter.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13311,14 +13078,14 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var EventConstants = __webpack_require__(/*! ./EventConstants */ 42);
 	var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 45);
-	var ReactEventEmitterMixin = __webpack_require__(/*! ./ReactEventEmitterMixin */ 113);
+	var ReactEventEmitterMixin = __webpack_require__(/*! ./ReactEventEmitterMixin */ 109);
 	var ViewportMetrics = __webpack_require__(/*! ./ViewportMetrics */ 78);
 	
-	var getVendorPrefixedEventName = __webpack_require__(/*! ./getVendorPrefixedEventName */ 114);
+	var getVendorPrefixedEventName = __webpack_require__(/*! ./getVendorPrefixedEventName */ 110);
 	var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 72);
 	
 	/**
@@ -13617,10 +13384,10 @@
 	module.exports = ReactBrowserEventEmitter;
 
 /***/ },
-/* 113 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactEventEmitterMixin.js ***!
-  \********************************************************************************************************/
+/* 109 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactEventEmitterMixin.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13658,10 +13425,10 @@
 	module.exports = ReactEventEmitterMixin;
 
 /***/ },
-/* 114 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getVendorPrefixedEventName.js ***!
-  \************************************************************************************************************/
+/* 110 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getVendorPrefixedEventName.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13767,10 +13534,10 @@
 	module.exports = getVendorPrefixedEventName;
 
 /***/ },
-/* 115 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMButton.js ***!
-  \************************************************************************************************/
+/* 111 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMButton.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13786,7 +13553,7 @@
 	
 	'use strict';
 	
-	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 116);
+	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 112);
 	
 	/**
 	 * Implements a <button> host component that does not receive mouse events
@@ -13799,10 +13566,10 @@
 	module.exports = ReactDOMButton;
 
 /***/ },
-/* 116 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/DisabledInputUtils.js ***!
-  \****************************************************************************************************/
+/* 112 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/DisabledInputUtils.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -13857,10 +13624,10 @@
 	module.exports = DisabledInputUtils;
 
 /***/ },
-/* 117 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMInput.js ***!
-  \***********************************************************************************************/
+/* 113 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMInput.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13876,17 +13643,17 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 116);
+	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 112);
 	var DOMPropertyOperations = __webpack_require__(/*! ./DOMPropertyOperations */ 106);
-	var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 118);
+	var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 114);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var didWarnValueLink = false;
 	var didWarnCheckedLink = false;
@@ -13934,7 +13701,11 @@
 	      type: undefined,
 	      // Make sure we set .step before .value (setting .value before .step
 	      // means .value is rounded on mount, based upon step precision)
-	      step: undefined
+	      step: undefined,
+	      // Make sure we set .min & .max before .value (to ensure proper order
+	      // in corner cases such as min or max deriving from value, e.g. Issue #7170)
+	      min: undefined,
+	      max: undefined
 	    }, DisabledInputUtils.getHostProps(inst, props), {
 	      defaultChecked: undefined,
 	      defaultValue: undefined,
@@ -14040,8 +13811,26 @@
 	    // are not resetable nodes so this operation doesn't matter and actually
 	    // removes browser-default values (eg "Submit Query") when no value is
 	    // provided.
-	    if (props.type !== 'submit' && props.type !== 'reset') {
-	      node.value = node.value;
+	
+	    switch (props.type) {
+	      case 'submit':
+	      case 'reset':
+	        break;
+	      case 'color':
+	      case 'date':
+	      case 'datetime':
+	      case 'datetime-local':
+	      case 'month':
+	      case 'time':
+	      case 'week':
+	        // This fixes the no-show issue on iOS Safari and Android Chrome:
+	        // https://github.com/facebook/react/issues/7233
+	        node.value = '';
+	        node.value = node.defaultValue;
+	        break;
+	      default:
+	        node.value = node.value;
+	        break;
 	    }
 	
 	    // Normally, we'd just do `node.checked = node.checked` upon initial mount, less this bug
@@ -14110,13 +13899,13 @@
 	}
 	
 	module.exports = ReactDOMInput;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 118 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/LinkedValueUtils.js ***!
-  \**************************************************************************************************/
+/* 114 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/LinkedValueUtils.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14132,14 +13921,14 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var ReactPropTypes = __webpack_require__(/*! ./ReactPropTypes */ 32);
-	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 22);
+	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 23);
 	var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 31);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var hasReadOnlyValue = {
 	  'button': true,
@@ -14255,13 +14044,13 @@
 	};
 	
 	module.exports = LinkedValueUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 119 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMOption.js ***!
-  \************************************************************************************************/
+/* 115 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMOption.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14277,13 +14066,13 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactChildren = __webpack_require__(/*! ./ReactChildren */ 5);
+	var ReactChildren = __webpack_require__(/*! ./ReactChildren */ 6);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 120);
+	var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 116);
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	var didWarnInvalidOptionChildren = false;
 	
 	function flattenChildren(children) {
@@ -14387,13 +14176,13 @@
 	};
 	
 	module.exports = ReactDOMOption;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 120 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMSelect.js ***!
-  \************************************************************************************************/
+/* 116 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMSelect.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14409,14 +14198,14 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 116);
-	var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 118);
+	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 112);
+	var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 114);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var didWarnValueLink = false;
 	var didWarnValueDefaultValue = false;
@@ -14464,10 +14253,11 @@
 	    if (props[propName] == null) {
 	      continue;
 	    }
-	    if (props.multiple) {
-	      process.env.NODE_ENV !== 'production' ? warning(Array.isArray(props[propName]), 'The `%s` prop supplied to <select> must be an array if ' + '`multiple` is true.%s', propName, getDeclarationErrorAddendum(owner)) : void 0;
-	    } else {
-	      process.env.NODE_ENV !== 'production' ? warning(!Array.isArray(props[propName]), 'The `%s` prop supplied to <select> must be a scalar ' + 'value if `multiple` is false.%s', propName, getDeclarationErrorAddendum(owner)) : void 0;
+	    var isArray = Array.isArray(props[propName]);
+	    if (props.multiple && !isArray) {
+	      process.env.NODE_ENV !== 'production' ? warning(false, 'The `%s` prop supplied to <select> must be an array if ' + '`multiple` is true.%s', propName, getDeclarationErrorAddendum(owner)) : void 0;
+	    } else if (!props.multiple && isArray) {
+	      process.env.NODE_ENV !== 'production' ? warning(false, 'The `%s` prop supplied to <select> must be a scalar ' + 'value if `multiple` is false.%s', propName, getDeclarationErrorAddendum(owner)) : void 0;
 	    }
 	  }
 	}
@@ -14596,13 +14386,13 @@
 	}
 	
 	module.exports = ReactDOMSelect;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 121 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMTextarea.js ***!
-  \**************************************************************************************************/
+/* 117 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMTextarea.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14618,16 +14408,16 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 116);
-	var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 118);
+	var DisabledInputUtils = __webpack_require__(/*! ./DisabledInputUtils */ 112);
+	var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 114);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var didWarnValueLink = false;
 	var didWarnValDefaultVal = false;
@@ -14760,13 +14550,13 @@
 	}
 	
 	module.exports = ReactDOMTextarea;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 122 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactMultiChild.js ***!
-  \*************************************************************************************************/
+/* 118 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactMultiChild.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14782,20 +14572,20 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 123);
-	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 124);
+	var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 119);
+	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 120);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
 	var ReactMultiChildUpdateTypes = __webpack_require__(/*! ./ReactMultiChildUpdateTypes */ 93);
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
 	var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 60);
-	var ReactChildReconciler = __webpack_require__(/*! ./ReactChildReconciler */ 125);
+	var ReactChildReconciler = __webpack_require__(/*! ./ReactChildReconciler */ 121);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var flattenChildren = __webpack_require__(/*! ./flattenChildren */ 133);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var flattenChildren = __webpack_require__(/*! ./flattenChildren */ 129);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Make an update for markup to be rendered and inserted at a supplied index.
@@ -14910,7 +14700,6 @@
 	  ReactComponentEnvironment.processChildrenUpdates(inst, updateQueue);
 	}
 	
-	var setParentForInstrumentation = emptyFunction;
 	var setChildrenForInstrumentation = emptyFunction;
 	if (process.env.NODE_ENV !== 'production') {
 	  var getDebugID = function (inst) {
@@ -14922,11 +14711,6 @@
 	      }
 	    }
 	    return inst._debugID;
-	  };
-	  setParentForInstrumentation = function (child) {
-	    if (child._debugID !== 0) {
-	      ReactInstrumentation.debugTool.onSetParent(child._debugID, getDebugID(this));
-	    }
 	  };
 	  setChildrenForInstrumentation = function (children) {
 	    var debugID = getDebugID(this);
@@ -14959,10 +14743,11 @@
 	
 	    _reconcilerInstantiateChildren: function (nestedChildren, transaction, context) {
 	      if (process.env.NODE_ENV !== 'production') {
+	        var selfDebugID = getDebugID(this);
 	        if (this._currentElement) {
 	          try {
 	            ReactCurrentOwner.current = this._currentElement._owner;
-	            return ReactChildReconciler.instantiateChildren(nestedChildren, transaction, context, this._debugID);
+	            return ReactChildReconciler.instantiateChildren(nestedChildren, transaction, context, selfDebugID);
 	          } finally {
 	            ReactCurrentOwner.current = null;
 	          }
@@ -14973,20 +14758,22 @@
 	
 	    _reconcilerUpdateChildren: function (prevChildren, nextNestedChildrenElements, mountImages, removedNodes, transaction, context) {
 	      var nextChildren;
+	      var selfDebugID = 0;
 	      if (process.env.NODE_ENV !== 'production') {
+	        selfDebugID = getDebugID(this);
 	        if (this._currentElement) {
 	          try {
 	            ReactCurrentOwner.current = this._currentElement._owner;
-	            nextChildren = flattenChildren(nextNestedChildrenElements, this._debugID);
+	            nextChildren = flattenChildren(nextNestedChildrenElements, selfDebugID);
 	          } finally {
 	            ReactCurrentOwner.current = null;
 	          }
-	          ReactChildReconciler.updateChildren(prevChildren, nextChildren, mountImages, removedNodes, transaction, this, this._hostContainerInfo, context);
+	          ReactChildReconciler.updateChildren(prevChildren, nextChildren, mountImages, removedNodes, transaction, this, this._hostContainerInfo, context, selfDebugID);
 	          return nextChildren;
 	        }
 	      }
-	      nextChildren = flattenChildren(nextNestedChildrenElements);
-	      ReactChildReconciler.updateChildren(prevChildren, nextChildren, mountImages, removedNodes, transaction, this, this._hostContainerInfo, context);
+	      nextChildren = flattenChildren(nextNestedChildrenElements, selfDebugID);
+	      ReactChildReconciler.updateChildren(prevChildren, nextChildren, mountImages, removedNodes, transaction, this, this._hostContainerInfo, context, selfDebugID);
 	      return nextChildren;
 	    },
 	
@@ -15007,10 +14794,11 @@
 	      for (var name in children) {
 	        if (children.hasOwnProperty(name)) {
 	          var child = children[name];
+	          var selfDebugID = 0;
 	          if (process.env.NODE_ENV !== 'production') {
-	            setParentForInstrumentation.call(this, child);
+	            selfDebugID = getDebugID(this);
 	          }
-	          var mountImage = ReactReconciler.mountComponent(child, transaction, this, this._hostContainerInfo, context);
+	          var mountImage = ReactReconciler.mountComponent(child, transaction, this, this._hostContainerInfo, context, selfDebugID);
 	          child._mountIndex = index++;
 	          mountImages.push(mountImage);
 	        }
@@ -15222,13 +15010,13 @@
 	};
 	
 	module.exports = ReactMultiChild;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 123 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactComponentEnvironment.js ***!
-  \***********************************************************************************************************/
+/* 119 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactComponentEnvironment.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15244,20 +15032,13 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	var injected = false;
 	
 	var ReactComponentEnvironment = {
-	
-	  /**
-	   * Optionally injectable environment dependent cleanup hook. (server vs.
-	   * browser etc). Example: A browser system caches DOM nodes based on component
-	   * ID and must remove that cache entry when this instance is unmounted.
-	   */
-	  unmountIDFromEnvironment: null,
 	
 	  /**
 	   * Optionally injectable hook for swapping out mount images in the middle of
@@ -15274,7 +15055,6 @@
 	  injection: {
 	    injectEnvironment: function (environment) {
 	      !!injected ? process.env.NODE_ENV !== 'production' ? invariant(false, 'ReactCompositeComponent: injectEnvironment() can only be called once.') : _prodInvariant('104') : void 0;
-	      ReactComponentEnvironment.unmountIDFromEnvironment = environment.unmountIDFromEnvironment;
 	      ReactComponentEnvironment.replaceNodeWithMarkup = environment.replaceNodeWithMarkup;
 	      ReactComponentEnvironment.processChildrenUpdates = environment.processChildrenUpdates;
 	      injected = true;
@@ -15284,13 +15064,13 @@
 	};
 	
 	module.exports = ReactComponentEnvironment;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 124 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactInstanceMap.js ***!
-  \**************************************************************************************************/
+/* 120 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactInstanceMap.js ***!
+  \***************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -15343,10 +15123,10 @@
 	module.exports = ReactInstanceMap;
 
 /***/ },
-/* 125 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactChildReconciler.js ***!
-  \******************************************************************************************************/
+/* 121 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactChildReconciler.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15364,13 +15144,13 @@
 	
 	var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 60);
 	
-	var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 126);
-	var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 16);
-	var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 130);
-	var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 14);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 122);
+	var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 17);
+	var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 126);
+	var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 15);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
-	var ReactComponentTreeDevtool;
+	var ReactComponentTreeHook;
 	
 	if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 'test') {
 	  // Temporary hack.
@@ -15378,17 +15158,19 @@
 	  // https://github.com/facebook/react/issues/7240
 	  // Remove the inline requires when we don't need them anymore:
 	  // https://github.com/facebook/react/pull/7178
-	  ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	  ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	}
 	
 	function instantiateChild(childInstances, child, name, selfDebugID) {
 	  // We found a component instance.
 	  var keyUnique = childInstances[name] === undefined;
 	  if (process.env.NODE_ENV !== 'production') {
-	    if (!ReactComponentTreeDevtool) {
-	      ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	    if (!ReactComponentTreeHook) {
+	      ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	    }
-	    process.env.NODE_ENV !== 'production' ? warning(keyUnique, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeDevtool.getStackAddendumByID(selfDebugID)) : void 0;
+	    if (!keyUnique) {
+	      process.env.NODE_ENV !== 'production' ? warning(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID)) : void 0;
+	    }
 	  }
 	  if (child != null && keyUnique) {
 	    childInstances[name] = instantiateReactComponent(child, true);
@@ -15409,7 +15191,7 @@
 	   * @return {?object} A set of child instances.
 	   * @internal
 	   */
-	  instantiateChildren: function (nestedChildNodes, transaction, context, selfDebugID // __DEV__ only
+	  instantiateChildren: function (nestedChildNodes, transaction, context, selfDebugID // 0 in production and for roots
 	  ) {
 	    if (nestedChildNodes == null) {
 	      return null;
@@ -15436,7 +15218,8 @@
 	   * @return {?object} A new set of child instances.
 	   * @internal
 	   */
-	  updateChildren: function (prevChildren, nextChildren, mountImages, removedNodes, transaction, hostParent, hostContainerInfo, context) {
+	  updateChildren: function (prevChildren, nextChildren, mountImages, removedNodes, transaction, hostParent, hostContainerInfo, context, selfDebugID // 0 in production and for roots
+	  ) {
 	    // We currently don't have a way to track moves here but if we use iterators
 	    // instead of for..in we can zip the iterators and check if an item has
 	    // moved.
@@ -15467,7 +15250,7 @@
 	        nextChildren[name] = nextChildInstance;
 	        // Creating mount image now ensures refs are resolved in right order
 	        // (see https://github.com/facebook/react/pull/7101 for explanation).
-	        var nextChildMountImage = ReactReconciler.mountComponent(nextChildInstance, transaction, hostParent, hostContainerInfo, context);
+	        var nextChildMountImage = ReactReconciler.mountComponent(nextChildInstance, transaction, hostParent, hostContainerInfo, context, selfDebugID);
 	        mountImages.push(nextChildMountImage);
 	      }
 	    }
@@ -15500,13 +15283,13 @@
 	};
 	
 	module.exports = ReactChildReconciler;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 126 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/instantiateReactComponent.js ***!
-  \***********************************************************************************************************/
+/* 122 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/instantiateReactComponent.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15522,16 +15305,15 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactCompositeComponent = __webpack_require__(/*! ./ReactCompositeComponent */ 127);
-	var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 131);
-	var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 132);
-	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
+	var ReactCompositeComponent = __webpack_require__(/*! ./ReactCompositeComponent */ 123);
+	var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 127);
+	var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 128);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	// To avoid a cyclic dependency, we create the final class in this module
 	var ReactCompositeComponentWrapper = function (element) {
@@ -15549,21 +15331,6 @@
 	    }
 	  }
 	  return '';
-	}
-	
-	function getDisplayName(instance) {
-	  var element = instance._currentElement;
-	  if (element == null) {
-	    return '#empty';
-	  } else if (typeof element === 'string' || typeof element === 'number') {
-	    return '#text';
-	  } else if (typeof element.type === 'string') {
-	    return element.type;
-	  } else if (instance.getName) {
-	    return instance.getName() || 'Unknown';
-	  } else {
-	    return element.type.displayName || element.type.name || 'Unknown';
-	  }
 	}
 	
 	/**
@@ -15629,18 +15396,7 @@
 	  instance._mountImage = null;
 	
 	  if (process.env.NODE_ENV !== 'production') {
-	    if (shouldHaveDebugID) {
-	      var debugID = nextDebugID++;
-	      instance._debugID = debugID;
-	      var displayName = getDisplayName(instance);
-	      ReactInstrumentation.debugTool.onSetDisplayName(debugID, displayName);
-	      var owner = node && node._owner;
-	      if (owner) {
-	        ReactInstrumentation.debugTool.onSetOwner(debugID, owner._debugID);
-	      }
-	    } else {
-	      instance._debugID = 0;
-	    }
+	    instance._debugID = shouldHaveDebugID ? nextDebugID++ : 0;
 	  }
 	
 	  // Internal instances should fully constructed at this point, so they should
@@ -15655,13 +15411,13 @@
 	}
 	
 	module.exports = instantiateReactComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 127 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactCompositeComponent.js ***!
-  \*********************************************************************************************************/
+/* 123 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactCompositeComponent.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15677,25 +15433,25 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 123);
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 119);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 47);
-	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 124);
+	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 120);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
-	var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 128);
-	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 22);
+	var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 124);
+	var ReactPropTypeLocations = __webpack_require__(/*! ./ReactPropTypeLocations */ 23);
 	var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 60);
 	
 	var checkReactTypeSpec = __webpack_require__(/*! ./checkReactTypeSpec */ 30);
-	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 19);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 129);
-	var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 130);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 20);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 125);
+	var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 126);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var CompositeTypes = {
 	  ImpureClass: 0,
@@ -15797,7 +15553,7 @@
 	   */
 	  construct: function (element) {
 	    this._currentElement = element;
-	    this._rootNodeID = null;
+	    this._rootNodeID = 0;
 	    this._compositeType = null;
 	    this._instance = null;
 	    this._hostParent = null;
@@ -15839,8 +15595,6 @@
 	   * @internal
 	   */
 	  mountComponent: function (transaction, hostParent, hostContainerInfo, context) {
-	    var _this = this;
-	
 	    this._context = context;
 	    this._mountOrder = nextMountID++;
 	    this._hostParent = hostParent;
@@ -15933,15 +15687,6 @@
 	        transaction.getReactMountReady().enqueue(invokeComponentDidMountWithTimer, this);
 	      } else {
 	        transaction.getReactMountReady().enqueue(inst.componentDidMount, inst);
-	      }
-	    }
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      if (this._debugID) {
-	        var callback = function (component) {
-	          return ReactInstrumentation.debugTool.onComponentHasMounted(_this._debugID);
-	        };
-	        transaction.getReactMountReady().enqueue(callback, this);
 	      }
 	    }
 	
@@ -16054,13 +15799,12 @@
 	    var child = this._instantiateReactComponent(renderedElement, nodeType !== ReactNodeTypes.EMPTY /* shouldHaveDebugID */
 	    );
 	    this._renderedComponent = child;
-	    if (process.env.NODE_ENV !== 'production') {
-	      if (child._debugID !== 0 && this._debugID !== 0) {
-	        ReactInstrumentation.debugTool.onSetParent(child._debugID, this._debugID);
-	      }
-	    }
 	
-	    var markup = ReactReconciler.mountComponent(child, transaction, hostParent, hostContainerInfo, this._processChildContext(context));
+	    var selfDebugID = 0;
+	    if (process.env.NODE_ENV !== 'production') {
+	      selfDebugID = this._debugID;
+	    }
+	    var markup = ReactReconciler.mountComponent(child, transaction, hostParent, hostContainerInfo, this._processChildContext(context), selfDebugID);
 	
 	    if (process.env.NODE_ENV !== 'production') {
 	      if (this._debugID !== 0) {
@@ -16126,7 +15870,7 @@
 	    // These fields do not really need to be reset since this object is no
 	    // longer accessible.
 	    this._context = null;
-	    this._rootNodeID = null;
+	    this._rootNodeID = 0;
 	    this._topLevelWrapper = null;
 	
 	    // Delete the reference from the instance to this internal representation
@@ -16382,8 +16126,6 @@
 	   * @private
 	   */
 	  _performComponentUpdate: function (nextElement, nextProps, nextState, nextContext, transaction, unmaskedContext) {
-	    var _this2 = this;
-	
 	    var inst = this._instance;
 	
 	    var hasComponentDidUpdate = Boolean(inst.componentDidUpdate);
@@ -16425,15 +16167,6 @@
 	        transaction.getReactMountReady().enqueue(inst.componentDidUpdate.bind(inst, prevProps, prevState, prevContext), inst);
 	      }
 	    }
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      if (this._debugID) {
-	        var callback = function () {
-	          return ReactInstrumentation.debugTool.onComponentHasUpdated(_this2._debugID);
-	        };
-	        transaction.getReactMountReady().enqueue(callback, this);
-	      }
-	    }
 	  },
 	
 	  /**
@@ -16457,13 +16190,12 @@
 	      var child = this._instantiateReactComponent(nextRenderedElement, nodeType !== ReactNodeTypes.EMPTY /* shouldHaveDebugID */
 	      );
 	      this._renderedComponent = child;
-	      if (process.env.NODE_ENV !== 'production') {
-	        if (child._debugID !== 0 && this._debugID !== 0) {
-	          ReactInstrumentation.debugTool.onSetParent(child._debugID, this._debugID);
-	        }
-	      }
 	
-	      var nextMarkup = ReactReconciler.mountComponent(child, transaction, this._hostParent, this._hostContainerInfo, this._processChildContext(context));
+	      var selfDebugID = 0;
+	      if (process.env.NODE_ENV !== 'production') {
+	        selfDebugID = this._debugID;
+	      }
+	      var nextMarkup = ReactReconciler.mountComponent(child, transaction, this._hostParent, this._hostContainerInfo, this._processChildContext(context), selfDebugID);
 	
 	      if (process.env.NODE_ENV !== 'production') {
 	        if (this._debugID !== 0) {
@@ -16608,13 +16340,13 @@
 	};
 	
 	module.exports = ReactCompositeComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 128 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactNodeTypes.js ***!
-  \************************************************************************************************/
+/* 124 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactNodeTypes.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16631,11 +16363,11 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	var ReactNodeTypes = {
 	  HOST: 0,
@@ -16657,13 +16389,13 @@
 	};
 	
 	module.exports = ReactNodeTypes;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 129 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/shallowEqual.js ***!
-  \*********************************************************************************************/
+/* 125 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/shallowEqual.js ***!
+  \**********************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -16734,10 +16466,10 @@
 	module.exports = shallowEqual;
 
 /***/ },
-/* 130 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/shouldUpdateReactComponent.js ***!
-  \************************************************************************************************************/
+/* 126 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/shouldUpdateReactComponent.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -16784,10 +16516,10 @@
 	module.exports = shouldUpdateReactComponent;
 
 /***/ },
-/* 131 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactEmptyComponent.js ***!
-  \*****************************************************************************************************/
+/* 127 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactEmptyComponent.js ***!
+  \******************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -16822,10 +16554,10 @@
 	module.exports = ReactEmptyComponent;
 
 /***/ },
-/* 132 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactHostComponent.js ***!
-  \****************************************************************************************************/
+/* 128 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactHostComponent.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16841,10 +16573,10 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	var genericComponentClass = null;
 	// This registry keeps track of wrapper classes around host tags.
@@ -16904,13 +16636,13 @@
 	};
 	
 	module.exports = ReactHostComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 133 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/flattenChildren.js ***!
-  \*************************************************************************************************/
+/* 129 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/flattenChildren.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16927,11 +16659,11 @@
 	
 	'use strict';
 	
-	var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 16);
-	var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 14);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 17);
+	var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 15);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
-	var ReactComponentTreeDevtool;
+	var ReactComponentTreeHook;
 	
 	if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 'test') {
 	  // Temporary hack.
@@ -16939,7 +16671,7 @@
 	  // https://github.com/facebook/react/issues/7240
 	  // Remove the inline requires when we don't need them anymore:
 	  // https://github.com/facebook/react/pull/7178
-	  ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	  ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	}
 	
 	/**
@@ -16954,10 +16686,12 @@
 	    var result = traverseContext;
 	    var keyUnique = result[name] === undefined;
 	    if (process.env.NODE_ENV !== 'production') {
-	      if (!ReactComponentTreeDevtool) {
-	        ReactComponentTreeDevtool = __webpack_require__(/*! ./ReactComponentTreeDevtool */ 29);
+	      if (!ReactComponentTreeHook) {
+	        ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
 	      }
-	      process.env.NODE_ENV !== 'production' ? warning(keyUnique, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeDevtool.getStackAddendumByID(selfDebugID)) : void 0;
+	      if (!keyUnique) {
+	        process.env.NODE_ENV !== 'production' ? warning(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID)) : void 0;
+	      }
 	    }
 	    if (keyUnique && child != null) {
 	      result[name] = child;
@@ -16987,13 +16721,13 @@
 	}
 	
 	module.exports = flattenChildren;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 134 */
-/*!*****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactServerRenderingTransaction.js ***!
-  \*****************************************************************************************************************/
+/* 130 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactServerRenderingTransaction.js ***!
+  \******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17009,12 +16743,12 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
 	var Transaction = __webpack_require__(/*! ./Transaction */ 70);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
-	var ReactServerUpdateQueue = __webpack_require__(/*! ./ReactServerUpdateQueue */ 135);
+	var ReactServerUpdateQueue = __webpack_require__(/*! ./ReactServerUpdateQueue */ 131);
 	
 	/**
 	 * Executed within the scope of the `Transaction` instance. Consider these as
@@ -17086,13 +16820,13 @@
 	PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 	
 	module.exports = ReactServerRenderingTransaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 135 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactServerUpdateQueue.js ***!
-  \********************************************************************************************************/
+/* 131 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactServerUpdateQueue.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17111,9 +16845,9 @@
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 136);
+	var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 132);
 	var Transaction = __webpack_require__(/*! ./Transaction */ 70);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	function warnNoop(publicInstance, callerName) {
 	  if (process.env.NODE_ENV !== 'production') {
@@ -17236,13 +16970,13 @@
 	}();
 	
 	module.exports = ReactServerUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 136 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactUpdateQueue.js ***!
-  \**************************************************************************************************/
+/* 132 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactUpdateQueue.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17258,15 +16992,15 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
-	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 124);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
+	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 120);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	function enqueueUpdate(internalInstance) {
 	  ReactUpdates.enqueueUpdate(internalInstance);
@@ -17471,13 +17205,13 @@
 	};
 	
 	module.exports = ReactUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 137 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/validateDOMNesting.js ***!
-  \****************************************************************************************************/
+/* 133 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/validateDOMNesting.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17493,10 +17227,10 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var validateDOMNesting = emptyFunction;
 	
@@ -17849,13 +17583,13 @@
 	}
 	
 	module.exports = validateDOMNesting;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 138 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMEmptyComponent.js ***!
-  \********************************************************************************************************/
+/* 134 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMEmptyComponent.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17871,7 +17605,7 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 83);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
@@ -17883,7 +17617,7 @@
 	  this._hostNode = null;
 	  this._hostParent = null;
 	  this._hostContainerInfo = null;
-	  this._domID = null;
+	  this._domID = 0;
 	};
 	_assign(ReactDOMEmptyComponent.prototype, {
 	  mountComponent: function (transaction, hostParent, hostContainerInfo, context) {
@@ -17920,10 +17654,10 @@
 	module.exports = ReactDOMEmptyComponent;
 
 /***/ },
-/* 139 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMTreeTraversal.js ***!
-  \*******************************************************************************************************/
+/* 135 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMTreeTraversal.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17939,9 +17673,9 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	
 	/**
 	 * Return the lowest common ancestor of A and B, or null if they are in
@@ -18062,13 +17796,13 @@
 	  traverseTwoPhase: traverseTwoPhase,
 	  traverseEnterLeave: traverseEnterLeave
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 140 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMTextComponent.js ***!
-  \*******************************************************************************************************/
+/* 136 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMTextComponent.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18084,17 +17818,16 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7),
-	    _assign = __webpack_require__(/*! object-assign */ 4);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8),
+	    _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 82);
 	var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 83);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
 	
 	var escapeTextContentForBrowser = __webpack_require__(/*! ./escapeTextContentForBrowser */ 88);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 137);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 133);
 	
 	/**
 	 * Text nodes violate a couple assumptions that React makes about components:
@@ -18120,7 +17853,7 @@
 	  this._hostParent = null;
 	
 	  // Properties
-	  this._domID = null;
+	  this._domID = 0;
 	  this._mountIndex = 0;
 	  this._closingComment = null;
 	  this._commentNodes = null;
@@ -18138,8 +17871,6 @@
 	   */
 	  mountComponent: function (transaction, hostParent, hostContainerInfo, context) {
 	    if (process.env.NODE_ENV !== 'production') {
-	      ReactInstrumentation.debugTool.onSetText(this._debugID, this._stringText);
-	
 	      var parentInfo;
 	      if (hostParent != null) {
 	        parentInfo = hostParent._ancestorInfo;
@@ -18203,10 +17934,6 @@
 	        this._stringText = nextStringText;
 	        var commentNodes = this.getHostNode();
 	        DOMChildrenOperations.replaceDelimitedText(commentNodes[0], commentNodes[1], nextStringText);
-	
-	        if (process.env.NODE_ENV !== 'production') {
-	          ReactInstrumentation.debugTool.onSetText(this._debugID, nextStringText);
-	        }
 	      }
 	    }
 	  },
@@ -18242,13 +17969,13 @@
 	});
 	
 	module.exports = ReactDOMTextComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 141 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDefaultBatchingStrategy.js ***!
-  \**************************************************************************************************************/
+/* 137 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDefaultBatchingStrategy.js ***!
+  \***************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18264,12 +17991,12 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	var Transaction = __webpack_require__(/*! ./Transaction */ 70);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
 	
 	var RESET_BATCHED_UPDATES = {
 	  initialize: emptyFunction,
@@ -18321,10 +18048,10 @@
 	module.exports = ReactDefaultBatchingStrategy;
 
 /***/ },
-/* 142 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactEventListener.js ***!
-  \****************************************************************************************************/
+/* 138 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactEventListener.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18340,16 +18067,16 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
-	var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 143);
+	var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 139);
 	var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 50);
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
 	var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 71);
-	var getUnboundedScrollPosition = __webpack_require__(/*! fbjs/lib/getUnboundedScrollPosition */ 144);
+	var getUnboundedScrollPosition = __webpack_require__(/*! fbjs/lib/getUnboundedScrollPosition */ 140);
 	
 	/**
 	 * Find the deepest React component completely containing the root of the
@@ -18486,10 +18213,10 @@
 	module.exports = ReactEventListener;
 
 /***/ },
-/* 143 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/EventListener.js ***!
-  \**********************************************************************************************/
+/* 139 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/EventListener.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -18512,7 +18239,7 @@
 	 * @typechecks
 	 */
 	
-	var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 12);
+	var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 13);
 	
 	/**
 	 * Upstream version of event listener. Does not take into account specific
@@ -18575,13 +18302,13 @@
 	};
 	
 	module.exports = EventListener;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 144 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/getUnboundedScrollPosition.js ***!
-  \***********************************************************************************************************/
+/* 140 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/getUnboundedScrollPosition.js ***!
+  \************************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -18624,10 +18351,10 @@
 	module.exports = getUnboundedScrollPosition;
 
 /***/ },
-/* 145 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactInjection.js ***!
-  \************************************************************************************************/
+/* 141 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactInjection.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18646,11 +18373,11 @@
 	var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 38);
 	var EventPluginHub = __webpack_require__(/*! ./EventPluginHub */ 44);
 	var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 46);
-	var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 123);
-	var ReactClass = __webpack_require__(/*! ./ReactClass */ 21);
-	var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 131);
-	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 112);
-	var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 132);
+	var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 119);
+	var ReactClass = __webpack_require__(/*! ./ReactClass */ 22);
+	var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 127);
+	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 108);
+	var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 128);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
 	var ReactInjection = {
@@ -18668,10 +18395,10 @@
 	module.exports = ReactInjection;
 
 /***/ },
-/* 146 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactReconcileTransaction.js ***!
-  \***********************************************************************************************************/
+/* 142 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactReconcileTransaction.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18687,15 +18414,15 @@
 	
 	'use strict';
 	
-	var _assign = __webpack_require__(/*! object-assign */ 4);
+	var _assign = __webpack_require__(/*! object-assign */ 5);
 	
 	var CallbackQueue = __webpack_require__(/*! ./CallbackQueue */ 58);
-	var PooledClass = __webpack_require__(/*! ./PooledClass */ 6);
-	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 112);
-	var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 147);
+	var PooledClass = __webpack_require__(/*! ./PooledClass */ 7);
+	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 108);
+	var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 143);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
 	var Transaction = __webpack_require__(/*! ./Transaction */ 70);
-	var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 136);
+	var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 132);
 	
 	/**
 	 * Ensures that, when possible, the selection range (currently selected text
@@ -18852,13 +18579,13 @@
 	PooledClass.addPoolingTo(ReactReconcileTransaction);
 	
 	module.exports = ReactReconcileTransaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 147 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactInputSelection.js ***!
-  \*****************************************************************************************************/
+/* 143 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactInputSelection.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18874,11 +18601,11 @@
 	
 	'use strict';
 	
-	var ReactDOMSelection = __webpack_require__(/*! ./ReactDOMSelection */ 148);
+	var ReactDOMSelection = __webpack_require__(/*! ./ReactDOMSelection */ 144);
 	
-	var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ 150);
+	var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ 146);
 	var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ 97);
-	var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 153);
+	var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 149);
 	
 	function isInDocument(node) {
 	  return containsNode(document.documentElement, node);
@@ -18987,10 +18714,10 @@
 	module.exports = ReactInputSelection;
 
 /***/ },
-/* 148 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMSelection.js ***!
-  \***************************************************************************************************/
+/* 144 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMSelection.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19008,7 +18735,7 @@
 	
 	var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 50);
 	
-	var getNodeForCharacterOffset = __webpack_require__(/*! ./getNodeForCharacterOffset */ 149);
+	var getNodeForCharacterOffset = __webpack_require__(/*! ./getNodeForCharacterOffset */ 145);
 	var getTextContentAccessor = __webpack_require__(/*! ./getTextContentAccessor */ 52);
 	
 	/**
@@ -19207,10 +18934,10 @@
 	module.exports = ReactDOMSelection;
 
 /***/ },
-/* 149 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getNodeForCharacterOffset.js ***!
-  \***********************************************************************************************************/
+/* 145 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getNodeForCharacterOffset.js ***!
+  \************************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -19289,10 +19016,10 @@
 	module.exports = getNodeForCharacterOffset;
 
 /***/ },
-/* 150 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/containsNode.js ***!
-  \*********************************************************************************************/
+/* 146 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/containsNode.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -19308,7 +19035,7 @@
 	 * 
 	 */
 	
-	var isTextNode = __webpack_require__(/*! ./isTextNode */ 151);
+	var isTextNode = __webpack_require__(/*! ./isTextNode */ 147);
 	
 	/*eslint-disable no-bitwise */
 	
@@ -19336,10 +19063,10 @@
 	module.exports = containsNode;
 
 /***/ },
-/* 151 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/isTextNode.js ***!
-  \*******************************************************************************************/
+/* 147 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/isTextNode.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -19355,7 +19082,7 @@
 	 * @typechecks
 	 */
 	
-	var isNode = __webpack_require__(/*! ./isNode */ 152);
+	var isNode = __webpack_require__(/*! ./isNode */ 148);
 	
 	/**
 	 * @param {*} object The object to check.
@@ -19368,10 +19095,10 @@
 	module.exports = isTextNode;
 
 /***/ },
-/* 152 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/isNode.js ***!
-  \***************************************************************************************/
+/* 148 */
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/isNode.js ***!
+  \****************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -19398,10 +19125,10 @@
 	module.exports = isNode;
 
 /***/ },
-/* 153 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/fbjs/lib/getActiveElement.js ***!
-  \*************************************************************************************************/
+/* 149 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/fbjs/lib/getActiveElement.js ***!
+  \**************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -19440,10 +19167,10 @@
 	module.exports = getActiveElement;
 
 /***/ },
-/* 154 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SVGDOMPropertyConfig.js ***!
-  \******************************************************************************************************/
+/* 150 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SVGDOMPropertyConfig.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -19750,10 +19477,10 @@
 	module.exports = SVGDOMPropertyConfig;
 
 /***/ },
-/* 155 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SelectEventPlugin.js ***!
-  \***************************************************************************************************/
+/* 151 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SelectEventPlugin.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19773,13 +19500,13 @@
 	var EventPropagators = __webpack_require__(/*! ./EventPropagators */ 43);
 	var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 50);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 147);
+	var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 143);
 	var SyntheticEvent = __webpack_require__(/*! ./SyntheticEvent */ 54);
 	
-	var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 153);
+	var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 149);
 	var isTextInputElement = __webpack_require__(/*! ./isTextInputElement */ 73);
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
-	var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 129);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
+	var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 125);
 	
 	var topLevelTypes = EventConstants.topLevelTypes;
 	
@@ -19954,10 +19681,10 @@
 	module.exports = SelectEventPlugin;
 
 /***/ },
-/* 156 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SimpleEventPlugin.js ***!
-  \***************************************************************************************************/
+/* 152 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SimpleEventPlugin.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -19973,28 +19700,28 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var EventConstants = __webpack_require__(/*! ./EventConstants */ 42);
-	var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 143);
+	var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 139);
 	var EventPropagators = __webpack_require__(/*! ./EventPropagators */ 43);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var SyntheticAnimationEvent = __webpack_require__(/*! ./SyntheticAnimationEvent */ 157);
-	var SyntheticClipboardEvent = __webpack_require__(/*! ./SyntheticClipboardEvent */ 158);
+	var SyntheticAnimationEvent = __webpack_require__(/*! ./SyntheticAnimationEvent */ 153);
+	var SyntheticClipboardEvent = __webpack_require__(/*! ./SyntheticClipboardEvent */ 154);
 	var SyntheticEvent = __webpack_require__(/*! ./SyntheticEvent */ 54);
-	var SyntheticFocusEvent = __webpack_require__(/*! ./SyntheticFocusEvent */ 159);
-	var SyntheticKeyboardEvent = __webpack_require__(/*! ./SyntheticKeyboardEvent */ 160);
+	var SyntheticFocusEvent = __webpack_require__(/*! ./SyntheticFocusEvent */ 155);
+	var SyntheticKeyboardEvent = __webpack_require__(/*! ./SyntheticKeyboardEvent */ 156);
 	var SyntheticMouseEvent = __webpack_require__(/*! ./SyntheticMouseEvent */ 76);
-	var SyntheticDragEvent = __webpack_require__(/*! ./SyntheticDragEvent */ 163);
-	var SyntheticTouchEvent = __webpack_require__(/*! ./SyntheticTouchEvent */ 164);
-	var SyntheticTransitionEvent = __webpack_require__(/*! ./SyntheticTransitionEvent */ 165);
+	var SyntheticDragEvent = __webpack_require__(/*! ./SyntheticDragEvent */ 159);
+	var SyntheticTouchEvent = __webpack_require__(/*! ./SyntheticTouchEvent */ 160);
+	var SyntheticTransitionEvent = __webpack_require__(/*! ./SyntheticTransitionEvent */ 161);
 	var SyntheticUIEvent = __webpack_require__(/*! ./SyntheticUIEvent */ 77);
-	var SyntheticWheelEvent = __webpack_require__(/*! ./SyntheticWheelEvent */ 166);
+	var SyntheticWheelEvent = __webpack_require__(/*! ./SyntheticWheelEvent */ 162);
 	
-	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 12);
-	var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 161);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 25);
+	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 13);
+	var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 157);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var keyOf = __webpack_require__(/*! fbjs/lib/keyOf */ 26);
 	
 	var topLevelTypes = EventConstants.topLevelTypes;
 	
@@ -20448,6 +20175,8 @@
 	var onClickListeners = {};
 	
 	function getDictionaryKey(inst) {
+	  // Prevents V8 performance issue:
+	  // https://github.com/facebook/react/pull/7232
 	  return '.' + inst._rootNodeID;
 	}
 	
@@ -20593,13 +20322,13 @@
 	};
 	
 	module.exports = SimpleEventPlugin;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 157 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticAnimationEvent.js ***!
-  \*********************************************************************************************************/
+/* 153 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticAnimationEvent.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20643,10 +20372,10 @@
 	module.exports = SyntheticAnimationEvent;
 
 /***/ },
-/* 158 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticClipboardEvent.js ***!
-  \*********************************************************************************************************/
+/* 154 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticClipboardEvent.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20689,10 +20418,10 @@
 	module.exports = SyntheticClipboardEvent;
 
 /***/ },
-/* 159 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticFocusEvent.js ***!
-  \*****************************************************************************************************/
+/* 155 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticFocusEvent.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20733,10 +20462,10 @@
 	module.exports = SyntheticFocusEvent;
 
 /***/ },
-/* 160 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticKeyboardEvent.js ***!
-  \********************************************************************************************************/
+/* 156 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticKeyboardEvent.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20754,8 +20483,8 @@
 	
 	var SyntheticUIEvent = __webpack_require__(/*! ./SyntheticUIEvent */ 77);
 	
-	var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 161);
-	var getEventKey = __webpack_require__(/*! ./getEventKey */ 162);
+	var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 157);
+	var getEventKey = __webpack_require__(/*! ./getEventKey */ 158);
 	var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 79);
 	
 	/**
@@ -20825,10 +20554,10 @@
 	module.exports = SyntheticKeyboardEvent;
 
 /***/ },
-/* 161 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getEventCharCode.js ***!
-  \**************************************************************************************************/
+/* 157 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getEventCharCode.js ***!
+  \***************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -20883,10 +20612,10 @@
 	module.exports = getEventCharCode;
 
 /***/ },
-/* 162 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getEventKey.js ***!
-  \*********************************************************************************************/
+/* 158 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getEventKey.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20902,7 +20631,7 @@
 	
 	'use strict';
 	
-	var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 161);
+	var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 157);
 	
 	/**
 	 * Normalization of deprecated HTML5 `key` values
@@ -20993,10 +20722,10 @@
 	module.exports = getEventKey;
 
 /***/ },
-/* 163 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticDragEvent.js ***!
-  \****************************************************************************************************/
+/* 159 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticDragEvent.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21037,10 +20766,10 @@
 	module.exports = SyntheticDragEvent;
 
 /***/ },
-/* 164 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticTouchEvent.js ***!
-  \*****************************************************************************************************/
+/* 160 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticTouchEvent.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21090,10 +20819,10 @@
 	module.exports = SyntheticTouchEvent;
 
 /***/ },
-/* 165 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticTransitionEvent.js ***!
-  \**********************************************************************************************************/
+/* 161 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticTransitionEvent.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21137,10 +20866,10 @@
 	module.exports = SyntheticTransitionEvent;
 
 /***/ },
-/* 166 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/SyntheticWheelEvent.js ***!
-  \*****************************************************************************************************/
+/* 162 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/SyntheticWheelEvent.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21199,10 +20928,10 @@
 	module.exports = SyntheticWheelEvent;
 
 /***/ },
-/* 167 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactMount.js ***!
-  \********************************************************************************************/
+/* 163 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactMount.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21218,30 +20947,30 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
 	var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 83);
 	var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 38);
-	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 112);
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
+	var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 108);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactDOMContainerInfo = __webpack_require__(/*! ./ReactDOMContainerInfo */ 168);
-	var ReactDOMFeatureFlags = __webpack_require__(/*! ./ReactDOMFeatureFlags */ 169);
-	var ReactElement = __webpack_require__(/*! ./ReactElement */ 9);
+	var ReactDOMContainerInfo = __webpack_require__(/*! ./ReactDOMContainerInfo */ 164);
+	var ReactDOMFeatureFlags = __webpack_require__(/*! ./ReactDOMFeatureFlags */ 165);
+	var ReactElement = __webpack_require__(/*! ./ReactElement */ 10);
 	var ReactFeatureFlags = __webpack_require__(/*! ./ReactFeatureFlags */ 59);
-	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 124);
+	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 120);
 	var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 63);
-	var ReactMarkupChecksum = __webpack_require__(/*! ./ReactMarkupChecksum */ 170);
+	var ReactMarkupChecksum = __webpack_require__(/*! ./ReactMarkupChecksum */ 166);
 	var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 60);
-	var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 136);
+	var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 132);
 	var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 57);
 	
-	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 19);
-	var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 126);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
+	var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 20);
+	var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 122);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
 	var setInnerHTML = __webpack_require__(/*! ./setInnerHTML */ 85);
-	var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 130);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 126);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
 	var ROOT_ATTR_NAME = DOMProperty.ROOT_ATTRIBUTE_NAME;
@@ -21309,7 +21038,8 @@
 	    console.time(markerName);
 	  }
 	
-	  var markup = ReactReconciler.mountComponent(wrapperInstance, transaction, null, ReactDOMContainerInfo(wrapperInstance, container), context);
+	  var markup = ReactReconciler.mountComponent(wrapperInstance, transaction, null, ReactDOMContainerInfo(wrapperInstance, container), context, 0 /* parentDebugID */
+	  );
 	
 	  if (markerName) {
 	    console.timeEnd(markerName);
@@ -21378,6 +21108,41 @@
 	    var inst = ReactDOMComponentTree.getInstanceFromNode(rootEl);
 	    return !!(inst && inst._hostParent);
 	  }
+	}
+	
+	/**
+	 * True if the supplied DOM node is a React DOM element and
+	 * it has been rendered by another copy of React.
+	 *
+	 * @param {?DOMElement} node The candidate DOM node.
+	 * @return {boolean} True if the DOM has been rendered by another copy of React
+	 * @internal
+	 */
+	function nodeIsRenderedByOtherInstance(container) {
+	  var rootEl = getReactRootElementInContainer(container);
+	  return !!(rootEl && isReactNode(rootEl) && !ReactDOMComponentTree.getInstanceFromNode(rootEl));
+	}
+	
+	/**
+	 * True if the supplied DOM node is a valid node element.
+	 *
+	 * @param {?DOMElement} node The candidate DOM node.
+	 * @return {boolean} True if the DOM is a valid DOM node.
+	 * @internal
+	 */
+	function isValidContainer(node) {
+	  return !!(node && (node.nodeType === ELEMENT_NODE_TYPE || node.nodeType === DOC_NODE_TYPE || node.nodeType === DOCUMENT_FRAGMENT_NODE_TYPE));
+	}
+	
+	/**
+	 * True if the supplied DOM node is a valid React node element.
+	 *
+	 * @param {?DOMElement} node The candidate DOM node.
+	 * @return {boolean} True if the DOM is a valid React DOM node.
+	 * @internal
+	 */
+	function isReactNode(node) {
+	  return isValidContainer(node) && (node.hasAttribute(ROOT_ATTR_NAME) || node.hasAttribute(ATTR_NAME));
 	}
 	
 	function getHostRootInstanceInContainer(container) {
@@ -21467,7 +21232,7 @@
 	  },
 	
 	  /**
-	   * Render a new component into the DOM. Hooked by devtools!
+	   * Render a new component into the DOM. Hooked by hooks!
 	   *
 	   * @param {ReactElement} nextElement element to render
 	   * @param {DOMElement} container container to render into
@@ -21480,7 +21245,7 @@
 	    // verify that that's the case.
 	    process.env.NODE_ENV !== 'production' ? warning(ReactCurrentOwner.current == null, '_renderNewRootComponent(): Render methods should be a pure function ' + 'of props and state; triggering nested component updates from ' + 'render is not allowed. If necessary, trigger nested updates in ' + 'componentDidUpdate. Check the render method of %s.', ReactCurrentOwner.current && ReactCurrentOwner.current.getName() || 'ReactCompositeComponent') : void 0;
 	
-	    !(container && (container.nodeType === ELEMENT_NODE_TYPE || container.nodeType === DOC_NODE_TYPE || container.nodeType === DOCUMENT_FRAGMENT_NODE_TYPE)) ? process.env.NODE_ENV !== 'production' ? invariant(false, '_registerComponent(...): Target container is not a DOM element.') : _prodInvariant('37') : void 0;
+	    !isValidContainer(container) ? process.env.NODE_ENV !== 'production' ? invariant(false, '_registerComponent(...): Target container is not a DOM element.') : _prodInvariant('37') : void 0;
 	
 	    ReactBrowserEventEmitter.ensureScrollValueMonitoring();
 	    var componentInstance = instantiateReactComponent(nextElement, false);
@@ -21493,11 +21258,6 @@
 	
 	    var wrapperID = componentInstance._instance.rootID;
 	    instancesByReactRootID[wrapperID] = componentInstance;
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      // The instance here is TopLevelWrapper so we report mount for its child.
-	      ReactInstrumentation.debugTool.onMountRootComponent(componentInstance._renderedComponent._debugID);
-	    }
 	
 	    return componentInstance;
 	  },
@@ -21614,7 +21374,11 @@
 	    // render but we still don't expect to be in a render call here.)
 	    process.env.NODE_ENV !== 'production' ? warning(ReactCurrentOwner.current == null, 'unmountComponentAtNode(): Render methods should be a pure function ' + 'of props and state; triggering nested component updates from render ' + 'is not allowed. If necessary, trigger nested updates in ' + 'componentDidUpdate. Check the render method of %s.', ReactCurrentOwner.current && ReactCurrentOwner.current.getName() || 'ReactCompositeComponent') : void 0;
 	
-	    !(container && (container.nodeType === ELEMENT_NODE_TYPE || container.nodeType === DOC_NODE_TYPE || container.nodeType === DOCUMENT_FRAGMENT_NODE_TYPE)) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'unmountComponentAtNode(...): Target container is not a DOM element.') : _prodInvariant('40') : void 0;
+	    !isValidContainer(container) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'unmountComponentAtNode(...): Target container is not a DOM element.') : _prodInvariant('40') : void 0;
+	
+	    if (process.env.NODE_ENV !== 'production') {
+	      process.env.NODE_ENV !== 'production' ? warning(!nodeIsRenderedByOtherInstance(container), 'unmountComponentAtNode(): The node you\'re attempting to unmount ' + 'was rendered by another copy of React.') : void 0;
+	    }
 	
 	    var prevComponent = getTopLevelWrapperInContainer(container);
 	    if (!prevComponent) {
@@ -21637,7 +21401,7 @@
 	  },
 	
 	  _mountImageIntoNode: function (markup, container, instance, shouldReuseMarkup, transaction) {
-	    !(container && (container.nodeType === ELEMENT_NODE_TYPE || container.nodeType === DOC_NODE_TYPE || container.nodeType === DOCUMENT_FRAGMENT_NODE_TYPE)) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'mountComponentIntoNode(...): Target container is not valid.') : _prodInvariant('41') : void 0;
+	    !isValidContainer(container) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'mountComponentIntoNode(...): Target container is not valid.') : _prodInvariant('41') : void 0;
 	
 	    if (shouldReuseMarkup) {
 	      var rootElement = getReactRootElementInContainer(container);
@@ -21704,13 +21468,13 @@
 	};
 	
 	module.exports = ReactMount;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 168 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMContainerInfo.js ***!
-  \*******************************************************************************************************/
+/* 164 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMContainerInfo.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21726,7 +21490,7 @@
 	
 	'use strict';
 	
-	var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 137);
+	var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 133);
 	
 	var DOC_NODE_TYPE = 9;
 	
@@ -21746,13 +21510,13 @@
 	}
 	
 	module.exports = ReactDOMContainerInfo;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 169 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactDOMFeatureFlags.js ***!
-  \******************************************************************************************************/
+/* 165 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMFeatureFlags.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -21775,10 +21539,10 @@
 	module.exports = ReactDOMFeatureFlags;
 
 /***/ },
-/* 170 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/ReactMarkupChecksum.js ***!
-  \*****************************************************************************************************/
+/* 166 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactMarkupChecksum.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21794,7 +21558,7 @@
 	
 	'use strict';
 	
-	var adler32 = __webpack_require__(/*! ./adler32 */ 171);
+	var adler32 = __webpack_require__(/*! ./adler32 */ 167);
 	
 	var TAG_END = /\/?>/;
 	var COMMENT_START = /^<\!\-\-/;
@@ -21833,10 +21597,10 @@
 	module.exports = ReactMarkupChecksum;
 
 /***/ },
-/* 171 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/adler32.js ***!
-  \*****************************************************************************************/
+/* 167 */
+/*!******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/adler32.js ***!
+  \******************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -21885,10 +21649,10 @@
 	module.exports = adler32;
 
 /***/ },
-/* 172 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/findDOMNode.js ***!
-  \*********************************************************************************************/
+/* 168 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/findDOMNode.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21904,15 +21668,15 @@
 	
 	'use strict';
 	
-	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 7);
+	var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 8);
 	
-	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 10);
+	var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 11);
 	var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 37);
-	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 124);
+	var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 120);
 	
-	var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 173);
-	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 8);
-	var warning = __webpack_require__(/*! fbjs/lib/warning */ 11);
+	var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 169);
+	var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 9);
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
 	
 	/**
 	 * Returns the DOM node rendered by this element.
@@ -21951,13 +21715,13 @@
 	}
 	
 	module.exports = findDOMNode;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 173 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/getHostComponentFromComposite.js ***!
-  \***************************************************************************************************************/
+/* 169 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/getHostComponentFromComposite.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21973,7 +21737,7 @@
 	
 	'use strict';
 	
-	var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 128);
+	var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 124);
 	
 	function getHostComponentFromComposite(inst) {
 	  var type;
@@ -21992,10 +21756,10 @@
 	module.exports = getHostComponentFromComposite;
 
 /***/ },
-/* 174 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react/lib/renderSubtreeIntoContainer.js ***!
-  \************************************************************************************************************/
+/* 170 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/renderSubtreeIntoContainer.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -22011,15 +21775,188 @@
 	
 	'use strict';
 	
-	var ReactMount = __webpack_require__(/*! ./ReactMount */ 167);
+	var ReactMount = __webpack_require__(/*! ./ReactMount */ 163);
 	
 	module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ },
-/* 175 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/index.js ***!
-  \**********************************************************************************************/
+/* 171 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMUnknownPropertyHook.js ***!
+  \**************************************************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 *
+	 * @providesModule ReactDOMUnknownPropertyHook
+	 */
+	
+	'use strict';
+	
+	var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 38);
+	var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 45);
+	var ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
+	
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
+	
+	if (process.env.NODE_ENV !== 'production') {
+	  var reactProps = {
+	    children: true,
+	    dangerouslySetInnerHTML: true,
+	    key: true,
+	    ref: true,
+	
+	    autoFocus: true,
+	    defaultValue: true,
+	    valueLink: true,
+	    defaultChecked: true,
+	    checkedLink: true,
+	    innerHTML: true,
+	    suppressContentEditableWarning: true,
+	    onFocusIn: true,
+	    onFocusOut: true
+	  };
+	  var warnedProperties = {};
+	
+	  var validateProperty = function (tagName, name, debugID) {
+	    if (DOMProperty.properties.hasOwnProperty(name) || DOMProperty.isCustomAttribute(name)) {
+	      return true;
+	    }
+	    if (reactProps.hasOwnProperty(name) && reactProps[name] || warnedProperties.hasOwnProperty(name) && warnedProperties[name]) {
+	      return true;
+	    }
+	    if (EventPluginRegistry.registrationNameModules.hasOwnProperty(name)) {
+	      return true;
+	    }
+	    warnedProperties[name] = true;
+	    var lowerCasedName = name.toLowerCase();
+	
+	    // data-* attributes should be lowercase; suggest the lowercase version
+	    var standardName = DOMProperty.isCustomAttribute(lowerCasedName) ? lowerCasedName : DOMProperty.getPossibleStandardName.hasOwnProperty(lowerCasedName) ? DOMProperty.getPossibleStandardName[lowerCasedName] : null;
+	
+	    var registrationName = EventPluginRegistry.possibleRegistrationNames.hasOwnProperty(lowerCasedName) ? EventPluginRegistry.possibleRegistrationNames[lowerCasedName] : null;
+	
+	    if (standardName != null) {
+	      process.env.NODE_ENV !== 'production' ? warning(false, 'Unknown DOM property %s. Did you mean %s?%s', name, standardName, ReactComponentTreeHook.getStackAddendumByID(debugID)) : void 0;
+	      return true;
+	    } else if (registrationName != null) {
+	      process.env.NODE_ENV !== 'production' ? warning(false, 'Unknown event handler property %s. Did you mean `%s`?%s', name, registrationName, ReactComponentTreeHook.getStackAddendumByID(debugID)) : void 0;
+	      return true;
+	    } else {
+	      // We were unable to guess which prop the user intended.
+	      // It is likely that the user was just blindly spreading/forwarding props
+	      // Components should be careful to only render valid props/attributes.
+	      // Warning will be invoked in warnUnknownProperties to allow grouping.
+	      return false;
+	    }
+	  };
+	}
+	
+	var warnUnknownProperties = function (debugID, element) {
+	  var unknownProps = [];
+	  for (var key in element.props) {
+	    var isValid = validateProperty(element.type, key, debugID);
+	    if (!isValid) {
+	      unknownProps.push(key);
+	    }
+	  }
+	
+	  var unknownPropString = unknownProps.map(function (prop) {
+	    return '`' + prop + '`';
+	  }).join(', ');
+	
+	  if (unknownProps.length === 1) {
+	    process.env.NODE_ENV !== 'production' ? warning(false, 'Unknown prop %s on <%s> tag. Remove this prop from the element. ' + 'For details, see https://fb.me/react-unknown-prop%s', unknownPropString, element.type, ReactComponentTreeHook.getStackAddendumByID(debugID)) : void 0;
+	  } else if (unknownProps.length > 1) {
+	    process.env.NODE_ENV !== 'production' ? warning(false, 'Unknown props %s on <%s> tag. Remove these props from the element. ' + 'For details, see https://fb.me/react-unknown-prop%s', unknownPropString, element.type, ReactComponentTreeHook.getStackAddendumByID(debugID)) : void 0;
+	  }
+	};
+	
+	function handleElement(debugID, element) {
+	  if (element == null || typeof element.type !== 'string') {
+	    return;
+	  }
+	  if (element.type.indexOf('-') >= 0 || element.props.is) {
+	    return;
+	  }
+	  warnUnknownProperties(debugID, element);
+	}
+	
+	var ReactDOMUnknownPropertyHook = {
+	  onBeforeMountComponent: function (debugID, element) {
+	    handleElement(debugID, element);
+	  },
+	  onBeforeUpdateComponent: function (debugID, element) {
+	    handleElement(debugID, element);
+	  }
+	};
+	
+	module.exports = ReactDOMUnknownPropertyHook;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
+
+/***/ },
+/* 172 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react/lib/ReactDOMNullInputValuePropHook.js ***!
+  \*****************************************************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 *
+	 * @providesModule ReactDOMNullInputValuePropHook
+	 */
+	
+	'use strict';
+	
+	var ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 29);
+	
+	var warning = __webpack_require__(/*! fbjs/lib/warning */ 12);
+	
+	var didWarnValueNull = false;
+	
+	function handleElement(debugID, element) {
+	  if (element == null) {
+	    return;
+	  }
+	  if (element.type !== 'input' && element.type !== 'textarea' && element.type !== 'select') {
+	    return;
+	  }
+	  if (element.props != null && element.props.value === null && !didWarnValueNull) {
+	    process.env.NODE_ENV !== 'production' ? warning(false, '`value` prop on `%s` should not be null. ' + 'Consider using the empty string to clear the component or `undefined` ' + 'for uncontrolled components.%s', element.type, ReactComponentTreeHook.getStackAddendumByID(debugID)) : void 0;
+	
+	    didWarnValueNull = true;
+	  }
+	}
+	
+	var ReactDOMNullInputValuePropHook = {
+	  onBeforeMountComponent: function (debugID, element) {
+	    handleElement(debugID, element);
+	  },
+	  onBeforeUpdateComponent: function (debugID, element) {
+	    handleElement(debugID, element);
+	  }
+	};
+	
+	module.exports = ReactDOMNullInputValuePropHook;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
+
+/***/ },
+/* 173 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/index.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22027,7 +21964,7 @@
 	exports.__esModule = true;
 	exports.createMemoryHistory = exports.hashHistory = exports.browserHistory = exports.applyRouterMiddleware = exports.formatPattern = exports.useRouterHistory = exports.match = exports.routerShape = exports.locationShape = exports.PropTypes = exports.RoutingContext = exports.RouterContext = exports.createRoutes = exports.useRoutes = exports.RouteContext = exports.Lifecycle = exports.History = exports.Route = exports.Redirect = exports.IndexRoute = exports.IndexRedirect = exports.withRouter = exports.IndexLink = exports.Link = exports.Router = undefined;
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
 	Object.defineProperty(exports, 'createRoutes', {
 	  enumerable: true,
@@ -22036,7 +21973,7 @@
 	  }
 	});
 	
-	var _PropTypes2 = __webpack_require__(/*! ./PropTypes */ 177);
+	var _PropTypes2 = __webpack_require__(/*! ./PropTypes */ 175);
 	
 	Object.defineProperty(exports, 'locationShape', {
 	  enumerable: true,
@@ -22051,7 +21988,7 @@
 	  }
 	});
 	
-	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 182);
+	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 180);
 	
 	Object.defineProperty(exports, 'formatPattern', {
 	  enumerable: true,
@@ -22060,85 +21997,85 @@
 	  }
 	});
 	
-	var _Router2 = __webpack_require__(/*! ./Router */ 184);
+	var _Router2 = __webpack_require__(/*! ./Router */ 182);
 	
 	var _Router3 = _interopRequireDefault(_Router2);
 	
-	var _Link2 = __webpack_require__(/*! ./Link */ 215);
+	var _Link2 = __webpack_require__(/*! ./Link */ 213);
 	
 	var _Link3 = _interopRequireDefault(_Link2);
 	
-	var _IndexLink2 = __webpack_require__(/*! ./IndexLink */ 216);
+	var _IndexLink2 = __webpack_require__(/*! ./IndexLink */ 214);
 	
 	var _IndexLink3 = _interopRequireDefault(_IndexLink2);
 	
-	var _withRouter2 = __webpack_require__(/*! ./withRouter */ 217);
+	var _withRouter2 = __webpack_require__(/*! ./withRouter */ 215);
 	
 	var _withRouter3 = _interopRequireDefault(_withRouter2);
 	
-	var _IndexRedirect2 = __webpack_require__(/*! ./IndexRedirect */ 219);
+	var _IndexRedirect2 = __webpack_require__(/*! ./IndexRedirect */ 217);
 	
 	var _IndexRedirect3 = _interopRequireDefault(_IndexRedirect2);
 	
-	var _IndexRoute2 = __webpack_require__(/*! ./IndexRoute */ 221);
+	var _IndexRoute2 = __webpack_require__(/*! ./IndexRoute */ 219);
 	
 	var _IndexRoute3 = _interopRequireDefault(_IndexRoute2);
 	
-	var _Redirect2 = __webpack_require__(/*! ./Redirect */ 220);
+	var _Redirect2 = __webpack_require__(/*! ./Redirect */ 218);
 	
 	var _Redirect3 = _interopRequireDefault(_Redirect2);
 	
-	var _Route2 = __webpack_require__(/*! ./Route */ 222);
+	var _Route2 = __webpack_require__(/*! ./Route */ 220);
 	
 	var _Route3 = _interopRequireDefault(_Route2);
 	
-	var _History2 = __webpack_require__(/*! ./History */ 223);
+	var _History2 = __webpack_require__(/*! ./History */ 221);
 	
 	var _History3 = _interopRequireDefault(_History2);
 	
-	var _Lifecycle2 = __webpack_require__(/*! ./Lifecycle */ 224);
+	var _Lifecycle2 = __webpack_require__(/*! ./Lifecycle */ 222);
 	
 	var _Lifecycle3 = _interopRequireDefault(_Lifecycle2);
 	
-	var _RouteContext2 = __webpack_require__(/*! ./RouteContext */ 225);
+	var _RouteContext2 = __webpack_require__(/*! ./RouteContext */ 223);
 	
 	var _RouteContext3 = _interopRequireDefault(_RouteContext2);
 	
-	var _useRoutes2 = __webpack_require__(/*! ./useRoutes */ 226);
+	var _useRoutes2 = __webpack_require__(/*! ./useRoutes */ 224);
 	
 	var _useRoutes3 = _interopRequireDefault(_useRoutes2);
 	
-	var _RouterContext2 = __webpack_require__(/*! ./RouterContext */ 212);
+	var _RouterContext2 = __webpack_require__(/*! ./RouterContext */ 210);
 	
 	var _RouterContext3 = _interopRequireDefault(_RouterContext2);
 	
-	var _RoutingContext2 = __webpack_require__(/*! ./RoutingContext */ 227);
+	var _RoutingContext2 = __webpack_require__(/*! ./RoutingContext */ 225);
 	
 	var _RoutingContext3 = _interopRequireDefault(_RoutingContext2);
 	
 	var _PropTypes3 = _interopRequireDefault(_PropTypes2);
 	
-	var _match2 = __webpack_require__(/*! ./match */ 228);
+	var _match2 = __webpack_require__(/*! ./match */ 226);
 	
 	var _match3 = _interopRequireDefault(_match2);
 	
-	var _useRouterHistory2 = __webpack_require__(/*! ./useRouterHistory */ 232);
+	var _useRouterHistory2 = __webpack_require__(/*! ./useRouterHistory */ 230);
 	
 	var _useRouterHistory3 = _interopRequireDefault(_useRouterHistory2);
 	
-	var _applyRouterMiddleware2 = __webpack_require__(/*! ./applyRouterMiddleware */ 233);
+	var _applyRouterMiddleware2 = __webpack_require__(/*! ./applyRouterMiddleware */ 231);
 	
 	var _applyRouterMiddleware3 = _interopRequireDefault(_applyRouterMiddleware2);
 	
-	var _browserHistory2 = __webpack_require__(/*! ./browserHistory */ 234);
+	var _browserHistory2 = __webpack_require__(/*! ./browserHistory */ 232);
 	
 	var _browserHistory3 = _interopRequireDefault(_browserHistory2);
 	
-	var _hashHistory2 = __webpack_require__(/*! ./hashHistory */ 237);
+	var _hashHistory2 = __webpack_require__(/*! ./hashHistory */ 235);
 	
 	var _hashHistory3 = _interopRequireDefault(_hashHistory2);
 	
-	var _createMemoryHistory2 = __webpack_require__(/*! ./createMemoryHistory */ 229);
+	var _createMemoryHistory2 = __webpack_require__(/*! ./createMemoryHistory */ 227);
 	
 	var _createMemoryHistory3 = _interopRequireDefault(_createMemoryHistory2);
 	
@@ -22180,10 +22117,10 @@
 	exports.createMemoryHistory = _createMemoryHistory3.default;
 
 /***/ },
-/* 176 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/RouteUtils.js ***!
-  \***************************************************************************************************/
+/* 174 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/RouteUtils.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22197,7 +22134,7 @@
 	exports.createRoutesFromReactChildren = createRoutesFromReactChildren;
 	exports.createRoutes = createRoutes;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -22281,10 +22218,10 @@
 	}
 
 /***/ },
-/* 177 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/PropTypes.js ***!
-  \**************************************************************************************************/
+/* 175 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/PropTypes.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -22292,17 +22229,17 @@
 	exports.__esModule = true;
 	exports.router = exports.routes = exports.route = exports.components = exports.component = exports.location = exports.history = exports.falsy = exports.locationShape = exports.routerShape = undefined;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
-	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 178);
+	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 176);
 	
 	var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
 	var InternalPropTypes = _interopRequireWildcard(_InternalPropTypes);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -22388,13 +22325,13 @@
 	}
 	
 	exports.default = defaultExport;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 178 */
-/*!******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/deprecateObjectProperties.js ***!
-  \******************************************************************************************************************/
+/* 176 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/deprecateObjectProperties.js ***!
+  \*******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -22402,7 +22339,7 @@
 	exports.__esModule = true;
 	exports.canUseMembrane = undefined;
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -22472,13 +22409,13 @@
 	}
 	
 	exports.default = deprecateObjectProperties;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 179 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/routerWarning.js ***!
-  \******************************************************************************************************/
+/* 177 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/routerWarning.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22487,7 +22424,7 @@
 	exports.default = routerWarning;
 	exports._resetWarned = _resetWarned;
 	
-	var _warning = __webpack_require__(/*! warning */ 180);
+	var _warning = __webpack_require__(/*! warning */ 178);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
@@ -22519,10 +22456,10 @@
 	}
 
 /***/ },
-/* 180 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/warning/browser.js ***!
-  \***************************************************************************************/
+/* 178 */
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/warning/browser.js ***!
+  \****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -22586,13 +22523,13 @@
 	
 	module.exports = warning;
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 181 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/InternalPropTypes.js ***!
-  \**********************************************************************************************************/
+/* 179 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/InternalPropTypes.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22601,7 +22538,7 @@
 	exports.routes = exports.route = exports.components = exports.component = exports.history = undefined;
 	exports.falsy = falsy;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var func = _react.PropTypes.func;
 	var object = _react.PropTypes.object;
@@ -22629,10 +22566,10 @@
 	var routes = exports.routes = oneOfType([route, arrayOf(route)]);
 
 /***/ },
-/* 182 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/PatternUtils.js ***!
-  \*****************************************************************************************************/
+/* 180 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/PatternUtils.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -22644,7 +22581,7 @@
 	exports.getParams = getParams;
 	exports.formatPattern = formatPattern;
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
@@ -22847,13 +22784,13 @@
 	
 	  return pathname.replace(/\/+/g, '/');
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 183 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/invariant/browser.js ***!
-  \*****************************************************************************************/
+/* 181 */
+/*!******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/invariant/browser.js ***!
+  \******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -22908,13 +22845,13 @@
 	
 	module.exports = invariant;
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 184 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/Router.js ***!
-  \***********************************************************************************************/
+/* 182 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/Router.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -22923,37 +22860,37 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _createHashHistory = __webpack_require__(/*! history/lib/createHashHistory */ 185);
+	var _createHashHistory = __webpack_require__(/*! history/lib/createHashHistory */ 183);
 	
 	var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
 	
-	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 201);
+	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 199);
 	
 	var _useQueries2 = _interopRequireDefault(_useQueries);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ 204);
+	var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ 202);
 	
 	var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
-	var _RouterContext = __webpack_require__(/*! ./RouterContext */ 212);
+	var _RouterContext = __webpack_require__(/*! ./RouterContext */ 210);
 	
 	var _RouterContext2 = _interopRequireDefault(_RouterContext);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
-	var _RouterUtils = __webpack_require__(/*! ./RouterUtils */ 214);
+	var _RouterUtils = __webpack_require__(/*! ./RouterUtils */ 212);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -23141,13 +23078,13 @@
 	
 	exports.default = Router;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 185 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/createHashHistory.js ***!
-  \*****************************************************************************************************/
+/* 183 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/createHashHistory.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -23158,25 +23095,25 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _Actions = __webpack_require__(/*! ./Actions */ 187);
+	var _Actions = __webpack_require__(/*! ./Actions */ 185);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
-	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 189);
+	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 187);
 	
-	var _DOMUtils = __webpack_require__(/*! ./DOMUtils */ 190);
+	var _DOMUtils = __webpack_require__(/*! ./DOMUtils */ 188);
 	
-	var _DOMStateStorage = __webpack_require__(/*! ./DOMStateStorage */ 191);
+	var _DOMStateStorage = __webpack_require__(/*! ./DOMStateStorage */ 189);
 	
-	var _createDOMHistory = __webpack_require__(/*! ./createDOMHistory */ 192);
+	var _createDOMHistory = __webpack_require__(/*! ./createDOMHistory */ 190);
 	
 	var _createDOMHistory2 = _interopRequireDefault(_createDOMHistory);
 	
@@ -23396,13 +23333,13 @@
 	
 	exports['default'] = createHashHistory;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 186 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/~/warning/browser.js ***!
-  \*************************************************************************************************/
+/* 184 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/~/warning/browser.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -23466,13 +23403,13 @@
 	
 	module.exports = warning;
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 187 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/Actions.js ***!
-  \*******************************************************************************************/
+/* 185 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/Actions.js ***!
+  \********************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -23508,10 +23445,10 @@
 	};
 
 /***/ },
-/* 188 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/PathUtils.js ***!
-  \*********************************************************************************************/
+/* 186 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/PathUtils.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -23522,7 +23459,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
@@ -23561,13 +23498,13 @@
 	    hash: hash
 	  };
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 189 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/ExecutionEnvironment.js ***!
-  \********************************************************************************************************/
+/* 187 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/ExecutionEnvironment.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -23577,10 +23514,10 @@
 	exports.canUseDOM = canUseDOM;
 
 /***/ },
-/* 190 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/DOMUtils.js ***!
-  \********************************************************************************************/
+/* 188 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/DOMUtils.js ***!
+  \*********************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -23660,10 +23597,10 @@
 	}
 
 /***/ },
-/* 191 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/DOMStateStorage.js ***!
-  \***************************************************************************************************/
+/* 189 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/DOMStateStorage.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/*eslint-disable no-empty */
@@ -23675,7 +23612,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
@@ -23739,13 +23676,13 @@
 	
 	  return null;
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 192 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/createDOMHistory.js ***!
-  \****************************************************************************************************/
+/* 190 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/createDOMHistory.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -23756,15 +23693,15 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 189);
+	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 187);
 	
-	var _DOMUtils = __webpack_require__(/*! ./DOMUtils */ 190);
+	var _DOMUtils = __webpack_require__(/*! ./DOMUtils */ 188);
 	
-	var _createHistory = __webpack_require__(/*! ./createHistory */ 193);
+	var _createHistory = __webpack_require__(/*! ./createHistory */ 191);
 	
 	var _createHistory2 = _interopRequireDefault(_createHistory);
 	
@@ -23788,13 +23725,13 @@
 	
 	exports['default'] = createDOMHistory;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 193 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/createHistory.js ***!
-  \*************************************************************************************************/
+/* 191 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/createHistory.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -23805,29 +23742,29 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _deepEqual = __webpack_require__(/*! deep-equal */ 194);
+	var _deepEqual = __webpack_require__(/*! deep-equal */ 192);
 	
 	var _deepEqual2 = _interopRequireDefault(_deepEqual);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
-	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 197);
+	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 195);
 	
-	var _Actions = __webpack_require__(/*! ./Actions */ 187);
+	var _Actions = __webpack_require__(/*! ./Actions */ 185);
 	
-	var _createLocation2 = __webpack_require__(/*! ./createLocation */ 198);
+	var _createLocation2 = __webpack_require__(/*! ./createLocation */ 196);
 	
 	var _createLocation3 = _interopRequireDefault(_createLocation2);
 	
-	var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ 199);
+	var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ 197);
 	
 	var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 	
-	var _deprecate = __webpack_require__(/*! ./deprecate */ 200);
+	var _deprecate = __webpack_require__(/*! ./deprecate */ 198);
 	
 	var _deprecate2 = _interopRequireDefault(_deprecate);
 	
@@ -24085,18 +24022,18 @@
 	
 	exports['default'] = createHistory;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 194 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/deep-equal/index.js ***!
-  \****************************************************************************************/
+/* 192 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/deep-equal/index.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var pSlice = Array.prototype.slice;
-	var objectKeys = __webpack_require__(/*! ./lib/keys.js */ 195);
-	var isArguments = __webpack_require__(/*! ./lib/is_arguments.js */ 196);
+	var objectKeys = __webpack_require__(/*! ./lib/keys.js */ 193);
+	var isArguments = __webpack_require__(/*! ./lib/is_arguments.js */ 194);
 	
 	var deepEqual = module.exports = function (actual, expected, opts) {
 	  if (!opts) opts = {};
@@ -24191,10 +24128,10 @@
 
 
 /***/ },
-/* 195 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/deep-equal/lib/keys.js ***!
-  \*******************************************************************************************/
+/* 193 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/deep-equal/lib/keys.js ***!
+  \********************************************************************/
 /***/ function(module, exports) {
 
 	exports = module.exports = typeof Object.keys === 'function'
@@ -24209,10 +24146,10 @@
 
 
 /***/ },
-/* 196 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/deep-equal/lib/is_arguments.js ***!
-  \***************************************************************************************************/
+/* 194 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/deep-equal/lib/is_arguments.js ***!
+  \****************************************************************************/
 /***/ function(module, exports) {
 
 	var supportsArgumentsClass = (function(){
@@ -24238,10 +24175,10 @@
 
 
 /***/ },
-/* 197 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/AsyncUtils.js ***!
-  \**********************************************************************************************/
+/* 195 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/AsyncUtils.js ***!
+  \***********************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -24304,10 +24241,10 @@
 	}
 
 /***/ },
-/* 198 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/createLocation.js ***!
-  \**************************************************************************************************/
+/* 196 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/createLocation.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -24318,13 +24255,13 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _Actions = __webpack_require__(/*! ./Actions */ 187);
+	var _Actions = __webpack_require__(/*! ./Actions */ 185);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
 	function createLocation() {
 	  var location = arguments.length <= 0 || arguments[0] === undefined ? '/' : arguments[0];
@@ -24361,13 +24298,13 @@
 	
 	exports['default'] = createLocation;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 199 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/runTransitionHook.js ***!
-  \*****************************************************************************************************/
+/* 197 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/runTransitionHook.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -24376,7 +24313,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
@@ -24394,13 +24331,13 @@
 	
 	exports['default'] = runTransitionHook;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 200 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/deprecate.js ***!
-  \*********************************************************************************************/
+/* 198 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/deprecate.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -24409,7 +24346,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
@@ -24422,13 +24359,13 @@
 	
 	exports['default'] = deprecate;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 201 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/useQueries.js ***!
-  \**********************************************************************************************/
+/* 199 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/useQueries.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -24439,19 +24376,19 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _queryString = __webpack_require__(/*! query-string */ 202);
+	var _queryString = __webpack_require__(/*! query-string */ 200);
 	
-	var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ 199);
+	var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ 197);
 	
 	var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
-	var _deprecate = __webpack_require__(/*! ./deprecate */ 200);
+	var _deprecate = __webpack_require__(/*! ./deprecate */ 198);
 	
 	var _deprecate2 = _interopRequireDefault(_deprecate);
 	
@@ -24607,17 +24544,17 @@
 	
 	exports['default'] = useQueries;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 202 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/~/query-string/index.js ***!
-  \****************************************************************************************************/
+/* 200 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/~/query-string/index.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var strictUriEncode = __webpack_require__(/*! strict-uri-encode */ 203);
+	var strictUriEncode = __webpack_require__(/*! strict-uri-encode */ 201);
 	
 	exports.extract = function (str) {
 		return str.split('?')[1] || '';
@@ -24685,10 +24622,10 @@
 
 
 /***/ },
-/* 203 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/strict-uri-encode/index.js ***!
-  \***********************************************************************************************/
+/* 201 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/strict-uri-encode/index.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -24700,10 +24637,10 @@
 
 
 /***/ },
-/* 204 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/createTransitionManager.js ***!
-  \****************************************************************************************************************/
+/* 202 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/createTransitionManager.js ***!
+  \*****************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -24714,27 +24651,27 @@
 	
 	exports.default = createTransitionManager;
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _Actions = __webpack_require__(/*! history/lib/Actions */ 187);
+	var _Actions = __webpack_require__(/*! history/lib/Actions */ 185);
 	
-	var _computeChangedRoutes2 = __webpack_require__(/*! ./computeChangedRoutes */ 205);
+	var _computeChangedRoutes2 = __webpack_require__(/*! ./computeChangedRoutes */ 203);
 	
 	var _computeChangedRoutes3 = _interopRequireDefault(_computeChangedRoutes2);
 	
-	var _TransitionUtils = __webpack_require__(/*! ./TransitionUtils */ 206);
+	var _TransitionUtils = __webpack_require__(/*! ./TransitionUtils */ 204);
 	
-	var _isActive2 = __webpack_require__(/*! ./isActive */ 208);
+	var _isActive2 = __webpack_require__(/*! ./isActive */ 206);
 	
 	var _isActive3 = _interopRequireDefault(_isActive2);
 	
-	var _getComponents = __webpack_require__(/*! ./getComponents */ 209);
+	var _getComponents = __webpack_require__(/*! ./getComponents */ 207);
 	
 	var _getComponents2 = _interopRequireDefault(_getComponents);
 	
-	var _matchRoutes = __webpack_require__(/*! ./matchRoutes */ 211);
+	var _matchRoutes = __webpack_require__(/*! ./matchRoutes */ 209);
 	
 	var _matchRoutes2 = _interopRequireDefault(_matchRoutes);
 	
@@ -25014,20 +24951,20 @@
 	//export default useRoutes
 	
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 205 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/computeChangedRoutes.js ***!
-  \*************************************************************************************************************/
+/* 203 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/computeChangedRoutes.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 182);
+	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 180);
 	
 	function routeParamsChanged(route, prevState, nextState) {
 	  if (!route.path) return false;
@@ -25102,10 +25039,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 206 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/TransitionUtils.js ***!
-  \********************************************************************************************************/
+/* 204 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/TransitionUtils.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -25115,9 +25052,9 @@
 	exports.runChangeHooks = runChangeHooks;
 	exports.runLeaveHooks = runLeaveHooks;
 	
-	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 207);
+	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 205);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -25230,13 +25167,13 @@
 	    if (routes[i].onLeave) routes[i].onLeave.call(routes[i], prevState);
 	  }
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 207 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/AsyncUtils.js ***!
-  \***************************************************************************************************/
+/* 205 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/AsyncUtils.js ***!
+  \****************************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -25329,10 +25266,10 @@
 	}
 
 /***/ },
-/* 208 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/isActive.js ***!
-  \*************************************************************************************************/
+/* 206 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/isActive.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -25343,7 +25280,7 @@
 	
 	exports.default = isActive;
 	
-	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 182);
+	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 180);
 	
 	function deepEqual(a, b) {
 	  if (a == b) return true;
@@ -25489,19 +25426,19 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 209 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/getComponents.js ***!
-  \******************************************************************************************************/
+/* 207 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/getComponents.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 207);
+	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 205);
 	
-	var _makeStateWithLocation = __webpack_require__(/*! ./makeStateWithLocation */ 210);
+	var _makeStateWithLocation = __webpack_require__(/*! ./makeStateWithLocation */ 208);
 	
 	var _makeStateWithLocation2 = _interopRequireDefault(_makeStateWithLocation);
 	
@@ -25543,10 +25480,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 210 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/makeStateWithLocation.js ***!
-  \**************************************************************************************************************/
+/* 208 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/makeStateWithLocation.js ***!
+  \***************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -25557,9 +25494,9 @@
 	
 	exports.default = makeStateWithLocation;
 	
-	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 178);
+	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 176);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -25598,13 +25535,13 @@
 	  return _extends({}, state, location);
 	}
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 211 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/matchRoutes.js ***!
-  \****************************************************************************************************/
+/* 209 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/matchRoutes.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -25617,19 +25554,19 @@
 	
 	exports.default = matchRoutes;
 	
-	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 207);
+	var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ 205);
 	
-	var _makeStateWithLocation = __webpack_require__(/*! ./makeStateWithLocation */ 210);
+	var _makeStateWithLocation = __webpack_require__(/*! ./makeStateWithLocation */ 208);
 	
 	var _makeStateWithLocation2 = _interopRequireDefault(_makeStateWithLocation);
 	
-	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 182);
+	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 180);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -25858,13 +25795,13 @@
 	  }, callback);
 	}
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 212 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/RouterContext.js ***!
-  \******************************************************************************************************/
+/* 210 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/RouterContext.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -25875,25 +25812,25 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 178);
+	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 176);
 	
 	var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 	
-	var _getRouteParams = __webpack_require__(/*! ./getRouteParams */ 213);
+	var _getRouteParams = __webpack_require__(/*! ./getRouteParams */ 211);
 	
 	var _getRouteParams2 = _interopRequireDefault(_getRouteParams);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -26023,20 +25960,20 @@
 	
 	exports.default = RouterContext;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 213 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/getRouteParams.js ***!
-  \*******************************************************************************************************/
+/* 211 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/getRouteParams.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 182);
+	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 180);
 	
 	/**
 	 * Extracts an object of params the given route cares about from
@@ -26060,10 +25997,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 214 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/RouterUtils.js ***!
-  \****************************************************************************************************/
+/* 212 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/RouterUtils.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -26075,7 +26012,7 @@
 	exports.createRouterObject = createRouterObject;
 	exports.createRoutingHistory = createRoutingHistory;
 	
-	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 178);
+	var _deprecateObjectProperties = __webpack_require__(/*! ./deprecateObjectProperties */ 176);
 	
 	var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 	
@@ -26098,13 +26035,13 @@
 	
 	  return history;
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 215 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/Link.js ***!
-  \*********************************************************************************************/
+/* 213 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/Link.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -26113,19 +26050,19 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _PropTypes = __webpack_require__(/*! ./PropTypes */ 177);
+	var _PropTypes = __webpack_require__(/*! ./PropTypes */ 175);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26278,13 +26215,13 @@
 	
 	exports.default = Link;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 216 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/IndexLink.js ***!
-  \**************************************************************************************************/
+/* 214 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/IndexLink.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26293,11 +26230,11 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Link = __webpack_require__(/*! ./Link */ 215);
+	var _Link = __webpack_require__(/*! ./Link */ 213);
 	
 	var _Link2 = _interopRequireDefault(_Link);
 	
@@ -26317,10 +26254,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 217 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/withRouter.js ***!
-  \***************************************************************************************************/
+/* 215 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/withRouter.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26331,15 +26268,15 @@
 	
 	exports.default = withRouter;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _hoistNonReactStatics = __webpack_require__(/*! hoist-non-react-statics */ 218);
+	var _hoistNonReactStatics = __webpack_require__(/*! hoist-non-react-statics */ 216);
 	
 	var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 	
-	var _PropTypes = __webpack_require__(/*! ./PropTypes */ 177);
+	var _PropTypes = __webpack_require__(/*! ./PropTypes */ 175);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26365,10 +26302,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 218 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/hoist-non-react-statics/index.js ***!
-  \*****************************************************************************************************/
+/* 216 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/hoist-non-react-statics/index.js ***!
+  \******************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -26424,33 +26361,33 @@
 
 
 /***/ },
-/* 219 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/IndexRedirect.js ***!
-  \******************************************************************************************************/
+/* 217 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/IndexRedirect.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _Redirect = __webpack_require__(/*! ./Redirect */ 220);
+	var _Redirect = __webpack_require__(/*! ./Redirect */ 218);
 	
 	var _Redirect2 = _interopRequireDefault(_Redirect);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26493,32 +26430,32 @@
 	
 	exports.default = IndexRedirect;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 220 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/Redirect.js ***!
-  \*************************************************************************************************/
+/* 218 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/Redirect.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
-	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 182);
+	var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ 180);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26604,34 +26541,34 @@
 	
 	exports.default = Redirect;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 221 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/IndexRoute.js ***!
-  \***************************************************************************************************/
+/* 219 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/IndexRoute.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26673,30 +26610,30 @@
 	
 	exports.default = IndexRoute;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 222 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/Route.js ***!
-  \**********************************************************************************************/
+/* 220 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/Route.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26739,24 +26676,24 @@
 	
 	exports.default = Route;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 223 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/History.js ***!
-  \************************************************************************************************/
+/* 221 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/History.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 181);
+	var _InternalPropTypes = __webpack_require__(/*! ./InternalPropTypes */ 179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26777,28 +26714,28 @@
 	
 	exports.default = History;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 224 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/Lifecycle.js ***!
-  \**************************************************************************************************/
+/* 222 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/Lifecycle.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
@@ -26854,24 +26791,24 @@
 	
 	exports.default = Lifecycle;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 225 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/RouteContext.js ***!
-  \*****************************************************************************************************/
+/* 223 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/RouteContext.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -26908,13 +26845,13 @@
 	
 	exports.default = RouteContext;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 226 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/useRoutes.js ***!
-  \**************************************************************************************************/
+/* 224 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/useRoutes.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -26923,15 +26860,15 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 201);
+	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 199);
 	
 	var _useQueries2 = _interopRequireDefault(_useQueries);
 	
-	var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ 204);
+	var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ 202);
 	
 	var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -26968,28 +26905,28 @@
 	
 	exports.default = useRoutes;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 227 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/RoutingContext.js ***!
-  \*******************************************************************************************************/
+/* 225 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/RoutingContext.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _RouterContext = __webpack_require__(/*! ./RouterContext */ 212);
+	var _RouterContext = __webpack_require__(/*! ./RouterContext */ 210);
 	
 	var _RouterContext2 = _interopRequireDefault(_RouterContext);
 	
-	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 179);
+	var _routerWarning = __webpack_require__(/*! ./routerWarning */ 177);
 	
 	var _routerWarning2 = _interopRequireDefault(_routerWarning);
 	
@@ -27007,13 +26944,13 @@
 	
 	exports.default = RoutingContext;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 228 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/match.js ***!
-  \**********************************************************************************************/
+/* 226 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/match.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -27022,21 +26959,21 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _createMemoryHistory = __webpack_require__(/*! ./createMemoryHistory */ 229);
+	var _createMemoryHistory = __webpack_require__(/*! ./createMemoryHistory */ 227);
 	
 	var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
 	
-	var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ 204);
+	var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ 202);
 	
 	var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 	
-	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 176);
+	var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ 174);
 	
-	var _RouterUtils = __webpack_require__(/*! ./RouterUtils */ 214);
+	var _RouterUtils = __webpack_require__(/*! ./RouterUtils */ 212);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -27097,13 +27034,13 @@
 	
 	exports.default = match;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 229 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/createMemoryHistory.js ***!
-  \************************************************************************************************************/
+/* 227 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/createMemoryHistory.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27111,15 +27048,15 @@
 	exports.__esModule = true;
 	exports.default = createMemoryHistory;
 	
-	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 201);
+	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 199);
 	
 	var _useQueries2 = _interopRequireDefault(_useQueries);
 	
-	var _useBasename = __webpack_require__(/*! history/lib/useBasename */ 230);
+	var _useBasename = __webpack_require__(/*! history/lib/useBasename */ 228);
 	
 	var _useBasename2 = _interopRequireDefault(_useBasename);
 	
-	var _createMemoryHistory = __webpack_require__(/*! history/lib/createMemoryHistory */ 231);
+	var _createMemoryHistory = __webpack_require__(/*! history/lib/createMemoryHistory */ 229);
 	
 	var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
 	
@@ -27140,10 +27077,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 230 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/useBasename.js ***!
-  \***********************************************************************************************/
+/* 228 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/useBasename.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -27154,19 +27091,19 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 189);
+	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 187);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
-	var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ 199);
+	var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ 197);
 	
 	var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 	
-	var _deprecate = __webpack_require__(/*! ./deprecate */ 200);
+	var _deprecate = __webpack_require__(/*! ./deprecate */ 198);
 	
 	var _deprecate2 = _interopRequireDefault(_deprecate);
 	
@@ -27304,13 +27241,13 @@
 	
 	exports['default'] = useBasename;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 231 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/createMemoryHistory.js ***!
-  \*******************************************************************************************************/
+/* 229 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/createMemoryHistory.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -27321,19 +27258,19 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _warning = __webpack_require__(/*! warning */ 186);
+	var _warning = __webpack_require__(/*! warning */ 184);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
-	var _Actions = __webpack_require__(/*! ./Actions */ 187);
+	var _Actions = __webpack_require__(/*! ./Actions */ 185);
 	
-	var _createHistory = __webpack_require__(/*! ./createHistory */ 193);
+	var _createHistory = __webpack_require__(/*! ./createHistory */ 191);
 	
 	var _createHistory2 = _interopRequireDefault(_createHistory);
 	
@@ -27467,13 +27404,13 @@
 	
 	exports['default'] = createMemoryHistory;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 232 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/useRouterHistory.js ***!
-  \*********************************************************************************************************/
+/* 230 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/useRouterHistory.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27481,11 +27418,11 @@
 	exports.__esModule = true;
 	exports.default = useRouterHistory;
 	
-	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 201);
+	var _useQueries = __webpack_require__(/*! history/lib/useQueries */ 199);
 	
 	var _useQueries2 = _interopRequireDefault(_useQueries);
 	
-	var _useBasename = __webpack_require__(/*! history/lib/useBasename */ 230);
+	var _useBasename = __webpack_require__(/*! history/lib/useBasename */ 228);
 	
 	var _useBasename2 = _interopRequireDefault(_useBasename);
 	
@@ -27501,10 +27438,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 233 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/applyRouterMiddleware.js ***!
-  \**************************************************************************************************************/
+/* 231 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/applyRouterMiddleware.js ***!
+  \***************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27513,11 +27450,11 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _RouterContext = __webpack_require__(/*! ./RouterContext */ 212);
+	var _RouterContext = __webpack_require__(/*! ./RouterContext */ 210);
 	
 	var _RouterContext2 = _interopRequireDefault(_RouterContext);
 	
@@ -27559,21 +27496,21 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 234 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/browserHistory.js ***!
-  \*******************************************************************************************************/
+/* 232 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/browserHistory.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _createBrowserHistory = __webpack_require__(/*! history/lib/createBrowserHistory */ 235);
+	var _createBrowserHistory = __webpack_require__(/*! history/lib/createBrowserHistory */ 233);
 	
 	var _createBrowserHistory2 = _interopRequireDefault(_createBrowserHistory);
 	
-	var _createRouterHistory = __webpack_require__(/*! ./createRouterHistory */ 236);
+	var _createRouterHistory = __webpack_require__(/*! ./createRouterHistory */ 234);
 	
 	var _createRouterHistory2 = _interopRequireDefault(_createRouterHistory);
 	
@@ -27583,10 +27520,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 235 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/history/lib/createBrowserHistory.js ***!
-  \********************************************************************************************************/
+/* 233 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/history/lib/createBrowserHistory.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -27597,21 +27534,21 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _invariant = __webpack_require__(/*! invariant */ 183);
+	var _invariant = __webpack_require__(/*! invariant */ 181);
 	
 	var _invariant2 = _interopRequireDefault(_invariant);
 	
-	var _Actions = __webpack_require__(/*! ./Actions */ 187);
+	var _Actions = __webpack_require__(/*! ./Actions */ 185);
 	
-	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 188);
+	var _PathUtils = __webpack_require__(/*! ./PathUtils */ 186);
 	
-	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 189);
+	var _ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 187);
 	
-	var _DOMUtils = __webpack_require__(/*! ./DOMUtils */ 190);
+	var _DOMUtils = __webpack_require__(/*! ./DOMUtils */ 188);
 	
-	var _DOMStateStorage = __webpack_require__(/*! ./DOMStateStorage */ 191);
+	var _DOMStateStorage = __webpack_require__(/*! ./DOMStateStorage */ 189);
 	
-	var _createDOMHistory = __webpack_require__(/*! ./createDOMHistory */ 192);
+	var _createDOMHistory = __webpack_require__(/*! ./createDOMHistory */ 190);
 	
 	var _createDOMHistory2 = _interopRequireDefault(_createDOMHistory);
 	
@@ -27769,13 +27706,13 @@
 	
 	exports['default'] = createBrowserHistory;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 236 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/createRouterHistory.js ***!
-  \************************************************************************************************************/
+/* 234 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/createRouterHistory.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27788,7 +27725,7 @@
 	  return history;
 	};
 	
-	var _useRouterHistory = __webpack_require__(/*! ./useRouterHistory */ 232);
+	var _useRouterHistory = __webpack_require__(/*! ./useRouterHistory */ 230);
 	
 	var _useRouterHistory2 = _interopRequireDefault(_useRouterHistory);
 	
@@ -27799,21 +27736,21 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 237 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-router/lib/hashHistory.js ***!
-  \****************************************************************************************************/
+/* 235 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-router/lib/hashHistory.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _createHashHistory = __webpack_require__(/*! history/lib/createHashHistory */ 185);
+	var _createHashHistory = __webpack_require__(/*! history/lib/createHashHistory */ 183);
 	
 	var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
 	
-	var _createRouterHistory = __webpack_require__(/*! ./createRouterHistory */ 236);
+	var _createRouterHistory = __webpack_require__(/*! ./createRouterHistory */ 234);
 	
 	var _createRouterHistory2 = _interopRequireDefault(_createRouterHistory);
 	
@@ -27823,7 +27760,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 238 */
+/* 236 */
 /*!**************************!*\
   !*** ./partials/app.jsx ***!
   \**************************/
@@ -27835,7 +27772,7 @@
 	  value: true
 	});
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -27843,7 +27780,7 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _header = __webpack_require__(/*! ./../header.jsx */ 239);
+	var _header = __webpack_require__(/*! ./../header.jsx */ 237);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
@@ -27871,7 +27808,7 @@
 	exports.default = App;
 
 /***/ },
-/* 239 */
+/* 237 */
 /*!********************!*\
   !*** ./header.jsx ***!
   \********************/
@@ -27883,7 +27820,7 @@
 	  value: true
 	});
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -27909,7 +27846,7 @@
 	});
 
 /***/ },
-/* 240 */
+/* 238 */
 /*!***************************!*\
   !*** ./partials/home.jsx ***!
   \***************************/
@@ -27917,25 +27854,25 @@
 
 	'use strict';
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactDatePicker = __webpack_require__(/*! react-date-picker */ 241);
+	var _reactDatePicker = __webpack_require__(/*! react-date-picker */ 239);
 	
-	var _results = __webpack_require__(/*! ./results.jsx */ 419);
+	var _results = __webpack_require__(/*! ./results.jsx */ 417);
 	
 	var _results2 = _interopRequireDefault(_results);
 	
-	__webpack_require__(/*! react-date-picker/index.css */ 420);
+	__webpack_require__(/*! react-date-picker/index.css */ 418);
 	
-	var _socket = __webpack_require__(/*! socket.io-client */ 422);
+	var _socket = __webpack_require__(/*! socket.io-client */ 420);
 	
 	var _socket2 = _interopRequireDefault(_socket);
 	
-	var _feathersClient = __webpack_require__(/*! feathers-client */ 468);
+	var _feathersClient = __webpack_require__(/*! feathers-client */ 466);
 	
 	var _feathersClient2 = _interopRequireDefault(_feathersClient);
 	
@@ -28106,10 +28043,10 @@
 	module.exports = Home;
 
 /***/ },
-/* 241 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/index.js ***!
-  \***************************************************************************************************/
+/* 239 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/index.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28119,67 +28056,67 @@
 	});
 	exports.TimeInput = exports.TimePicker = exports.Calendar = exports.DateField = exports.ClockInput = exports.Clock = exports.Footer = exports.NavBar = exports.MultiMonthView = exports.TransitionView = exports.DateFormatSpinnerInput = exports.DateFormatInput = exports.HistoryView = exports.DecadeView = exports.YearView = exports.MonthView = exports.DateEditor = exports.DatePicker = undefined;
 	
-	var _MonthView = __webpack_require__(/*! ./MonthView */ 242);
+	var _MonthView = __webpack_require__(/*! ./MonthView */ 240);
 	
 	var _MonthView2 = _interopRequireDefault(_MonthView);
 	
-	var _TimePicker = __webpack_require__(/*! ./TimePicker */ 379);
+	var _TimePicker = __webpack_require__(/*! ./TimePicker */ 377);
 	
 	var _TimePicker2 = _interopRequireDefault(_TimePicker);
 	
-	var _TimeInput = __webpack_require__(/*! ./TimeInput */ 380);
+	var _TimeInput = __webpack_require__(/*! ./TimeInput */ 378);
 	
 	var _TimeInput2 = _interopRequireDefault(_TimeInput);
 	
-	var _TransitionView = __webpack_require__(/*! ./TransitionView */ 404);
+	var _TransitionView = __webpack_require__(/*! ./TransitionView */ 402);
 	
 	var _TransitionView2 = _interopRequireDefault(_TransitionView);
 	
-	var _MultiMonthView = __webpack_require__(/*! ./MultiMonthView */ 407);
+	var _MultiMonthView = __webpack_require__(/*! ./MultiMonthView */ 405);
 	
 	var _MultiMonthView2 = _interopRequireDefault(_MultiMonthView);
 	
-	var _HistoryView = __webpack_require__(/*! ./HistoryView */ 368);
+	var _HistoryView = __webpack_require__(/*! ./HistoryView */ 366);
 	
 	var _HistoryView2 = _interopRequireDefault(_HistoryView);
 	
-	var _YearView = __webpack_require__(/*! ./YearView */ 371);
+	var _YearView = __webpack_require__(/*! ./YearView */ 369);
 	
 	var _YearView2 = _interopRequireDefault(_YearView);
 	
-	var _DecadeView = __webpack_require__(/*! ./DecadeView */ 373);
+	var _DecadeView = __webpack_require__(/*! ./DecadeView */ 371);
 	
 	var _DecadeView2 = _interopRequireDefault(_DecadeView);
 	
-	var _NavBar = __webpack_require__(/*! ./NavBar */ 354);
+	var _NavBar = __webpack_require__(/*! ./NavBar */ 352);
 	
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 	
-	var _Footer = __webpack_require__(/*! ./Footer */ 370);
+	var _Footer = __webpack_require__(/*! ./Footer */ 368);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
-	var _Clock = __webpack_require__(/*! ./Clock */ 383);
+	var _Clock = __webpack_require__(/*! ./Clock */ 381);
 	
 	var _Clock2 = _interopRequireDefault(_Clock);
 	
-	var _ClockInput = __webpack_require__(/*! ./ClockInput */ 408);
+	var _ClockInput = __webpack_require__(/*! ./ClockInput */ 406);
 	
 	var _ClockInput2 = _interopRequireDefault(_ClockInput);
 	
-	var _DateField = __webpack_require__(/*! ./DateField */ 414);
+	var _DateField = __webpack_require__(/*! ./DateField */ 412);
 	
 	var _DateField2 = _interopRequireDefault(_DateField);
 	
-	var _Calendar = __webpack_require__(/*! ./Calendar */ 418);
+	var _Calendar = __webpack_require__(/*! ./Calendar */ 416);
 	
 	var _Calendar2 = _interopRequireDefault(_Calendar);
 	
-	var _DateFormatInput = __webpack_require__(/*! ./DateFormatInput */ 411);
+	var _DateFormatInput = __webpack_require__(/*! ./DateFormatInput */ 409);
 	
 	var _DateFormatInput2 = _interopRequireDefault(_DateFormatInput);
 	
-	var _DateFormatSpinnerInput = __webpack_require__(/*! ./DateFormatSpinnerInput */ 410);
+	var _DateFormatSpinnerInput = __webpack_require__(/*! ./DateFormatSpinnerInput */ 408);
 	
 	var _DateFormatSpinnerInput2 = _interopRequireDefault(_DateFormatSpinnerInput);
 	
@@ -28210,10 +28147,10 @@
 	exports.TimeInput = _TimeInput2.default;
 
 /***/ },
-/* 242 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/MonthView/index.js ***!
-  \*************************************************************************************************************/
+/* 240 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/MonthView/index.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28229,69 +28166,69 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _clampRange = __webpack_require__(/*! ../clampRange */ 350);
+	var _clampRange = __webpack_require__(/*! ../clampRange */ 348);
 	
 	var _clampRange2 = _interopRequireDefault(_clampRange);
 	
-	var _toMoment = __webpack_require__(/*! ../toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ../toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _join = __webpack_require__(/*! ../join */ 352);
+	var _join = __webpack_require__(/*! ../join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _isInRange = __webpack_require__(/*! ../utils/isInRange */ 353);
+	var _isInRange = __webpack_require__(/*! ../utils/isInRange */ 351);
 	
 	var _isInRange2 = _interopRequireDefault(_isInRange);
 	
-	var _NavBar = __webpack_require__(/*! ../NavBar */ 354);
+	var _NavBar = __webpack_require__(/*! ../NavBar */ 352);
 	
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 	
-	var _Footer = __webpack_require__(/*! ../Footer */ 370);
+	var _Footer = __webpack_require__(/*! ../Footer */ 368);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
-	var _bemFactory = __webpack_require__(/*! ../bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ../bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
-	var _joinFunctions = __webpack_require__(/*! ../joinFunctions */ 369);
+	var _joinFunctions = __webpack_require__(/*! ../joinFunctions */ 367);
 	
 	var _joinFunctions2 = _interopRequireDefault(_joinFunctions);
 	
-	var _assignDefined = __webpack_require__(/*! ../assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ../assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _BasicMonthView = __webpack_require__(/*! ../BasicMonthView */ 376);
+	var _BasicMonthView = __webpack_require__(/*! ../BasicMonthView */ 374);
 	
 	var _BasicMonthView2 = _interopRequireDefault(_BasicMonthView);
 	
-	var _onKeyDown = __webpack_require__(/*! ./onKeyDown */ 374);
+	var _onKeyDown = __webpack_require__(/*! ./onKeyDown */ 372);
 	
 	var _onKeyDown2 = _interopRequireDefault(_onKeyDown);
 	
-	var _navKeys = __webpack_require__(/*! ./navKeys */ 375);
+	var _navKeys = __webpack_require__(/*! ./navKeys */ 373);
 	
 	var _navKeys2 = _interopRequireDefault(_navKeys);
 	
@@ -29568,10 +29505,10 @@
 	exports.renderFooter = _renderFooter;
 
 /***/ },
-/* 243 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-class/lib/index.js ***!
-  \*********************************************************************************************/
+/* 241 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-class/lib/index.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29584,8 +29521,8 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var React = __webpack_require__(/*! react */ 1);
-	var assign = __webpack_require__(/*! object-assign */ 244);
+	var React = __webpack_require__(/*! react */ 2);
+	var assign = __webpack_require__(/*! object-assign */ 242);
 	
 	function autoBind(object) {
 	  var proto = object.constructor.prototype;
@@ -29655,10 +29592,10 @@
 	module.exports = ReactClass;
 
 /***/ },
-/* 244 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-class/~/object-assign/index.js ***!
-  \*********************************************************************************************************/
+/* 242 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-class/~/object-assign/index.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29747,10 +29684,10 @@
 
 
 /***/ },
-/* 245 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/moment.js ***!
-  \*************************************************************************************/
+/* 243 */
+/*!**************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/moment.js ***!
+  \**************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {//! moment.js
@@ -31516,7 +31453,7 @@
 	                module && module.exports) {
 	            try {
 	                oldLocale = globalLocale._abbr;
-	                __webpack_require__(/*! ./locale */ 247)("./" + name);
+	                __webpack_require__(/*! ./locale */ 245)("./" + name);
 	                // because defineLocale currently also sets the global locale, we
 	                // want to undo that for lazy loaded locales
 	                locale_locales__getSetGlobalLocale(oldLocale);
@@ -33948,10 +33885,10 @@
 	    return _moment;
 	
 	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../webpack/buildin/module.js */ 246)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../webpack/buildin/module.js */ 244)(module)))
 
 /***/ },
-/* 246 */
+/* 244 */
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
@@ -33970,215 +33907,215 @@
 
 
 /***/ },
-/* 247 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale ^\.\/.*$ ***!
-  \*******************************************************************************************/
+/* 245 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale ^\.\/.*$ ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./af": 248,
-		"./af.js": 248,
-		"./ar": 249,
-		"./ar-ma": 250,
-		"./ar-ma.js": 250,
-		"./ar-sa": 251,
-		"./ar-sa.js": 251,
-		"./ar-tn": 252,
-		"./ar-tn.js": 252,
-		"./ar.js": 249,
-		"./az": 253,
-		"./az.js": 253,
-		"./be": 254,
-		"./be.js": 254,
-		"./bg": 255,
-		"./bg.js": 255,
-		"./bn": 256,
-		"./bn.js": 256,
-		"./bo": 257,
-		"./bo.js": 257,
-		"./br": 258,
-		"./br.js": 258,
-		"./bs": 259,
-		"./bs.js": 259,
-		"./ca": 260,
-		"./ca.js": 260,
-		"./cs": 261,
-		"./cs.js": 261,
-		"./cv": 262,
-		"./cv.js": 262,
-		"./cy": 263,
-		"./cy.js": 263,
-		"./da": 264,
-		"./da.js": 264,
-		"./de": 265,
-		"./de-at": 266,
-		"./de-at.js": 266,
-		"./de.js": 265,
-		"./dv": 267,
-		"./dv.js": 267,
-		"./el": 268,
-		"./el.js": 268,
-		"./en-au": 269,
-		"./en-au.js": 269,
-		"./en-ca": 270,
-		"./en-ca.js": 270,
-		"./en-gb": 271,
-		"./en-gb.js": 271,
-		"./en-ie": 272,
-		"./en-ie.js": 272,
-		"./en-nz": 273,
-		"./en-nz.js": 273,
-		"./eo": 274,
-		"./eo.js": 274,
-		"./es": 275,
-		"./es-do": 276,
-		"./es-do.js": 276,
-		"./es.js": 275,
-		"./et": 277,
-		"./et.js": 277,
-		"./eu": 278,
-		"./eu.js": 278,
-		"./fa": 279,
-		"./fa.js": 279,
-		"./fi": 280,
-		"./fi.js": 280,
-		"./fo": 281,
-		"./fo.js": 281,
-		"./fr": 282,
-		"./fr-ca": 283,
-		"./fr-ca.js": 283,
-		"./fr-ch": 284,
-		"./fr-ch.js": 284,
-		"./fr.js": 282,
-		"./fy": 285,
-		"./fy.js": 285,
-		"./gd": 286,
-		"./gd.js": 286,
-		"./gl": 287,
-		"./gl.js": 287,
-		"./he": 288,
-		"./he.js": 288,
-		"./hi": 289,
-		"./hi.js": 289,
-		"./hr": 290,
-		"./hr.js": 290,
-		"./hu": 291,
-		"./hu.js": 291,
-		"./hy-am": 292,
-		"./hy-am.js": 292,
-		"./id": 293,
-		"./id.js": 293,
-		"./is": 294,
-		"./is.js": 294,
-		"./it": 295,
-		"./it.js": 295,
-		"./ja": 296,
-		"./ja.js": 296,
-		"./jv": 297,
-		"./jv.js": 297,
-		"./ka": 298,
-		"./ka.js": 298,
-		"./kk": 299,
-		"./kk.js": 299,
-		"./km": 300,
-		"./km.js": 300,
-		"./ko": 301,
-		"./ko.js": 301,
-		"./ky": 302,
-		"./ky.js": 302,
-		"./lb": 303,
-		"./lb.js": 303,
-		"./lo": 304,
-		"./lo.js": 304,
-		"./lt": 305,
-		"./lt.js": 305,
-		"./lv": 306,
-		"./lv.js": 306,
-		"./me": 307,
-		"./me.js": 307,
-		"./mk": 308,
-		"./mk.js": 308,
-		"./ml": 309,
-		"./ml.js": 309,
-		"./mr": 310,
-		"./mr.js": 310,
-		"./ms": 311,
-		"./ms-my": 312,
-		"./ms-my.js": 312,
-		"./ms.js": 311,
-		"./my": 313,
-		"./my.js": 313,
-		"./nb": 314,
-		"./nb.js": 314,
-		"./ne": 315,
-		"./ne.js": 315,
-		"./nl": 316,
-		"./nl.js": 316,
-		"./nn": 317,
-		"./nn.js": 317,
-		"./pa-in": 318,
-		"./pa-in.js": 318,
-		"./pl": 319,
-		"./pl.js": 319,
-		"./pt": 320,
-		"./pt-br": 321,
-		"./pt-br.js": 321,
-		"./pt.js": 320,
-		"./ro": 322,
-		"./ro.js": 322,
-		"./ru": 323,
-		"./ru.js": 323,
-		"./se": 324,
-		"./se.js": 324,
-		"./si": 325,
-		"./si.js": 325,
-		"./sk": 326,
-		"./sk.js": 326,
-		"./sl": 327,
-		"./sl.js": 327,
-		"./sq": 328,
-		"./sq.js": 328,
-		"./sr": 329,
-		"./sr-cyrl": 330,
-		"./sr-cyrl.js": 330,
-		"./sr.js": 329,
-		"./ss": 331,
-		"./ss.js": 331,
-		"./sv": 332,
-		"./sv.js": 332,
-		"./sw": 333,
-		"./sw.js": 333,
-		"./ta": 334,
-		"./ta.js": 334,
-		"./te": 335,
-		"./te.js": 335,
-		"./th": 336,
-		"./th.js": 336,
-		"./tl-ph": 337,
-		"./tl-ph.js": 337,
-		"./tlh": 338,
-		"./tlh.js": 338,
-		"./tr": 339,
-		"./tr.js": 339,
-		"./tzl": 340,
-		"./tzl.js": 340,
-		"./tzm": 341,
-		"./tzm-latn": 342,
-		"./tzm-latn.js": 342,
-		"./tzm.js": 341,
-		"./uk": 343,
-		"./uk.js": 343,
-		"./uz": 344,
-		"./uz.js": 344,
-		"./vi": 345,
-		"./vi.js": 345,
-		"./x-pseudo": 346,
-		"./x-pseudo.js": 346,
-		"./zh-cn": 347,
-		"./zh-cn.js": 347,
-		"./zh-tw": 348,
-		"./zh-tw.js": 348
+		"./af": 246,
+		"./af.js": 246,
+		"./ar": 247,
+		"./ar-ma": 248,
+		"./ar-ma.js": 248,
+		"./ar-sa": 249,
+		"./ar-sa.js": 249,
+		"./ar-tn": 250,
+		"./ar-tn.js": 250,
+		"./ar.js": 247,
+		"./az": 251,
+		"./az.js": 251,
+		"./be": 252,
+		"./be.js": 252,
+		"./bg": 253,
+		"./bg.js": 253,
+		"./bn": 254,
+		"./bn.js": 254,
+		"./bo": 255,
+		"./bo.js": 255,
+		"./br": 256,
+		"./br.js": 256,
+		"./bs": 257,
+		"./bs.js": 257,
+		"./ca": 258,
+		"./ca.js": 258,
+		"./cs": 259,
+		"./cs.js": 259,
+		"./cv": 260,
+		"./cv.js": 260,
+		"./cy": 261,
+		"./cy.js": 261,
+		"./da": 262,
+		"./da.js": 262,
+		"./de": 263,
+		"./de-at": 264,
+		"./de-at.js": 264,
+		"./de.js": 263,
+		"./dv": 265,
+		"./dv.js": 265,
+		"./el": 266,
+		"./el.js": 266,
+		"./en-au": 267,
+		"./en-au.js": 267,
+		"./en-ca": 268,
+		"./en-ca.js": 268,
+		"./en-gb": 269,
+		"./en-gb.js": 269,
+		"./en-ie": 270,
+		"./en-ie.js": 270,
+		"./en-nz": 271,
+		"./en-nz.js": 271,
+		"./eo": 272,
+		"./eo.js": 272,
+		"./es": 273,
+		"./es-do": 274,
+		"./es-do.js": 274,
+		"./es.js": 273,
+		"./et": 275,
+		"./et.js": 275,
+		"./eu": 276,
+		"./eu.js": 276,
+		"./fa": 277,
+		"./fa.js": 277,
+		"./fi": 278,
+		"./fi.js": 278,
+		"./fo": 279,
+		"./fo.js": 279,
+		"./fr": 280,
+		"./fr-ca": 281,
+		"./fr-ca.js": 281,
+		"./fr-ch": 282,
+		"./fr-ch.js": 282,
+		"./fr.js": 280,
+		"./fy": 283,
+		"./fy.js": 283,
+		"./gd": 284,
+		"./gd.js": 284,
+		"./gl": 285,
+		"./gl.js": 285,
+		"./he": 286,
+		"./he.js": 286,
+		"./hi": 287,
+		"./hi.js": 287,
+		"./hr": 288,
+		"./hr.js": 288,
+		"./hu": 289,
+		"./hu.js": 289,
+		"./hy-am": 290,
+		"./hy-am.js": 290,
+		"./id": 291,
+		"./id.js": 291,
+		"./is": 292,
+		"./is.js": 292,
+		"./it": 293,
+		"./it.js": 293,
+		"./ja": 294,
+		"./ja.js": 294,
+		"./jv": 295,
+		"./jv.js": 295,
+		"./ka": 296,
+		"./ka.js": 296,
+		"./kk": 297,
+		"./kk.js": 297,
+		"./km": 298,
+		"./km.js": 298,
+		"./ko": 299,
+		"./ko.js": 299,
+		"./ky": 300,
+		"./ky.js": 300,
+		"./lb": 301,
+		"./lb.js": 301,
+		"./lo": 302,
+		"./lo.js": 302,
+		"./lt": 303,
+		"./lt.js": 303,
+		"./lv": 304,
+		"./lv.js": 304,
+		"./me": 305,
+		"./me.js": 305,
+		"./mk": 306,
+		"./mk.js": 306,
+		"./ml": 307,
+		"./ml.js": 307,
+		"./mr": 308,
+		"./mr.js": 308,
+		"./ms": 309,
+		"./ms-my": 310,
+		"./ms-my.js": 310,
+		"./ms.js": 309,
+		"./my": 311,
+		"./my.js": 311,
+		"./nb": 312,
+		"./nb.js": 312,
+		"./ne": 313,
+		"./ne.js": 313,
+		"./nl": 314,
+		"./nl.js": 314,
+		"./nn": 315,
+		"./nn.js": 315,
+		"./pa-in": 316,
+		"./pa-in.js": 316,
+		"./pl": 317,
+		"./pl.js": 317,
+		"./pt": 318,
+		"./pt-br": 319,
+		"./pt-br.js": 319,
+		"./pt.js": 318,
+		"./ro": 320,
+		"./ro.js": 320,
+		"./ru": 321,
+		"./ru.js": 321,
+		"./se": 322,
+		"./se.js": 322,
+		"./si": 323,
+		"./si.js": 323,
+		"./sk": 324,
+		"./sk.js": 324,
+		"./sl": 325,
+		"./sl.js": 325,
+		"./sq": 326,
+		"./sq.js": 326,
+		"./sr": 327,
+		"./sr-cyrl": 328,
+		"./sr-cyrl.js": 328,
+		"./sr.js": 327,
+		"./ss": 329,
+		"./ss.js": 329,
+		"./sv": 330,
+		"./sv.js": 330,
+		"./sw": 331,
+		"./sw.js": 331,
+		"./ta": 332,
+		"./ta.js": 332,
+		"./te": 333,
+		"./te.js": 333,
+		"./th": 334,
+		"./th.js": 334,
+		"./tl-ph": 335,
+		"./tl-ph.js": 335,
+		"./tlh": 336,
+		"./tlh.js": 336,
+		"./tr": 337,
+		"./tr.js": 337,
+		"./tzl": 338,
+		"./tzl.js": 338,
+		"./tzm": 339,
+		"./tzm-latn": 340,
+		"./tzm-latn.js": 340,
+		"./tzm.js": 339,
+		"./uk": 341,
+		"./uk.js": 341,
+		"./uz": 342,
+		"./uz.js": 342,
+		"./vi": 343,
+		"./vi.js": 343,
+		"./x-pseudo": 344,
+		"./x-pseudo.js": 344,
+		"./zh-cn": 345,
+		"./zh-cn.js": 345,
+		"./zh-tw": 346,
+		"./zh-tw.js": 346
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -34191,14 +34128,14 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 247;
+	webpackContext.id = 245;
 
 
 /***/ },
-/* 248 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/af.js ***!
-  \****************************************************************************************/
+/* 246 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/af.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34206,7 +34143,7 @@
 	//! author : Werner Mollentze : https://github.com/wernerm
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34275,10 +34212,10 @@
 	}));
 
 /***/ },
-/* 249 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ar.js ***!
-  \****************************************************************************************/
+/* 247 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ar.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34288,7 +34225,7 @@
 	//! Native plural forms: forabi https://github.com/forabi
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34419,10 +34356,10 @@
 	}));
 
 /***/ },
-/* 250 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ar-ma.js ***!
-  \*******************************************************************************************/
+/* 248 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ar-ma.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34431,7 +34368,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34486,10 +34423,10 @@
 	}));
 
 /***/ },
-/* 251 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ar-sa.js ***!
-  \*******************************************************************************************/
+/* 249 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ar-sa.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34497,7 +34434,7 @@
 	//! author : Suhail Alkowaileet : https://github.com/xsoh
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34597,17 +34534,17 @@
 	}));
 
 /***/ },
-/* 252 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ar-tn.js ***!
-  \*******************************************************************************************/
+/* 250 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ar-tn.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale  :  Arabic (Tunisia) [ar-tn]
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34662,10 +34599,10 @@
 	}));
 
 /***/ },
-/* 253 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/az.js ***!
-  \****************************************************************************************/
+/* 251 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/az.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34673,7 +34610,7 @@
 	//! author : topchiyev : https://github.com/topchiyev
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34774,10 +34711,10 @@
 	}));
 
 /***/ },
-/* 254 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/be.js ***!
-  \****************************************************************************************/
+/* 252 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/be.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34787,7 +34724,7 @@
 	//! Author : Menelion Elensúle : https://github.com/Oire
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -34915,10 +34852,10 @@
 	}));
 
 /***/ },
-/* 255 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/bg.js ***!
-  \****************************************************************************************/
+/* 253 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/bg.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -34926,7 +34863,7 @@
 	//! author : Krasen Borisov : https://github.com/kraz
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35012,10 +34949,10 @@
 	}));
 
 /***/ },
-/* 256 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/bn.js ***!
-  \****************************************************************************************/
+/* 254 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/bn.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35023,7 +34960,7 @@
 	//! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35138,10 +35075,10 @@
 	}));
 
 /***/ },
-/* 257 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/bo.js ***!
-  \****************************************************************************************/
+/* 255 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/bo.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35149,7 +35086,7 @@
 	//! author : Thupten N. Chakrishar : https://github.com/vajradog
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35264,10 +35201,10 @@
 	}));
 
 /***/ },
-/* 258 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/br.js ***!
-  \****************************************************************************************/
+/* 256 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/br.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35275,7 +35212,7 @@
 	//! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35379,10 +35316,10 @@
 	}));
 
 /***/ },
-/* 259 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/bs.js ***!
-  \****************************************************************************************/
+/* 257 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/bs.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35391,7 +35328,7 @@
 	//! based on (hr) translation by Bojan Marković
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35529,10 +35466,10 @@
 	}));
 
 /***/ },
-/* 260 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ca.js ***!
-  \****************************************************************************************/
+/* 258 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ca.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35540,7 +35477,7 @@
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35617,10 +35554,10 @@
 	}));
 
 /***/ },
-/* 261 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/cs.js ***!
-  \****************************************************************************************/
+/* 259 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/cs.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35628,7 +35565,7 @@
 	//! author : petrbela : https://github.com/petrbela
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35796,10 +35733,10 @@
 	}));
 
 /***/ },
-/* 262 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/cv.js ***!
-  \****************************************************************************************/
+/* 260 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/cv.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35807,7 +35744,7 @@
 	//! author : Anatoly Mironov : https://github.com/mirontoli
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35866,10 +35803,10 @@
 	}));
 
 /***/ },
-/* 263 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/cy.js ***!
-  \****************************************************************************************/
+/* 261 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/cy.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35877,7 +35814,7 @@
 	//! author : Robert Allen
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -35953,10 +35890,10 @@
 	}));
 
 /***/ },
-/* 264 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/da.js ***!
-  \****************************************************************************************/
+/* 262 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/da.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -35964,7 +35901,7 @@
 	//! author : Ulrik Nielsen : https://github.com/mrbase
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36020,10 +35957,10 @@
 	}));
 
 /***/ },
-/* 265 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/de.js ***!
-  \****************************************************************************************/
+/* 263 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/de.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36033,7 +35970,7 @@
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36105,10 +36042,10 @@
 	}));
 
 /***/ },
-/* 266 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/de-at.js ***!
-  \*******************************************************************************************/
+/* 264 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/de-at.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36119,7 +36056,7 @@
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36191,10 +36128,10 @@
 	}));
 
 /***/ },
-/* 267 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/dv.js ***!
-  \****************************************************************************************/
+/* 265 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/dv.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36202,7 +36139,7 @@
 	//! author : Jawish Hameed : https://github.com/jawish
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36297,10 +36234,10 @@
 	}));
 
 /***/ },
-/* 268 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/el.js ***!
-  \****************************************************************************************/
+/* 266 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/el.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36308,7 +36245,7 @@
 	//! author : Aggelos Karalias : https://github.com/mehiel
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36402,17 +36339,17 @@
 	}));
 
 /***/ },
-/* 269 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/en-au.js ***!
-  \*******************************************************************************************/
+/* 267 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/en-au.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : English (Australia) [en-au]
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36475,10 +36412,10 @@
 	}));
 
 /***/ },
-/* 270 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/en-ca.js ***!
-  \*******************************************************************************************/
+/* 268 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/en-ca.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36486,7 +36423,7 @@
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36545,10 +36482,10 @@
 	}));
 
 /***/ },
-/* 271 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/en-gb.js ***!
-  \*******************************************************************************************/
+/* 269 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/en-gb.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36556,7 +36493,7 @@
 	//! author : Chris Gedrim : https://github.com/chrisgedrim
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36619,10 +36556,10 @@
 	}));
 
 /***/ },
-/* 272 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/en-ie.js ***!
-  \*******************************************************************************************/
+/* 270 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/en-ie.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36630,7 +36567,7 @@
 	//! author : Chris Cartlidge : https://github.com/chriscartlidge
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36693,17 +36630,17 @@
 	}));
 
 /***/ },
-/* 273 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/en-nz.js ***!
-  \*******************************************************************************************/
+/* 271 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/en-nz.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : English (New Zealand) [en-nz]
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36766,10 +36703,10 @@
 	}));
 
 /***/ },
-/* 274 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/eo.js ***!
-  \****************************************************************************************/
+/* 272 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/eo.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36779,7 +36716,7 @@
 	//!          Se ne, bonvolu korekti kaj avizi min por ke mi povas lerni!
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36846,10 +36783,10 @@
 	}));
 
 /***/ },
-/* 275 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/es.js ***!
-  \****************************************************************************************/
+/* 273 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/es.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -36857,7 +36794,7 @@
 	//! author : Julio Napurí : https://github.com/julionc
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -36934,17 +36871,17 @@
 	}));
 
 /***/ },
-/* 276 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/es-do.js ***!
-  \*******************************************************************************************/
+/* 274 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/es-do.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : Spanish (Dominican Republic) [es-do]
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37021,10 +36958,10 @@
 	}));
 
 /***/ },
-/* 277 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/et.js ***!
-  \****************************************************************************************/
+/* 275 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/et.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37033,7 +36970,7 @@
 	//! improvements : Illimar Tambek : https://github.com/ragulka
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37108,10 +37045,10 @@
 	}));
 
 /***/ },
-/* 278 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/eu.js ***!
-  \****************************************************************************************/
+/* 276 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/eu.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37119,7 +37056,7 @@
 	//! author : Eneko Illarramendi : https://github.com/eillarra
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37181,10 +37118,10 @@
 	}));
 
 /***/ },
-/* 279 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fa.js ***!
-  \****************************************************************************************/
+/* 277 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fa.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37192,7 +37129,7 @@
 	//! author : Ebrahim Byagowi : https://github.com/ebraminio
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37294,10 +37231,10 @@
 	}));
 
 /***/ },
-/* 280 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fi.js ***!
-  \****************************************************************************************/
+/* 278 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fi.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37305,7 +37242,7 @@
 	//! author : Tarmo Aidantausta : https://github.com/bleadof
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37408,10 +37345,10 @@
 	}));
 
 /***/ },
-/* 281 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fo.js ***!
-  \****************************************************************************************/
+/* 279 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fo.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37419,7 +37356,7 @@
 	//! author : Ragnar Johannesen : https://github.com/ragnar123
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37475,10 +37412,10 @@
 	}));
 
 /***/ },
-/* 282 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fr.js ***!
-  \****************************************************************************************/
+/* 280 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fr.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37486,7 +37423,7 @@
 	//! author : John Fischer : https://github.com/jfroffice
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37546,10 +37483,10 @@
 	}));
 
 /***/ },
-/* 283 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fr-ca.js ***!
-  \*******************************************************************************************/
+/* 281 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fr-ca.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37557,7 +37494,7 @@
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37613,10 +37550,10 @@
 	}));
 
 /***/ },
-/* 284 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fr-ch.js ***!
-  \*******************************************************************************************/
+/* 282 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fr-ch.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37624,7 +37561,7 @@
 	//! author : Gaspard Bucher : https://github.com/gaspard
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37684,10 +37621,10 @@
 	}));
 
 /***/ },
-/* 285 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/fy.js ***!
-  \****************************************************************************************/
+/* 283 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/fy.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37695,7 +37632,7 @@
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37764,10 +37701,10 @@
 	}));
 
 /***/ },
-/* 286 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/gd.js ***!
-  \****************************************************************************************/
+/* 284 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/gd.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37775,7 +37712,7 @@
 	//! author : Jon Ashdown : https://github.com/jonashdown
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37847,10 +37784,10 @@
 	}));
 
 /***/ },
-/* 287 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/gl.js ***!
-  \****************************************************************************************/
+/* 285 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/gl.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37858,7 +37795,7 @@
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -37931,10 +37868,10 @@
 	}));
 
 /***/ },
-/* 288 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/he.js ***!
-  \****************************************************************************************/
+/* 286 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/he.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -37944,7 +37881,7 @@
 	//! author : Tal Ater : https://github.com/TalAter
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38037,10 +37974,10 @@
 	}));
 
 /***/ },
-/* 289 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/hi.js ***!
-  \****************************************************************************************/
+/* 287 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/hi.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38048,7 +37985,7 @@
 	//! author : Mayank Singhal : https://github.com/mayanksinghal
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38168,10 +38105,10 @@
 	}));
 
 /***/ },
-/* 290 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/hr.js ***!
-  \****************************************************************************************/
+/* 288 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/hr.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38179,7 +38116,7 @@
 	//! author : Bojan Marković : https://github.com/bmarkovic
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38320,10 +38257,10 @@
 	}));
 
 /***/ },
-/* 291 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/hu.js ***!
-  \****************************************************************************************/
+/* 289 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/hu.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38331,7 +38268,7 @@
 	//! author : Adam Brunner : https://github.com/adambrunner
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38436,10 +38373,10 @@
 	}));
 
 /***/ },
-/* 292 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/hy-am.js ***!
-  \*******************************************************************************************/
+/* 290 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/hy-am.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38447,7 +38384,7 @@
 	//! author : Armendarabyan : https://github.com/armendarabyan
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38538,10 +38475,10 @@
 	}));
 
 /***/ },
-/* 293 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/id.js ***!
-  \****************************************************************************************/
+/* 291 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/id.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38550,7 +38487,7 @@
 	//! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38628,10 +38565,10 @@
 	}));
 
 /***/ },
-/* 294 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/is.js ***!
-  \****************************************************************************************/
+/* 292 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/is.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38639,7 +38576,7 @@
 	//! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38762,10 +38699,10 @@
 	}));
 
 /***/ },
-/* 295 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/it.js ***!
-  \****************************************************************************************/
+/* 293 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/it.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38774,7 +38711,7 @@
 	//! author: Mattia Larentis: https://github.com/nostalgiaz
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38839,10 +38776,10 @@
 	}));
 
 /***/ },
-/* 296 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ja.js ***!
-  \****************************************************************************************/
+/* 294 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ja.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38850,7 +38787,7 @@
 	//! author : LI Long : https://github.com/baryon
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -38922,10 +38859,10 @@
 	}));
 
 /***/ },
-/* 297 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/jv.js ***!
-  \****************************************************************************************/
+/* 295 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/jv.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -38934,7 +38871,7 @@
 	//! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39012,10 +38949,10 @@
 	}));
 
 /***/ },
-/* 298 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ka.js ***!
-  \****************************************************************************************/
+/* 296 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ka.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39023,7 +38960,7 @@
 	//! author : Irakli Janiashvili : https://github.com/irakli-janiashvili
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39108,10 +39045,10 @@
 	}));
 
 /***/ },
-/* 299 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/kk.js ***!
-  \****************************************************************************************/
+/* 297 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/kk.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39119,7 +39056,7 @@
 	//! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39202,10 +39139,10 @@
 	}));
 
 /***/ },
-/* 300 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/km.js ***!
-  \****************************************************************************************/
+/* 298 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/km.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39213,7 +39150,7 @@
 	//! author : Kruy Vanna : https://github.com/kruyvanna
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39267,10 +39204,10 @@
 	}));
 
 /***/ },
-/* 301 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ko.js ***!
-  \****************************************************************************************/
+/* 299 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ko.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39282,7 +39219,7 @@
 	//! - Jeeeyul Lee <jeeeyul@gmail.com>
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39342,10 +39279,10 @@
 	}));
 
 /***/ },
-/* 302 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ky.js ***!
-  \****************************************************************************************/
+/* 300 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ky.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39353,7 +39290,7 @@
 	//! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39437,10 +39374,10 @@
 	}));
 
 /***/ },
-/* 303 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/lb.js ***!
-  \****************************************************************************************/
+/* 301 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/lb.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39448,7 +39385,7 @@
 	//! author : mweimerskirch : https://github.com/mweimerskirch, David Raison : https://github.com/kwisatz
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39580,10 +39517,10 @@
 	}));
 
 /***/ },
-/* 304 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/lo.js ***!
-  \****************************************************************************************/
+/* 302 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/lo.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39591,7 +39528,7 @@
 	//! author : Ryan Hart : https://github.com/ryanhart2
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39657,10 +39594,10 @@
 	}));
 
 /***/ },
-/* 305 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/lt.js ***!
-  \****************************************************************************************/
+/* 303 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/lt.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39668,7 +39605,7 @@
 	//! author : Mindaugas Mozūras : https://github.com/mmozuras
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39781,10 +39718,10 @@
 	}));
 
 /***/ },
-/* 306 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/lv.js ***!
-  \****************************************************************************************/
+/* 304 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/lv.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39793,7 +39730,7 @@
 	//! author : Jānis Elmeris : https://github.com/JanisE
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -39885,10 +39822,10 @@
 	}));
 
 /***/ },
-/* 307 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/me.js ***!
-  \****************************************************************************************/
+/* 305 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/me.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -39896,7 +39833,7 @@
 	//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40003,10 +39940,10 @@
 	}));
 
 /***/ },
-/* 308 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/mk.js ***!
-  \****************************************************************************************/
+/* 306 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/mk.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40014,7 +39951,7 @@
 	//! author : Borislav Mickov : https://github.com/B0k0
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40100,10 +40037,10 @@
 	}));
 
 /***/ },
-/* 309 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ml.js ***!
-  \****************************************************************************************/
+/* 307 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ml.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40111,7 +40048,7 @@
 	//! author : Floyd Pink : https://github.com/floydpink
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40188,10 +40125,10 @@
 	}));
 
 /***/ },
-/* 310 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/mr.js ***!
-  \****************************************************************************************/
+/* 308 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/mr.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40200,7 +40137,7 @@
 	//! author : Vivek Athalye : https://github.com/vnathalye
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40354,10 +40291,10 @@
 	}));
 
 /***/ },
-/* 311 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ms.js ***!
-  \****************************************************************************************/
+/* 309 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ms.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40365,7 +40302,7 @@
 	//! author : Weldan Jamili : https://github.com/weldan
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40443,10 +40380,10 @@
 	}));
 
 /***/ },
-/* 312 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ms-my.js ***!
-  \*******************************************************************************************/
+/* 310 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ms-my.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40455,7 +40392,7 @@
 	//! author : Weldan Jamili : https://github.com/weldan
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40533,10 +40470,10 @@
 	}));
 
 /***/ },
-/* 313 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/my.js ***!
-  \****************************************************************************************/
+/* 311 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/my.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40544,7 +40481,7 @@
 	//! author : Squar team, mysquar.com
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40633,10 +40570,10 @@
 	}));
 
 /***/ },
-/* 314 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/nb.js ***!
-  \****************************************************************************************/
+/* 312 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/nb.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40645,7 +40582,7 @@
 	//!           Sigurd Gartmann : https://github.com/sigurdga
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40703,10 +40640,10 @@
 	}));
 
 /***/ },
-/* 315 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ne.js ***!
-  \****************************************************************************************/
+/* 313 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ne.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40714,7 +40651,7 @@
 	//! author : suvash : https://github.com/suvash
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40833,10 +40770,10 @@
 	}));
 
 /***/ },
-/* 316 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/nl.js ***!
-  \****************************************************************************************/
+/* 314 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/nl.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40844,7 +40781,7 @@
 	//! author : Joris Röling : https://github.com/jjupiter
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40913,10 +40850,10 @@
 	}));
 
 /***/ },
-/* 317 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/nn.js ***!
-  \****************************************************************************************/
+/* 315 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/nn.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40924,7 +40861,7 @@
 	//! author : https://github.com/mechuwind
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -40980,10 +40917,10 @@
 	}));
 
 /***/ },
-/* 318 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/pa-in.js ***!
-  \*******************************************************************************************/
+/* 316 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/pa-in.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -40991,7 +40928,7 @@
 	//! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41111,10 +41048,10 @@
 	}));
 
 /***/ },
-/* 319 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/pl.js ***!
-  \****************************************************************************************/
+/* 317 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/pl.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41122,7 +41059,7 @@
 	//! author : Rafal Hirsz : https://github.com/evoL
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41223,10 +41160,10 @@
 	}));
 
 /***/ },
-/* 320 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/pt.js ***!
-  \****************************************************************************************/
+/* 318 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/pt.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41234,7 +41171,7 @@
 	//! author : Jefferson : https://github.com/jalex79
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41295,10 +41232,10 @@
 	}));
 
 /***/ },
-/* 321 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/pt-br.js ***!
-  \*******************************************************************************************/
+/* 319 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/pt-br.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41306,7 +41243,7 @@
 	//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41363,10 +41300,10 @@
 	}));
 
 /***/ },
-/* 322 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ro.js ***!
-  \****************************************************************************************/
+/* 320 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ro.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41375,7 +41312,7 @@
 	//! author : Valentin Agachi : https://github.com/avaly
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41445,10 +41382,10 @@
 	}));
 
 /***/ },
-/* 323 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ru.js ***!
-  \****************************************************************************************/
+/* 321 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ru.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41458,7 +41395,7 @@
 	//! author : Коренберг Марк : https://github.com/socketpair
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41635,10 +41572,10 @@
 	}));
 
 /***/ },
-/* 324 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/se.js ***!
-  \****************************************************************************************/
+/* 322 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/se.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41646,7 +41583,7 @@
 	//! authors : Bård Rolstad Henriksen : https://github.com/karamell
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41703,10 +41640,10 @@
 	}));
 
 /***/ },
-/* 325 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/si.js ***!
-  \****************************************************************************************/
+/* 323 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/si.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41714,7 +41651,7 @@
 	//! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41781,10 +41718,10 @@
 	}));
 
 /***/ },
-/* 326 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sk.js ***!
-  \****************************************************************************************/
+/* 324 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sk.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41793,7 +41730,7 @@
 	//! based on work of petrbela : https://github.com/petrbela
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -41938,10 +41875,10 @@
 	}));
 
 /***/ },
-/* 327 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sl.js ***!
-  \****************************************************************************************/
+/* 325 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sl.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -41949,7 +41886,7 @@
 	//! author : Robert Sedovšek : https://github.com/sedovsek
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42107,10 +42044,10 @@
 	}));
 
 /***/ },
-/* 328 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sq.js ***!
-  \****************************************************************************************/
+/* 326 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sq.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42120,7 +42057,7 @@
 	//! author : Oerd Cukalla : https://github.com/oerd (fixes)
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42184,10 +42121,10 @@
 	}));
 
 /***/ },
-/* 329 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sr.js ***!
-  \****************************************************************************************/
+/* 327 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sr.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42195,7 +42132,7 @@
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42301,10 +42238,10 @@
 	}));
 
 /***/ },
-/* 330 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sr-cyrl.js ***!
-  \*********************************************************************************************/
+/* 328 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sr-cyrl.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42312,7 +42249,7 @@
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42418,10 +42355,10 @@
 	}));
 
 /***/ },
-/* 331 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ss.js ***!
-  \****************************************************************************************/
+/* 329 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ss.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42429,7 +42366,7 @@
 	//! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42514,10 +42451,10 @@
 	}));
 
 /***/ },
-/* 332 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sv.js ***!
-  \****************************************************************************************/
+/* 330 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sv.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42525,7 +42462,7 @@
 	//! author : Jens Alm : https://github.com/ulmus
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42590,10 +42527,10 @@
 	}));
 
 /***/ },
-/* 333 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/sw.js ***!
-  \****************************************************************************************/
+/* 331 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/sw.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42601,7 +42538,7 @@
 	//! author : Fahad Kassim : https://github.com/fadsel
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42656,10 +42593,10 @@
 	}));
 
 /***/ },
-/* 334 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/ta.js ***!
-  \****************************************************************************************/
+/* 332 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/ta.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42667,7 +42604,7 @@
 	//! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42792,10 +42729,10 @@
 	}));
 
 /***/ },
-/* 335 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/te.js ***!
-  \****************************************************************************************/
+/* 333 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/te.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42803,7 +42740,7 @@
 	//! author : Krishna Chaitanya Thota : https://github.com/kcthota
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42888,10 +42825,10 @@
 	}));
 
 /***/ },
-/* 336 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/th.js ***!
-  \****************************************************************************************/
+/* 334 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/th.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42899,7 +42836,7 @@
 	//! author : Kridsada Thanabulpong : https://github.com/sirn
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -42962,10 +42899,10 @@
 	}));
 
 /***/ },
-/* 337 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/tl-ph.js ***!
-  \*******************************************************************************************/
+/* 335 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/tl-ph.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -42973,7 +42910,7 @@
 	//! author : Dan Hagman
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43031,10 +42968,10 @@
 	}));
 
 /***/ },
-/* 338 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/tlh.js ***!
-  \*****************************************************************************************/
+/* 336 */
+/*!******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/tlh.js ***!
+  \******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43042,7 +42979,7 @@
 	//! author : Dominika Kruk : https://github.com/amaranthrose
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43158,10 +43095,10 @@
 	}));
 
 /***/ },
-/* 339 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/tr.js ***!
-  \****************************************************************************************/
+/* 337 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/tr.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43170,7 +43107,7 @@
 	//!           Burak Yiğit Kaya: https://github.com/BYK
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43255,10 +43192,10 @@
 	}));
 
 /***/ },
-/* 340 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/tzl.js ***!
-  \*****************************************************************************************/
+/* 338 */
+/*!******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/tzl.js ***!
+  \******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43266,7 +43203,7 @@
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v with the help of Iustì Canun
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43353,10 +43290,10 @@
 	}));
 
 /***/ },
-/* 341 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/tzm.js ***!
-  \*****************************************************************************************/
+/* 339 */
+/*!******************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/tzm.js ***!
+  \******************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43364,7 +43301,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43418,10 +43355,10 @@
 	}));
 
 /***/ },
-/* 342 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/tzm-latn.js ***!
-  \**********************************************************************************************/
+/* 340 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/tzm-latn.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43429,7 +43366,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43483,10 +43420,10 @@
 	}));
 
 /***/ },
-/* 343 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/uk.js ***!
-  \****************************************************************************************/
+/* 341 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/uk.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43495,7 +43432,7 @@
 	//! Author : Menelion Elensúle : https://github.com/Oire
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43636,10 +43573,10 @@
 	}));
 
 /***/ },
-/* 344 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/uz.js ***!
-  \****************************************************************************************/
+/* 342 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/uz.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43647,7 +43584,7 @@
 	//! author : Sardor Muminov : https://github.com/muminoff
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43701,10 +43638,10 @@
 	}));
 
 /***/ },
-/* 345 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/vi.js ***!
-  \****************************************************************************************/
+/* 343 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/vi.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43712,7 +43649,7 @@
 	//! author : Bang Nguyen : https://github.com/bangnk
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43787,10 +43724,10 @@
 	}));
 
 /***/ },
-/* 346 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/x-pseudo.js ***!
-  \**********************************************************************************************/
+/* 344 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/x-pseudo.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43798,7 +43735,7 @@
 	//! author : Andrew Hood : https://github.com/andrewhood125
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43862,10 +43799,10 @@
 	}));
 
 /***/ },
-/* 347 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/zh-cn.js ***!
-  \*******************************************************************************************/
+/* 345 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/zh-cn.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -43874,7 +43811,7 @@
 	//! author : Zeno Zeng : https://github.com/zenozeng
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -43996,10 +43933,10 @@
 	}));
 
 /***/ },
-/* 348 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/moment/locale/zh-tw.js ***!
-  \*******************************************************************************************/
+/* 346 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/moment/locale/zh-tw.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -44008,7 +43945,7 @@
 	//! author : Chris Lam : https://github.com/hehachris
 	
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(/*! ../moment */ 245)) :
+	    true ? factory(__webpack_require__(/*! ../moment */ 243)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -44107,10 +44044,10 @@
 	}));
 
 /***/ },
-/* 349 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/~/object-assign/index.js ***!
-  \***************************************************************************************************************/
+/* 347 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/~/object-assign/index.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports) {
 
 	/* eslint-disable no-unused-vars */
@@ -44155,10 +44092,10 @@
 
 
 /***/ },
-/* 350 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/clampRange.js ***!
-  \********************************************************************************************************/
+/* 348 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/clampRange.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -44176,10 +44113,10 @@
 	};
 
 /***/ },
-/* 351 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/toMoment.js ***!
-  \******************************************************************************************************/
+/* 349 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/toMoment.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44190,7 +44127,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
@@ -44237,10 +44174,10 @@
 	};
 
 /***/ },
-/* 352 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/join.js ***!
-  \**************************************************************************************************/
+/* 350 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/join.js ***!
+  \***************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -44264,10 +44201,10 @@
 	};
 
 /***/ },
-/* 353 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/isInRange.js ***!
-  \*************************************************************************************************************/
+/* 351 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/isInRange.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -44308,10 +44245,10 @@
 	};
 
 /***/ },
-/* 354 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/NavBar.js ***!
-  \****************************************************************************************************/
+/* 352 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/NavBar.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44324,41 +44261,41 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 364);
+	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 362);
 	
 	var _reactInlineBlock2 = _interopRequireDefault(_reactInlineBlock);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
-	var _HistoryView = __webpack_require__(/*! ./HistoryView */ 368);
+	var _HistoryView = __webpack_require__(/*! ./HistoryView */ 366);
 	
 	var _HistoryView2 = _interopRequireDefault(_HistoryView);
 	
@@ -44772,10 +44709,10 @@
 	};
 
 /***/ },
-/* 355 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/index.js ***!
-  \********************************************************************************************/
+/* 353 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/index.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44785,7 +44722,7 @@
 	});
 	exports.Item = exports.Flex = undefined;
 	
-	var _Flex = __webpack_require__(/*! ./Flex */ 356);
+	var _Flex = __webpack_require__(/*! ./Flex */ 354);
 	
 	Object.defineProperty(exports, 'Flex', {
 	  enumerable: true,
@@ -44794,7 +44731,7 @@
 	  }
 	});
 	
-	var _Item = __webpack_require__(/*! ./Item */ 363);
+	var _Item = __webpack_require__(/*! ./Item */ 361);
 	
 	Object.defineProperty(exports, 'Item', {
 	  enumerable: true,
@@ -44815,10 +44752,10 @@
 	};
 
 /***/ },
-/* 356 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/Flex.js ***!
-  \*******************************************************************************************/
+/* 354 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/Flex.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44829,27 +44766,27 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 357);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 355);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _join = __webpack_require__(/*! ./join */ 358);
+	var _join = __webpack_require__(/*! ./join */ 356);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _props2className = __webpack_require__(/*! ./props2className */ 359);
+	var _props2className = __webpack_require__(/*! ./props2className */ 357);
 	
 	var _props2className2 = _interopRequireDefault(_props2className);
 	
-	var _cleanup = __webpack_require__(/*! ./cleanup */ 362);
+	var _cleanup = __webpack_require__(/*! ./cleanup */ 360);
 	
 	var _cleanup2 = _interopRequireDefault(_cleanup);
 	
@@ -44922,10 +44859,10 @@
 	exports.default = Flex;
 
 /***/ },
-/* 357 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/~/object-assign/index.js ***!
-  \********************************************************************************************************/
+/* 355 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/~/object-assign/index.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -45014,10 +44951,10 @@
 
 
 /***/ },
-/* 358 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/join.js ***!
-  \*******************************************************************************************/
+/* 356 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/join.js ***!
+  \********************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -45038,10 +44975,10 @@
 	};
 
 /***/ },
-/* 359 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/props2className.js ***!
-  \******************************************************************************************************/
+/* 357 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/props2className.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45050,15 +44987,15 @@
 	  value: true
 	});
 	
-	var _join = __webpack_require__(/*! ./join */ 358);
+	var _join = __webpack_require__(/*! ./join */ 356);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _props2flex = __webpack_require__(/*! ./props2flex */ 360);
+	var _props2flex = __webpack_require__(/*! ./props2flex */ 358);
 	
 	var _props2flex2 = _interopRequireDefault(_props2flex);
 	
-	var _prefix = __webpack_require__(/*! ./prefix */ 361);
+	var _prefix = __webpack_require__(/*! ./prefix */ 359);
 	
 	var _prefix2 = _interopRequireDefault(_prefix);
 	
@@ -45088,10 +45025,10 @@
 	};
 
 /***/ },
-/* 360 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/props2flex.js ***!
-  \*************************************************************************************************/
+/* 358 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/props2flex.js ***!
+  \**************************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -45105,10 +45042,10 @@
 	};
 
 /***/ },
-/* 361 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/prefix.js ***!
-  \*********************************************************************************************/
+/* 359 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/prefix.js ***!
+  \**********************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -45119,10 +45056,10 @@
 	exports.default = 'react-flex-v2';
 
 /***/ },
-/* 362 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/cleanup.js ***!
-  \**********************************************************************************************/
+/* 360 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/cleanup.js ***!
+  \***********************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -45149,10 +45086,10 @@
 	};
 
 /***/ },
-/* 363 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-flex/lib/Item.js ***!
-  \*******************************************************************************************/
+/* 361 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-flex/lib/Item.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45163,27 +45100,27 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 357);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 355);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _join = __webpack_require__(/*! ./join */ 358);
+	var _join = __webpack_require__(/*! ./join */ 356);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _props2className = __webpack_require__(/*! ./props2className */ 359);
+	var _props2className = __webpack_require__(/*! ./props2className */ 357);
 	
 	var _props2className2 = _interopRequireDefault(_props2className);
 	
-	var _cleanup = __webpack_require__(/*! ./cleanup */ 362);
+	var _cleanup = __webpack_require__(/*! ./cleanup */ 360);
 	
 	var _cleanup2 = _interopRequireDefault(_cleanup);
 	
@@ -45249,16 +45186,16 @@
 	exports.default = FlexItem;
 
 /***/ },
-/* 364 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-inline-block/lib/index.js ***!
-  \****************************************************************************************************/
+/* 362 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-inline-block/lib/index.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var React = __webpack_require__(/*! react */ 1);
-	var assign = __webpack_require__(/*! object-assign */ 365);
+	var React = __webpack_require__(/*! react */ 2);
+	var assign = __webpack_require__(/*! object-assign */ 363);
 	
 	var inlineBlockStyle = {
 	  display: 'inline-block'
@@ -45277,10 +45214,10 @@
 	});
 
 /***/ },
-/* 365 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-inline-block/~/object-assign/index.js ***!
-  \****************************************************************************************************************/
+/* 363 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-inline-block/~/object-assign/index.js ***!
+  \*****************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -45369,10 +45306,10 @@
 
 
 /***/ },
-/* 366 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/assignDefined.js ***!
-  \***********************************************************************************************************/
+/* 364 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/assignDefined.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45381,7 +45318,7 @@
 	  value: true
 	});
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
@@ -45410,10 +45347,10 @@
 	};
 
 /***/ },
-/* 367 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/bemFactory.js ***!
-  \********************************************************************************************************/
+/* 365 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/bemFactory.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -45433,10 +45370,10 @@
 	};
 
 /***/ },
-/* 368 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/HistoryView.js ***!
-  \*********************************************************************************************************/
+/* 366 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/HistoryView.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45449,49 +45386,49 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _joinFunctions = __webpack_require__(/*! ./joinFunctions */ 369);
+	var _joinFunctions = __webpack_require__(/*! ./joinFunctions */ 367);
 	
 	var _joinFunctions2 = _interopRequireDefault(_joinFunctions);
 	
-	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
-	var _Footer = __webpack_require__(/*! ./Footer */ 370);
+	var _Footer = __webpack_require__(/*! ./Footer */ 368);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
-	var _YearView = __webpack_require__(/*! ./YearView */ 371);
+	var _YearView = __webpack_require__(/*! ./YearView */ 369);
 	
 	var _YearView2 = _interopRequireDefault(_YearView);
 	
-	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _DecadeView = __webpack_require__(/*! ./DecadeView */ 373);
+	var _DecadeView = __webpack_require__(/*! ./DecadeView */ 371);
 	
 	var _DecadeView2 = _interopRequireDefault(_DecadeView);
 	
@@ -45939,10 +45876,10 @@
 	};
 
 /***/ },
-/* 369 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/joinFunctions.js ***!
-  \***********************************************************************************************************/
+/* 367 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/joinFunctions.js ***!
+  \************************************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -45963,10 +45900,10 @@
 	};
 
 /***/ },
-/* 370 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/Footer.js ***!
-  \****************************************************************************************************/
+/* 368 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/Footer.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45980,33 +45917,33 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 364);
+	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 362);
 	
 	var _reactInlineBlock2 = _interopRequireDefault(_reactInlineBlock);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _joinFunctions = __webpack_require__(/*! ./joinFunctions */ 369);
+	var _joinFunctions = __webpack_require__(/*! ./joinFunctions */ 367);
 	
 	var _joinFunctions2 = _interopRequireDefault(_joinFunctions);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
@@ -46215,10 +46152,10 @@
 	};
 
 /***/ },
-/* 371 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/YearView.js ***!
-  \******************************************************************************************************/
+/* 369 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/YearView.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -46231,39 +46168,39 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _times = __webpack_require__(/*! ./utils/times */ 372);
+	var _times = __webpack_require__(/*! ./utils/times */ 370);
 	
 	var _times2 = _interopRequireDefault(_times);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
-	var _DecadeView = __webpack_require__(/*! ./DecadeView */ 373);
+	var _DecadeView = __webpack_require__(/*! ./DecadeView */ 371);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -46611,10 +46548,10 @@
 	};
 
 /***/ },
-/* 372 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/times.js ***!
-  \*********************************************************************************************************/
+/* 370 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/times.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -46633,10 +46570,10 @@
 	exports.default = times;
 
 /***/ },
-/* 373 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DecadeView.js ***!
-  \********************************************************************************************************/
+/* 371 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DecadeView.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -46650,43 +46587,43 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _times = __webpack_require__(/*! ./utils/times */ 372);
+	var _times = __webpack_require__(/*! ./utils/times */ 370);
 	
 	var _times2 = _interopRequireDefault(_times);
 	
-	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
-	var _onKeyDown = __webpack_require__(/*! ./MonthView/onKeyDown */ 374);
+	var _onKeyDown = __webpack_require__(/*! ./MonthView/onKeyDown */ 372);
 	
 	var _onKeyDown2 = _interopRequireDefault(_onKeyDown);
 	
@@ -47322,10 +47259,10 @@
 	exports.getInitialState = getInitialState;
 
 /***/ },
-/* 374 */
-/*!*****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/MonthView/onKeyDown.js ***!
-  \*****************************************************************************************************************/
+/* 372 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/MonthView/onKeyDown.js ***!
+  \******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -47358,17 +47295,17 @@
 	  this.navigate(dir, event);
 	};
 	
-	var _navKeys = __webpack_require__(/*! ./navKeys */ 375);
+	var _navKeys = __webpack_require__(/*! ./navKeys */ 373);
 	
 	var _navKeys2 = _interopRequireDefault(_navKeys);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 375 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/MonthView/navKeys.js ***!
-  \***************************************************************************************************************/
+/* 373 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/MonthView/navKeys.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -47397,10 +47334,10 @@
 	};
 
 /***/ },
-/* 376 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/BasicMonthView.js ***!
-  \************************************************************************************************************/
+/* 374 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/BasicMonthView.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -47414,41 +47351,41 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _format = __webpack_require__(/*! ./utils/format */ 377);
+	var _format = __webpack_require__(/*! ./utils/format */ 375);
 	
 	var _format2 = _interopRequireDefault(_format);
 	
-	var _toMoment = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _getWeekDayNames = __webpack_require__(/*! ./utils/getWeekDayNames */ 378);
+	var _getWeekDayNames = __webpack_require__(/*! ./utils/getWeekDayNames */ 376);
 	
 	var _getWeekDayNames2 = _interopRequireDefault(_getWeekDayNames);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 367);
+	var _bemFactory = __webpack_require__(/*! ./bemFactory */ 365);
 	
 	var _bemFactory2 = _interopRequireDefault(_bemFactory);
 	
@@ -47961,10 +47898,10 @@
 	exports.getDaysInMonthView = getDaysInMonthView;
 
 /***/ },
-/* 377 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/format.js ***!
-  \**********************************************************************************************************/
+/* 375 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/format.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -47973,7 +47910,7 @@
 	  value: true
 	});
 	
-	var _toMoment = __webpack_require__(/*! ../toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ../toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
@@ -48007,10 +47944,10 @@
 	};
 
 /***/ },
-/* 378 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/getWeekDayNames.js ***!
-  \*******************************************************************************************************************/
+/* 376 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/getWeekDayNames.js ***!
+  \********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -48020,7 +47957,7 @@
 	});
 	exports.default = getWeekDayNames;
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
@@ -48051,10 +47988,10 @@
 	}
 
 /***/ },
-/* 379 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimePicker.js ***!
-  \********************************************************************************************************/
+/* 377 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimePicker.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -48067,41 +48004,41 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _TimeInput = __webpack_require__(/*! ./TimeInput */ 380);
+	var _TimeInput = __webpack_require__(/*! ./TimeInput */ 378);
 	
 	var _TimeInput2 = _interopRequireDefault(_TimeInput);
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _toMoment = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _Clock = __webpack_require__(/*! ./Clock */ 383);
+	var _Clock = __webpack_require__(/*! ./Clock */ 381);
 	
 	var _Clock2 = _interopRequireDefault(_Clock);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -48219,10 +48156,10 @@
 	TimePicker.propTypes = {};
 
 /***/ },
-/* 380 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimeInput/index.js ***!
-  \*************************************************************************************************************/
+/* 378 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimeInput/index.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -48236,59 +48173,59 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _raf = __webpack_require__(/*! raf */ 381);
+	var _raf = __webpack_require__(/*! raf */ 379);
 	
 	var _raf2 = _interopRequireDefault(_raf);
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _toMoment = __webpack_require__(/*! ../toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ../toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _join = __webpack_require__(/*! ../join */ 352);
+	var _join = __webpack_require__(/*! ../join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _Clock = __webpack_require__(/*! ../Clock */ 383);
+	var _Clock = __webpack_require__(/*! ../Clock */ 381);
 	
 	var _Clock2 = _interopRequireDefault(_Clock);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _getSelectionStart = __webpack_require__(/*! ./getSelectionStart */ 397);
+	var _getSelectionStart = __webpack_require__(/*! ./getSelectionStart */ 395);
 	
 	var _getSelectionStart2 = _interopRequireDefault(_getSelectionStart);
 	
-	var _getSelectionEnd = __webpack_require__(/*! ./getSelectionEnd */ 398);
+	var _getSelectionEnd = __webpack_require__(/*! ./getSelectionEnd */ 396);
 	
 	var _getSelectionEnd2 = _interopRequireDefault(_getSelectionEnd);
 	
-	var _setCaretPosition2 = __webpack_require__(/*! ./setCaretPosition */ 399);
+	var _setCaretPosition2 = __webpack_require__(/*! ./setCaretPosition */ 397);
 	
 	var _setCaretPosition3 = _interopRequireDefault(_setCaretPosition2);
 	
-	var _getNewValue2 = __webpack_require__(/*! ./getNewValue */ 400);
+	var _getNewValue2 = __webpack_require__(/*! ./getNewValue */ 398);
 	
 	var _getNewValue3 = _interopRequireDefault(_getNewValue2);
 	
-	var _toTimeValue = __webpack_require__(/*! ./toTimeValue */ 401);
+	var _toTimeValue = __webpack_require__(/*! ./toTimeValue */ 399);
 	
 	var _toTimeValue2 = _interopRequireDefault(_toTimeValue);
 	
@@ -48540,13 +48477,13 @@
 	};
 
 /***/ },
-/* 381 */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/raf/index.js ***!
-  \*********************************************************************************/
+/* 379 */
+/*!**********************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/raf/index.js ***!
+  \**********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global) {var now = __webpack_require__(/*! performance-now */ 382)
+	/* WEBPACK VAR INJECTION */(function(global) {var now = __webpack_require__(/*! performance-now */ 380)
 	  , root = typeof window === 'undefined' ? global : window
 	  , vendors = ['moz', 'webkit']
 	  , suffix = 'AnimationFrame'
@@ -48622,10 +48559,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 382 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/performance-now/lib/performance-now.js ***!
-  \***********************************************************************************************************/
+/* 380 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/performance-now/lib/performance-now.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {// Generated by CoffeeScript 1.7.1
@@ -48661,13 +48598,13 @@
 	
 	}).call(this);
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 383 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/Clock.js ***!
-  \***************************************************************************************************/
+/* 381 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/Clock.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -48680,29 +48617,29 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactNotifyResize = __webpack_require__(/*! react-notify-resize */ 384);
+	var _reactNotifyResize = __webpack_require__(/*! react-notify-resize */ 382);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _toMoment = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _reactStyleNormalizer = __webpack_require__(/*! react-style-normalizer */ 385);
+	var _reactStyleNormalizer = __webpack_require__(/*! react-style-normalizer */ 383);
 	
 	var _reactStyleNormalizer2 = _interopRequireDefault(_reactStyleNormalizer);
 	
@@ -49199,10 +49136,10 @@
 	};
 
 /***/ },
-/* 384 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-notify-resize/lib/index.js ***!
-  \*****************************************************************************************************/
+/* 382 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-notify-resize/lib/index.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49216,11 +49153,11 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
@@ -49533,19 +49470,19 @@
 	exports.NotifyResize = NotifyResize;
 
 /***/ },
-/* 385 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/index.js ***!
-  \********************************************************************************************************/
+/* 383 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/index.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var hasOwn      = __webpack_require__(/*! ./hasOwn */ 386)
-	var getPrefixed = __webpack_require__(/*! ./getPrefixed */ 387)
+	var hasOwn      = __webpack_require__(/*! ./hasOwn */ 384)
+	var getPrefixed = __webpack_require__(/*! ./getPrefixed */ 385)
 	
-	var map      = __webpack_require__(/*! ./map */ 393)
-	var plugable = __webpack_require__(/*! ./plugable */ 394)
+	var map      = __webpack_require__(/*! ./map */ 391)
+	var plugable = __webpack_require__(/*! ./plugable */ 392)
 	
 	function plugins(key, value){
 	
@@ -49606,10 +49543,10 @@
 	module.exports = plugable(RESULT)
 
 /***/ },
-/* 386 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/hasOwn.js ***!
-  \*********************************************************************************************************/
+/* 384 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/hasOwn.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -49620,16 +49557,16 @@
 
 
 /***/ },
-/* 387 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/getPrefixed.js ***!
-  \**************************************************************************************************************/
+/* 385 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/getPrefixed.js ***!
+  \***************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var getStylePrefixed = __webpack_require__(/*! ./getStylePrefixed */ 388)
-	var properties       = __webpack_require__(/*! ./prefixProps */ 392)
+	var getStylePrefixed = __webpack_require__(/*! ./getStylePrefixed */ 386)
+	var properties       = __webpack_require__(/*! ./prefixProps */ 390)
 	
 	module.exports = function(key, value){
 	
@@ -49641,17 +49578,17 @@
 	}
 
 /***/ },
-/* 388 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/getStylePrefixed.js ***!
-  \*******************************************************************************************************************/
+/* 386 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/getStylePrefixed.js ***!
+  \********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var toUpperFirst = __webpack_require__(/*! ./toUpperFirst */ 389)
-	var getPrefix    = __webpack_require__(/*! ./getPrefix */ 390)
-	var el           = __webpack_require__(/*! ./el */ 391)
+	var toUpperFirst = __webpack_require__(/*! ./toUpperFirst */ 387)
+	var getPrefix    = __webpack_require__(/*! ./getPrefix */ 388)
+	var el           = __webpack_require__(/*! ./el */ 389)
 	
 	var MEMORY = {}
 	var STYLE
@@ -49700,10 +49637,10 @@
 	}
 
 /***/ },
-/* 389 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/toUpperFirst.js ***!
-  \***************************************************************************************************************/
+/* 387 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/toUpperFirst.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -49715,18 +49652,18 @@
 	}
 
 /***/ },
-/* 390 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/getPrefix.js ***!
-  \************************************************************************************************************/
+/* 388 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/getPrefix.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var toUpperFirst = __webpack_require__(/*! ./toUpperFirst */ 389)
+	var toUpperFirst = __webpack_require__(/*! ./toUpperFirst */ 387)
 	var prefixes     = ["ms", "Moz", "Webkit", "O"]
 	
-	var el = __webpack_require__(/*! ./el */ 391)
+	var el = __webpack_require__(/*! ./el */ 389)
 	
 	var ELEMENT
 	var PREFIX
@@ -49757,10 +49694,10 @@
 	}
 
 /***/ },
-/* 391 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/el.js ***!
-  \*****************************************************************************************************/
+/* 389 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/el.js ***!
+  \******************************************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -49782,10 +49719,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 392 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/prefixProps.js ***!
-  \**************************************************************************************************************/
+/* 390 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/prefixProps.js ***!
+  \***************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -49833,10 +49770,10 @@
 
 
 /***/ },
-/* 393 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/map.js ***!
-  \******************************************************************************************************/
+/* 391 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/map.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -49857,15 +49794,15 @@
 	}
 
 /***/ },
-/* 394 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/plugable.js ***!
-  \***********************************************************************************************************/
+/* 392 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/plugable.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var getCssPrefixedValue = __webpack_require__(/*! ./getCssPrefixedValue */ 395)
+	var getCssPrefixedValue = __webpack_require__(/*! ./getCssPrefixedValue */ 393)
 	
 	module.exports = function(target){
 		target.plugins = target.plugins || [
@@ -49896,17 +49833,17 @@
 	}
 
 /***/ },
-/* 395 */
-/*!**********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/getCssPrefixedValue.js ***!
-  \**********************************************************************************************************************/
+/* 393 */
+/*!***********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/getCssPrefixedValue.js ***!
+  \***********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var getPrefix     = __webpack_require__(/*! ./getPrefix */ 390)
-	var forcePrefixed = __webpack_require__(/*! ./forcePrefixed */ 396)
-	var el            = __webpack_require__(/*! ./el */ 391)
+	var getPrefix     = __webpack_require__(/*! ./getPrefix */ 388)
+	var forcePrefixed = __webpack_require__(/*! ./forcePrefixed */ 394)
+	var el            = __webpack_require__(/*! ./el */ 389)
 	
 	var MEMORY = {}
 	var STYLE
@@ -49953,17 +49890,17 @@
 	}
 
 /***/ },
-/* 396 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-style-normalizer/src/forcePrefixed.js ***!
-  \****************************************************************************************************************/
+/* 394 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-style-normalizer/src/forcePrefixed.js ***!
+  \*****************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var toUpperFirst = __webpack_require__(/*! ./toUpperFirst */ 389)
-	var getPrefix    = __webpack_require__(/*! ./getPrefix */ 390)
-	var properties   = __webpack_require__(/*! ./prefixProps */ 392)
+	var toUpperFirst = __webpack_require__(/*! ./toUpperFirst */ 387)
+	var getPrefix    = __webpack_require__(/*! ./getPrefix */ 388)
+	var properties   = __webpack_require__(/*! ./prefixProps */ 390)
 	
 	/**
 	 * Returns the given key prefixed, if the property is found in the prefixProps map.
@@ -49985,10 +49922,10 @@
 	}
 
 /***/ },
-/* 397 */
-/*!*************************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimeInput/getSelectionStart.js ***!
-  \*************************************************************************************************************************/
+/* 395 */
+/*!**************************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimeInput/getSelectionStart.js ***!
+  \**************************************************************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -50012,10 +49949,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 398 */
-/*!***********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimeInput/getSelectionEnd.js ***!
-  \***********************************************************************************************************************/
+/* 396 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimeInput/getSelectionEnd.js ***!
+  \************************************************************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -50036,10 +49973,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 399 */
-/*!************************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimeInput/setCaretPosition.js ***!
-  \************************************************************************************************************************/
+/* 397 */
+/*!*************************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimeInput/setCaretPosition.js ***!
+  \*************************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -50071,10 +50008,10 @@
 	}
 
 /***/ },
-/* 400 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimeInput/getNewValue.js ***!
-  \*******************************************************************************************************************/
+/* 398 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimeInput/getNewValue.js ***!
+  \********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50144,19 +50081,19 @@
 	  };
 	};
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _toTimeValue = __webpack_require__(/*! ./toTimeValue */ 401);
+	var _toTimeValue = __webpack_require__(/*! ./toTimeValue */ 399);
 	
 	var _toTimeValue2 = _interopRequireDefault(_toTimeValue);
 	
-	var _leftPad = __webpack_require__(/*! ../utils/leftPad */ 402);
+	var _leftPad = __webpack_require__(/*! ../utils/leftPad */ 400);
 	
 	var _leftPad2 = _interopRequireDefault(_leftPad);
 	
-	var _clamp = __webpack_require__(/*! ../utils/clamp */ 403);
+	var _clamp = __webpack_require__(/*! ../utils/clamp */ 401);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -50509,10 +50446,10 @@
 	};
 
 /***/ },
-/* 401 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TimeInput/toTimeValue.js ***!
-  \*******************************************************************************************************************/
+/* 399 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TimeInput/toTimeValue.js ***!
+  \********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50521,7 +50458,7 @@
 	  value: true
 	});
 	
-	var _leftPad = __webpack_require__(/*! ../utils/leftPad */ 402);
+	var _leftPad = __webpack_require__(/*! ../utils/leftPad */ 400);
 	
 	var _leftPad2 = _interopRequireDefault(_leftPad);
 	
@@ -50572,10 +50509,10 @@
 	};
 
 /***/ },
-/* 402 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/leftPad.js ***!
-  \***********************************************************************************************************/
+/* 400 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/leftPad.js ***!
+  \************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -50598,10 +50535,10 @@
 	};
 
 /***/ },
-/* 403 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/clamp.js ***!
-  \*********************************************************************************************************/
+/* 401 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/clamp.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports) {
 
 	"use strict";
@@ -50658,10 +50595,10 @@
 	exports.default = clamp;
 
 /***/ },
-/* 404 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/TransitionView.js ***!
-  \************************************************************************************************************/
+/* 402 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/TransitionView.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50676,57 +50613,57 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _forwardTime = __webpack_require__(/*! ./utils/forwardTime */ 405);
+	var _forwardTime = __webpack_require__(/*! ./utils/forwardTime */ 403);
 	
 	var _forwardTime2 = _interopRequireDefault(_forwardTime);
 	
-	var _getTransitionEnd = __webpack_require__(/*! ./getTransitionEnd */ 406);
+	var _getTransitionEnd = __webpack_require__(/*! ./getTransitionEnd */ 404);
 	
 	var _getTransitionEnd2 = _interopRequireDefault(_getTransitionEnd);
 	
-	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _MonthView = __webpack_require__(/*! ./MonthView */ 242);
+	var _MonthView = __webpack_require__(/*! ./MonthView */ 240);
 	
-	var _NavBar = __webpack_require__(/*! ./NavBar */ 354);
+	var _NavBar = __webpack_require__(/*! ./NavBar */ 352);
 	
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _times = __webpack_require__(/*! ./utils/times */ 372);
+	var _times = __webpack_require__(/*! ./utils/times */ 370);
 	
 	var _times2 = _interopRequireDefault(_times);
 	
-	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 364);
+	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 362);
 	
 	var _reactInlineBlock2 = _interopRequireDefault(_reactInlineBlock);
 	
-	var _reactStyleNormalizer = __webpack_require__(/*! react-style-normalizer */ 385);
+	var _reactStyleNormalizer = __webpack_require__(/*! react-style-normalizer */ 383);
 	
 	var _reactStyleNormalizer2 = _interopRequireDefault(_reactStyleNormalizer);
 	
@@ -51402,10 +51339,10 @@
 	};
 
 /***/ },
-/* 405 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/utils/forwardTime.js ***!
-  \***************************************************************************************************************/
+/* 403 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/utils/forwardTime.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -51425,10 +51362,10 @@
 	};
 
 /***/ },
-/* 406 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/getTransitionEnd.js ***!
-  \**************************************************************************************************************/
+/* 404 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/getTransitionEnd.js ***!
+  \***************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -51471,10 +51408,10 @@
 	};
 
 /***/ },
-/* 407 */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/MultiMonthView.js ***!
-  \************************************************************************************************************/
+/* 405 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/MultiMonthView.js ***!
+  \*************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -51488,47 +51425,47 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 364);
+	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 362);
 	
 	var _reactInlineBlock2 = _interopRequireDefault(_reactInlineBlock);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _clampRange = __webpack_require__(/*! ./clampRange */ 350);
+	var _clampRange = __webpack_require__(/*! ./clampRange */ 348);
 	
 	var _clampRange2 = _interopRequireDefault(_clampRange);
 	
-	var _NavBar = __webpack_require__(/*! ./NavBar */ 354);
+	var _NavBar = __webpack_require__(/*! ./NavBar */ 352);
 	
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 	
-	var _toMoment = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _isInRange2 = __webpack_require__(/*! ./utils/isInRange */ 353);
+	var _isInRange2 = __webpack_require__(/*! ./utils/isInRange */ 351);
 	
 	var _isInRange3 = _interopRequireDefault(_isInRange2);
 	
-	var _BasicMonthView = __webpack_require__(/*! ./BasicMonthView */ 376);
+	var _BasicMonthView = __webpack_require__(/*! ./BasicMonthView */ 374);
 	
-	var _MonthView = __webpack_require__(/*! ./MonthView */ 242);
+	var _MonthView = __webpack_require__(/*! ./MonthView */ 240);
 	
 	var _MonthView2 = _interopRequireDefault(_MonthView);
 	
@@ -52229,10 +52166,10 @@
 	MultiMonthView.propTypes = {};
 
 /***/ },
-/* 408 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/ClockInput.js ***!
-  \********************************************************************************************************/
+/* 406 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/ClockInput.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -52245,37 +52182,37 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _lodash = __webpack_require__(/*! lodash.throttle */ 409);
+	var _lodash = __webpack_require__(/*! lodash.throttle */ 407);
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _toMoment = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _Clock = __webpack_require__(/*! ./Clock */ 383);
+	var _Clock = __webpack_require__(/*! ./Clock */ 381);
 	
 	var _Clock2 = _interopRequireDefault(_Clock);
 	
-	var _DateFormatSpinnerInput = __webpack_require__(/*! ./DateFormatSpinnerInput */ 410);
+	var _DateFormatSpinnerInput = __webpack_require__(/*! ./DateFormatSpinnerInput */ 408);
 	
 	var _DateFormatSpinnerInput2 = _interopRequireDefault(_DateFormatSpinnerInput);
 	
@@ -52476,10 +52413,10 @@
 	ClockInput.propTypes = {};
 
 /***/ },
-/* 409 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/lodash.throttle/index.js ***!
-  \*********************************************************************************************/
+/* 407 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/lodash.throttle/index.js ***!
+  \**********************************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -52925,10 +52862,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 410 */
-/*!**************************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DateFormatSpinnerInput/index.js ***!
-  \**************************************************************************************************************************/
+/* 408 */
+/*!***************************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DateFormatSpinnerInput/index.js ***!
+  \***************************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -52941,33 +52878,33 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _DateFormatInput = __webpack_require__(/*! ../DateFormatInput */ 411);
+	var _DateFormatInput = __webpack_require__(/*! ../DateFormatInput */ 409);
 	
 	var _DateFormatInput2 = _interopRequireDefault(_DateFormatInput);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _joinFunctions = __webpack_require__(/*! ../joinFunctions */ 369);
+	var _joinFunctions = __webpack_require__(/*! ../joinFunctions */ 367);
 	
 	var _joinFunctions2 = _interopRequireDefault(_joinFunctions);
 	
-	var _assignDefined = __webpack_require__(/*! ../assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ../assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _join = __webpack_require__(/*! ../join */ 352);
+	var _join = __webpack_require__(/*! ../join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
@@ -53253,10 +53190,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 411 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DateFormatInput/index.js ***!
-  \*******************************************************************************************************************/
+/* 409 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DateFormatInput/index.js ***!
+  \********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -53269,35 +53206,35 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _lodash = __webpack_require__(/*! lodash.throttle */ 409);
+	var _lodash = __webpack_require__(/*! lodash.throttle */ 407);
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _TimeInput = __webpack_require__(/*! ../TimeInput */ 380);
+	var _TimeInput = __webpack_require__(/*! ../TimeInput */ 378);
 	
-	var _toMoment2 = __webpack_require__(/*! ../toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ../toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _parseFormat2 = __webpack_require__(/*! ./parseFormat */ 412);
+	var _parseFormat2 = __webpack_require__(/*! ./parseFormat */ 410);
 	
 	var _parseFormat3 = _interopRequireDefault(_parseFormat2);
 	
-	var _forwardTime = __webpack_require__(/*! ../utils/forwardTime */ 405);
+	var _forwardTime = __webpack_require__(/*! ../utils/forwardTime */ 403);
 	
 	var _forwardTime2 = _interopRequireDefault(_forwardTime);
 	
@@ -53786,10 +53723,10 @@
 	};
 
 /***/ },
-/* 412 */
-/*!*************************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DateFormatInput/parseFormat.js ***!
-  \*************************************************************************************************************************/
+/* 410 */
+/*!**************************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DateFormatInput/parseFormat.js ***!
+  \**************************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -53798,11 +53735,11 @@
 	  value: true
 	});
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _formats = __webpack_require__(/*! ./formats */ 413);
+	var _formats = __webpack_require__(/*! ./formats */ 411);
 	
 	var _formats2 = _interopRequireDefault(_formats);
 	
@@ -53898,10 +53835,10 @@
 	};
 
 /***/ },
-/* 413 */
-/*!*********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DateFormatInput/formats.js ***!
-  \*********************************************************************************************************************/
+/* 411 */
+/*!**********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DateFormatInput/formats.js ***!
+  \**********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -53911,15 +53848,15 @@
 	});
 	exports.getFormats = undefined;
 	
-	var _leftPad = __webpack_require__(/*! ../utils/leftPad */ 402);
+	var _leftPad = __webpack_require__(/*! ../utils/leftPad */ 400);
 	
 	var _leftPad2 = _interopRequireDefault(_leftPad);
 	
-	var _clamp = __webpack_require__(/*! ../utils/clamp */ 403);
+	var _clamp = __webpack_require__(/*! ../utils/clamp */ 401);
 	
 	var _clamp2 = _interopRequireDefault(_clamp);
 	
-	var _times = __webpack_require__(/*! ../utils/times */ 372);
+	var _times = __webpack_require__(/*! ../utils/times */ 370);
 	
 	var _times2 = _interopRequireDefault(_times);
 	
@@ -54294,10 +54231,10 @@
 	exports.default = getFormats();
 
 /***/ },
-/* 414 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DateField/index.js ***!
-  \*************************************************************************************************************/
+/* 412 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DateField/index.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -54310,61 +54247,61 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
-	var _reactField = __webpack_require__(/*! react-field */ 415);
+	var _reactField = __webpack_require__(/*! react-field */ 413);
 	
 	var _reactField2 = _interopRequireDefault(_reactField);
 	
-	var _DateFormatInput = __webpack_require__(/*! ../DateFormatInput */ 411);
+	var _DateFormatInput = __webpack_require__(/*! ../DateFormatInput */ 409);
 	
 	var _DateFormatInput2 = _interopRequireDefault(_DateFormatInput);
 	
-	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 364);
+	var _reactInlineBlock = __webpack_require__(/*! react-inline-block */ 362);
 	
 	var _reactInlineBlock2 = _interopRequireDefault(_reactInlineBlock);
 	
-	var _icons = __webpack_require__(/*! ./icons */ 417);
+	var _icons = __webpack_require__(/*! ./icons */ 415);
 	
-	var _moment = __webpack_require__(/*! moment */ 245);
+	var _moment = __webpack_require__(/*! moment */ 243);
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _join = __webpack_require__(/*! ../join */ 352);
+	var _join = __webpack_require__(/*! ../join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _toMoment2 = __webpack_require__(/*! ../toMoment */ 351);
+	var _toMoment2 = __webpack_require__(/*! ../toMoment */ 349);
 	
 	var _toMoment3 = _interopRequireDefault(_toMoment2);
 	
-	var _Calendar = __webpack_require__(/*! ../Calendar */ 418);
+	var _Calendar = __webpack_require__(/*! ../Calendar */ 416);
 	
 	var _Calendar2 = _interopRequireDefault(_Calendar);
 	
-	var _joinFunctions = __webpack_require__(/*! ../joinFunctions */ 369);
+	var _joinFunctions = __webpack_require__(/*! ../joinFunctions */ 367);
 	
 	var _joinFunctions2 = _interopRequireDefault(_joinFunctions);
 	
-	var _assignDefined = __webpack_require__(/*! ../assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ../assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _forwardTime = __webpack_require__(/*! ../utils/forwardTime */ 405);
+	var _forwardTime = __webpack_require__(/*! ../utils/forwardTime */ 403);
 	
 	var _forwardTime2 = _interopRequireDefault(_forwardTime);
 	
@@ -55334,10 +55271,10 @@
 	};
 
 /***/ },
-/* 415 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-field/lib/index.js ***!
-  \*********************************************************************************************/
+/* 413 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-field/lib/index.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55348,13 +55285,13 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 416);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 414);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
@@ -55404,10 +55341,10 @@
 	});
 
 /***/ },
-/* 416 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-field/~/object-assign/index.js ***!
-  \*********************************************************************************************************/
+/* 414 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-field/~/object-assign/index.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -55496,10 +55433,10 @@
 
 
 /***/ },
-/* 417 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/DateField/icons.js ***!
-  \*************************************************************************************************************/
+/* 415 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/DateField/icons.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -55509,7 +55446,7 @@
 	});
 	exports.CLEAR_ICON = undefined;
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -55523,10 +55460,10 @@
 	);
 
 /***/ },
-/* 418 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/lib/Calendar.js ***!
-  \******************************************************************************************************/
+/* 416 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/lib/Calendar.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -55542,43 +55479,43 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactClass = __webpack_require__(/*! react-class */ 243);
+	var _reactClass = __webpack_require__(/*! react-class */ 241);
 	
 	var _reactClass2 = _interopRequireDefault(_reactClass);
 	
-	var _objectAssign = __webpack_require__(/*! object-assign */ 349);
+	var _objectAssign = __webpack_require__(/*! object-assign */ 347);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
-	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 366);
+	var _assignDefined = __webpack_require__(/*! ./assignDefined */ 364);
 	
 	var _assignDefined2 = _interopRequireDefault(_assignDefined);
 	
-	var _MonthView = __webpack_require__(/*! ./MonthView */ 242);
+	var _MonthView = __webpack_require__(/*! ./MonthView */ 240);
 	
 	var _MonthView2 = _interopRequireDefault(_MonthView);
 	
-	var _toMoment = __webpack_require__(/*! ./toMoment */ 351);
+	var _toMoment = __webpack_require__(/*! ./toMoment */ 349);
 	
 	var _toMoment2 = _interopRequireDefault(_toMoment);
 	
-	var _join = __webpack_require__(/*! ./join */ 352);
+	var _join = __webpack_require__(/*! ./join */ 350);
 	
 	var _join2 = _interopRequireDefault(_join);
 	
-	var _ClockInput = __webpack_require__(/*! ./ClockInput */ 408);
+	var _ClockInput = __webpack_require__(/*! ./ClockInput */ 406);
 	
 	var _ClockInput2 = _interopRequireDefault(_ClockInput);
 	
-	var _forwardTime = __webpack_require__(/*! ./utils/forwardTime */ 405);
+	var _forwardTime = __webpack_require__(/*! ./utils/forwardTime */ 403);
 	
 	var _forwardTime2 = _interopRequireDefault(_forwardTime);
 	
-	var _reactFlex = __webpack_require__(/*! react-flex */ 355);
+	var _reactFlex = __webpack_require__(/*! react-flex */ 353);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -55864,7 +55801,7 @@
 	exports.NAV_KEYS = _MonthView.NAV_KEYS;
 
 /***/ },
-/* 419 */
+/* 417 */
 /*!******************************!*\
   !*** ./partials/results.jsx ***!
   \******************************/
@@ -55872,7 +55809,7 @@
 
 	'use strict';
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -55923,14 +55860,19 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    'span',
-	                                    { className: 'bold' },
+	                                    { className: 'bold w-50' },
 	                                    'BEL 17:55 -- 19:25 FCO '
 	                                ),
-	                                _react2.default.createElement('span', { className: 'flaticon-icon-158225' }),
 	                                _react2.default.createElement(
 	                                    'span',
-	                                    { className: 'font-small color-light' },
-	                                    ' 1:35 direct'
+	                                    { className: 'font-small color-light w-15' },
+	                                    _react2.default.createElement('span', { className: 'flaticon-icon-158225 mr-10' }),
+	                                    '  1:35 '
+	                                ),
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    { className: 'font-small color-light w-15' },
+	                                    'direct'
 	                                )
 	                            )
 	                        ),
@@ -55942,14 +55884,19 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    'span',
-	                                    { className: 'bold' },
+	                                    { className: 'bold w-50' },
 	                                    'BEL 17:55 -- 19:25 FCO '
 	                                ),
-	                                _react2.default.createElement('span', { className: 'flaticon-icon-158225' }),
 	                                _react2.default.createElement(
 	                                    'span',
-	                                    { className: 'font-small color-light' },
-	                                    ' 1:35 direct'
+	                                    { className: 'font-small color-light w-15' },
+	                                    _react2.default.createElement('span', { className: 'flaticon-icon-158225 mr-10' }),
+	                                    '  1:35 '
+	                                ),
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    { className: 'font-small color-light w-15' },
+	                                    '1 stop'
 	                                )
 	                            )
 	                        )
@@ -55982,20 +55929,20 @@
 	module.exports = Results;
 
 /***/ },
-/* 420 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/react-date-picker/index.css ***!
-  \************************************************************************************************/
+/* 418 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/react-date-picker/index.css ***!
+  \*************************************************************************/
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 421 */,
-/* 422 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-client/lib/index.js ***!
-  \**************************************************************************************************/
+/* 419 */,
+/* 420 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-client/lib/index.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -56003,10 +55950,10 @@
 	 * Module dependencies.
 	 */
 	
-	var url = __webpack_require__(/*! ./url */ 423);
-	var parser = __webpack_require__(/*! socket.io-parser */ 428);
-	var Manager = __webpack_require__(/*! ./manager */ 435);
-	var debug = __webpack_require__(/*! debug */ 425)('socket.io-client');
+	var url = __webpack_require__(/*! ./url */ 421);
+	var parser = __webpack_require__(/*! socket.io-parser */ 426);
+	var Manager = __webpack_require__(/*! ./manager */ 433);
+	var debug = __webpack_require__(/*! debug */ 423)('socket.io-client');
 	
 	/**
 	 * Module exports.
@@ -56088,15 +56035,15 @@
 	 * @api public
 	 */
 	
-	exports.Manager = __webpack_require__(/*! ./manager */ 435);
-	exports.Socket = __webpack_require__(/*! ./socket */ 461);
+	exports.Manager = __webpack_require__(/*! ./manager */ 433);
+	exports.Socket = __webpack_require__(/*! ./socket */ 459);
 
 
 /***/ },
-/* 423 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-client/lib/url.js ***!
-  \************************************************************************************************/
+/* 421 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-client/lib/url.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -56104,8 +56051,8 @@
 	 * Module dependencies.
 	 */
 	
-	var parseuri = __webpack_require__(/*! parseuri */ 424);
-	var debug = __webpack_require__(/*! debug */ 425)('socket.io-client:url');
+	var parseuri = __webpack_require__(/*! parseuri */ 422);
+	var debug = __webpack_require__(/*! debug */ 423)('socket.io-client:url');
 	
 	/**
 	 * Module exports.
@@ -56179,10 +56126,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 424 */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/parseuri/index.js ***!
-  \**************************************************************************************/
+/* 422 */
+/*!***************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/parseuri/index.js ***!
+  \***************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -56227,10 +56174,10 @@
 
 
 /***/ },
-/* 425 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/debug/browser.js ***!
-  \*************************************************************************************/
+/* 423 */
+/*!**************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/debug/browser.js ***!
+  \**************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -56240,7 +56187,7 @@
 	 * Expose `debug()` as the module.
 	 */
 	
-	exports = module.exports = __webpack_require__(/*! ./debug */ 426);
+	exports = module.exports = __webpack_require__(/*! ./debug */ 424);
 	exports.log = log;
 	exports.formatArgs = formatArgs;
 	exports.save = save;
@@ -56404,10 +56351,10 @@
 
 
 /***/ },
-/* 426 */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/debug/debug.js ***!
-  \***********************************************************************************/
+/* 424 */
+/*!************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/debug/debug.js ***!
+  \************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -56423,7 +56370,7 @@
 	exports.disable = disable;
 	exports.enable = enable;
 	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(/*! ms */ 427);
+	exports.humanize = __webpack_require__(/*! ms */ 425);
 	
 	/**
 	 * The currently active debug mode names, and names to skip.
@@ -56610,10 +56557,10 @@
 
 
 /***/ },
-/* 427 */
-/*!********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/ms/index.js ***!
-  \********************************************************************************/
+/* 425 */
+/*!*********************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/ms/index.js ***!
+  \*********************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -56744,10 +56691,10 @@
 
 
 /***/ },
-/* 428 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-parser/index.js ***!
-  \**********************************************************************************************/
+/* 426 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-parser/index.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -56755,12 +56702,12 @@
 	 * Module dependencies.
 	 */
 	
-	var debug = __webpack_require__(/*! debug */ 425)('socket.io-parser');
-	var json = __webpack_require__(/*! json3 */ 429);
-	var isArray = __webpack_require__(/*! isarray */ 431);
-	var Emitter = __webpack_require__(/*! component-emitter */ 432);
-	var binary = __webpack_require__(/*! ./binary */ 433);
-	var isBuf = __webpack_require__(/*! ./is-buffer */ 434);
+	var debug = __webpack_require__(/*! debug */ 423)('socket.io-parser');
+	var json = __webpack_require__(/*! json3 */ 427);
+	var isArray = __webpack_require__(/*! isarray */ 429);
+	var Emitter = __webpack_require__(/*! component-emitter */ 430);
+	var binary = __webpack_require__(/*! ./binary */ 431);
+	var isBuf = __webpack_require__(/*! ./is-buffer */ 432);
 	
 	/**
 	 * Protocol version.
@@ -57153,17 +57100,17 @@
 
 
 /***/ },
-/* 429 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-parser/~/json3/lib/json3.js ***!
-  \**********************************************************************************************************/
+/* 427 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-parser/~/json3/lib/json3.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module, global) {/*! JSON v3.3.2 | http://bestiejs.github.io/json3 | Copyright 2012-2014, Kit Cambridge | http://kit.mit-license.org */
 	;(function () {
 	  // Detect the `define` function exposed by asynchronous module loaders. The
 	  // strict `define` check is necessary for compatibility with `r.js`.
-	  var isLoader = "function" === "function" && __webpack_require__(/*! !webpack amd options */ 430);
+	  var isLoader = "function" === "function" && __webpack_require__(/*! !webpack amd options */ 428);
 	
 	  // A set of types used to distinguish objects from primitives.
 	  var objectTypes = {
@@ -58062,10 +58009,10 @@
 	  }
 	}).call(this);
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../webpack/buildin/module.js */ 246)(module), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../webpack/buildin/module.js */ 244)(module), (function() { return this; }())))
 
 /***/ },
-/* 430 */
+/* 428 */
 /*!****************************************!*\
   !*** (webpack)/buildin/amd-options.js ***!
   \****************************************/
@@ -58076,10 +58023,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
-/* 431 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/isarray/index.js ***!
-  \*************************************************************************************/
+/* 429 */
+/*!**************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/isarray/index.js ***!
+  \**************************************************************/
 /***/ function(module, exports) {
 
 	module.exports = Array.isArray || function (arr) {
@@ -58088,10 +58035,10 @@
 
 
 /***/ },
-/* 432 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/component-emitter/index.js ***!
-  \***********************************************************************************************/
+/* 430 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/component-emitter/index.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -58261,10 +58208,10 @@
 
 
 /***/ },
-/* 433 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-parser/binary.js ***!
-  \***********************************************************************************************/
+/* 431 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-parser/binary.js ***!
+  \************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/*global Blob,File*/
@@ -58273,8 +58220,8 @@
 	 * Module requirements
 	 */
 	
-	var isArray = __webpack_require__(/*! isarray */ 431);
-	var isBuf = __webpack_require__(/*! ./is-buffer */ 434);
+	var isArray = __webpack_require__(/*! isarray */ 429);
+	var isBuf = __webpack_require__(/*! ./is-buffer */ 432);
 	
 	/**
 	 * Replaces every Buffer | ArrayBuffer in packet with a numbered placeholder.
@@ -58412,10 +58359,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 434 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-parser/is-buffer.js ***!
-  \**************************************************************************************************/
+/* 432 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-parser/is-buffer.js ***!
+  \***************************************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -58435,10 +58382,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 435 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-client/lib/manager.js ***!
-  \****************************************************************************************************/
+/* 433 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-client/lib/manager.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -58446,15 +58393,15 @@
 	 * Module dependencies.
 	 */
 	
-	var eio = __webpack_require__(/*! engine.io-client */ 436);
-	var Socket = __webpack_require__(/*! ./socket */ 461);
-	var Emitter = __webpack_require__(/*! component-emitter */ 462);
-	var parser = __webpack_require__(/*! socket.io-parser */ 428);
-	var on = __webpack_require__(/*! ./on */ 464);
-	var bind = __webpack_require__(/*! component-bind */ 465);
-	var debug = __webpack_require__(/*! debug */ 425)('socket.io-client:manager');
-	var indexOf = __webpack_require__(/*! indexof */ 459);
-	var Backoff = __webpack_require__(/*! backo2 */ 467);
+	var eio = __webpack_require__(/*! engine.io-client */ 434);
+	var Socket = __webpack_require__(/*! ./socket */ 459);
+	var Emitter = __webpack_require__(/*! component-emitter */ 460);
+	var parser = __webpack_require__(/*! socket.io-parser */ 426);
+	var on = __webpack_require__(/*! ./on */ 462);
+	var bind = __webpack_require__(/*! component-bind */ 463);
+	var debug = __webpack_require__(/*! debug */ 423)('socket.io-client:manager');
+	var indexOf = __webpack_require__(/*! indexof */ 457);
+	var Backoff = __webpack_require__(/*! backo2 */ 465);
 	
 	/**
 	 * IE6+ hasOwnProperty
@@ -59001,25 +58948,25 @@
 
 
 /***/ },
-/* 436 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/index.js ***!
-  \**********************************************************************************************/
+/* 434 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/index.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	module.exports =  __webpack_require__(/*! ./lib/ */ 437);
+	module.exports =  __webpack_require__(/*! ./lib/ */ 435);
 
 
 /***/ },
-/* 437 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/index.js ***!
-  \**************************************************************************************************/
+/* 435 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/index.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	module.exports = __webpack_require__(/*! ./socket */ 438);
+	module.exports = __webpack_require__(/*! ./socket */ 436);
 	
 	/**
 	 * Exports parser
@@ -59027,28 +58974,28 @@
 	 * @api public
 	 *
 	 */
-	module.exports.parser = __webpack_require__(/*! engine.io-parser */ 445);
+	module.exports.parser = __webpack_require__(/*! engine.io-parser */ 443);
 
 
 /***/ },
-/* 438 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/socket.js ***!
-  \***************************************************************************************************/
+/* 436 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/socket.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * Module dependencies.
 	 */
 	
-	var transports = __webpack_require__(/*! ./transports */ 439);
-	var Emitter = __webpack_require__(/*! component-emitter */ 432);
-	var debug = __webpack_require__(/*! debug */ 425)('engine.io-client:socket');
-	var index = __webpack_require__(/*! indexof */ 459);
-	var parser = __webpack_require__(/*! engine.io-parser */ 445);
-	var parseuri = __webpack_require__(/*! parseuri */ 424);
-	var parsejson = __webpack_require__(/*! parsejson */ 460);
-	var parseqs = __webpack_require__(/*! parseqs */ 453);
+	var transports = __webpack_require__(/*! ./transports */ 437);
+	var Emitter = __webpack_require__(/*! component-emitter */ 430);
+	var debug = __webpack_require__(/*! debug */ 423)('engine.io-client:socket');
+	var index = __webpack_require__(/*! indexof */ 457);
+	var parser = __webpack_require__(/*! engine.io-parser */ 443);
+	var parseuri = __webpack_require__(/*! parseuri */ 422);
+	var parsejson = __webpack_require__(/*! parsejson */ 458);
+	var parseqs = __webpack_require__(/*! parseqs */ 451);
 	
 	/**
 	 * Module exports.
@@ -59172,9 +59119,9 @@
 	 */
 	
 	Socket.Socket = Socket;
-	Socket.Transport = __webpack_require__(/*! ./transport */ 444);
-	Socket.transports = __webpack_require__(/*! ./transports */ 439);
-	Socket.parser = __webpack_require__(/*! engine.io-parser */ 445);
+	Socket.Transport = __webpack_require__(/*! ./transport */ 442);
+	Socket.transports = __webpack_require__(/*! ./transports */ 437);
+	Socket.parser = __webpack_require__(/*! engine.io-parser */ 443);
 	
 	/**
 	 * Creates transport of the given type.
@@ -59769,20 +59716,20 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 439 */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/transports/index.js ***!
-  \*************************************************************************************************************/
+/* 437 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/transports/index.js ***!
+  \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * Module dependencies
 	 */
 	
-	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 440);
-	var XHR = __webpack_require__(/*! ./polling-xhr */ 442);
-	var JSONP = __webpack_require__(/*! ./polling-jsonp */ 456);
-	var websocket = __webpack_require__(/*! ./websocket */ 457);
+	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 438);
+	var XHR = __webpack_require__(/*! ./polling-xhr */ 440);
+	var JSONP = __webpack_require__(/*! ./polling-jsonp */ 454);
+	var websocket = __webpack_require__(/*! ./websocket */ 455);
 	
 	/**
 	 * Export transports.
@@ -59832,14 +59779,14 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 440 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/xmlhttprequest.js ***!
-  \***********************************************************************************************************/
+/* 438 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/xmlhttprequest.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	// browser shim for xmlhttprequest module
-	var hasCORS = __webpack_require__(/*! has-cors */ 441);
+	var hasCORS = __webpack_require__(/*! has-cors */ 439);
 	
 	module.exports = function(opts) {
 	  var xdomain = opts.xdomain;
@@ -59877,10 +59824,10 @@
 
 
 /***/ },
-/* 441 */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/has-cors/index.js ***!
-  \**************************************************************************************/
+/* 439 */
+/*!***************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/has-cors/index.js ***!
+  \***************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -59903,21 +59850,21 @@
 
 
 /***/ },
-/* 442 */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/transports/polling-xhr.js ***!
-  \*******************************************************************************************************************/
+/* 440 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/transports/polling-xhr.js ***!
+  \********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * Module requirements.
 	 */
 	
-	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 440);
-	var Polling = __webpack_require__(/*! ./polling */ 443);
-	var Emitter = __webpack_require__(/*! component-emitter */ 432);
-	var inherit = __webpack_require__(/*! component-inherit */ 454);
-	var debug = __webpack_require__(/*! debug */ 425)('engine.io-client:polling-xhr');
+	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 438);
+	var Polling = __webpack_require__(/*! ./polling */ 441);
+	var Emitter = __webpack_require__(/*! component-emitter */ 430);
+	var inherit = __webpack_require__(/*! component-inherit */ 452);
+	var debug = __webpack_require__(/*! debug */ 423)('engine.io-client:polling-xhr');
 	
 	/**
 	 * Module exports.
@@ -60325,22 +60272,22 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 443 */
-/*!***************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/transports/polling.js ***!
-  \***************************************************************************************************************/
+/* 441 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/transports/polling.js ***!
+  \****************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
 	 * Module dependencies.
 	 */
 	
-	var Transport = __webpack_require__(/*! ../transport */ 444);
-	var parseqs = __webpack_require__(/*! parseqs */ 453);
-	var parser = __webpack_require__(/*! engine.io-parser */ 445);
-	var inherit = __webpack_require__(/*! component-inherit */ 454);
-	var yeast = __webpack_require__(/*! yeast */ 455);
-	var debug = __webpack_require__(/*! debug */ 425)('engine.io-client:polling');
+	var Transport = __webpack_require__(/*! ../transport */ 442);
+	var parseqs = __webpack_require__(/*! parseqs */ 451);
+	var parser = __webpack_require__(/*! engine.io-parser */ 443);
+	var inherit = __webpack_require__(/*! component-inherit */ 452);
+	var yeast = __webpack_require__(/*! yeast */ 453);
+	var debug = __webpack_require__(/*! debug */ 423)('engine.io-client:polling');
 	
 	/**
 	 * Module exports.
@@ -60353,7 +60300,7 @@
 	 */
 	
 	var hasXHR2 = (function() {
-	  var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 440);
+	  var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 438);
 	  var xhr = new XMLHttpRequest({ xdomain: false });
 	  return null != xhr.responseType;
 	})();
@@ -60581,18 +60528,18 @@
 
 
 /***/ },
-/* 444 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/transport.js ***!
-  \******************************************************************************************************/
+/* 442 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/transport.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
 	 * Module dependencies.
 	 */
 	
-	var parser = __webpack_require__(/*! engine.io-parser */ 445);
-	var Emitter = __webpack_require__(/*! component-emitter */ 432);
+	var parser = __webpack_require__(/*! engine.io-parser */ 443);
+	var Emitter = __webpack_require__(/*! component-emitter */ 430);
 	
 	/**
 	 * Module exports.
@@ -60745,22 +60692,22 @@
 
 
 /***/ },
-/* 445 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-parser/lib/browser.js ***!
-  \****************************************************************************************************/
+/* 443 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-parser/lib/browser.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * Module dependencies.
 	 */
 	
-	var keys = __webpack_require__(/*! ./keys */ 446);
-	var hasBinary = __webpack_require__(/*! has-binary */ 447);
-	var sliceBuffer = __webpack_require__(/*! arraybuffer.slice */ 448);
-	var base64encoder = __webpack_require__(/*! base64-arraybuffer */ 449);
-	var after = __webpack_require__(/*! after */ 450);
-	var utf8 = __webpack_require__(/*! utf8 */ 451);
+	var keys = __webpack_require__(/*! ./keys */ 444);
+	var hasBinary = __webpack_require__(/*! has-binary */ 445);
+	var sliceBuffer = __webpack_require__(/*! arraybuffer.slice */ 446);
+	var base64encoder = __webpack_require__(/*! base64-arraybuffer */ 447);
+	var after = __webpack_require__(/*! after */ 448);
+	var utf8 = __webpack_require__(/*! utf8 */ 449);
 	
 	/**
 	 * Check if we are running an android browser. That requires us to use
@@ -60817,7 +60764,7 @@
 	 * Create a blob api even for blob builder when vendor prefixes exist
 	 */
 	
-	var Blob = __webpack_require__(/*! blob */ 452);
+	var Blob = __webpack_require__(/*! blob */ 450);
 	
 	/**
 	 * Encodes a packet.
@@ -61349,10 +61296,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 446 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-parser/lib/keys.js ***!
-  \*************************************************************************************************/
+/* 444 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-parser/lib/keys.js ***!
+  \**************************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -61377,10 +61324,10 @@
 
 
 /***/ },
-/* 447 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-parser/~/has-binary/index.js ***!
-  \***********************************************************************************************************/
+/* 445 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-parser/~/has-binary/index.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -61388,7 +61335,7 @@
 	 * Module requirements.
 	 */
 	
-	var isArray = __webpack_require__(/*! isarray */ 431);
+	var isArray = __webpack_require__(/*! isarray */ 429);
 	
 	/**
 	 * Module exports.
@@ -61445,10 +61392,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 448 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/arraybuffer.slice/index.js ***!
-  \***********************************************************************************************/
+/* 446 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/arraybuffer.slice/index.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -61483,10 +61430,10 @@
 
 
 /***/ },
-/* 449 */
-/*!*****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/base64-arraybuffer/lib/base64-arraybuffer.js ***!
-  \*****************************************************************************************************************/
+/* 447 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/base64-arraybuffer/lib/base64-arraybuffer.js ***!
+  \******************************************************************************************/
 /***/ function(module, exports) {
 
 	/*
@@ -61551,10 +61498,10 @@
 
 
 /***/ },
-/* 450 */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/after/index.js ***!
-  \***********************************************************************************/
+/* 448 */
+/*!************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/after/index.js ***!
+  \************************************************************/
 /***/ function(module, exports) {
 
 	module.exports = after
@@ -61588,10 +61535,10 @@
 
 
 /***/ },
-/* 451 */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/utf8/utf8.js ***!
-  \*********************************************************************************/
+/* 449 */
+/*!**********************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/utf8/utf8.js ***!
+  \**********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module, global) {/*! https://mths.be/utf8js v2.0.0 by @mathias */
@@ -61837,13 +61784,13 @@
 	
 	}(this));
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../webpack/buildin/module.js */ 246)(module), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../webpack/buildin/module.js */ 244)(module), (function() { return this; }())))
 
 /***/ },
-/* 452 */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/blob/index.js ***!
-  \**********************************************************************************/
+/* 450 */
+/*!***********************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/blob/index.js ***!
+  \***********************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -61946,10 +61893,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 453 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/parseqs/index.js ***!
-  \*************************************************************************************/
+/* 451 */
+/*!**************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/parseqs/index.js ***!
+  \**************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -61992,10 +61939,10 @@
 
 
 /***/ },
-/* 454 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/component-inherit/index.js ***!
-  \***********************************************************************************************/
+/* 452 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/component-inherit/index.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -62007,10 +61954,10 @@
 	};
 
 /***/ },
-/* 455 */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/yeast/index.js ***!
-  \***********************************************************************************/
+/* 453 */
+/*!************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/yeast/index.js ***!
+  \************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -62084,10 +62031,10 @@
 
 
 /***/ },
-/* 456 */
-/*!*********************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/transports/polling-jsonp.js ***!
-  \*********************************************************************************************************************/
+/* 454 */
+/*!**********************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/transports/polling-jsonp.js ***!
+  \**********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -62095,8 +62042,8 @@
 	 * Module requirements.
 	 */
 	
-	var Polling = __webpack_require__(/*! ./polling */ 443);
-	var inherit = __webpack_require__(/*! component-inherit */ 454);
+	var Polling = __webpack_require__(/*! ./polling */ 441);
+	var inherit = __webpack_require__(/*! component-inherit */ 452);
 	
 	/**
 	 * Module exports.
@@ -62332,22 +62279,22 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 457 */
-/*!*****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/engine.io-client/lib/transports/websocket.js ***!
-  \*****************************************************************************************************************/
+/* 455 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/engine.io-client/lib/transports/websocket.js ***!
+  \******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * Module dependencies.
 	 */
 	
-	var Transport = __webpack_require__(/*! ../transport */ 444);
-	var parser = __webpack_require__(/*! engine.io-parser */ 445);
-	var parseqs = __webpack_require__(/*! parseqs */ 453);
-	var inherit = __webpack_require__(/*! component-inherit */ 454);
-	var yeast = __webpack_require__(/*! yeast */ 455);
-	var debug = __webpack_require__(/*! debug */ 425)('engine.io-client:websocket');
+	var Transport = __webpack_require__(/*! ../transport */ 442);
+	var parser = __webpack_require__(/*! engine.io-parser */ 443);
+	var parseqs = __webpack_require__(/*! parseqs */ 451);
+	var inherit = __webpack_require__(/*! component-inherit */ 452);
+	var yeast = __webpack_require__(/*! yeast */ 453);
+	var debug = __webpack_require__(/*! debug */ 423)('engine.io-client:websocket');
 	var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
 	
 	/**
@@ -62359,7 +62306,7 @@
 	var WebSocket = BrowserWebSocket;
 	if (!WebSocket && typeof window === 'undefined') {
 	  try {
-	    WebSocket = __webpack_require__(/*! ws */ 458);
+	    WebSocket = __webpack_require__(/*! ws */ 456);
 	  } catch (e) { }
 	}
 	
@@ -62630,7 +62577,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 458 */
+/* 456 */
 /*!********************!*\
   !*** ws (ignored) ***!
   \********************/
@@ -62639,10 +62586,10 @@
 	/* (ignored) */
 
 /***/ },
-/* 459 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/indexof/index.js ***!
-  \*************************************************************************************/
+/* 457 */
+/*!**************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/indexof/index.js ***!
+  \**************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -62657,10 +62604,10 @@
 	};
 
 /***/ },
-/* 460 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/parsejson/index.js ***!
-  \***************************************************************************************/
+/* 458 */
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/parsejson/index.js ***!
+  \****************************************************************/
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -62698,10 +62645,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 461 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-client/lib/socket.js ***!
-  \***************************************************************************************************/
+/* 459 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-client/lib/socket.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -62709,13 +62656,13 @@
 	 * Module dependencies.
 	 */
 	
-	var parser = __webpack_require__(/*! socket.io-parser */ 428);
-	var Emitter = __webpack_require__(/*! component-emitter */ 462);
-	var toArray = __webpack_require__(/*! to-array */ 463);
-	var on = __webpack_require__(/*! ./on */ 464);
-	var bind = __webpack_require__(/*! component-bind */ 465);
-	var debug = __webpack_require__(/*! debug */ 425)('socket.io-client:socket');
-	var hasBin = __webpack_require__(/*! has-binary */ 466);
+	var parser = __webpack_require__(/*! socket.io-parser */ 426);
+	var Emitter = __webpack_require__(/*! component-emitter */ 460);
+	var toArray = __webpack_require__(/*! to-array */ 461);
+	var on = __webpack_require__(/*! ./on */ 462);
+	var bind = __webpack_require__(/*! component-bind */ 463);
+	var debug = __webpack_require__(/*! debug */ 423)('socket.io-client:socket');
+	var hasBin = __webpack_require__(/*! has-binary */ 464);
 	
 	/**
 	 * Module exports.
@@ -63119,10 +63066,10 @@
 
 
 /***/ },
-/* 462 */
-/*!******************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-client/~/component-emitter/index.js ***!
-  \******************************************************************************************************************/
+/* 460 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-client/~/component-emitter/index.js ***!
+  \*******************************************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -63289,10 +63236,10 @@
 
 
 /***/ },
-/* 463 */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/to-array/index.js ***!
-  \**************************************************************************************/
+/* 461 */
+/*!***************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/to-array/index.js ***!
+  \***************************************************************/
 /***/ function(module, exports) {
 
 	module.exports = toArray
@@ -63311,10 +63258,10 @@
 
 
 /***/ },
-/* 464 */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/socket.io-client/lib/on.js ***!
-  \***********************************************************************************************/
+/* 462 */
+/*!************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/socket.io-client/lib/on.js ***!
+  \************************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -63344,10 +63291,10 @@
 
 
 /***/ },
-/* 465 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/component-bind/index.js ***!
-  \********************************************************************************************/
+/* 463 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/component-bind/index.js ***!
+  \*********************************************************************/
 /***/ function(module, exports) {
 
 	/**
@@ -63376,10 +63323,10 @@
 
 
 /***/ },
-/* 466 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/has-binary/index.js ***!
-  \****************************************************************************************/
+/* 464 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/has-binary/index.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -63387,7 +63334,7 @@
 	 * Module requirements.
 	 */
 	
-	var isArray = __webpack_require__(/*! isarray */ 431);
+	var isArray = __webpack_require__(/*! isarray */ 429);
 	
 	/**
 	 * Module exports.
@@ -63445,10 +63392,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 467 */
-/*!************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/backo2/index.js ***!
-  \************************************************************************************/
+/* 465 */
+/*!*************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/backo2/index.js ***!
+  \*************************************************************/
 /***/ function(module, exports) {
 
 	
@@ -63539,10 +63486,10 @@
 
 
 /***/ },
-/* 468 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-client/lib/client.js ***!
-  \**************************************************************************************************/
+/* 466 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-client/lib/client.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63551,27 +63498,27 @@
 	  value: true
 	});
 	
-	var _client = __webpack_require__(/*! feathers/client */ 469);
+	var _client = __webpack_require__(/*! feathers/client */ 467);
 	
 	var _client2 = _interopRequireDefault(_client);
 	
-	var _client3 = __webpack_require__(/*! feathers-rest/client */ 486);
+	var _client3 = __webpack_require__(/*! feathers-rest/client */ 484);
 	
 	var _client4 = _interopRequireDefault(_client3);
 	
-	var _client5 = __webpack_require__(/*! feathers-socketio/client */ 498);
+	var _client5 = __webpack_require__(/*! feathers-socketio/client */ 496);
 	
 	var _client6 = _interopRequireDefault(_client5);
 	
-	var _client7 = __webpack_require__(/*! feathers-primus/client */ 503);
+	var _client7 = __webpack_require__(/*! feathers-primus/client */ 501);
 	
 	var _client8 = _interopRequireDefault(_client7);
 	
-	var _feathersHooks = __webpack_require__(/*! feathers-hooks */ 505);
+	var _feathersHooks = __webpack_require__(/*! feathers-hooks */ 503);
 	
 	var _feathersHooks2 = _interopRequireDefault(_feathersHooks);
 	
-	var _client9 = __webpack_require__(/*! feathers-authentication/client */ 508);
+	var _client9 = __webpack_require__(/*! feathers-authentication/client */ 506);
 	
 	var _client10 = _interopRequireDefault(_client9);
 	
@@ -63583,20 +63530,20 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 469 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/client.js ***!
-  \***************************************************************************************/
+/* 467 */
+/*!****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/client.js ***!
+  \****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client/index */ 470);
+	module.exports = __webpack_require__(/*! ./lib/client/index */ 468);
 
 
 /***/ },
-/* 470 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/client/index.js ***!
-  \*************************************************************************************************/
+/* 468 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/client/index.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63606,11 +63553,11 @@
 	});
 	exports.default = createApplication;
 	
-	var _feathers = __webpack_require__(/*! ../feathers */ 471);
+	var _feathers = __webpack_require__(/*! ../feathers */ 469);
 	
 	var _feathers2 = _interopRequireDefault(_feathers);
 	
-	var _express = __webpack_require__(/*! ./express */ 485);
+	var _express = __webpack_require__(/*! ./express */ 483);
 	
 	var _express2 = _interopRequireDefault(_express);
 	
@@ -63624,10 +63571,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 471 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/feathers.js ***!
-  \*********************************************************************************************/
+/* 469 */
+/*!**********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/feathers.js ***!
+  \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63637,11 +63584,11 @@
 	});
 	exports.default = createApplication;
 	
-	var _uberproto = __webpack_require__(/*! uberproto */ 472);
+	var _uberproto = __webpack_require__(/*! uberproto */ 470);
 	
 	var _uberproto2 = _interopRequireDefault(_uberproto);
 	
-	var _application = __webpack_require__(/*! ./application */ 473);
+	var _application = __webpack_require__(/*! ./application */ 471);
 	
 	var _application2 = _interopRequireDefault(_application);
 	
@@ -63661,10 +63608,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 472 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/uberproto/lib/proto.js ***!
-  \*******************************************************************************************/
+/* 470 */
+/*!********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/uberproto/lib/proto.js ***!
+  \********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* global define */
@@ -63812,10 +63759,10 @@
 
 
 /***/ },
-/* 473 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/application.js ***!
-  \************************************************************************************************/
+/* 471 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/application.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63824,17 +63771,17 @@
 	  value: true
 	});
 	
-	var _debug = __webpack_require__(/*! debug */ 425);
+	var _debug = __webpack_require__(/*! debug */ 423);
 	
 	var _debug2 = _interopRequireDefault(_debug);
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
-	var _uberproto = __webpack_require__(/*! uberproto */ 472);
+	var _uberproto = __webpack_require__(/*! uberproto */ 470);
 	
 	var _uberproto2 = _interopRequireDefault(_uberproto);
 	
-	var _index = __webpack_require__(/*! ./mixins/index */ 478);
+	var _index = __webpack_require__(/*! ./mixins/index */ 476);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -63971,10 +63918,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 474 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-commons/lib/commons.js ***!
-  \****************************************************************************************************/
+/* 472 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-commons/lib/commons.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63983,13 +63930,13 @@
 	  value: true
 	});
 	
-	var _arguments = __webpack_require__(/*! ./arguments */ 475);
+	var _arguments = __webpack_require__(/*! ./arguments */ 473);
 	
 	var _arguments2 = _interopRequireDefault(_arguments);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 476);
+	var _utils = __webpack_require__(/*! ./utils */ 474);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 477);
+	var _hooks = __webpack_require__(/*! ./hooks */ 475);
 	
 	var _hooks2 = _interopRequireDefault(_hooks);
 	
@@ -64006,10 +63953,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 475 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-commons/lib/arguments.js ***!
-  \******************************************************************************************************/
+/* 473 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-commons/lib/arguments.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -64113,10 +64060,10 @@
 	}
 
 /***/ },
-/* 476 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-commons/lib/utils.js ***!
-  \**************************************************************************************************/
+/* 474 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-commons/lib/utils.js ***!
+  \***************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -64270,17 +64217,17 @@
 	}
 
 /***/ },
-/* 477 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-commons/lib/hooks.js ***!
-  \**************************************************************************************************/
+/* 475 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-commons/lib/hooks.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _utils = __webpack_require__(/*! ./utils */ 476);
+	var _utils = __webpack_require__(/*! ./utils */ 474);
 	
 	function getOrRemove(args) {
 	  return {
@@ -64381,10 +64328,10 @@
 	};
 
 /***/ },
-/* 478 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/mixins/index.js ***!
-  \*************************************************************************************************/
+/* 476 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/mixins/index.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -64394,7 +64341,7 @@
 	});
 	
 	exports.default = function () {
-	  var mixins = [__webpack_require__(/*! ./promise */ 479), __webpack_require__(/*! ./event */ 480), __webpack_require__(/*! ./normalizer */ 484)];
+	  var mixins = [__webpack_require__(/*! ./promise */ 477), __webpack_require__(/*! ./event */ 478), __webpack_require__(/*! ./normalizer */ 482)];
 	
 	  // Override push to make sure that normalize is always the last
 	  mixins.push = function () {
@@ -64409,10 +64356,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 479 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/mixins/promise.js ***!
-  \***************************************************************************************************/
+/* 477 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/mixins/promise.js ***!
+  \****************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -64460,10 +64407,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 480 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/mixins/event.js ***!
-  \*************************************************************************************************/
+/* 478 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/mixins/event.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -64518,13 +64465,13 @@
 	  });
 	};
 	
-	var _rubberduck = __webpack_require__(/*! rubberduck */ 481);
+	var _rubberduck = __webpack_require__(/*! rubberduck */ 479);
 	
 	var _rubberduck2 = _interopRequireDefault(_rubberduck);
 	
-	var _events = __webpack_require__(/*! events */ 482);
+	var _events = __webpack_require__(/*! events */ 480);
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -64543,14 +64490,14 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 481 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/rubberduck/lib/rubberduck.js ***!
-  \*************************************************************************************************/
+/* 479 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/rubberduck/lib/rubberduck.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	var events = __webpack_require__(/*! events */ 482);
-	var utils = __webpack_require__(/*! ./utils */ 483);
+	var events = __webpack_require__(/*! events */ 480);
+	var utils = __webpack_require__(/*! ./utils */ 481);
 	var wrap = exports.wrap = {
 	  /**
 	   * Wrap an anonymous or named function to notify an Emitter and
@@ -64662,10 +64609,10 @@
 
 
 /***/ },
-/* 482 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/events/events.js ***!
-  \*************************************************************************************/
+/* 480 */
+/*!**************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/events/events.js ***!
+  \**************************************************************/
 /***/ function(module, exports) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -64973,10 +64920,10 @@
 
 
 /***/ },
-/* 483 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/rubberduck/lib/utils.js ***!
-  \********************************************************************************************/
+/* 481 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/rubberduck/lib/utils.js ***!
+  \*********************************************************************/
 /***/ function(module, exports) {
 
 	exports.toBase26 = function(num) {
@@ -65016,10 +64963,10 @@
 
 
 /***/ },
-/* 484 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/mixins/normalizer.js ***!
-  \******************************************************************************************************/
+/* 482 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/mixins/normalizer.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -65048,15 +64995,15 @@
 	  }
 	};
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
 	module.exports = exports['default'];
 
 /***/ },
-/* 485 */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers/lib/client/express.js ***!
-  \***************************************************************************************************/
+/* 483 */
+/*!****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers/lib/client/express.js ***!
+  \****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -65103,9 +65050,9 @@
 	  return app;
 	};
 	
-	var _events = __webpack_require__(/*! events */ 482);
+	var _events = __webpack_require__(/*! events */ 480);
 	
-	var _uberproto = __webpack_require__(/*! uberproto */ 472);
+	var _uberproto = __webpack_require__(/*! uberproto */ 470);
 	
 	var _uberproto2 = _interopRequireDefault(_uberproto);
 	
@@ -65114,20 +65061,20 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 486 */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/client.js ***!
-  \********************************************************************************************/
+/* 484 */
+/*!*********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/client.js ***!
+  \*********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client/index */ 487);
+	module.exports = __webpack_require__(/*! ./lib/client/index */ 485);
 
 
 /***/ },
-/* 487 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/lib/client/index.js ***!
-  \******************************************************************************************************/
+/* 485 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/lib/client/index.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -65174,19 +65121,19 @@
 	  return result;
 	};
 	
-	var _jquery = __webpack_require__(/*! ./jquery */ 488);
+	var _jquery = __webpack_require__(/*! ./jquery */ 486);
 	
 	var _jquery2 = _interopRequireDefault(_jquery);
 	
-	var _superagent = __webpack_require__(/*! ./superagent */ 495);
+	var _superagent = __webpack_require__(/*! ./superagent */ 493);
 	
 	var _superagent2 = _interopRequireDefault(_superagent);
 	
-	var _request = __webpack_require__(/*! ./request */ 496);
+	var _request = __webpack_require__(/*! ./request */ 494);
 	
 	var _request2 = _interopRequireDefault(_request);
 	
-	var _fetch = __webpack_require__(/*! ./fetch */ 497);
+	var _fetch = __webpack_require__(/*! ./fetch */ 495);
 	
 	var _fetch2 = _interopRequireDefault(_fetch);
 	
@@ -65202,10 +65149,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 488 */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/lib/client/jquery.js ***!
-  \*******************************************************************************************************/
+/* 486 */
+/*!********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/lib/client/jquery.js ***!
+  \********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -65218,7 +65165,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 489);
+	var _base = __webpack_require__(/*! ./base */ 487);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -65281,10 +65228,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 489 */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/lib/client/base.js ***!
-  \*****************************************************************************************************/
+/* 487 */
+/*!******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/lib/client/base.js ***!
+  \******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -65297,13 +65244,13 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _qs = __webpack_require__(/*! qs */ 490);
+	var _qs = __webpack_require__(/*! qs */ 488);
 	
 	var _qs2 = _interopRequireDefault(_qs);
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 494);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 492);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -65419,16 +65366,16 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 490 */
-/*!************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/qs/lib/index.js ***!
-  \************************************************************************************/
+/* 488 */
+/*!*************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/qs/lib/index.js ***!
+  \*************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var Stringify = __webpack_require__(/*! ./stringify */ 491);
-	var Parse = __webpack_require__(/*! ./parse */ 493);
+	var Stringify = __webpack_require__(/*! ./stringify */ 489);
+	var Parse = __webpack_require__(/*! ./parse */ 491);
 	
 	module.exports = {
 	    stringify: Stringify,
@@ -65437,15 +65384,15 @@
 
 
 /***/ },
-/* 491 */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/qs/lib/stringify.js ***!
-  \****************************************************************************************/
+/* 489 */
+/*!*****************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/qs/lib/stringify.js ***!
+  \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var Utils = __webpack_require__(/*! ./utils */ 492);
+	var Utils = __webpack_require__(/*! ./utils */ 490);
 	
 	var arrayPrefixGenerators = {
 	    brackets: function brackets(prefix) {
@@ -65583,10 +65530,10 @@
 
 
 /***/ },
-/* 492 */
-/*!************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/qs/lib/utils.js ***!
-  \************************************************************************************/
+/* 490 */
+/*!*************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/qs/lib/utils.js ***!
+  \*************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -65756,15 +65703,15 @@
 
 
 /***/ },
-/* 493 */
-/*!************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/qs/lib/parse.js ***!
-  \************************************************************************************/
+/* 491 */
+/*!*************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/qs/lib/parse.js ***!
+  \*************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var Utils = __webpack_require__(/*! ./utils */ 492);
+	var Utils = __webpack_require__(/*! ./utils */ 490);
 	
 	var defaults = {
 	    delimiter: '&',
@@ -65932,10 +65879,10 @@
 
 
 /***/ },
-/* 494 */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-errors/lib/index.js ***!
-  \*************************************************************************************************/
+/* 492 */
+/*!**************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-errors/lib/index.js ***!
+  \**************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -65981,7 +65928,7 @@
 	  return ExtendableBuiltin;
 	}
 	
-	var debug = __webpack_require__(/*! debug */ 425)('feathers-errors');
+	var debug = __webpack_require__(/*! debug */ 423)('feathers-errors');
 	
 	// NOTE (EK): Babel doesn't properly support extending
 	// some classes in ES6. The Error class being one of them.
@@ -66280,10 +66227,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 495 */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/lib/client/superagent.js ***!
-  \***********************************************************************************************************/
+/* 493 */
+/*!************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/lib/client/superagent.js ***!
+  \************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66294,7 +66241,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 489);
+	var _base = __webpack_require__(/*! ./base */ 487);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -66351,10 +66298,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 496 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/lib/client/request.js ***!
-  \********************************************************************************************************/
+/* 494 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/lib/client/request.js ***!
+  \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66367,7 +66314,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 489);
+	var _base = __webpack_require__(/*! ./base */ 487);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -66424,10 +66371,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 497 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-rest/lib/client/fetch.js ***!
-  \******************************************************************************************************/
+/* 495 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-rest/lib/client/fetch.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66440,7 +66387,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 489);
+	var _base = __webpack_require__(/*! ./base */ 487);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -66501,20 +66448,20 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 498 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-socketio/client.js ***!
-  \************************************************************************************************/
+/* 496 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-socketio/client.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 499);
+	module.exports = __webpack_require__(/*! ./lib/client */ 497);
 
 
 /***/ },
-/* 499 */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-socketio/lib/client.js ***!
-  \****************************************************************************************************/
+/* 497 */
+/*!*****************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-socketio/lib/client.js ***!
+  \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66555,7 +66502,7 @@
 	  return initialize;
 	};
 	
-	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 500);
+	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 498);
 	
 	var _client2 = _interopRequireDefault(_client);
 	
@@ -66564,20 +66511,20 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 500 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-socket-commons/client.js ***!
-  \******************************************************************************************************/
+/* 498 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-socket-commons/client.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 501);
+	module.exports = __webpack_require__(/*! ./lib/client */ 499);
 
 
 /***/ },
-/* 501 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-socket-commons/lib/client.js ***!
-  \**********************************************************************************************************/
+/* 499 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-socket-commons/lib/client.js ***!
+  \***********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66588,13 +66535,13 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _utils = __webpack_require__(/*! ./utils */ 502);
+	var _utils = __webpack_require__(/*! ./utils */ 500);
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 494);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 492);
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var debug = __webpack_require__(/*! debug */ 425)('feathers-socket-commons:client');
+	var debug = __webpack_require__(/*! debug */ 423)('feathers-socket-commons:client');
 	var namespacedEmitterMethods = ['addListener', 'emit', 'listenerCount', 'listeners', 'on', 'once', 'prependListener', 'prependOnceListener', 'removeAllListeners', 'removeListener'];
 	var otherEmitterMethods = ['eventNames', 'getMaxListeners', 'setMaxListeners'];
 	
@@ -66750,10 +66697,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 502 */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-socket-commons/lib/utils.js ***!
-  \*********************************************************************************************************/
+/* 500 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-socket-commons/lib/utils.js ***!
+  \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -66766,7 +66713,7 @@
 	exports.promisify = promisify;
 	exports.normalizeError = normalizeError;
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
 	var eventMappings = exports.eventMappings = {
 	  create: 'created',
@@ -66814,23 +66761,23 @@
 	
 	  return result;
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/node-libs-browser/~/process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! C:/Users/Nenad/Desktop/trip-planner/~/process/browser.js */ 4)))
 
 /***/ },
-/* 503 */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-primus/client.js ***!
-  \**********************************************************************************************/
+/* 501 */
+/*!***********************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-primus/client.js ***!
+  \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 504);
+	module.exports = __webpack_require__(/*! ./lib/client */ 502);
 
 
 /***/ },
-/* 504 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-primus/lib/client.js ***!
-  \**************************************************************************************************/
+/* 502 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-primus/lib/client.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66867,7 +66814,7 @@
 	  return initialize;
 	};
 	
-	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 500);
+	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 498);
 	
 	var _client2 = _interopRequireDefault(_client);
 	
@@ -66876,10 +66823,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 505 */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-hooks/lib/hooks.js ***!
-  \************************************************************************************************/
+/* 503 */
+/*!*************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-hooks/lib/hooks.js ***!
+  \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66888,13 +66835,13 @@
 	  value: true
 	});
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
-	var _bundled = __webpack_require__(/*! ./bundled */ 506);
+	var _bundled = __webpack_require__(/*! ./bundled */ 504);
 	
 	var hooks = _interopRequireWildcard(_bundled);
 	
-	var _commons = __webpack_require__(/*! ./commons */ 507);
+	var _commons = __webpack_require__(/*! ./commons */ 505);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -67008,10 +66955,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 506 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-hooks/lib/bundled.js ***!
-  \**************************************************************************************************/
+/* 504 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-hooks/lib/bundled.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -67029,7 +66976,7 @@
 	exports.pluck = pluck;
 	exports.disable = disable;
 	exports.populate = populate;
-	var errors = __webpack_require__(/*! feathers-errors */ 494).errors;
+	var errors = __webpack_require__(/*! feathers-errors */ 492).errors;
 	
 	function lowerCase() {
 	  for (var _len = arguments.length, fields = Array(_len), _key = 0; _key < _len; _key++) {
@@ -67478,10 +67425,10 @@
 	}
 
 /***/ },
-/* 507 */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-hooks/lib/commons.js ***!
-  \**************************************************************************************************/
+/* 505 */
+/*!***************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-hooks/lib/commons.js ***!
+  \***************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -67496,7 +67443,7 @@
 	exports.processHooks = processHooks;
 	exports.addHookMethod = addHookMethod;
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 474);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 472);
 	
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 	
@@ -67588,20 +67535,20 @@
 	}
 
 /***/ },
-/* 508 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-authentication/client.js ***!
-  \******************************************************************************************************/
+/* 506 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-authentication/client.js ***!
+  \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client/index */ 509);
+	module.exports = __webpack_require__(/*! ./lib/client/index */ 507);
 
 
 /***/ },
-/* 509 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-authentication/lib/client/index.js ***!
-  \****************************************************************************************************************/
+/* 507 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-authentication/lib/client/index.js ***!
+  \*****************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -67711,15 +67658,15 @@
 	  };
 	};
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 494);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 492);
 	
 	var _feathersErrors2 = _interopRequireDefault(_feathersErrors);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 510);
+	var _hooks = __webpack_require__(/*! ./hooks */ 508);
 	
 	var hooks = _interopRequireWildcard(_hooks);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 511);
+	var _utils = __webpack_require__(/*! ./utils */ 509);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -67735,10 +67682,10 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 510 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-authentication/lib/client/hooks.js ***!
-  \****************************************************************************************************************/
+/* 508 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-authentication/lib/client/hooks.js ***!
+  \*****************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -67773,10 +67720,10 @@
 	}
 
 /***/ },
-/* 511 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Nenad Panic/Desktop/travel-planner/travel-planner/~/feathers-authentication/lib/client/utils.js ***!
-  \****************************************************************************************************************/
+/* 509 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Nenad/Desktop/trip-planner/~/feathers-authentication/lib/client/utils.js ***!
+  \*****************************************************************************************/
 /***/ function(module, exports) {
 
 	'use strict';
@@ -67902,7 +67849,7 @@
 	}
 
 /***/ },
-/* 512 */
+/* 510 */
 /*!***********************************!*\
   !*** ./partials/pageNotFound.jsx ***!
   \***********************************/
@@ -67910,7 +67857,7 @@
 
 	'use strict';
 	
-	var _react = __webpack_require__(/*! react */ 1);
+	var _react = __webpack_require__(/*! react */ 2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -67934,7 +67881,7 @@
 	});
 
 /***/ },
-/* 513 */
+/* 511 */
 /*!***************************!*\
   !*** ../style/style.less ***!
   \***************************/
