@@ -71,15 +71,21 @@
 	
 	var _pageNotFound2 = _interopRequireDefault(_pageNotFound);
 	
+	var _socket = __webpack_require__(/*! socket.io-client */ 419);
+	
+	var _socket2 = _interopRequireDefault(_socket);
+	
+	var _feathersClient = __webpack_require__(/*! feathers-client */ 468);
+	
+	var _feathersClient2 = _interopRequireDefault(_feathersClient);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(/*! ./../style/style.less */ 419);
+	__webpack_require__(/*! ./../style/style.less */ 543);
 	
-	var io = __webpack_require__(/*! socket.io-client */ 426);
-	var feathers = __webpack_require__(/*! feathers-client */ 475);
 	
-	var socket = io();
-	var app = feathers().configure(feathers.socketio(socket, { timeout: 20000 })).configure(feathers.hooks()).configure(feathers.authentication({
+	var socket = (0, _socket2.default)();
+	var app = (0, _feathersClient2.default)().configure(_feathersClient2.default.socketio(socket, { timeout: 20000 })).configure(_feathersClient2.default.hooks()).configure(_feathersClient2.default.authentication({
 	    storage: window.localStorage
 	}));
 	
@@ -55619,21 +55625,6 @@
 
 /***/ },
 /* 419 */
-/*!***************************!*\
-  !*** ../style/style.less ***!
-  \***************************/
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 420 */,
-/* 421 */,
-/* 422 */,
-/* 423 */,
-/* 424 */,
-/* 425 */,
-/* 426 */
 /*!*******************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/lib/index.js ***!
   \*******************************************************************/
@@ -55644,10 +55635,10 @@
 	 * Module dependencies.
 	 */
 	
-	var url = __webpack_require__(/*! ./url */ 427);
-	var parser = __webpack_require__(/*! socket.io-parser */ 432);
-	var Manager = __webpack_require__(/*! ./manager */ 439);
-	var debug = __webpack_require__(/*! debug */ 429)('socket.io-client');
+	var url = __webpack_require__(/*! ./url */ 420);
+	var parser = __webpack_require__(/*! socket.io-parser */ 425);
+	var Manager = __webpack_require__(/*! ./manager */ 432);
+	var debug = __webpack_require__(/*! debug */ 422)('socket.io-client');
 	
 	/**
 	 * Module exports.
@@ -55729,12 +55720,12 @@
 	 * @api public
 	 */
 	
-	exports.Manager = __webpack_require__(/*! ./manager */ 439);
-	exports.Socket = __webpack_require__(/*! ./socket */ 467);
+	exports.Manager = __webpack_require__(/*! ./manager */ 432);
+	exports.Socket = __webpack_require__(/*! ./socket */ 460);
 
 
 /***/ },
-/* 427 */
+/* 420 */
 /*!*****************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/lib/url.js ***!
   \*****************************************************************/
@@ -55745,8 +55736,8 @@
 	 * Module dependencies.
 	 */
 	
-	var parseuri = __webpack_require__(/*! parseuri */ 428);
-	var debug = __webpack_require__(/*! debug */ 429)('socket.io-client:url');
+	var parseuri = __webpack_require__(/*! parseuri */ 421);
+	var debug = __webpack_require__(/*! debug */ 422)('socket.io-client:url');
 	
 	/**
 	 * Module exports.
@@ -55820,7 +55811,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 428 */
+/* 421 */
 /*!**************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/parseuri/index.js ***!
   \**************************************************************************/
@@ -55868,7 +55859,7 @@
 
 
 /***/ },
-/* 429 */
+/* 422 */
 /*!*************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/debug/browser.js ***!
   \*************************************************************************/
@@ -55881,7 +55872,7 @@
 	 * Expose `debug()` as the module.
 	 */
 	
-	exports = module.exports = __webpack_require__(/*! ./debug */ 430);
+	exports = module.exports = __webpack_require__(/*! ./debug */ 423);
 	exports.log = log;
 	exports.formatArgs = formatArgs;
 	exports.save = save;
@@ -56045,7 +56036,7 @@
 
 
 /***/ },
-/* 430 */
+/* 423 */
 /*!***********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/debug/debug.js ***!
   \***********************************************************************/
@@ -56064,7 +56055,7 @@
 	exports.disable = disable;
 	exports.enable = enable;
 	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(/*! ms */ 431);
+	exports.humanize = __webpack_require__(/*! ms */ 424);
 	
 	/**
 	 * The currently active debug mode names, and names to skip.
@@ -56251,7 +56242,7 @@
 
 
 /***/ },
-/* 431 */
+/* 424 */
 /*!****************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/debug/~/ms/index.js ***!
   \****************************************************************************/
@@ -56385,7 +56376,7 @@
 
 
 /***/ },
-/* 432 */
+/* 425 */
 /*!**********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/socket.io-parser/index.js ***!
   \**********************************************************************************/
@@ -56396,12 +56387,12 @@
 	 * Module dependencies.
 	 */
 	
-	var debug = __webpack_require__(/*! debug */ 429)('socket.io-parser');
-	var json = __webpack_require__(/*! json3 */ 433);
-	var isArray = __webpack_require__(/*! isarray */ 435);
-	var Emitter = __webpack_require__(/*! component-emitter */ 436);
-	var binary = __webpack_require__(/*! ./binary */ 437);
-	var isBuf = __webpack_require__(/*! ./is-buffer */ 438);
+	var debug = __webpack_require__(/*! debug */ 422)('socket.io-parser');
+	var json = __webpack_require__(/*! json3 */ 426);
+	var isArray = __webpack_require__(/*! isarray */ 428);
+	var Emitter = __webpack_require__(/*! component-emitter */ 429);
+	var binary = __webpack_require__(/*! ./binary */ 430);
+	var isBuf = __webpack_require__(/*! ./is-buffer */ 431);
 	
 	/**
 	 * Protocol version.
@@ -56794,7 +56785,7 @@
 
 
 /***/ },
-/* 433 */
+/* 426 */
 /*!**********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/socket.io-parser/~/json3/lib/json3.js ***!
   \**********************************************************************************************/
@@ -56804,7 +56795,7 @@
 	;(function () {
 	  // Detect the `define` function exposed by asynchronous module loaders. The
 	  // strict `define` check is necessary for compatibility with `r.js`.
-	  var isLoader = "function" === "function" && __webpack_require__(/*! !webpack amd options */ 434);
+	  var isLoader = "function" === "function" && __webpack_require__(/*! !webpack amd options */ 427);
 	
 	  // A set of types used to distinguish objects from primitives.
 	  var objectTypes = {
@@ -57706,7 +57697,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../webpack/buildin/module.js */ 246)(module), (function() { return this; }())))
 
 /***/ },
-/* 434 */
+/* 427 */
 /*!****************************************!*\
   !*** (webpack)/buildin/amd-options.js ***!
   \****************************************/
@@ -57717,7 +57708,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
-/* 435 */
+/* 428 */
 /*!********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/socket.io-parser/~/isarray/index.js ***!
   \********************************************************************************************/
@@ -57729,7 +57720,7 @@
 
 
 /***/ },
-/* 436 */
+/* 429 */
 /*!******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/socket.io-parser/~/component-emitter/index.js ***!
   \******************************************************************************************************/
@@ -57902,7 +57893,7 @@
 
 
 /***/ },
-/* 437 */
+/* 430 */
 /*!***********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/socket.io-parser/binary.js ***!
   \***********************************************************************************/
@@ -57914,8 +57905,8 @@
 	 * Module requirements
 	 */
 	
-	var isArray = __webpack_require__(/*! isarray */ 435);
-	var isBuf = __webpack_require__(/*! ./is-buffer */ 438);
+	var isArray = __webpack_require__(/*! isarray */ 428);
+	var isBuf = __webpack_require__(/*! ./is-buffer */ 431);
 	
 	/**
 	 * Replaces every Buffer | ArrayBuffer in packet with a numbered placeholder.
@@ -58053,7 +58044,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 438 */
+/* 431 */
 /*!**************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/socket.io-parser/is-buffer.js ***!
   \**************************************************************************************/
@@ -58076,7 +58067,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 439 */
+/* 432 */
 /*!*********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/lib/manager.js ***!
   \*********************************************************************/
@@ -58087,15 +58078,15 @@
 	 * Module dependencies.
 	 */
 	
-	var eio = __webpack_require__(/*! engine.io-client */ 440);
-	var Socket = __webpack_require__(/*! ./socket */ 467);
-	var Emitter = __webpack_require__(/*! component-emitter */ 468);
-	var parser = __webpack_require__(/*! socket.io-parser */ 432);
-	var on = __webpack_require__(/*! ./on */ 470);
-	var bind = __webpack_require__(/*! component-bind */ 471);
-	var debug = __webpack_require__(/*! debug */ 429)('socket.io-client:manager');
-	var indexOf = __webpack_require__(/*! indexof */ 465);
-	var Backoff = __webpack_require__(/*! backo2 */ 474);
+	var eio = __webpack_require__(/*! engine.io-client */ 433);
+	var Socket = __webpack_require__(/*! ./socket */ 460);
+	var Emitter = __webpack_require__(/*! component-emitter */ 461);
+	var parser = __webpack_require__(/*! socket.io-parser */ 425);
+	var on = __webpack_require__(/*! ./on */ 463);
+	var bind = __webpack_require__(/*! component-bind */ 464);
+	var debug = __webpack_require__(/*! debug */ 422)('socket.io-client:manager');
+	var indexOf = __webpack_require__(/*! indexof */ 458);
+	var Backoff = __webpack_require__(/*! backo2 */ 467);
 	
 	/**
 	 * IE6+ hasOwnProperty
@@ -58642,25 +58633,25 @@
 
 
 /***/ },
-/* 440 */
+/* 433 */
 /*!**********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/index.js ***!
   \**********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	module.exports =  __webpack_require__(/*! ./lib/ */ 441);
+	module.exports =  __webpack_require__(/*! ./lib/ */ 434);
 
 
 /***/ },
-/* 441 */
+/* 434 */
 /*!**************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/index.js ***!
   \**************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	module.exports = __webpack_require__(/*! ./socket */ 442);
+	module.exports = __webpack_require__(/*! ./socket */ 435);
 	
 	/**
 	 * Exports parser
@@ -58668,11 +58659,11 @@
 	 * @api public
 	 *
 	 */
-	module.exports.parser = __webpack_require__(/*! engine.io-parser */ 449);
+	module.exports.parser = __webpack_require__(/*! engine.io-parser */ 442);
 
 
 /***/ },
-/* 442 */
+/* 435 */
 /*!***************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/socket.js ***!
   \***************************************************************************************/
@@ -58682,14 +58673,14 @@
 	 * Module dependencies.
 	 */
 	
-	var transports = __webpack_require__(/*! ./transports */ 443);
-	var Emitter = __webpack_require__(/*! component-emitter */ 458);
-	var debug = __webpack_require__(/*! debug */ 429)('engine.io-client:socket');
-	var index = __webpack_require__(/*! indexof */ 465);
-	var parser = __webpack_require__(/*! engine.io-parser */ 449);
-	var parseuri = __webpack_require__(/*! parseuri */ 428);
-	var parsejson = __webpack_require__(/*! parsejson */ 466);
-	var parseqs = __webpack_require__(/*! parseqs */ 459);
+	var transports = __webpack_require__(/*! ./transports */ 436);
+	var Emitter = __webpack_require__(/*! component-emitter */ 451);
+	var debug = __webpack_require__(/*! debug */ 422)('engine.io-client:socket');
+	var index = __webpack_require__(/*! indexof */ 458);
+	var parser = __webpack_require__(/*! engine.io-parser */ 442);
+	var parseuri = __webpack_require__(/*! parseuri */ 421);
+	var parsejson = __webpack_require__(/*! parsejson */ 459);
+	var parseqs = __webpack_require__(/*! parseqs */ 452);
 	
 	/**
 	 * Module exports.
@@ -58813,9 +58804,9 @@
 	 */
 	
 	Socket.Socket = Socket;
-	Socket.Transport = __webpack_require__(/*! ./transport */ 448);
-	Socket.transports = __webpack_require__(/*! ./transports */ 443);
-	Socket.parser = __webpack_require__(/*! engine.io-parser */ 449);
+	Socket.Transport = __webpack_require__(/*! ./transport */ 441);
+	Socket.transports = __webpack_require__(/*! ./transports */ 436);
+	Socket.parser = __webpack_require__(/*! engine.io-parser */ 442);
 	
 	/**
 	 * Creates transport of the given type.
@@ -59410,7 +59401,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 443 */
+/* 436 */
 /*!*************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/transports/index.js ***!
   \*************************************************************************************************/
@@ -59420,10 +59411,10 @@
 	 * Module dependencies
 	 */
 	
-	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 444);
-	var XHR = __webpack_require__(/*! ./polling-xhr */ 446);
-	var JSONP = __webpack_require__(/*! ./polling-jsonp */ 462);
-	var websocket = __webpack_require__(/*! ./websocket */ 463);
+	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 437);
+	var XHR = __webpack_require__(/*! ./polling-xhr */ 439);
+	var JSONP = __webpack_require__(/*! ./polling-jsonp */ 455);
+	var websocket = __webpack_require__(/*! ./websocket */ 456);
 	
 	/**
 	 * Export transports.
@@ -59473,14 +59464,14 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 444 */
+/* 437 */
 /*!***********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/xmlhttprequest.js ***!
   \***********************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	// browser shim for xmlhttprequest module
-	var hasCORS = __webpack_require__(/*! has-cors */ 445);
+	var hasCORS = __webpack_require__(/*! has-cors */ 438);
 	
 	module.exports = function(opts) {
 	  var xdomain = opts.xdomain;
@@ -59518,7 +59509,7 @@
 
 
 /***/ },
-/* 445 */
+/* 438 */
 /*!*********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/has-cors/index.js ***!
   \*********************************************************************************************/
@@ -59544,7 +59535,7 @@
 
 
 /***/ },
-/* 446 */
+/* 439 */
 /*!*******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/transports/polling-xhr.js ***!
   \*******************************************************************************************************/
@@ -59554,11 +59545,11 @@
 	 * Module requirements.
 	 */
 	
-	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 444);
-	var Polling = __webpack_require__(/*! ./polling */ 447);
-	var Emitter = __webpack_require__(/*! component-emitter */ 458);
-	var inherit = __webpack_require__(/*! component-inherit */ 460);
-	var debug = __webpack_require__(/*! debug */ 429)('engine.io-client:polling-xhr');
+	var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 437);
+	var Polling = __webpack_require__(/*! ./polling */ 440);
+	var Emitter = __webpack_require__(/*! component-emitter */ 451);
+	var inherit = __webpack_require__(/*! component-inherit */ 453);
+	var debug = __webpack_require__(/*! debug */ 422)('engine.io-client:polling-xhr');
 	
 	/**
 	 * Module exports.
@@ -59966,7 +59957,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 447 */
+/* 440 */
 /*!***************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/transports/polling.js ***!
   \***************************************************************************************************/
@@ -59976,12 +59967,12 @@
 	 * Module dependencies.
 	 */
 	
-	var Transport = __webpack_require__(/*! ../transport */ 448);
-	var parseqs = __webpack_require__(/*! parseqs */ 459);
-	var parser = __webpack_require__(/*! engine.io-parser */ 449);
-	var inherit = __webpack_require__(/*! component-inherit */ 460);
-	var yeast = __webpack_require__(/*! yeast */ 461);
-	var debug = __webpack_require__(/*! debug */ 429)('engine.io-client:polling');
+	var Transport = __webpack_require__(/*! ../transport */ 441);
+	var parseqs = __webpack_require__(/*! parseqs */ 452);
+	var parser = __webpack_require__(/*! engine.io-parser */ 442);
+	var inherit = __webpack_require__(/*! component-inherit */ 453);
+	var yeast = __webpack_require__(/*! yeast */ 454);
+	var debug = __webpack_require__(/*! debug */ 422)('engine.io-client:polling');
 	
 	/**
 	 * Module exports.
@@ -59994,7 +59985,7 @@
 	 */
 	
 	var hasXHR2 = (function() {
-	  var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 444);
+	  var XMLHttpRequest = __webpack_require__(/*! xmlhttprequest-ssl */ 437);
 	  var xhr = new XMLHttpRequest({ xdomain: false });
 	  return null != xhr.responseType;
 	})();
@@ -60222,7 +60213,7 @@
 
 
 /***/ },
-/* 448 */
+/* 441 */
 /*!******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/transport.js ***!
   \******************************************************************************************/
@@ -60232,8 +60223,8 @@
 	 * Module dependencies.
 	 */
 	
-	var parser = __webpack_require__(/*! engine.io-parser */ 449);
-	var Emitter = __webpack_require__(/*! component-emitter */ 458);
+	var parser = __webpack_require__(/*! engine.io-parser */ 442);
+	var Emitter = __webpack_require__(/*! component-emitter */ 451);
 	
 	/**
 	 * Module exports.
@@ -60386,7 +60377,7 @@
 
 
 /***/ },
-/* 449 */
+/* 442 */
 /*!***********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/lib/browser.js ***!
   \***********************************************************************************************************/
@@ -60396,12 +60387,12 @@
 	 * Module dependencies.
 	 */
 	
-	var keys = __webpack_require__(/*! ./keys */ 450);
-	var hasBinary = __webpack_require__(/*! has-binary */ 451);
-	var sliceBuffer = __webpack_require__(/*! arraybuffer.slice */ 453);
-	var base64encoder = __webpack_require__(/*! base64-arraybuffer */ 454);
-	var after = __webpack_require__(/*! after */ 455);
-	var utf8 = __webpack_require__(/*! utf8 */ 456);
+	var keys = __webpack_require__(/*! ./keys */ 443);
+	var hasBinary = __webpack_require__(/*! has-binary */ 444);
+	var sliceBuffer = __webpack_require__(/*! arraybuffer.slice */ 446);
+	var base64encoder = __webpack_require__(/*! base64-arraybuffer */ 447);
+	var after = __webpack_require__(/*! after */ 448);
+	var utf8 = __webpack_require__(/*! utf8 */ 449);
 	
 	/**
 	 * Check if we are running an android browser. That requires us to use
@@ -60458,7 +60449,7 @@
 	 * Create a blob api even for blob builder when vendor prefixes exist
 	 */
 	
-	var Blob = __webpack_require__(/*! blob */ 457);
+	var Blob = __webpack_require__(/*! blob */ 450);
 	
 	/**
 	 * Encodes a packet.
@@ -60990,7 +60981,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 450 */
+/* 443 */
 /*!********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/lib/keys.js ***!
   \********************************************************************************************************/
@@ -61018,7 +61009,7 @@
 
 
 /***/ },
-/* 451 */
+/* 444 */
 /*!******************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/has-binary/index.js ***!
   \******************************************************************************************************************/
@@ -61029,7 +61020,7 @@
 	 * Module requirements.
 	 */
 	
-	var isArray = __webpack_require__(/*! isarray */ 452);
+	var isArray = __webpack_require__(/*! isarray */ 445);
 	
 	/**
 	 * Module exports.
@@ -61086,7 +61077,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 452 */
+/* 445 */
 /*!****************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/has-binary/~/isarray/index.js ***!
   \****************************************************************************************************************************/
@@ -61098,7 +61089,7 @@
 
 
 /***/ },
-/* 453 */
+/* 446 */
 /*!*************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/arraybuffer.slice/index.js ***!
   \*************************************************************************************************************************/
@@ -61136,7 +61127,7 @@
 
 
 /***/ },
-/* 454 */
+/* 447 */
 /*!*******************************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/base64-arraybuffer/lib/base64-arraybuffer.js ***!
   \*******************************************************************************************************************************************/
@@ -61204,7 +61195,7 @@
 
 
 /***/ },
-/* 455 */
+/* 448 */
 /*!*************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/after/index.js ***!
   \*************************************************************************************************************/
@@ -61241,7 +61232,7 @@
 
 
 /***/ },
-/* 456 */
+/* 449 */
 /*!***********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/utf8/utf8.js ***!
   \***********************************************************************************************************/
@@ -61493,7 +61484,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../../webpack/buildin/module.js */ 246)(module), (function() { return this; }())))
 
 /***/ },
-/* 457 */
+/* 450 */
 /*!************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/engine.io-parser/~/blob/index.js ***!
   \************************************************************************************************************/
@@ -61599,7 +61590,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 458 */
+/* 451 */
 /*!******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/component-emitter/index.js ***!
   \******************************************************************************************************/
@@ -61772,7 +61763,7 @@
 
 
 /***/ },
-/* 459 */
+/* 452 */
 /*!********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/parseqs/index.js ***!
   \********************************************************************************************/
@@ -61818,7 +61809,7 @@
 
 
 /***/ },
-/* 460 */
+/* 453 */
 /*!******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/component-inherit/index.js ***!
   \******************************************************************************************************/
@@ -61833,7 +61824,7 @@
 	};
 
 /***/ },
-/* 461 */
+/* 454 */
 /*!******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/yeast/index.js ***!
   \******************************************************************************************/
@@ -61910,7 +61901,7 @@
 
 
 /***/ },
-/* 462 */
+/* 455 */
 /*!*********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/transports/polling-jsonp.js ***!
   \*********************************************************************************************************/
@@ -61921,8 +61912,8 @@
 	 * Module requirements.
 	 */
 	
-	var Polling = __webpack_require__(/*! ./polling */ 447);
-	var inherit = __webpack_require__(/*! component-inherit */ 460);
+	var Polling = __webpack_require__(/*! ./polling */ 440);
+	var inherit = __webpack_require__(/*! component-inherit */ 453);
 	
 	/**
 	 * Module exports.
@@ -62158,7 +62149,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 463 */
+/* 456 */
 /*!*****************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/lib/transports/websocket.js ***!
   \*****************************************************************************************************/
@@ -62168,12 +62159,12 @@
 	 * Module dependencies.
 	 */
 	
-	var Transport = __webpack_require__(/*! ../transport */ 448);
-	var parser = __webpack_require__(/*! engine.io-parser */ 449);
-	var parseqs = __webpack_require__(/*! parseqs */ 459);
-	var inherit = __webpack_require__(/*! component-inherit */ 460);
-	var yeast = __webpack_require__(/*! yeast */ 461);
-	var debug = __webpack_require__(/*! debug */ 429)('engine.io-client:websocket');
+	var Transport = __webpack_require__(/*! ../transport */ 441);
+	var parser = __webpack_require__(/*! engine.io-parser */ 442);
+	var parseqs = __webpack_require__(/*! parseqs */ 452);
+	var inherit = __webpack_require__(/*! component-inherit */ 453);
+	var yeast = __webpack_require__(/*! yeast */ 454);
+	var debug = __webpack_require__(/*! debug */ 422)('engine.io-client:websocket');
 	var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
 	
 	/**
@@ -62185,7 +62176,7 @@
 	var WebSocket = BrowserWebSocket;
 	if (!WebSocket && typeof window === 'undefined') {
 	  try {
-	    WebSocket = __webpack_require__(/*! ws */ 464);
+	    WebSocket = __webpack_require__(/*! ws */ 457);
 	  } catch (e) { }
 	}
 	
@@ -62456,7 +62447,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 464 */
+/* 457 */
 /*!********************!*\
   !*** ws (ignored) ***!
   \********************/
@@ -62465,7 +62456,7 @@
 	/* (ignored) */
 
 /***/ },
-/* 465 */
+/* 458 */
 /*!*************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/indexof/index.js ***!
   \*************************************************************************/
@@ -62483,7 +62474,7 @@
 	};
 
 /***/ },
-/* 466 */
+/* 459 */
 /*!**********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/engine.io-client/~/parsejson/index.js ***!
   \**********************************************************************************************/
@@ -62524,7 +62515,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 467 */
+/* 460 */
 /*!********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/lib/socket.js ***!
   \********************************************************************/
@@ -62535,13 +62526,13 @@
 	 * Module dependencies.
 	 */
 	
-	var parser = __webpack_require__(/*! socket.io-parser */ 432);
-	var Emitter = __webpack_require__(/*! component-emitter */ 468);
-	var toArray = __webpack_require__(/*! to-array */ 469);
-	var on = __webpack_require__(/*! ./on */ 470);
-	var bind = __webpack_require__(/*! component-bind */ 471);
-	var debug = __webpack_require__(/*! debug */ 429)('socket.io-client:socket');
-	var hasBin = __webpack_require__(/*! has-binary */ 472);
+	var parser = __webpack_require__(/*! socket.io-parser */ 425);
+	var Emitter = __webpack_require__(/*! component-emitter */ 461);
+	var toArray = __webpack_require__(/*! to-array */ 462);
+	var on = __webpack_require__(/*! ./on */ 463);
+	var bind = __webpack_require__(/*! component-bind */ 464);
+	var debug = __webpack_require__(/*! debug */ 422)('socket.io-client:socket');
+	var hasBin = __webpack_require__(/*! has-binary */ 465);
 	
 	/**
 	 * Module exports.
@@ -62945,7 +62936,7 @@
 
 
 /***/ },
-/* 468 */
+/* 461 */
 /*!***********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/component-emitter/index.js ***!
   \***********************************************************************************/
@@ -63115,7 +63106,7 @@
 
 
 /***/ },
-/* 469 */
+/* 462 */
 /*!**************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/to-array/index.js ***!
   \**************************************************************************/
@@ -63137,7 +63128,7 @@
 
 
 /***/ },
-/* 470 */
+/* 463 */
 /*!****************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/lib/on.js ***!
   \****************************************************************/
@@ -63170,7 +63161,7 @@
 
 
 /***/ },
-/* 471 */
+/* 464 */
 /*!********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/component-bind/index.js ***!
   \********************************************************************************/
@@ -63202,7 +63193,7 @@
 
 
 /***/ },
-/* 472 */
+/* 465 */
 /*!****************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/has-binary/index.js ***!
   \****************************************************************************/
@@ -63213,7 +63204,7 @@
 	 * Module requirements.
 	 */
 	
-	var isArray = __webpack_require__(/*! isarray */ 473);
+	var isArray = __webpack_require__(/*! isarray */ 466);
 	
 	/**
 	 * Module exports.
@@ -63271,7 +63262,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 473 */
+/* 466 */
 /*!**************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/has-binary/~/isarray/index.js ***!
   \**************************************************************************************/
@@ -63283,7 +63274,7 @@
 
 
 /***/ },
-/* 474 */
+/* 467 */
 /*!************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/socket.io-client/~/backo2/index.js ***!
   \************************************************************************/
@@ -63377,7 +63368,7 @@
 
 
 /***/ },
-/* 475 */
+/* 468 */
 /*!*******************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/lib/client.js ***!
   \*******************************************************************/
@@ -63389,27 +63380,27 @@
 	  value: true
 	});
 	
-	var _client = __webpack_require__(/*! feathers/client */ 476);
+	var _client = __webpack_require__(/*! feathers/client */ 469);
 	
 	var _client2 = _interopRequireDefault(_client);
 	
-	var _client3 = __webpack_require__(/*! feathers-rest/client */ 496);
+	var _client3 = __webpack_require__(/*! feathers-rest/client */ 489);
 	
 	var _client4 = _interopRequireDefault(_client3);
 	
-	var _client5 = __webpack_require__(/*! feathers-socketio/client */ 515);
+	var _client5 = __webpack_require__(/*! feathers-socketio/client */ 508);
 	
 	var _client6 = _interopRequireDefault(_client5);
 	
-	var _client7 = __webpack_require__(/*! feathers-primus/client */ 527);
+	var _client7 = __webpack_require__(/*! feathers-primus/client */ 520);
 	
 	var _client8 = _interopRequireDefault(_client7);
 	
-	var _feathersHooks = __webpack_require__(/*! feathers-hooks */ 539);
+	var _feathersHooks = __webpack_require__(/*! feathers-hooks */ 532);
 	
 	var _feathersHooks2 = _interopRequireDefault(_feathersHooks);
 	
-	var _client9 = __webpack_require__(/*! feathers-authentication/client */ 546);
+	var _client9 = __webpack_require__(/*! feathers-authentication/client */ 539);
 	
 	var _client10 = _interopRequireDefault(_client9);
 	
@@ -63421,17 +63412,17 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 476 */
+/* 469 */
 /*!********************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/client.js ***!
   \********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client/index */ 477);
+	module.exports = __webpack_require__(/*! ./lib/client/index */ 470);
 
 
 /***/ },
-/* 477 */
+/* 470 */
 /*!******************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/client/index.js ***!
   \******************************************************************/
@@ -63444,11 +63435,11 @@
 	});
 	exports.default = createApplication;
 	
-	var _feathers = __webpack_require__(/*! ../feathers */ 478);
+	var _feathers = __webpack_require__(/*! ../feathers */ 471);
 	
 	var _feathers2 = _interopRequireDefault(_feathers);
 	
-	var _express = __webpack_require__(/*! ./express */ 495);
+	var _express = __webpack_require__(/*! ./express */ 488);
 	
 	var _express2 = _interopRequireDefault(_express);
 	
@@ -63462,7 +63453,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 478 */
+/* 471 */
 /*!**************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/feathers.js ***!
   \**************************************************************/
@@ -63475,11 +63466,11 @@
 	});
 	exports.default = createApplication;
 	
-	var _uberproto = __webpack_require__(/*! uberproto */ 479);
+	var _uberproto = __webpack_require__(/*! uberproto */ 472);
 	
 	var _uberproto2 = _interopRequireDefault(_uberproto);
 	
-	var _application = __webpack_require__(/*! ./application */ 480);
+	var _application = __webpack_require__(/*! ./application */ 473);
 	
 	var _application2 = _interopRequireDefault(_application);
 	
@@ -63499,7 +63490,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 479 */
+/* 472 */
 /*!***********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/uberproto/lib/proto.js ***!
   \***********************************************************************/
@@ -63650,7 +63641,7 @@
 
 
 /***/ },
-/* 480 */
+/* 473 */
 /*!*****************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/application.js ***!
   \*****************************************************************/
@@ -63662,17 +63653,17 @@
 	  value: true
 	});
 	
-	var _debug = __webpack_require__(/*! debug */ 481);
+	var _debug = __webpack_require__(/*! debug */ 474);
 	
 	var _debug2 = _interopRequireDefault(_debug);
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 484);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 477);
 	
-	var _uberproto = __webpack_require__(/*! uberproto */ 479);
+	var _uberproto = __webpack_require__(/*! uberproto */ 472);
 	
 	var _uberproto2 = _interopRequireDefault(_uberproto);
 	
-	var _index = __webpack_require__(/*! ./mixins/index */ 488);
+	var _index = __webpack_require__(/*! ./mixins/index */ 481);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -63809,7 +63800,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 481 */
+/* 474 */
 /*!*****************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/debug/browser.js ***!
   \*****************************************************************/
@@ -63822,7 +63813,7 @@
 	 * Expose `debug()` as the module.
 	 */
 	
-	exports = module.exports = __webpack_require__(/*! ./debug */ 482);
+	exports = module.exports = __webpack_require__(/*! ./debug */ 475);
 	exports.log = log;
 	exports.formatArgs = formatArgs;
 	exports.save = save;
@@ -63986,7 +63977,7 @@
 
 
 /***/ },
-/* 482 */
+/* 475 */
 /*!***************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/debug/debug.js ***!
   \***************************************************************/
@@ -64005,7 +63996,7 @@
 	exports.disable = disable;
 	exports.enable = enable;
 	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(/*! ms */ 483);
+	exports.humanize = __webpack_require__(/*! ms */ 476);
 	
 	/**
 	 * The currently active debug mode names, and names to skip.
@@ -64192,7 +64183,7 @@
 
 
 /***/ },
-/* 483 */
+/* 476 */
 /*!********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/debug/~/ms/index.js ***!
   \********************************************************************/
@@ -64326,7 +64317,7 @@
 
 
 /***/ },
-/* 484 */
+/* 477 */
 /*!********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/feathers-commons/lib/commons.js ***!
   \********************************************************************************/
@@ -64338,13 +64329,13 @@
 	  value: true
 	});
 	
-	var _arguments = __webpack_require__(/*! ./arguments */ 485);
+	var _arguments = __webpack_require__(/*! ./arguments */ 478);
 	
 	var _arguments2 = _interopRequireDefault(_arguments);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 486);
+	var _utils = __webpack_require__(/*! ./utils */ 479);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 487);
+	var _hooks = __webpack_require__(/*! ./hooks */ 480);
 	
 	var _hooks2 = _interopRequireDefault(_hooks);
 	
@@ -64361,7 +64352,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 485 */
+/* 478 */
 /*!**********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/feathers-commons/lib/arguments.js ***!
   \**********************************************************************************/
@@ -64468,7 +64459,7 @@
 	}
 
 /***/ },
-/* 486 */
+/* 479 */
 /*!******************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/feathers-commons/lib/utils.js ***!
   \******************************************************************************/
@@ -64625,7 +64616,7 @@
 	}
 
 /***/ },
-/* 487 */
+/* 480 */
 /*!******************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/feathers-commons/lib/hooks.js ***!
   \******************************************************************************/
@@ -64635,7 +64626,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _utils = __webpack_require__(/*! ./utils */ 486);
+	var _utils = __webpack_require__(/*! ./utils */ 479);
 	
 	function getOrRemove(args) {
 	  return {
@@ -64736,7 +64727,7 @@
 	};
 
 /***/ },
-/* 488 */
+/* 481 */
 /*!******************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/mixins/index.js ***!
   \******************************************************************/
@@ -64749,7 +64740,7 @@
 	});
 	
 	exports.default = function () {
-	  var mixins = [__webpack_require__(/*! ./promise */ 489), __webpack_require__(/*! ./event */ 490), __webpack_require__(/*! ./normalizer */ 494)];
+	  var mixins = [__webpack_require__(/*! ./promise */ 482), __webpack_require__(/*! ./event */ 483), __webpack_require__(/*! ./normalizer */ 487)];
 	
 	  // Override push to make sure that normalize is always the last
 	  mixins.push = function () {
@@ -64764,7 +64755,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 489 */
+/* 482 */
 /*!********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/mixins/promise.js ***!
   \********************************************************************/
@@ -64815,7 +64806,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 490 */
+/* 483 */
 /*!******************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/mixins/event.js ***!
   \******************************************************************/
@@ -64873,13 +64864,13 @@
 	  });
 	};
 	
-	var _rubberduck = __webpack_require__(/*! rubberduck */ 491);
+	var _rubberduck = __webpack_require__(/*! rubberduck */ 484);
 	
 	var _rubberduck2 = _interopRequireDefault(_rubberduck);
 	
-	var _events = __webpack_require__(/*! events */ 492);
+	var _events = __webpack_require__(/*! events */ 485);
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 484);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 477);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -64898,14 +64889,14 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 491 */
+/* 484 */
 /*!*****************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/rubberduck/lib/rubberduck.js ***!
   \*****************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	var events = __webpack_require__(/*! events */ 492);
-	var utils = __webpack_require__(/*! ./utils */ 493);
+	var events = __webpack_require__(/*! events */ 485);
+	var utils = __webpack_require__(/*! ./utils */ 486);
 	var wrap = exports.wrap = {
 	  /**
 	   * Wrap an anonymous or named function to notify an Emitter and
@@ -65017,7 +65008,7 @@
 
 
 /***/ },
-/* 492 */
+/* 485 */
 /*!*****************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/events/events.js ***!
   \*****************************************************************/
@@ -65328,7 +65319,7 @@
 
 
 /***/ },
-/* 493 */
+/* 486 */
 /*!************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/~/rubberduck/lib/utils.js ***!
   \************************************************************************/
@@ -65371,7 +65362,7 @@
 
 
 /***/ },
-/* 494 */
+/* 487 */
 /*!***********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/mixins/normalizer.js ***!
   \***********************************************************************/
@@ -65403,12 +65394,12 @@
 	  }
 	};
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 484);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 477);
 	
 	module.exports = exports['default'];
 
 /***/ },
-/* 495 */
+/* 488 */
 /*!********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers/lib/client/express.js ***!
   \********************************************************************/
@@ -65458,9 +65449,9 @@
 	  return app;
 	};
 	
-	var _events = __webpack_require__(/*! events */ 492);
+	var _events = __webpack_require__(/*! events */ 485);
 	
-	var _uberproto = __webpack_require__(/*! uberproto */ 479);
+	var _uberproto = __webpack_require__(/*! uberproto */ 472);
 	
 	var _uberproto2 = _interopRequireDefault(_uberproto);
 	
@@ -65469,17 +65460,17 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 496 */
+/* 489 */
 /*!*******************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/client.js ***!
   \*******************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client/index */ 497);
+	module.exports = __webpack_require__(/*! ./lib/client/index */ 490);
 
 
 /***/ },
-/* 497 */
+/* 490 */
 /*!*****************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/lib/client/index.js ***!
   \*****************************************************************************************/
@@ -65529,19 +65520,19 @@
 	  return result;
 	};
 	
-	var _jquery = __webpack_require__(/*! ./jquery */ 498);
+	var _jquery = __webpack_require__(/*! ./jquery */ 491);
 	
 	var _jquery2 = _interopRequireDefault(_jquery);
 	
-	var _superagent = __webpack_require__(/*! ./superagent */ 512);
+	var _superagent = __webpack_require__(/*! ./superagent */ 505);
 	
 	var _superagent2 = _interopRequireDefault(_superagent);
 	
-	var _request = __webpack_require__(/*! ./request */ 513);
+	var _request = __webpack_require__(/*! ./request */ 506);
 	
 	var _request2 = _interopRequireDefault(_request);
 	
-	var _fetch = __webpack_require__(/*! ./fetch */ 514);
+	var _fetch = __webpack_require__(/*! ./fetch */ 507);
 	
 	var _fetch2 = _interopRequireDefault(_fetch);
 	
@@ -65557,7 +65548,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 498 */
+/* 491 */
 /*!******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/lib/client/jquery.js ***!
   \******************************************************************************************/
@@ -65573,7 +65564,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 499);
+	var _base = __webpack_require__(/*! ./base */ 492);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -65636,7 +65627,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 499 */
+/* 492 */
 /*!****************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/lib/client/base.js ***!
   \****************************************************************************************/
@@ -65652,13 +65643,13 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _qs = __webpack_require__(/*! qs */ 500);
+	var _qs = __webpack_require__(/*! qs */ 493);
 	
 	var _qs2 = _interopRequireDefault(_qs);
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 504);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 497);
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 508);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 501);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -65774,7 +65765,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 500 */
+/* 493 */
 /*!***************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/qs/lib/index.js ***!
   \***************************************************************************************/
@@ -65782,8 +65773,8 @@
 
 	'use strict';
 	
-	var Stringify = __webpack_require__(/*! ./stringify */ 501);
-	var Parse = __webpack_require__(/*! ./parse */ 503);
+	var Stringify = __webpack_require__(/*! ./stringify */ 494);
+	var Parse = __webpack_require__(/*! ./parse */ 496);
 	
 	module.exports = {
 	    stringify: Stringify,
@@ -65792,7 +65783,7 @@
 
 
 /***/ },
-/* 501 */
+/* 494 */
 /*!*******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/qs/lib/stringify.js ***!
   \*******************************************************************************************/
@@ -65800,7 +65791,7 @@
 
 	'use strict';
 	
-	var Utils = __webpack_require__(/*! ./utils */ 502);
+	var Utils = __webpack_require__(/*! ./utils */ 495);
 	
 	var arrayPrefixGenerators = {
 	    brackets: function brackets(prefix) {
@@ -65938,7 +65929,7 @@
 
 
 /***/ },
-/* 502 */
+/* 495 */
 /*!***************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/qs/lib/utils.js ***!
   \***************************************************************************************/
@@ -66111,7 +66102,7 @@
 
 
 /***/ },
-/* 503 */
+/* 496 */
 /*!***************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/qs/lib/parse.js ***!
   \***************************************************************************************/
@@ -66119,7 +66110,7 @@
 
 	'use strict';
 	
-	var Utils = __webpack_require__(/*! ./utils */ 502);
+	var Utils = __webpack_require__(/*! ./utils */ 495);
 	
 	var has = Object.prototype.hasOwnProperty;
 	
@@ -66286,7 +66277,7 @@
 
 
 /***/ },
-/* 504 */
+/* 497 */
 /*!*******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/feathers-commons/lib/commons.js ***!
   \*******************************************************************************************************/
@@ -66298,13 +66289,13 @@
 	  value: true
 	});
 	
-	var _arguments = __webpack_require__(/*! ./arguments */ 505);
+	var _arguments = __webpack_require__(/*! ./arguments */ 498);
 	
 	var _arguments2 = _interopRequireDefault(_arguments);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 506);
+	var _utils = __webpack_require__(/*! ./utils */ 499);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 507);
+	var _hooks = __webpack_require__(/*! ./hooks */ 500);
 	
 	var _hooks2 = _interopRequireDefault(_hooks);
 	
@@ -66321,7 +66312,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 505 */
+/* 498 */
 /*!*********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/feathers-commons/lib/arguments.js ***!
   \*********************************************************************************************************/
@@ -66428,7 +66419,7 @@
 	}
 
 /***/ },
-/* 506 */
+/* 499 */
 /*!*****************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/feathers-commons/lib/utils.js ***!
   \*****************************************************************************************************/
@@ -66585,7 +66576,7 @@
 	}
 
 /***/ },
-/* 507 */
+/* 500 */
 /*!*****************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/~/feathers-commons/lib/hooks.js ***!
   \*****************************************************************************************************/
@@ -66595,7 +66586,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _utils = __webpack_require__(/*! ./utils */ 506);
+	var _utils = __webpack_require__(/*! ./utils */ 499);
 	
 	function getOrRemove(args) {
 	  return {
@@ -66696,7 +66687,7 @@
 	};
 
 /***/ },
-/* 508 */
+/* 501 */
 /*!******************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-errors/lib/index.js ***!
   \******************************************************************/
@@ -66745,7 +66736,7 @@
 	  return ExtendableBuiltin;
 	}
 	
-	var debug = __webpack_require__(/*! debug */ 509)('feathers-errors');
+	var debug = __webpack_require__(/*! debug */ 502)('feathers-errors');
 	
 	// NOTE (EK): Babel doesn't properly support extending
 	// some classes in ES6. The Error class being one of them.
@@ -67044,7 +67035,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 509 */
+/* 502 */
 /*!************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-errors/~/debug/browser.js ***!
   \************************************************************************/
@@ -67057,7 +67048,7 @@
 	 * Expose `debug()` as the module.
 	 */
 	
-	exports = module.exports = __webpack_require__(/*! ./debug */ 510);
+	exports = module.exports = __webpack_require__(/*! ./debug */ 503);
 	exports.log = log;
 	exports.formatArgs = formatArgs;
 	exports.save = save;
@@ -67221,7 +67212,7 @@
 
 
 /***/ },
-/* 510 */
+/* 503 */
 /*!**********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-errors/~/debug/debug.js ***!
   \**********************************************************************/
@@ -67240,7 +67231,7 @@
 	exports.disable = disable;
 	exports.enable = enable;
 	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(/*! ms */ 511);
+	exports.humanize = __webpack_require__(/*! ms */ 504);
 	
 	/**
 	 * The currently active debug mode names, and names to skip.
@@ -67427,7 +67418,7 @@
 
 
 /***/ },
-/* 511 */
+/* 504 */
 /*!***************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-errors/~/debug/~/ms/index.js ***!
   \***************************************************************************/
@@ -67561,7 +67552,7 @@
 
 
 /***/ },
-/* 512 */
+/* 505 */
 /*!**********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/lib/client/superagent.js ***!
   \**********************************************************************************************/
@@ -67575,7 +67566,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 499);
+	var _base = __webpack_require__(/*! ./base */ 492);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -67632,7 +67623,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 513 */
+/* 506 */
 /*!*******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/lib/client/request.js ***!
   \*******************************************************************************************/
@@ -67648,7 +67639,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 499);
+	var _base = __webpack_require__(/*! ./base */ 492);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -67705,7 +67696,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 514 */
+/* 507 */
 /*!*****************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-rest/lib/client/fetch.js ***!
   \*****************************************************************************************/
@@ -67721,7 +67712,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _base = __webpack_require__(/*! ./base */ 499);
+	var _base = __webpack_require__(/*! ./base */ 492);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -67782,17 +67773,17 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 515 */
+/* 508 */
 /*!*****************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/client.js ***!
   \*****************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 516);
+	module.exports = __webpack_require__(/*! ./lib/client */ 509);
 
 
 /***/ },
-/* 516 */
+/* 509 */
 /*!*********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/lib/client.js ***!
   \*********************************************************************/
@@ -67836,7 +67827,7 @@
 	  return initialize;
 	};
 	
-	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 517);
+	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 510);
 	
 	var _client2 = _interopRequireDefault(_client);
 	
@@ -67845,17 +67836,17 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 517 */
+/* 510 */
 /*!*******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/client.js ***!
   \*******************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 518);
+	module.exports = __webpack_require__(/*! ./lib/client */ 511);
 
 
 /***/ },
-/* 518 */
+/* 511 */
 /*!***********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/lib/client.js ***!
   \***********************************************************************************************/
@@ -67869,13 +67860,13 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _utils = __webpack_require__(/*! ./utils */ 519);
+	var _utils = __webpack_require__(/*! ./utils */ 512);
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 508);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 501);
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var debug = __webpack_require__(/*! debug */ 524)('feathers-socket-commons:client');
+	var debug = __webpack_require__(/*! debug */ 517)('feathers-socket-commons:client');
 	var namespacedEmitterMethods = ['addListener', 'emit', 'listenerCount', 'listeners', 'on', 'once', 'prependListener', 'prependOnceListener', 'removeAllListeners', 'removeListener'];
 	var otherEmitterMethods = ['eventNames', 'getMaxListeners', 'setMaxListeners'];
 	
@@ -68031,7 +68022,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 519 */
+/* 512 */
 /*!**********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/lib/utils.js ***!
   \**********************************************************************************************/
@@ -68047,7 +68038,7 @@
 	exports.promisify = promisify;
 	exports.normalizeError = normalizeError;
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 520);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 513);
 	
 	var eventMappings = exports.eventMappings = {
 	  create: 'created',
@@ -68098,7 +68089,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! (webpack)/~/node-libs-browser/~/process/browser.js */ 3)))
 
 /***/ },
-/* 520 */
+/* 513 */
 /*!*******************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/~/feathers-commons/lib/commons.js ***!
   \*******************************************************************************************************************/
@@ -68110,13 +68101,13 @@
 	  value: true
 	});
 	
-	var _arguments = __webpack_require__(/*! ./arguments */ 521);
+	var _arguments = __webpack_require__(/*! ./arguments */ 514);
 	
 	var _arguments2 = _interopRequireDefault(_arguments);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 522);
+	var _utils = __webpack_require__(/*! ./utils */ 515);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 523);
+	var _hooks = __webpack_require__(/*! ./hooks */ 516);
 	
 	var _hooks2 = _interopRequireDefault(_hooks);
 	
@@ -68133,7 +68124,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 521 */
+/* 514 */
 /*!*********************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/~/feathers-commons/lib/arguments.js ***!
   \*********************************************************************************************************************/
@@ -68240,7 +68231,7 @@
 	}
 
 /***/ },
-/* 522 */
+/* 515 */
 /*!*****************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/~/feathers-commons/lib/utils.js ***!
   \*****************************************************************************************************************/
@@ -68397,7 +68388,7 @@
 	}
 
 /***/ },
-/* 523 */
+/* 516 */
 /*!*****************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/feathers-socket-commons/~/feathers-commons/lib/hooks.js ***!
   \*****************************************************************************************************************/
@@ -68407,7 +68398,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _utils = __webpack_require__(/*! ./utils */ 522);
+	var _utils = __webpack_require__(/*! ./utils */ 515);
 	
 	function getOrRemove(args) {
 	  return {
@@ -68508,7 +68499,7 @@
 	};
 
 /***/ },
-/* 524 */
+/* 517 */
 /*!**************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/debug/browser.js ***!
   \**************************************************************************/
@@ -68521,7 +68512,7 @@
 	 * Expose `debug()` as the module.
 	 */
 	
-	exports = module.exports = __webpack_require__(/*! ./debug */ 525);
+	exports = module.exports = __webpack_require__(/*! ./debug */ 518);
 	exports.log = log;
 	exports.formatArgs = formatArgs;
 	exports.save = save;
@@ -68685,7 +68676,7 @@
 
 
 /***/ },
-/* 525 */
+/* 518 */
 /*!************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/debug/debug.js ***!
   \************************************************************************/
@@ -68704,7 +68695,7 @@
 	exports.disable = disable;
 	exports.enable = enable;
 	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(/*! ms */ 526);
+	exports.humanize = __webpack_require__(/*! ms */ 519);
 	
 	/**
 	 * The currently active debug mode names, and names to skip.
@@ -68891,7 +68882,7 @@
 
 
 /***/ },
-/* 526 */
+/* 519 */
 /*!*****************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-socketio/~/debug/~/ms/index.js ***!
   \*****************************************************************************/
@@ -69025,17 +69016,17 @@
 
 
 /***/ },
-/* 527 */
+/* 520 */
 /*!*********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/client.js ***!
   \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 528);
+	module.exports = __webpack_require__(/*! ./lib/client */ 521);
 
 
 /***/ },
-/* 528 */
+/* 521 */
 /*!*************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/lib/client.js ***!
   \*************************************************************************************/
@@ -69075,7 +69066,7 @@
 	  return initialize;
 	};
 	
-	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 529);
+	var _client = __webpack_require__(/*! feathers-socket-commons/client */ 522);
 	
 	var _client2 = _interopRequireDefault(_client);
 	
@@ -69084,17 +69075,17 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 529 */
+/* 522 */
 /*!***********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/client.js ***!
   \***********************************************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client */ 530);
+	module.exports = __webpack_require__(/*! ./lib/client */ 523);
 
 
 /***/ },
-/* 530 */
+/* 523 */
 /*!***************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/lib/client.js ***!
   \***************************************************************************************************************/
@@ -69108,13 +69099,13 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _utils = __webpack_require__(/*! ./utils */ 531);
+	var _utils = __webpack_require__(/*! ./utils */ 524);
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 508);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 501);
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var debug = __webpack_require__(/*! debug */ 536)('feathers-socket-commons:client');
+	var debug = __webpack_require__(/*! debug */ 529)('feathers-socket-commons:client');
 	var namespacedEmitterMethods = ['addListener', 'emit', 'listenerCount', 'listeners', 'on', 'once', 'prependListener', 'prependOnceListener', 'removeAllListeners', 'removeListener'];
 	var otherEmitterMethods = ['eventNames', 'getMaxListeners', 'setMaxListeners'];
 	
@@ -69270,7 +69261,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 531 */
+/* 524 */
 /*!**************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/lib/utils.js ***!
   \**************************************************************************************************************/
@@ -69286,7 +69277,7 @@
 	exports.promisify = promisify;
 	exports.normalizeError = normalizeError;
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 532);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 525);
 	
 	var eventMappings = exports.eventMappings = {
 	  create: 'created',
@@ -69337,7 +69328,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! (webpack)/~/node-libs-browser/~/process/browser.js */ 3)))
 
 /***/ },
-/* 532 */
+/* 525 */
 /*!***********************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/~/feathers-commons/lib/commons.js ***!
   \***********************************************************************************************************************************/
@@ -69349,13 +69340,13 @@
 	  value: true
 	});
 	
-	var _arguments = __webpack_require__(/*! ./arguments */ 533);
+	var _arguments = __webpack_require__(/*! ./arguments */ 526);
 	
 	var _arguments2 = _interopRequireDefault(_arguments);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 534);
+	var _utils = __webpack_require__(/*! ./utils */ 527);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 535);
+	var _hooks = __webpack_require__(/*! ./hooks */ 528);
 	
 	var _hooks2 = _interopRequireDefault(_hooks);
 	
@@ -69372,7 +69363,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 533 */
+/* 526 */
 /*!*************************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/~/feathers-commons/lib/arguments.js ***!
   \*************************************************************************************************************************************/
@@ -69479,7 +69470,7 @@
 	}
 
 /***/ },
-/* 534 */
+/* 527 */
 /*!*********************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/~/feathers-commons/lib/utils.js ***!
   \*********************************************************************************************************************************/
@@ -69636,7 +69627,7 @@
 	}
 
 /***/ },
-/* 535 */
+/* 528 */
 /*!*********************************************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/feathers-socket-commons/~/feathers-commons/lib/hooks.js ***!
   \*********************************************************************************************************************************/
@@ -69646,7 +69637,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _utils = __webpack_require__(/*! ./utils */ 534);
+	var _utils = __webpack_require__(/*! ./utils */ 527);
 	
 	function getOrRemove(args) {
 	  return {
@@ -69747,7 +69738,7 @@
 	};
 
 /***/ },
-/* 536 */
+/* 529 */
 /*!******************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/debug/browser.js ***!
   \******************************************************************************************/
@@ -69760,7 +69751,7 @@
 	 * Expose `debug()` as the module.
 	 */
 	
-	exports = module.exports = __webpack_require__(/*! ./debug */ 537);
+	exports = module.exports = __webpack_require__(/*! ./debug */ 530);
 	exports.log = log;
 	exports.formatArgs = formatArgs;
 	exports.save = save;
@@ -69924,7 +69915,7 @@
 
 
 /***/ },
-/* 537 */
+/* 530 */
 /*!****************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/debug/debug.js ***!
   \****************************************************************************************/
@@ -69943,7 +69934,7 @@
 	exports.disable = disable;
 	exports.enable = enable;
 	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(/*! ms */ 538);
+	exports.humanize = __webpack_require__(/*! ms */ 531);
 	
 	/**
 	 * The currently active debug mode names, and names to skip.
@@ -70130,7 +70121,7 @@
 
 
 /***/ },
-/* 538 */
+/* 531 */
 /*!*********************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-primus/~/debug/~/ms/index.js ***!
   \*********************************************************************************************/
@@ -70264,7 +70255,7 @@
 
 
 /***/ },
-/* 539 */
+/* 532 */
 /*!***********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/lib/hooks.js ***!
   \***********************************************************************************/
@@ -70276,13 +70267,13 @@
 	  value: true
 	});
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 540);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 533);
 	
-	var _bundled = __webpack_require__(/*! ./bundled */ 544);
+	var _bundled = __webpack_require__(/*! ./bundled */ 537);
 	
 	var hooks = _interopRequireWildcard(_bundled);
 	
-	var _commons = __webpack_require__(/*! ./commons */ 545);
+	var _commons = __webpack_require__(/*! ./commons */ 538);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -70396,7 +70387,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 540 */
+/* 533 */
 /*!********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/~/feathers-commons/lib/commons.js ***!
   \********************************************************************************************************/
@@ -70408,13 +70399,13 @@
 	  value: true
 	});
 	
-	var _arguments = __webpack_require__(/*! ./arguments */ 541);
+	var _arguments = __webpack_require__(/*! ./arguments */ 534);
 	
 	var _arguments2 = _interopRequireDefault(_arguments);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 542);
+	var _utils = __webpack_require__(/*! ./utils */ 535);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 543);
+	var _hooks = __webpack_require__(/*! ./hooks */ 536);
 	
 	var _hooks2 = _interopRequireDefault(_hooks);
 	
@@ -70431,7 +70422,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 541 */
+/* 534 */
 /*!**********************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/~/feathers-commons/lib/arguments.js ***!
   \**********************************************************************************************************/
@@ -70538,7 +70529,7 @@
 	}
 
 /***/ },
-/* 542 */
+/* 535 */
 /*!******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/~/feathers-commons/lib/utils.js ***!
   \******************************************************************************************************/
@@ -70695,7 +70686,7 @@
 	}
 
 /***/ },
-/* 543 */
+/* 536 */
 /*!******************************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/~/feathers-commons/lib/hooks.js ***!
   \******************************************************************************************************/
@@ -70705,7 +70696,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 	
-	var _utils = __webpack_require__(/*! ./utils */ 542);
+	var _utils = __webpack_require__(/*! ./utils */ 535);
 	
 	function getOrRemove(args) {
 	  return {
@@ -70806,7 +70797,7 @@
 	};
 
 /***/ },
-/* 544 */
+/* 537 */
 /*!*************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/lib/bundled.js ***!
   \*************************************************************************************/
@@ -70827,7 +70818,7 @@
 	exports.pluck = pluck;
 	exports.disable = disable;
 	exports.populate = populate;
-	var errors = __webpack_require__(/*! feathers-errors */ 508).errors;
+	var errors = __webpack_require__(/*! feathers-errors */ 501).errors;
 	
 	function lowerCase() {
 	  for (var _len = arguments.length, fields = Array(_len), _key = 0; _key < _len; _key++) {
@@ -71276,7 +71267,7 @@
 	}
 
 /***/ },
-/* 545 */
+/* 538 */
 /*!*************************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-client/~/feathers-hooks/lib/commons.js ***!
   \*************************************************************************************/
@@ -71294,7 +71285,7 @@
 	exports.processHooks = processHooks;
 	exports.addHookMethod = addHookMethod;
 	
-	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 540);
+	var _feathersCommons = __webpack_require__(/*! feathers-commons */ 533);
 	
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 	
@@ -71386,17 +71377,17 @@
 	}
 
 /***/ },
-/* 546 */
+/* 539 */
 /*!***********************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-authentication/client.js ***!
   \***********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! ./lib/client/index */ 547);
+	module.exports = __webpack_require__(/*! ./lib/client/index */ 540);
 
 
 /***/ },
-/* 547 */
+/* 540 */
 /*!*********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-authentication/lib/client/index.js ***!
   \*********************************************************************************/
@@ -71509,15 +71500,15 @@
 	  };
 	};
 	
-	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 508);
+	var _feathersErrors = __webpack_require__(/*! feathers-errors */ 501);
 	
 	var _feathersErrors2 = _interopRequireDefault(_feathersErrors);
 	
-	var _hooks = __webpack_require__(/*! ./hooks */ 548);
+	var _hooks = __webpack_require__(/*! ./hooks */ 541);
 	
 	var hooks = _interopRequireWildcard(_hooks);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 549);
+	var _utils = __webpack_require__(/*! ./utils */ 542);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -71533,7 +71524,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 548 */
+/* 541 */
 /*!*********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-authentication/lib/client/hooks.js ***!
   \*********************************************************************************/
@@ -71571,7 +71562,7 @@
 	}
 
 /***/ },
-/* 549 */
+/* 542 */
 /*!*********************************************************************************!*\
   !*** C:/Workspace/travel-planner/~/feathers-authentication/lib/client/utils.js ***!
   \*********************************************************************************/
@@ -71698,6 +71689,15 @@
 	    }
 	  };
 	}
+
+/***/ },
+/* 543 */
+/*!***************************!*\
+  !*** ../style/style.less ***!
+  \***************************/
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);
