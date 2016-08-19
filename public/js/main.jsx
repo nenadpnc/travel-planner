@@ -5,8 +5,8 @@ import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router';
 import App from './partials/app.jsx';
 import Home from './partials/home.jsx';
 import PageNotFound from './partials/pageNotFound.jsx';
-const io = require('socket.io-client');
-const feathers = require('feathers-client');
+import io from 'socket.io-client';
+import feathers from 'feathers-client';
 
 const socket = io();
 const app = feathers()
