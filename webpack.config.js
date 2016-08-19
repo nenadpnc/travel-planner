@@ -1,14 +1,22 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-
+var path = require('path');
+var APP_DIR = path.resolve(__dirname, './public/js/');
+var BUILD_DIR = path.resolve(__dirname, './public/dist/js');
 module.exports = {
-    entry: "./public/js/app",
+    context: APP_DIR,
+    entry: './main.jsx',
     output: {
-        path: __dirname + "/public/dist",
-        filename: "/js/bundle.js"
+        path: BUILD_DIR,
+        filename: "bundle.js"
     },
     module: {
-      loaders: [
-        {
+        loaders: [
+            {
+                test: /\.jsx?/,
+                include: APP_DIR,
+                loader: 'babel'
+            },
+            {
           test: /\.less$/,
           loader: ExtractTextPlugin.extract('css!less')
         },
@@ -17,7 +25,7 @@ module.exports = {
             exclude: /node_modules/,
             loader: 'url-loader?limit=20000&name=assets/[name].[ext]'
         }
-      ]
+        ]
     },
     plugins: [
         new ExtractTextPlugin('/style/styles.css')
