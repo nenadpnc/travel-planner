@@ -1,10 +1,13 @@
+@import "~normalize.css/normalize.css";
+@import "font/flaticon.css";
+
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.42857143;
     color: #353535;
-    background-color: #f6f6f6;
+    background-color: white;
     margin: 0;
 }
 
@@ -26,48 +29,118 @@ a {
 }
 
 .header {
-    padding: 40px;
-    text-align: center;
+    padding: 15px 20px 30px;
+    .header-inner {
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .logo {
+        display: inline-block;
+        span:before {
+            font-size: 60px;
+        }
+    }
 }
 
 .container {
-    max-width: 900px;
-    margin: 30px auto;
-    
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    box-shadow: 0px -1px 5px #ded6d6;
+    min-height: 100%;
 }
 
-.search-block{
+.main {
+    padding: 30px 0;
+    width: 900px;
+    margin: auto
+}
+
+.search-box {
+    width: 900px;
+    margin: auto;
+}
+
+.search-container {
     display: inline-block;
-    width: 20%;
+    height: 180px;
+    width: 80%;
+    clear: both;
 }
 
-.search-submit {
-    text-align: center;
+.search-inputs {
+    clear: both;
+    .search-input {
+        width: 50%;
+        height: 65px;
+        padding: 20px;
+        outline: none;
+        border: none;
+        background-color: #e2e2e2;
+        border-right: 1px solid #fefefe;
+        float: left;
+        color: white;
+    }
+}
+
+.search-params {
+    height: 115px;
+    background-color: #d2d2d2;
+    clear: both;
+
+    .search-params-box {
+        width: 24.86%;
+        border-right: 1px solid #fbfbfb;
+        text-align: center;
+        height: 100%;
+        vertical-align: top;
+        cursor: pointer;
+        float: left;
+    }
+
+    .search-params-box:hover {
+        background-color: #adadad;
+    }
+
+    .search-params-title {
+        color: white;
+        font-size: 11px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        display: block;
+    }
 }
 
 .search-btn {
     display: inline-block;
-    padding: 20px 40px;
-    background-color: #ff8a65;
-    color: white;
-    margin: 10px 0;
+    vertical-align: top;
+
+    .search-submit {
+        padding: 82px 30px;
+        display: inline-block;
+        font-size: 11px;
+        letter-spacing: 3px;
+        background-color: #ee4500;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .search-submit:hover {
+        background-color: #ff4a00;
+    }
 }
 
-.search {
-    width: 100%;
+::-webkit-input-placeholder {
+   color: #8a8a8a;
 }
 
-.search input {
-    height: 42px;
-    width: 100%;
-    padding: 5px 10px;
-    border: 1px solid #bababa;
-    outline: none;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+:-moz-placeholder { /* Firefox 18- */
+   color: #8a8a8a;  
 }
 
-.search input:focus {
-    border: 1px solid #ff8a65;
-    outline: none;
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #8a8a8a;  
+}
+
+:-ms-input-placeholder {  
+   color: #8a8a8a;  
 }

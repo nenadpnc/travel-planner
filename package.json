@@ -39,6 +39,7 @@
     "feathers-socketio": "^1.4.1",
     "mongodb": "^2.2.5",
     "mongoose": "^4.5.9",
+    "normalize.css": "^4.2.0",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
     "passport-facebook-token": "^3.3.0",
@@ -54,14 +55,6 @@
     "winston": "^2.2.0"
   },
   "devDependencies": {
-    "css-loader": "^0.23.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "jshint": "^2.9.2",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
-    "mocha": "^3.0.2",
-    "request": "^2.74.0",
-    "webpack": "^1.13.1",
     "babel": "^6.5.2",
     "babel-core": "^6.7.2",
     "babel-eslint": "^6.0.0",
@@ -73,6 +66,16 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-register": "^6.7.2",
     "babel-runtime": "^6.6.1",
-    "source-map-loader": "^0.1.5"
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "jshint": "^2.9.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0",
+    "source-map-loader": "^0.1.5",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
   }
 }

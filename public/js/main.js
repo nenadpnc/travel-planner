@@ -1,12 +1,9 @@
 'use strict';
 module.exports = function(io, feathers) {
     const socket = io();
-    // Initialize our Feathers client application through Socket.io
-    // with hooks and authentication.
     const app = feathers()
         .configure(feathers.socketio(socket, { timeout: 20000 }))
         .configure(feathers.hooks())
-        // Use localStorage to store our login token
         .configure(feathers.authentication({
         storage: window.localStorage
         }));
@@ -27,7 +24,7 @@ module.exports = function(io, feathers) {
                 budget: 300
             }
         }).then(function (data) {
-        console.log(data);
+            console.log(data);
         });
     }
 };

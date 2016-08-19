@@ -11,6 +11,11 @@ module.exports = {
         {
           test: /\.less$/,
           loader: ExtractTextPlugin.extract('css!less')
+        },
+        {
+            test: /\.(png|jpg|jpeg|ttf|eot|woff|svg|gif)$/,
+            exclude: /node_modules/,
+            loader: 'url-loader?limit=20000&name=assets/[name].[ext]'
         }
       ]
     },
