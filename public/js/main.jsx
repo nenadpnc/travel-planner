@@ -1,8 +1,7 @@
 require("./../style/style.less");
-window.$ = window.jQuery = require('jquery');
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, Link, hashHistory, IndexRoute  } from 'react-router';
+import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router';
 import App from './partials/app.jsx';
 import Home from './partials/home.jsx';
 import PageNotFound from './partials/pageNotFound.jsx';
@@ -19,20 +18,20 @@ const app = feathers()
 
 const searchService = app.service('search');
 
-searchService.find({
-    query: {
-        location: 'Rome, Italy',
-        checkin: '09/03/2016',
-        checkout: '09/07/2016',
-        guests: 2,
-        budget: 300
-    }
-}).then(function (data) {
-    console.log(data);
-});
+// searchService.find({
+//     query: {
+//         location: 'Rome, Italy',
+//         checkin: '09/03/2016',
+//         checkout: '09/07/2016',
+//         guests: 2,
+//         budget: 300
+//     }
+// }).then(function (data) {
+//     console.log(data);
+// });
 
 ReactDOM.render((
-    <Router history = {hashHistory}>
+    <Router history = {browserHistory}>
         <Route path = "/" component = {App}>
             <IndexRoute component = {Home} />
             <Route path = "*" component = {PageNotFound} />
