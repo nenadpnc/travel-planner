@@ -1,7 +1,33 @@
-import React from 'react'
-import {render} from 'react-dom'
+import React from 'react';
+import {render} from 'react-dom';
+import io from 'socket.io-client';
+import feathers from 'feathers-client';
+
+const socket = io();
+const app = feathers()
+    .configure(feathers.socketio(socket, { timeout: 20000 }))
+    .configure(feathers.hooks())
+    .configure(feathers.authentication({
+    storage: window.localStorage
+    }));
+
+const searchService = app.service('search');
 
 const Home = React.createClass({
+    search() {
+        searchService.find({
+            query: {
+                location: 'Rome, Italy',
+                checkin: '09/03/2016',
+                checkout: '09/07/2016',
+                guests: 2,
+                budget: 300
+            }
+        }).then(function (data) {
+            console.log(data);
+        });
+    },
+
     render() {
         return (
             <div className="main">
@@ -48,7 +74,7 @@ const Home = React.createClass({
                             </div>
                         </div>
                         <div className="search-btn">
-                            <a className="search-submit">show offers</a>
+                            <a onClick={this.search} className="search-submit">show offers</a>
                         </div>
                     </div>
                 </form>

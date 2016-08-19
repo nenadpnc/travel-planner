@@ -71,37 +71,10 @@
 	
 	var _pageNotFound2 = _interopRequireDefault(_pageNotFound);
 	
-	var _socket = __webpack_require__(/*! socket.io-client */ 242);
-	
-	var _socket2 = _interopRequireDefault(_socket);
-	
-	var _feathersClient = __webpack_require__(/*! feathers-client */ 289);
-	
-	var _feathersClient2 = _interopRequireDefault(_feathersClient);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	__webpack_require__(/*! ./../style/style.less */ 333);
 	
-	
-	var socket = (0, _socket2.default)();
-	var app = (0, _feathersClient2.default)().configure(_feathersClient2.default.socketio(socket, { timeout: 20000 })).configure(_feathersClient2.default.hooks()).configure(_feathersClient2.default.authentication({
-	    storage: window.localStorage
-	}));
-	
-	var searchService = app.service('search');
-	
-	// searchService.find({
-	//     query: {
-	//         location: 'Rome, Italy',
-	//         checkin: '09/03/2016',
-	//         checkout: '09/07/2016',
-	//         guests: 2,
-	//         budget: 300
-	//     }
-	// }).then(function (data) {
-	//     console.log(data);
-	// });
 	
 	_reactDom2.default.render(_react2.default.createElement(
 	    _reactRouter.Router,
@@ -27950,10 +27923,38 @@
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 35);
 	
+	var _socket = __webpack_require__(/*! socket.io-client */ 242);
+	
+	var _socket2 = _interopRequireDefault(_socket);
+	
+	var _feathersClient = __webpack_require__(/*! feathers-client */ 289);
+	
+	var _feathersClient2 = _interopRequireDefault(_feathersClient);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var socket = (0, _socket2.default)();
+	var app = (0, _feathersClient2.default)().configure(_feathersClient2.default.socketio(socket, { timeout: 20000 })).configure(_feathersClient2.default.hooks()).configure(_feathersClient2.default.authentication({
+	    storage: window.localStorage
+	}));
+	
+	var searchService = app.service('search');
 	
 	var Home = _react2.default.createClass({
 	    displayName: 'Home',
+	    search: function search() {
+	        searchService.find({
+	            query: {
+	                location: 'Rome, Italy',
+	                checkin: '09/03/2016',
+	                checkout: '09/07/2016',
+	                guests: 2,
+	                budget: 300
+	            }
+	        }).then(function (data) {
+	            console.log(data);
+	        });
+	    },
 	    render: function render() {
 	        return _react2.default.createElement(
 	            'div',
@@ -28083,7 +28084,7 @@
 	                        { className: 'search-btn' },
 	                        _react2.default.createElement(
 	                            'a',
-	                            { className: 'search-submit' },
+	                            { onClick: this.search, className: 'search-submit' },
 	                            'show offers'
 	                        )
 	                    )
