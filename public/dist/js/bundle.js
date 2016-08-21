@@ -27838,7 +27838,12 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "logo" },
-	          _react2.default.createElement("span", { className: "flaticon-icon-181698" })
+	          _react2.default.createElement("span", { className: "flaticon-icon-181698" }),
+	          _react2.default.createElement(
+	            "h1",
+	            { className: "inline-block" },
+	            "Travel Planner"
+	          )
 	        )
 	      )
 	    );
