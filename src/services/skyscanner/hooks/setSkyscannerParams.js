@@ -41,8 +41,6 @@ const setPollingParams = query => {
 };
 
 module.exports = function(options) {
-  options = Object.assign({}, defaults, options);
-
   return function(hook) {
     hook.params.sessionParams = setSessionParams(hook.params.query);
     hook.params.pollingParams = setPollingParams(hook.params.query);
