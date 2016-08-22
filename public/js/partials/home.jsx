@@ -6,7 +6,6 @@ import Results from './../components/Results.jsx';
 import SearchFrom from './../components/SearchForm.jsx';
 
 const socket = io();
-
 const app = feathers()
     .configure(feathers.socketio(socket, { timeout: 20000 }))
     .configure(feathers.hooks())

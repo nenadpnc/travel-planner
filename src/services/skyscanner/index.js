@@ -5,19 +5,6 @@ const skyscanner = require('skyscannerjs');
 const apiKey = "ne511791269796320730176738482525";
 const api = new skyscanner.API(apiKey);
 
-const getSession = params => {
-  return api.flights.livePrices.session({
-        country: "UK",
-        currency: "GBP",
-        locale: "en-GB",
-        locationSchema: "Iata",
-        originplace: "EDI",
-        destinationplace: "LHR",
-        outbounddate: "2016-09-16",
-        adults: 2
-    });
-};
-
 class Service {
   constructor(options) {
     this.options = options || {};
@@ -25,14 +12,11 @@ class Service {
 
   find(params) {
     let promise = new Promise((resolve, reject) => {
-      getSession(params).then((response) => {
-        api.flights.livePrices.poll(response.headers.location).then((response) => {
-            const itineraries = response.data.Itineraries;
-            const legs = response.data.legs;
-
+      api.flights.livePrices.session(params.sessionParams).then((response) => {
+        api.flights.livePrices.poll(response.headers.location, params.pollingParams).then((response) => {
             resolve(response.data);
-        })
-      })
+        }).catch(reject());
+      }).cath(reject());
     });
 
     return promise;

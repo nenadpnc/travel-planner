@@ -5,7 +5,7 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/hooks/readme.html
 
-const utils = require('../../utils/utils');
+const utils = require('../../utils');
 const defaults = {
       currency: 'EUR',
       locale: 'en-US',

@@ -1,12 +1,14 @@
 'use strict';
 
+const inflateFlightResults = require('./inflateFlightResults');
+const setSkyscannerParams = require('./setSkyscannerParams');
+
 const globalHooks = require('../../../hooks');
 const hooks = require('feathers-hooks');
 
-
 exports.before = {
   all: [],
-  find: [],
+  find: [setSkyscannerParams()],
   get: [],
   create: [],
   update: [],
@@ -16,7 +18,7 @@ exports.before = {
 
 exports.after = {
   all: [],
-  find: [],
+  find: [inflateFlightResults()],
   get: [],
   create: [],
   update: [],
