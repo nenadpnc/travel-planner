@@ -17,8 +17,8 @@ module.exports = {
                 loader: 'babel'
             },
             {
-                test: /\.(css|less)$/,
-                loader: ExtractTextPlugin.extract('css!less')
+                test: /\.(css|less|scss)$/,
+                loader: ExtractTextPlugin.extract('css!less!sass')
             },
             {
                 test: /\.(png|jpg|jpeg|ttf|eot|woff|svg|gif)$/,
