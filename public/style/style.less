@@ -69,6 +69,7 @@ a {
 
 .search-inputs {
     clear: both;
+    position: relative;
     .search-input {
         width: 50%;
         height: 65px;
@@ -83,7 +84,17 @@ a {
 
     .search-input:focus {
         background-color: #adadad;
+        .react-date-picker__multi-month-view{
+            display: block;
+        }
+            
     }
+
+    .react-date-picker__multi-month-view{
+        position: absolute;
+        left: 0;
+        right: 0;
+    }    
 }
 
 .search-params {
@@ -167,6 +178,12 @@ a {
 
 
 /* plugin override */
-.react-date-picker__calendar{
+.react-date-picker__multi-month-view {
     display: none;
 }
+.show-calendar {
+    .react-date-picker__multi-month-view {
+        display: inline-block;
+    }
+}   
+    

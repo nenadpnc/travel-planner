@@ -1,9 +1,25 @@
 import React from 'react'
 import {render} from 'react-dom'
-import { Calendar } from 'react-date-picker'
+import { MultiMonthView } from 'react-date-picker'
 import 'react-date-picker/index.css'
 
 const Home = React.createClass({
+    getDefaultProps(){
+        const now = Date.now()
+        const hour = 1000 * 60 * 60
+        const day = 24 * hour
+        return {
+            now: now,
+            in3days: now + day * 3
+        };
+    },
+    clickHandler(event){
+        event.target.parentElement.className += ' show-calendar';
+    },
+    searchMe(date1, date2){
+        console.log(date1);
+        console.log(date2);
+    },
     render() {
         return (
             <div className="main">
@@ -11,9 +27,14 @@ const Home = React.createClass({
                     <div className="search-box">
                         <div className="search-container">
                             <div className="search-inputs">
-                            <Calendar />
-                            <input className="search-input" type="text" name="from" placeholder="From"/>
+                            <input className="search-input" onClick={this.clickHandler} type="text" name="from" placeholder="From"/>
                             <input className="search-input" type="text" name="to" placeholder="To"/>
+                            <MultiMonthView
+                            locale="de"
+                            highlightRangeOnMouseMove={true}
+                            footer={true}
+                            defaultRange={[]}
+                            />
                             </div>
                             <div className="search-params">
                             <div className="search-params-box">
